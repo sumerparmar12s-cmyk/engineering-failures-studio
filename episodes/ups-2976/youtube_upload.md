@@ -9,26 +9,36 @@ Alternatives:
 
 ## Description
 ```
-On November 4, 2025, a UPS MD-11 cargo jet was taking off from Louisville, Kentucky, when its left engine tore completely off the wing. Nineteen seconds later, it was over. Three pilots and eleven people on the ground were killed, and a fifteenth victim died weeks later.
+On November 4, 2025, a UPS cargo jet was taking off from Louisville, Kentucky, when its left engine tore completely off the wing. Nineteen seconds later, it was over. But the part that broke had cracked before — again and again, on other jets, for more than twenty years. Boeing even wrote it down. So why was this plane still flying?
 
-But the part that broke had failed before. Again and again, for more than twenty years. In 2011, Boeing told airlines a broken bearing "would not result in a safety of flight condition." In 2014, the inspection interval for those parts was stretched. This is the story of one tiny spherical bearing, the warnings around it, and why this jet was still flying.
+From a 34-year-old MD-11 bound for Honolulu to the moment the nose came up, a burning engine flying over the fuselage, a jet that never climbed higher than 30 feet, one tiny steel bearing, a 2011 letter that said a broken bearing was nothing to worry about, an inspection that was pushed back, and a crash in Chicago 46 years earlier that ended the same way — this is the full story of UPS Flight 2976.
 
-⏱️ CHAPTERS
-0:00 November 4, 2025
-0:35 The flight
-1:13 Takeoff
-1:36 The 19 seconds
-2:19 The part that failed
-3:03 The warnings
-4:26 It happened before (1979)
-4:53 Aftermath
-5:23 The lesson
+Chapters:
+0:00 Intro: The Engine That Fell Off
+0:35 A 34-Year-Old Jet Bound for Honolulu
+1:13 The Moment the Nose Came Up
+1:36 Nineteen Seconds
+2:19 One Small Part
+3:03 It Had Cracked Before (2002–2017)
+3:18 The Letter That Said "Don't Worry" (2011)
+3:43 The Inspection That Was Pushed Back (2014)
+4:26 It Happened Before (Chicago, 1979)
+4:53 Grounded
+5:23 The Lesson
 
-The NTSB's final report and probable cause have not been released yet; the findings in this video are based on the NTSB's preliminary report, its January 2026 investigative update and its May 2026 public hearing.
+The NTSB's final report and probable cause have not been released yet; this video is based on the NTSB's preliminary report, its January 2026 investigative update and its May 2026 public hearing.
 
 In memory of the three crew members of UPS Flight 2976 and the twelve people on the ground who lost their lives.
 
-When the final report is released, we'll break it down. Subscribe to Wrecklore and turn on notifications. 👇 Should jets this old still be flying? Tell us in the comments.
+Image credits:
+• Crash-site photos — U.S. Air National Guard / Phil Speck, via DVIDS (public domain)
+• Wreckage and bearing photos, flight data — NTSB (public domain)
+• MD-11 photo — NASA, via DVIDS (public domain)
+Other visuals: original animation and graphics.
+Sound effects: original.
+Music: "Action Investigation," "Tension" — Komiku; "Mysterious Lights" — Bryan Teoh; "The Abyss" — Alexander Nakarada; "Emotional Piano" — Rafael Krux (FreePD, CC0).
+
+Subscribe to Wrecklore for the final report breakdown. 👇 Should jets this old still be flying?
 
 #UPS2976 #AviationSafety #NTSB #Wrecklore #MD11 #PlaneCrash #EngineeringFailures #Boeing #Louisville
 ```
@@ -45,8 +55,5 @@ First three appear above the title: #UPS2976 #AviationSafety #NTSB
 - Category: Education · Language: English (United States) · Not made for kids
 - Location: Louisville, Kentucky, USA
 - Thumbnail: out/thumbnail.jpg
-- In YouTube Studio, tick **"Altered or synthetic content: Yes"** (the video contains a realistic 3D reconstruction of a real event). This is a checkbox in Studio, not text in the description.
+- In YouTube Studio, tick **"Altered or synthetic content: Yes"** (realistic 3D reconstruction of a real event). This is a Studio checkbox, not description text.
 - Upload as Private first, wait for "Checks", then schedule Public for a weekday afternoon US Eastern time.
-
-## Not in the description (kept here for your records)
-Photos: NTSB (public domain); U.S. Air National Guard photos by Phil Speck via DVIDS (public domain); NASA MD-11 photo via DVIDS (public domain). Music: FreePD.com (CC0). Narration voice: Kokoro TTS (Apache-2.0). None of these licenses require a credit line in the description.
