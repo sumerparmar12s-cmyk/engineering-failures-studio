@@ -5,8 +5,6 @@ Everything else is narration.
 
 ## Narration (final)
 
-[NASA] T-minus 10, 9, 8, 7, 6. We have main engine start, 4, 3, 2, 1, and liftoff.
-
 Seventy-three seconds. That is how long this flight would last. And the night before, the engineers who built its rockets begged NASA not to launch. They were overruled. This is the story of the warning that was ignored, and the tiny rubber ring that brought down the space shuttle Challenger.
 
 January 1986. America had flown the space shuttle twenty-four times, and launches had started to feel routine. But this mission was different. On board was Christa McAuliffe, a high school social studies teacher from Concord, New Hampshire, chosen from more than eleven thousand applicants to become the first teacher in space. She planned to teach lessons from orbit, live, to students across the country.
@@ -23,7 +21,11 @@ On the night of January twenty-seventh, in a tense teleconference, Thiokol's eng
 
 Thiokol's managers went offline. One senior manager told the head of engineering to take off his engineering hat, and put on his management hat. They reversed their own engineers, and approved the launch. Engineer Allan McDonald refused to sign it.
 
-The next morning, at eleven thirty-eight, Challenger lifted off. What no one saw at the time was this. Less than one second after ignition, puffs of black smoke streamed from a joint on the right booster. The cold O-rings had failed to seal. For a moment, burned aluminum from the fuel plugged the gap, like a temporary patch. And Challenger climbed on.
+The next morning, at eleven thirty-eight, the countdown reached its final seconds.
+
+[NASA] T-minus 10, 9, 8, 7, 6. We have main engine start, 4, 3, 2, 1, and liftoff.
+
+What no one saw at the time was this. Less than one second after ignition, puffs of black smoke streamed from a joint on the right booster. The cold O-rings had failed to seal. For a moment, burned aluminum from the fuel plugged the gap, like a temporary patch. And Challenger climbed on.
 
 Then the shuttle flew into the strongest wind shear of the entire shuttle program, shaking the whole vehicle. At fifty-eight seconds, the patch gave way. A flame burst from the joint, like a blowtorch, aimed straight at the giant external fuel tank.
 

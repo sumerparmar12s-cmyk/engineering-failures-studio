@@ -13,14 +13,14 @@ This is the true story of the Challenger disaster: Christa McAuliffe, the first 
 
 ⏱️ CHAPTERS
 0:00 73 seconds
-0:33 The mission
-1:14 A freezing morning
-1:30 The O-ring
-1:54 The warning
-2:44 Liftoff
-3:54 The investigation
-4:28 What changed
-4:58 The lesson
+0:18 The mission
+1:00 A freezing morning
+1:16 The O-ring
+1:39 The warning
+2:30 Liftoff
+3:55 The investigation
+4:30 What changed
+5:00 The lesson
 
 🎬 HOW THIS VIDEO WAS MADE
 Script, research, editing, color grading, camera moves, motion graphics, diagrams and sound design: Wrecklore.
