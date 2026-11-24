@@ -24,13 +24,15 @@ const srv = http.createServer((q, r) => { const f = path.join(ROOT, decodeURICom
   } else {
     const dir = out + '.frames'; fs.mkdirSync(dir, { recursive: true });
     const n = Math.round(Number(dur) * 30); const t0 = Date.now();
-    for (let i = 0; i < n; i++) {
+    const order = [...Array(n).keys()]; if (process.env.REVERSE) order.reverse();
+    for (const i of order) {
       const f = path.join(dir, `f${String(i).padStart(5, '0')}.jpg`);
       if (fs.existsSync(f)) continue;
       await p.evaluate(t => window.renderAt(t), i / 30);
       await p.screenshot({ path: f, type: 'jpeg', quality: 92 });
       if (i % 60 === 0) console.log(scene, i, '/', n, ((Date.now() - t0) / 1000).toFixed(0) + 's');
     }
+    if (process.env.NOENC) { console.log('frames done (no encode)'); await b.close(); srv.close(); return; }
     execFileSync('ffmpeg', ['-v', 'error', '-y', '-framerate', '30', '-i', path.join(dir, 'f%05d.jpg'), '-c:v', 'libx264', '-preset', 'medium', '-crf', '16', '-pix_fmt', 'yuv420p', out]);
     fs.rmSync(dir, { recursive: true, force: true });
     console.log('wrote', out);
