@@ -839,8 +839,8 @@
   },
   {
    "clip": {
-    "src": "C",
-    "ss": 3.0
+    "src": "C2",
+    "ss": 0.0
    },
    "src": "Animated reconstruction (illustrative) \u00b7 Wrecklore",
    "t0": 293.9,
@@ -916,8 +916,8 @@
   },
   {
    "clip": {
-    "src": "C",
-    "ss": 2.0
+    "src": "C2",
+    "ss": 1.0
    },
    "src": "Animated reconstruction (illustrative) \u00b7 Wrecklore",
    "t0": 332.84,
@@ -1026,8 +1026,8 @@
    "full": true
   },
   {
-   "src": "C",
-   "ss": 3.0,
+   "src": "C2",
+   "ss": 0.0,
    "x": 0,
    "y": 0,
    "w": 1920,
@@ -1037,8 +1037,8 @@
    "full": true
   },
   {
-   "src": "C",
-   "ss": 2.0,
+   "src": "C2",
+   "ss": 1.0,
    "x": 0,
    "y": 0,
    "w": 1920,
@@ -1567,6 +1567,10 @@
   },
   "C": {
    "file": "real3d/C.mp4",
+   "crop": "eq=saturation=1.18:brightness=0.035,"
+  },
+  "C2": {
+   "file": "real3d/C2.mp4",
    "crop": "eq=saturation=1.18:brightness=0.035,"
   },
   "D": {

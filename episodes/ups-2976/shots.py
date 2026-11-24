@@ -10,7 +10,7 @@ init(sys.argv[1] if len(sys.argv) > 1 else str(Path(__file__).parent))
 S = lambda word, near: w(word, near)
 
 # 3D clips (original animation) are pre-rendered in real3d/; NTSB photos are in media/
-D3 = {k: {'file': f'real3d/{k}.mp4', 'crop': 'eq=saturation=1.18:brightness=0.035,'} for k in ['A1', 'A2', 'A3', 'C', 'D', 'B1', 'B2', 'B3']}
+D3 = {k: {'file': f'real3d/{k}.mp4', 'crop': 'eq=saturation=1.18:brightness=0.035,'} for k in ['A1', 'A2', 'A3', 'C', 'C2', 'D', 'B1', 'B2', 'B3']}
 SRC3 = 'Animated reconstruction (illustrative) · Wrecklore'
 def F(t0, key, ss=0.0): sh(t0, 'full', clip=dict(src=key, ss=ss), src=SRC3)
 NTSB = 'NTSB (public domain)'
@@ -102,7 +102,7 @@ sh(281.3, 'counter', steps=[dict(value=273, label='people died · Chicago, 1979'
 sh(283.72, 'saiddid', lk='THE CAUSE IN 1979', said=['A maintenance', 'shortcut'], saidAt=[S('maintenance', 286), S('shortcut', 286.5)],
    rk='THE RESULT', did=['Engine leaves', 'the wing'], didAt=S('result', 289) - 0.2, sfs=100, dfs=100)
 # ================= AFTERMATH =================
-F(293.9, 'C', 3.0)                                                     # the fleet grounded
+F(293.9, 'C2', 0.0)                                                     # the fleet grounded
 sh(301.74, 'list', items=[dict(text='Nov 2025 · MD-11 & DC-10 grounded', at=301.8),
                          dict(text='Jan 2026 · UPS retires its MD-11s', at=S('retired', 304) - 0.3),
                          dict(text='May 2026 · MD-11 cleared to fly', at=S('allowed', 312) - 0.3, accent=True)], fs=78)
@@ -110,7 +110,7 @@ sh(316.06, 'doc', header='NTSB · AVIATION INVESTIGATION DCA26MA024', body='Fina
 sh(323.04, 'counter', steps=[dict(value=19, label='seconds', at=323.1, dur=0.6), dict(value=15, label='lives', at=S('Fifteen', 324) - 0.1, dur=0.5, accent=True)], fs=300)
 sh(S('warning', 325.5) - 0.2, 'head', lines=['A warning, 14 years early:', '"nothing to worry about."'], accent=1, acol='red', fs=96,
    at=[S('warning', 325.5), S('nothing', 330) - 0.2])
-F(332.84, 'C', 2.0)
+F(332.84, 'C2', 1.0)
 sh(339.12, 'title', lines=['Subscribe to', 'Wrecklore'], kicker='When the final report drops, we break it down', sub='Should jets this old still be flying?')
 END = 357.0
 

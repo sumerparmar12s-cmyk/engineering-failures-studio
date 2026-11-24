@@ -292,9 +292,11 @@ SC.C = () => {
   world(); const plane = makePlane(); scene.add(plane); plane.position.set(0, 0, 0);
   const e = plane.userData.engs;
   const wp = o => () => new THREE.Vector3().setFromMatrixPosition(o.matrixWorld);
+  if (!CFG.nolabels) {
   label('ENGINE 1', 'left wing', wp(e.left), CFG.l1 ?? 3.5, { dx: -170, dy: -150 });
   label('ENGINE 3', 'right wing', wp(e.right), CFG.l1 ?? 3.5, { dx: -120, dy: 150 });
   label('ENGINE 2', 'in the tail', wp(e.tail), CFG.l2 ?? 6.2, { dx: 160, dy: -120 });
+  }
   draw = t => { const a = 0.62 + t * 0.045; camAt(new THREE.Vector3(Math.cos(a) * 82, 24 - t * 0.6, Math.sin(a) * 82), new THREE.Vector3(-2, 4, 0), 36); plane.updateMatrixWorld(); };
 };
 
