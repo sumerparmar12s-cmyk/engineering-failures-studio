@@ -9,14 +9,14 @@ from vidlib import finish, init, sh, w
 init(sys.argv[1] if len(sys.argv) > 1 else str(Path(__file__).parent))
 
 # --- camera moves on the archive film (applied before the full-frame cover crop) ---
-BASE = "scale=1920:1440,setsar=1,"
+BASE = "fps=30,scale=1920:1440,setsar=1,"
 LOOK = "vignette=angle=PI/4.2,noise=alls=7:allf=t,"
 MOVES = {
-    'in':   "zoompan=z='min(1.22,1.02+0.0011*on)':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2':d=1:s=1440x1080:fps=30000/1001,",
-    'out':  "zoompan=z='max(1.02,1.20-0.0010*on)':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2':d=1:s=1440x1080:fps=30000/1001,",
-    'panr': "zoompan=z=1.16:x='(iw-iw/zoom)*min(1,on/220)':y='ih/2-ih/zoom/2':d=1:s=1440x1080:fps=30000/1001,",
-    'panl': "zoompan=z=1.16:x='(iw-iw/zoom)*(1-min(1,on/220))':y='ih/2-ih/zoom/2':d=1:s=1440x1080:fps=30000/1001,",
-    'up':   "zoompan=z=1.16:x='iw/2-iw/zoom/2':y='(ih-ih/zoom)*(1-min(1,on/220))':d=1:s=1440x1080:fps=30000/1001,",
+    'in':   "zoompan=z='min(1.22,1.02+0.0011*on)':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2':d=1:s=1440x1080:fps=30,",
+    'out':  "zoompan=z='max(1.02,1.20-0.0010*on)':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2':d=1:s=1440x1080:fps=30,",
+    'panr': "zoompan=z=1.16:x='(iw-iw/zoom)*min(1,on/220)':y='ih/2-ih/zoom/2':d=1:s=1440x1080:fps=30,",
+    'panl': "zoompan=z=1.16:x='(iw-iw/zoom)*(1-min(1,on/220))':y='ih/2-ih/zoom/2':d=1:s=1440x1080:fps=30,",
+    'up':   "zoompan=z=1.16:x='iw/2-iw/zoom/2':y='(ih-ih/zoom)*(1-min(1,on/220))':d=1:s=1440x1080:fps=30,",
 }
 FILES = {'P': 'real/prelinger.mp4', 'C': 'real/cep176.mpg'}
 archive = {f'{s}_{m}': {'file': f, 'crop': BASE + mv + LOOK} for s, f in FILES.items() for m, mv in MOVES.items()}
