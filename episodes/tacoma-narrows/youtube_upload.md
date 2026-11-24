@@ -22,7 +22,7 @@ This is the true story of the Tacoma Narrows Bridge, better known as "Galloping 
 1:50 What changed
 
 🎬 HOW THIS VIDEO WAS MADE
-Script, research, editing, color grading, motion graphics, diagrams, music and sound design: [YOUR CHANNEL NAME].
+Script, research, editing, color grading, motion graphics, diagrams, music and sound design: Wrecklore.
 I researched the event from the official 1941 investigation report and engineering sources, selected and cut the archival footage, added the camera movements, color grade and film look, designed the animated diagrams and titles, and mixed the soundtrack and subtitles.
 
 🤖 AI DISCLOSURE
@@ -42,14 +42,14 @@ Original score and sound effects created for this video. No copyrighted music.
 • Washington State Department of Transportation (WSDOT): Tacoma Narrows Bridge history
 • Billah & Scanlan, "Resonance, Tacoma Narrows Bridge Failure, and Undergraduate Physics Textbooks," American Journal of Physics 59(2), 1991
 
-If you enjoyed this, subscribe for more true stories of engineering disasters and the lessons they left behind. 👇 Which engineering failure should I cover next?
+If you enjoyed this, subscribe to Wrecklore for more true stories of engineering disasters and the lessons they left behind. 🔔 👇 Which engineering failure should I cover next?
 
-#TacomaNarrowsBridge #GallopingGertie #EngineeringFailures #History #Engineering #Documentary #BridgeCollapse #Physics
+#TacomaNarrowsBridge #GallopingGertie #EngineeringFailures #Wrecklore #History #Engineering #Documentary #BridgeCollapse #Physics
 ```
 
 ## Tags (YouTube "Tags" box, under 500 characters)
 ```
-tacoma narrows bridge, galloping gertie, tacoma narrows bridge collapse, bridge collapse, engineering failures, engineering disasters, 1940 bridge collapse, aeroelastic flutter, resonance bridge, why bridges collapse, history documentary, engineering documentary, real footage, washington state history, puget sound, suspension bridge, physics explained, disaster documentary, american history, structural engineering
+wrecklore, tacoma narrows bridge, galloping gertie, tacoma narrows bridge collapse, bridge collapse, engineering failures, engineering disasters, 1940 bridge collapse, aeroelastic flutter, resonance bridge, why bridges collapse, history documentary, engineering documentary, real footage, washington state history, puget sound, suspension bridge, physics explained, disaster documentary, american history, structural engineering
 ```
 
 ## Hashtags
