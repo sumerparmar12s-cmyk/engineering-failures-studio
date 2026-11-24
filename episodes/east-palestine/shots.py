@@ -30,7 +30,7 @@ sh(26.64, 'box', src=R + ', executive summary', boxes=[I('doc_notnecessary.png',
 sh(34.4, 'head', lines=["The chemical's own maker", 'SAID SO. Before.'], accent=1, acol='yellow', fs=110, at=[34.45, S('before', 37.5) - 0.2])
 sh(39.72, 'head', lines=['So why did', 'no one LISTEN?'], accent=1, acol='red', fs=150, at=[39.75, S('listen', 40.5) - 0.2])
 F(41.7, 'T2', 0.0)                                                      # the burning wheelset
-sh(49.28, 'list', items=[dict(text='→ minute by minute', at=S('minute', 50.5) - 0.2), dict(text='→ the official NTSB report', at=S('official', 52.5) - 0.2),
+sh(49.28, 'list', items=[dict(text='→ minute by minute', at=49.4), dict(text='→ the official NTSB report', at=S('official', 52.5) - 0.2),
                          dict(text='→ who knew what, and when', at=S('who', 55) - 0.2, accent=True)], fs=104)
 sh(58.46, 'title', lines=["The Burn That Didn't", 'Have to Happen'], kicker='East Palestine, Ohio · February 2023', sub='one bearing · one decision · thirteen minutes')
 # ================= THE TRAIN =================
@@ -41,7 +41,7 @@ sh(78.18, 'counter', steps=[dict(value=3, label='locomotives', at=78.2, dur=0.4)
                             dict(value=17977, label='tons · about 1¾ miles long', at=S('eighteen', 83.5) - 0.3, dur=1.2, accent=True)], fs=280, src=R)
 sh(87.62, 'box', src=R + ', fig. 2', boxes=[I('ntsb_route.png', WIDE, fit='contain', bg='#f3efe6', cap="Train 32N's route", push=0.05)],
    notes=[N('Madison, Illinois', 230, 850, S('Madison', 88.5), 'red', size=46), N('→ Conway, Pennsylvania', 1000, 850, S('Pennsylvania', 91) - 0.2, 'red', size=46)])
-sh(93.06, 'list', items=[dict(text='Engineer · 24 years', at=S('engineer', 95) - 0.2), dict(text='Conductor', at=S('conductor', 97.5) - 0.2),
+sh(93.06, 'list', items=[dict(text='Engineer · 24 years', at=93.15), dict(text='Conductor', at=S('conductor', 97.5) - 0.2),
                          dict(text='Conductor trainee', at=S('trainee', 99) - 0.2)], fs=110, src=R)
 sh(100.42, 'head', lines=['The 23rd car', 'is ON FIRE.'], accent=1, acol='red', fs=170, at=[100.5, S('fire', 103.5) - 0.3])
 sh(104.92, 'box', src=R + ', fig. 4', boxes=[I('ntsb_wheelset_diag.png', WIDE, fit='contain', bg='#ffffff', cap='The hopper car: 4 wheelsets, 8 bearings', push=0.05, origin='85% 70%')],
@@ -86,7 +86,7 @@ sh(263.06, 'box', src=NTSB + ' · ' + R + ', fig. 8', boxes=[I('ntsb_prd_fire.pn
    notes=[N('Many of the firefighters', NX, 300, S('Many', 266) - 0.2, 'white', size=48, w=600), N('were VOLUNTEERS', NX, 380, S('volunteers', 267) - 0.2, 'yellow', size=58, w=600)])
 sh(270.72, 'box', src=NTSB + ' · ' + R + ', fig. 20', boxes=[I('ntsb_dot111.png', A169, cap='A punctured tank car', push=0.1, origin='35% 40%')],
    notes=[N('3 tank cars', NX, 300, 270.8, 'red', size=70), N('PUNCTURED', NX, 390, 271.2, 'red', size=60), N('burning liquid in a ditch', NX, 500, S('ditch', 276.5) - 0.2, 'white', size=44, w=620)])
-sh(278.96, 'counter', steps=[dict(value=2000, label='people evacuated · 1-mile zone', at=S('two', 281.5) - 0.2, dur=1.0, accent=True)], more='about', fs=300, src=R)
+sh(278.96, 'counter', steps=[dict(value=2000, label='people evacuated · 1-mile zone', at=279.1, dur=1.0, accent=True)], more='about', fs=300, src=R)
 sh(284.42, 'head', lines=['Something else', 'in the pileup…'], accent=1, acol='yellow', fs=140, at=[284.45, 285.4])
 sh(286.52, 'box', src=NTSB + ' · ' + R + ', fig. 7', boxes=[I('ntsb_aerial_pile.png', A169, cap='Labels: NTSB', push=0.16, origin='25% 40%')],
    notes=[N('5 tank cars', NX, 300, 286.6, 'yellow', size=70), N('VINYL CHLORIDE', NX, 390, S('vinyl', 288) - 0.2, 'red', size=60)])
@@ -97,7 +97,7 @@ sh(302.3, 'box', src=NTSB + ' · ' + R + ', fig. 8', boxes=[I('ntsb_prd_fire.png
           N('releases stopped:', NX, 480, S('stopped', 314.5) - 0.2, 'white', size=46), N('Feb 4, afternoon', NX, 545, S('February', 315.5) - 0.2, 'yellow', size=52)])
 sh(317.32, 'head', lines=['So the danger', 'was over?'], accent=1, acol='yellow', fs=150, at=[317.35, 318.2])
 sh(319.04, 'head', lines=['Not according to', 'NORFOLK SOUTHERN.'], accent=1, acol='red', fs=130, at=[319.1, 319.8])
-sh(321.34, 'head', lines=['"POLYMERIZATION"'], accent=0, acol='red', fs=150, at=[S('polymerization', 324) - 0.3], sub='the word that changed everything', subAt=324.6)
+sh(321.34, 'head', lines=['"POLYMERIZATION"'], accent=0, acol='red', fs=150, at=[321.45], sub='the word that changed everything', subAt=324.6)
 sh(326.5, 'blueprint', kind='structure', title='Think of popcorn in a sealed pot',
    paths=[dict(d='M 620 420 V 760 Q 620 800 660 800 H 1260 Q 1300 800 1300 760 V 420', at=328.7, dur=0.8),
           dict(d='M 590 410 H 1330 M 900 410 V 380 H 1020 V 410', at=329.4, dur=0.5),
@@ -113,7 +113,7 @@ sh(336.45, 'blueprint', kind='structure', title='Polymerization inside a closed 
    labels=[dict(text='reaction → heat', x=760, y=760, at=S('reaction', 340.5), color='red', size=50, align='center'),
            dict(text='heat → faster reaction', x=1150, y=760, at=S('feed', 341.2), color='yellow', size=50, align='center'),
            dict(text='until the tank BURSTS', x=960, y=250, at=S('bursts', 342.9) - 0.2, color='red', size=60, align='center')])
-sh(344.14, 'counter', steps=[dict(value=138, label='+3°F in one hour, said the railroad (Feb 5)', at=S('three', 350.5) - 0.2, dur=1.4, accent=True)], suffix='°F', fs=300,
+sh(344.14, 'counter', steps=[dict(value=135, label='Feb 5 · the railroad told the NTSB…', at=344.3, dur=1.0), dict(value=138, label='+3°F in one hour', at=S('three', 350.5) - 0.2, dur=1.4, accent=True)], suffix='°F', fs=300,
    more='one tank car', src=R + ', p. 26')
 sh(356.78, 'head', lines=['To the railroad:', 'it was POLYMERIZING.'], accent=1, acol='red', fs=120, at=[356.8, S('happening', 358.5) - 0.3])
 sh(360.4, 'head', lines=['Feared explosion:', 'steel flying ½ MILE'], accent=1, acol='red', fs=130, at=[360.45, S('half', 364.5) - 0.3], sub="the railroad's assessment", subAt=361.5, src=R + ', p. 26')
@@ -121,7 +121,7 @@ sh(366.42, 'box', src=R + ', fig. 9', boxes=[I('ntsb_vb_illus.png', A169, fit='c
    notes=[N('VENT AND BURN', NX, 260, 366.5, 'red', size=60), N('1 · explosive charges', NX, 360, S('Explosive', 370) - 0.2, 'white', size=46),
           N('2 · drains to a trench + pit', NX, 430, S('trench', 373.5) - 0.3, 'white', size=46), N('3 · set on fire', NX, 500, S('fire', 375) - 0.3, 'yellow', size=50)])
 sh(376.76, 'head', lines=['But here is', 'THE TWIST.'], accent=1, acol='red', fs=170, at=[376.8, 377.5])
-sh(378.54, 'head', lines=['Oxy Vinyls', 'made this chemical'], accent=0, acol='yellow', fs=140, at=[S('Oxy', 383) - 0.2, S('made', 384) - 0.2],
+sh(378.54, 'head', lines=['Oxy Vinyls', 'made this chemical'], accent=0, acol='yellow', fs=140, at=[378.6, S('made', 384) - 0.2],
    sub='and shipped it on this train', subAt=S('shipped', 385) - 0.2, src=R)
 sh(386.8, 'saiddid', lk='THE RAILROAD SAID', said=["It's", 'polymerizing.'], saidAt=[386.9, 387.2], rk="OXY VINYLS' EXPERTS", did=['It is NOT.'],
    didAt=S('opposite', 393.5) - 0.2, sfs=110, dfs=130, src=R + ', pp. 26–27')
@@ -163,7 +163,7 @@ sh(544.28, 'doc', header='NTSB FINAL REPORT RIR-24-05 · EXECUTIVE SUMMARY', src
 sh(552.3, 'box', src=R + ', executive summary', boxes=[I('doc_compromised.png', DOC, cap='NTSB final report', push=0.16, origin='55% 80%')],
    notes=[N('COMPROMISED', 1560, 260, S('compromised', 557) - 0.2, 'red', size=56, w=330), N('dissent never', 1560, 380, S('dissenting', 561) - 0.2, 'white', size=46, w=330),
           N('reached him', 1560, 440, S('dissenting', 561) + 0.3, 'white', size=46, w=330)])
-sh(564.02, 'head', lines=['"UNJUSTIFIED."'], accent=0, acol='red', fs=200, at=[S('unjustified', 566) - 0.2], sub='— the NTSB', subAt=S('unjustified', 566) + 0.3, src=R)
+sh(564.02, 'head', lines=['"UNJUSTIFIED."'], accent=0, acol='red', fs=200, at=[564.1], sub='— the NTSB', subAt=S('unjustified', 566) + 0.3, src=R)
 sh(568.34, 'head', lines=['The report found', 'more problems.'], accent=1, acol='yellow', fs=130, at=[568.4, 569.6])
 sh(571.16, 'box', src=NTSB + ' · ' + R + ', fig. 20', boxes=[I('ntsb_dot111.png', A169, cap='Punctured DOT-111 tank car', push=0.12)],
    notes=[N('DOT-111', NX, 280, S('DOT-111', 578) - 0.2, 'red', size=80), N('older design', NX, 380, S('older', 576) - 0.2, 'white', size=50),
@@ -173,7 +173,7 @@ sh(591.56, 'list', items=[dict(text='→ DOT-111 tank cars', at=591.6), dict(tex
                           dict(text='→ volunteer firefighter training', at=S('volunteer', 600) - 0.3, accent=True)], fs=96, src=R)
 sh(603.06, 'counter', steps=[dict(value=600, label='class action settlement · no admission of wrongdoing', at=S('six-hundred-million-dollar', 605) - 0.2, dur=1.2, accent=True)],
    prefix='$', suffix='M', fs=300, src='In re: East Palestine Train Derailment, U.S. District Court, N.D. Ohio')
-sh(610.6, 'counter', steps=[dict(value=34, label='new safety recommendations', at=S('thirty-four', 613) - 0.2, dur=0.9, accent=True)], fs=300, src=R)
+sh(610.6, 'counter', steps=[dict(value=34, label='new safety recommendations', at=610.7, dur=0.9, accent=True)], fs=300, src=R)
 F(616.74, 'T1', 1.0)                                                    # back to the beginning
 sh(619.12, 'saiddid', lk='THE CRASH', said=['An', 'accident.'], saidAt=[619.2, S('accident', 622.5) - 0.2], rk='THE BLACK CLOUD', did=['A', 'decision.'],
    didAt=S('decision', 626) - 0.2, sfs=120, dfs=130)
@@ -212,7 +212,7 @@ sfx = [X('fire_bed', 0.0, 0.25, dur=5.5), X('shutter', 0.05, 0.4), X('hit', 5.66
        X('train_rumble', 211.5, 0.3, dur=6.2), X('brake_squeal', 213.0, 0.35), X('snap', TE - 0.05, 0.5), X('derail_crash', TE + 0.1, 0.8), X('brake_squeal', TE + 0.4, 0.3),
        X('flame_burst', TE + 1.5, 0.5), X('fire_bed', TE + 2.0, 0.4, dur=12.0), X('boom', S('Fire', 228.3) + 0.1, 0.45),
        X('whoosh', 232.0, 0.3), X('stamp', S('Fact', 236.5) - 0.1, 0.45), X('typewriter', 240.5, 0.3), X('hit', 245.5, 0.45), X('tick', 253.3, 0.45),
-       X('alarm_beep', 258.8, 0.3), X('sirens', 263.0, 0.55, dur=8.0), X('shutter', 270.8, 0.4), X('fire_bed', 271.0, 0.25, dur=8.0), X('tick', 279.0, 0.4),
+       X('alarm_beep', 258.8, 0.3), X('sirens', 267.8, 0.55, dur=4.0), X('shutter', 270.8, 0.4), X('fire_bed', 271.0, 0.25, dur=8.0), X('tick', 279.0, 0.4),
        X('riser', 282.6, 0.3), X('hit', 284.45, 0.45), X('shutter', 286.6, 0.4), X('pop', 289.8, 0.3), X('pop', S('flammable', 296.5) - 0.2, 0.3), X('stamp', S('carcinogen', 300.5) - 0.6, 0.5),
        X('shutter', 302.4, 0.4), X('fire_bed', 302.5, 0.2, dur=12.0), X('hit', 317.35, 0.4), X('stamp', 319.1, 0.45), X('riser', 320.0, 0.3), X('hit', S('polymerization', 324) - 0.3, 0.5),
        X('pop', S('popping', 331.5), 0.3), X('pop', S('popping', 331.5) + 0.25, 0.25), X('pop', S('More', 334.5), 0.3), X('pop', S('popping', 335.5), 0.3),
@@ -232,7 +232,7 @@ sfx = [X('fire_bed', 0.0, 0.25, dur=5.5), X('shutter', 0.05, 0.4), X('hit', 5.66
 
 # ---- mix balance: voice first. Loud SFX lowered under the narration; only the solo moments (pauses) play loud ----
 SCALE = {'train_rumble': 0.35, 'fire_bed': 0.3, 'flame_burst': 0.35, 'boom': 0.3, 'hit': 0.45, 'derail_crash': 0.75, 'explosion_big': 0.8, 'sirens': 0.7,
-         'radio_click': 0.6, 'horn': 0.35, 'brake_squeal': 0.4, 'drone': 0.6}
+         'radio_click': 0.6, 'horn': 0.35, 'brake_squeal': 0.3, 'drone': 0.35, 'heartbeat': 0.4}
 SOLO = [(19.87, 22.87), (221.49, 224.89), (229.98, 232.38), (268.02, 270.62), (497.31, 501.51)]      # narration pauses: sound plays alone
 LOUD = ('explosion_big', 'derail_crash', 'sirens', 'fire_bed', 'boom', 'flame_burst')
 extra = []
