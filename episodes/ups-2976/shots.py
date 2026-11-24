@@ -157,5 +157,13 @@ sfx = [X('hit', 0.0, 0.5), X('shutter', 0.05, 0.4), X('fire_bed', 0.0, 0.18, dur
        X('typewriter', 316.2, 0.3), X('stamp', S('still', 319) - 0.2, 0.5), X('hit', 323.05, 0.45), X('hit', S('Fifteen', 324) - 0.1, 0.45),
        X('whoosh', 332.6, 0.3), X('whoosh', 338.9, 0.4), X('hit', 339.15, 0.45), X('ding', S('notifications', 344.5) - 0.1, 0.5)]
 
+# ---- mix balance: voice first. Jet engine almost silent, all other SFX and music lowered under the narration ----
+SCALE = {'jet_roll': 0.08, 'jet_pass': 0.25, 'fire_bed': 0.35, 'metal_tear': 0.45, 'flame_burst': 0.45}
+for x in sfx:
+    name = x['file'].split('/')[-1][:-4]
+    x['vol'] = round(x['vol'] * SCALE.get(name, 0.6), 3)
+for m in music:
+    m['vol'] = round(m['vol'] * 0.8, 3)
+
 finish(cuts=[0, 73.86, 139.48, 266.78, END], names=['hook', 'crash', 'part', 'echo'], tags=[], music=music, sfx=sfx, archive=D3, end=END,
        caption_fixes={})
