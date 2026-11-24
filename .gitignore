@@ -11,3 +11,5 @@ episodes/*/thumb/*.png
 episodes/*/audio/
 episodes/*/media/
 episodes/*/thumb/*.jpg
+episodes/*/real3d/
+episodes/*/docs/

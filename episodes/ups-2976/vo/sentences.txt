@@ -1,0 +1,74 @@
+   0.00 November fourth, 2025.
+   3.52 A cargo jet is racing down the runway in Louisville, Kentucky.
+   7.82 Then, just as its nose lifts off the ground, the left engine tears completely off the wing.
+  13.74 The jet barely clears the airport fence, and then it comes down.
+  18.30 But here is the most disturbing part.
+  20.70 The part that broke had failed before.
+  23.22 Not once.
+  24.34 Again and again, for more than twenty years.
+  26.98 So why was this plane still flying?
+  30.00 This is UPS Flight 2976.
+  35.62 The flight was bound for Honolulu, more than eight hours across the Pacific.
+  40.32 The aircraft was a McDonnell Douglas MD-11, a three-engine widebody, with one engine under each wing and a third mounted high in the tail.
+  49.58 This particular jet had been flying for thirty-four years: first carrying passengers for Thai Airways, then cargo for UPS.
+  57.70 Almost ninety-three thousand hours in the air.
+  61.92 In the cockpit sat three experienced pilots, with more than thirty thousand flight hours between them.
+  68.54 At about twelve minutes past five in the evening, they pushed the throttles forward.
+  73.86 Everything was normal.
+  75.32 Until the moment the nose came up.
+  78.78 Airport cameras recorded what happened next.
+  81.58 The entire left engine, and the pylon holding it, broke away from the wing.
+  86.10 Burning, the engine flew up and over the top of the fuselage, and crashed down beside the runway.
+  93.10 Fire erupted where the pylon had been attached.
+  96.42 In the cockpit, an engine fire warning.
+  99.52 The crew pushed the two remaining engines harder.
+ 102.64 The jet was moving at more than two hundred miles an hour.
+ 106.10 But it would not climb.
+ 108.08 According to the flight data recorder, it never rose much more than thirty feet.
+ 112.52 It cleared the blast fence at the end of the runway.
+ 116.46 Its landing gear tore through the roof of a warehouse.
+ 119.88 Then it slammed into a storage yard and a petroleum recycling facility, and burst into flames.
+ 126.60 Nineteen seconds after the engine separated, the recording ended.
+ 130.82 The three pilots were killed, along with eleven people on the ground.
+ 135.44 A fifteenth victim died of injuries weeks later.
+ 139.48 So what could tear an engine off a jet?
+ 141.98 Investigators found the answer in one small part.
+ 146.26 Each wing engine hangs from a pylon.
+ 149.06 At the back, that pylon is held to the wing by a single joint: two metal lugs wrapped around a spherical bearing.
+ 156.20 A steel ball, inside a ring called the race.
+ 160.04 On Flight 2976, that ring had split in two.
+ 164.82 Under the microscope, about three quarters of the fracture was fatigue: a crack that grew slowly, flight after flight, starting from a small groove machined inside the ring.
+ 175.48 The lugs around it showed fatigue cracks too.
+ 178.58 When they finally let go, nothing was left holding the back of the engine.
+ 183.24 And this is where the story turns.
+ 185.56 Because this was not the first time that bearing had cracked.
+ 189.82 Between 2002 and 2017, airlines reported fractures of the same bearing race on other MD-11s.
+ 198.16 In February 2011, Boeing sent operators a service letter describing four failures on three airplanes.
+ 207.08 Boeing had even designed a new bearing, without the groove.
+ 210.86 But the letter reached a conclusion that would echo for years.
+ 214.52 A broken bearing, it said, would not result in a safety-of-flight condition.
+ 219.98 Airlines could still install the old design.
+ 223.22 Then, according to evidence presented at the NTSB's hearing, Boeing asked the FAA in 2014 to stretch the inspection interval for those lugs, from nineteen thousand nine hundred flights to twenty-nine thousand two hundred.
+ 238.50 By then, five fractures had been reported.
+ 241.84 The FAA agreed.
+ 243.84 The jet that crashed in Louisville had flown twenty-one thousand and forty-three flights.
+ 249.28 Under the old interval, its special inspection would already have been done.
+ 253.72 Under the new one, it was not yet due.
+ 256.04 As one witness told the NTSB, there had been a misunderstanding, twenty years earlier, about how severe a failure of this bearing could be.
+ 266.94 If this story sounds familiar, it should.
+ 269.80 In 1979, American Airlines Flight 191, a DC-10, the MD-11's direct ancestor, lost its left engine and pylon during takeoff in Chicago.
+ 281.48 Two hundred and seventy-three people died.
+ 283.84 The cause back then was different: damage from a maintenance shortcut.
+ 288.34 But the result was the same.
+ 290.26 An engine leaving the wing, at the worst possible moment.
+ 294.06 Within days of the Louisville crash, the FAA grounded every MD-11 and DC-10 in the United States.
+ 302.00 In January 2026, UPS retired its entire MD-11 fleet.
+ 308.76 In May, with new inspection requirements in place, the FAA allowed the MD-11 to fly again.
+ 316.40 The NTSB's final report, and its official probable cause, are still to come.
+ 323.38 Nineteen seconds.
+ 324.90 Fifteen lives.
+ 326.32 And a warning written down fourteen years before the crash, that a broken bearing was nothing to worry about.
+ 333.16 Sometimes the most dangerous failures are the ones we have already decided are harmless.
+ 339.12 When the final report is released, we will break it down.
+ 343.30 Subscribe to Wrecklore, and turn on notifications so you don't miss it.
+ 347.42 And tell us in the comments: should jets this old still be flying?
