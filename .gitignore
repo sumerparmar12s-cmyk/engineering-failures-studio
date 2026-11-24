@@ -6,3 +6,5 @@ episodes/*/chunks/
 episodes/*/work/
 episodes/*/vo/*.wav
 episodes/*/audio/*.wav
+episodes/*/thumb/*.png
+!episodes/*/thumb/thumbnail.png
