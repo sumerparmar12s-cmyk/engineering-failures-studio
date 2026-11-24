@@ -1,0 +1,1973 @@
+{
+ "shots": [
+  {
+   "clip": {
+    "src": "C_in",
+    "ss": 0.3
+   },
+   "src": "NASA launch footage, Jan 28, 1986 (public domain)",
+   "t0": 0.0,
+   "type": "full",
+   "t1": 5.4
+  },
+  {
+   "clip": {
+    "src": "C_in",
+    "ss": 9.85
+   },
+   "src": "NASA launch footage, Jan 28, 1986 (public domain)",
+   "t0": 5.4,
+   "type": "full",
+   "t1": 12.9
+  },
+  {
+   "clip": {
+    "src": "C_out",
+    "ss": 21.0
+   },
+   "src": "NASA launch footage, Jan 28, 1986 (public domain)",
+   "t0": 12.9,
+   "type": "full",
+   "t1": 14.62
+  },
+  {
+   "steps": [
+    {
+     "value": 73,
+     "label": "seconds of flight",
+     "at": 14.7,
+     "dur": 1.6,
+     "accent": true
+    }
+   ],
+   "suffix": "",
+   "more": "Challenger lasted",
+   "fs": 300,
+   "t0": 14.62,
+   "type": "counter",
+   "t1": 19.15
+  },
+  {
+   "header": "MORTON THIOKOL ENGINEERS \u00b7 NIGHT OF JANUARY 27, 1986",
+   "body": "Engineering recommendation: [[DO NOT LAUNCH]] below 53\u00b0F.",
+   "hlAt": 21.400000000000002,
+   "fs": 46,
+   "t0": 18.8,
+   "type": "doc",
+   "t1": 24.23
+  },
+  {
+   "lines": [
+    "OVERRULED."
+   ],
+   "accent": 0,
+   "acol": "red",
+   "fs": 230,
+   "at": [
+    23.9
+   ],
+   "t0": 23.88,
+   "type": "head",
+   "t1": 24.9
+  },
+  {
+   "clip": {
+    "src": "C_panr",
+    "ss": 33.6
+   },
+   "src": "NASA launch footage, Jan 28, 1986 (public domain)",
+   "t0": 24.9,
+   "type": "full",
+   "t1": 31.78
+  },
+  {
+   "lines": [
+    "73 Seconds",
+    "to Disaster"
+   ],
+   "kicker": "Space Shuttle Challenger \u00b7 January 28, 1986",
+   "sub": "the warning that was ignored",
+   "t0": 31.78,
+   "type": "title",
+   "t1": 35.58
+  },
+  {
+   "clip": {
+    "src": "K_51L-S-002_in",
+    "ss": 0.0
+   },
+   "src": "NASA photo (public domain)",
+   "t0": 35.58,
+   "type": "full",
+   "t1": 41.02
+  },
+  {
+   "src": "NASA official portrait, 1985",
+   "boxes": [
+    {
+     "x": 300,
+     "y": 140,
+     "w": 500,
+     "h": 628,
+     "img": "S85-41239.jpg",
+     "cap": "Christa McAuliffe",
+     "rot": 0,
+     "pos": "50% 25%",
+     "push": 0.05
+    }
+   ],
+   "notes": [
+    {
+     "text": "Social studies teacher",
+     "x": 900,
+     "y": 220,
+     "at": 45.46,
+     "color": "white",
+     "size": 58
+    },
+    {
+     "text": "Concord, New Hampshire",
+     "x": 900,
+     "y": 310,
+     "at": 46.98,
+     "color": "yellow",
+     "size": 52
+    },
+    {
+     "text": "1 of 11,000+ applicants",
+     "x": 900,
+     "y": 430,
+     "at": 49.6,
+     "color": "red",
+     "size": 62
+    },
+    {
+     "text": "First teacher in space",
+     "x": 900,
+     "y": 560,
+     "at": 51.6,
+     "color": "yellow",
+     "size": 62
+    }
+   ],
+   "t0": 41.02,
+   "type": "box",
+   "t1": 53.56
+  },
+  {
+   "clip": {
+    "src": "K_51l-s-029_out",
+    "ss": 0.0
+   },
+   "src": "NASA: STS-51L crew at pre-launch breakfast, Jan 28, 1986",
+   "t0": 53.56,
+   "type": "full",
+   "t1": 58.84
+  },
+  {
+   "src": "NASA official STS-51L crew portrait",
+   "boxes": [
+    {
+     "x": 150,
+     "y": 200,
+     "w": 1040,
+     "h": 585,
+     "img": "S85-44253.jpg",
+     "cap": "The crew of STS-51L",
+     "rot": 0,
+     "push": 0.05
+    }
+   ],
+   "notes": [
+    {
+     "text": "Dick Scobee \u00b7 commander",
+     "x": 1250,
+     "y": 205,
+     "at": 61.2,
+     "color": "white",
+     "size": 40
+    },
+    {
+     "text": "Michael Smith \u00b7 pilot",
+     "x": 1250,
+     "y": 285,
+     "at": 62.78,
+     "color": "white",
+     "size": 40
+    },
+    {
+     "text": "Judith Resnik",
+     "x": 1250,
+     "y": 365,
+     "at": 63.94,
+     "color": "white",
+     "size": 40
+    },
+    {
+     "text": "Ellison Onizuka",
+     "x": 1250,
+     "y": 445,
+     "at": 65.12,
+     "color": "white",
+     "size": 40
+    },
+    {
+     "text": "Ronald McNair",
+     "x": 1250,
+     "y": 525,
+     "at": 66.42,
+     "color": "white",
+     "size": 40
+    },
+    {
+     "text": "Gregory Jarvis",
+     "x": 1250,
+     "y": 605,
+     "at": 67.58,
+     "color": "white",
+     "size": 40
+    },
+    {
+     "text": "Christa McAuliffe",
+     "x": 1250,
+     "y": 685,
+     "at": 68.28,
+     "color": "yellow",
+     "size": 40
+    }
+   ],
+   "t0": 58.84,
+   "type": "box",
+   "t1": 69.06
+  },
+  {
+   "clip": {
+    "src": "K_S85-40074_in",
+    "ss": 0.0
+   },
+   "src": "NASA: McAuliffe and backup Barbara Morgan, Teacher in Space training, 1985",
+   "t0": 69.06,
+   "type": "full",
+   "t1": 74.74
+  },
+  {
+   "no": "01",
+   "name": [
+    "A Freezing",
+    "Morning"
+   ],
+   "sub": "Kennedy Space Center \u00b7 Jan 28, 1986",
+   "img": "51L-10147.jpg",
+   "cap": "Ice on the launch tower",
+   "pos": "50% 60%",
+   "t0": 74.74,
+   "type": "section",
+   "t1": 77.71
+  },
+  {
+   "src": "NASA photo 51L-10147: ice on the launch complex, Jan 28, 1986",
+   "boxes": [
+    {
+     "x": 420,
+     "y": 140,
+     "w": 560,
+     "h": 688,
+     "img": "51L-10147.jpg",
+     "cap": "",
+     "rot": 0,
+     "fit": "cover",
+     "push": 0.08,
+     "origin": "60% 60%"
+    }
+   ],
+   "notes": [
+    {
+     "text": "ICICLES",
+     "x": 1190,
+     "y": 360,
+     "at": 80.18,
+     "color": "yellow",
+     "size": 80,
+     "arrow": [
+      [
+       1180,
+       440
+      ],
+      [
+       930,
+       545
+      ]
+     ]
+    },
+    {
+     "text": "on the launch tower",
+     "x": 1190,
+     "y": 470,
+     "at": 80.88,
+     "color": "white",
+     "size": 50
+    }
+   ],
+   "t0": 77.36,
+   "type": "box",
+   "t1": 82.83
+  },
+  {
+   "steps": [
+    {
+     "value": 36,
+     "label": "at launch",
+     "at": 83.96,
+     "accent": true
+    },
+    {
+     "value": 36,
+     "label": "15\u00b0 colder than any launch before",
+     "at": 86.44,
+     "accent": true
+    }
+   ],
+   "suffix": "\u00b0F",
+   "more": "just",
+   "fs": 300,
+   "t0": 82.48,
+   "type": "counter",
+   "t1": 90.38
+  },
+  {
+   "clip": {
+    "src": "C_up",
+    "ss": 17.6
+   },
+   "src": "NASA launch footage, Jan 28, 1986 (public domain)",
+   "t0": 90.38,
+   "type": "full",
+   "t1": 93.9
+  },
+  {
+   "kind": "structure",
+   "title": "Solid rocket booster \u00b7 field joint (simplified)",
+   "paths": [
+    {
+     "d": "M 330 300 L 380 230 L 430 300 Z",
+     "at": 94.0,
+     "dur": 0.5
+    },
+    {
+     "d": "M 330 300 V 860 H 430 V 300",
+     "at": 94.2,
+     "dur": 1.0
+    },
+    {
+     "d": "M 330 440 H 430 M 330 580 H 430 M 330 720 H 430",
+     "at": 95.0,
+     "color": "yellow"
+    },
+    {
+     "d": "M 440 720 L 760 530",
+     "at": 97.46000000000001,
+     "color": "red",
+     "width": 3
+    },
+    {
+     "d": "M 800 300 H 980 V 760 H 800 Z M 1300 300 H 1120 V 760 H 1300 Z",
+     "at": 97.76,
+     "dur": 0.8
+    },
+    {
+     "d": "M 980 300 V 760 M 1120 300 V 760",
+     "at": 98.06,
+     "width": 3
+    },
+    {
+     "d": "M 1050 300 V 760",
+     "at": 98.26,
+     "color": "yellow",
+     "width": 8
+    },
+    {
+     "d": "M 1050 470 m -16 0 a 16 16 0 1 0 32 0 a 16 16 0 1 0 -32 0",
+     "at": 99.08,
+     "color": "red",
+     "width": 8,
+     "dur": 0.4
+    },
+    {
+     "d": "M 1050 590 m -16 0 a 16 16 0 1 0 32 0 a 16 16 0 1 0 -32 0",
+     "at": 99.48,
+     "color": "red",
+     "width": 8,
+     "dur": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "4 segments",
+     "x": 200,
+     "y": 880,
+     "at": 95.2,
+     "color": "yellow",
+     "size": 40
+    },
+    {
+     "text": "Primary O-ring",
+     "x": 1340,
+     "y": 440,
+     "at": 99.6,
+     "color": "red",
+     "size": 46
+    },
+    {
+     "text": "Secondary O-ring",
+     "x": 1340,
+     "y": 560,
+     "at": 100.0,
+     "color": "red",
+     "size": 46
+    },
+    {
+     "text": "\u2248 \u00bc inch thick",
+     "x": 1340,
+     "y": 680,
+     "at": 101.08,
+     "color": "yellow",
+     "size": 46
+    }
+   ],
+   "t0": 93.9,
+   "type": "blueprint",
+   "t1": 103.25
+  },
+  {
+   "kind": "structure",
+   "title": "At ignition: the O-ring must seal in milliseconds",
+   "paths": [
+    {
+     "d": "M 800 300 H 980 V 760 H 800 Z M 1300 300 H 1120 V 760 H 1300 Z",
+     "at": 103.0,
+     "dur": 0.6
+    },
+    {
+     "d": "M 1050 300 V 760",
+     "at": 103.0,
+     "color": "yellow",
+     "width": 8
+    },
+    {
+     "d": "M 1050 470 m -16 0 a 16 16 0 1 0 32 0 a 16 16 0 1 0 -32 0",
+     "at": 103.1,
+     "color": "red",
+     "width": 8,
+     "dur": 0.3
+    },
+    {
+     "d": "M 1050 590 m -16 0 a 16 16 0 1 0 32 0 a 16 16 0 1 0 -32 0",
+     "at": 103.1,
+     "color": "red",
+     "width": 8,
+     "dur": 0.3
+    },
+    {
+     "d": "M 300 380 H 1020 M 990 350 L 1025 380 L 990 410",
+     "at": 106.3,
+     "color": "red",
+     "width": 10,
+     "dur": 0.7
+    }
+   ],
+   "labels": [
+    {
+     "text": "Hot gas > 5,000\u00b0F",
+     "x": 320,
+     "y": 300,
+     "at": 107.42,
+     "color": "red",
+     "size": 56
+    },
+    {
+     "text": "COLD = STIFF",
+     "x": 330,
+     "y": 520,
+     "at": 110.56,
+     "color": "yellow",
+     "size": 72
+    },
+    {
+     "text": "STIFF = NO SEAL",
+     "x": 330,
+     "y": 640,
+     "at": 112.25999999999999,
+     "color": "red",
+     "size": 72
+    }
+   ],
+   "t0": 102.9,
+   "type": "blueprint",
+   "t1": 114.39
+  },
+  {
+   "no": "02",
+   "name": [
+    "The",
+    "Warning"
+   ],
+   "sub": "Morton Thiokol \u00b7 the booster maker",
+   "img": "51l-s-154.jpg",
+   "cap": "The boosters Thiokol built",
+   "pos": "50% 40%",
+   "t0": 114.04,
+   "type": "section",
+   "t1": 120.03
+  },
+  {
+   "header": "POST-FLIGHT INSPECTIONS \u00b7 1985",
+   "body": "On earlier flights, hot gas had [[scorched and eroded]] the O-ring seals.",
+   "hlAt": 121.98,
+   "fs": 46,
+   "t0": 119.68,
+   "type": "doc",
+   "t1": 125.07
+  },
+  {
+   "header": "MEMO \u00b7 ROGER BOISJOLY, MORTON THIOKOL \u00b7 JULY 31, 1985",
+   "body": "\"The result would be a [[catastrophe of the highest order]] \u2014 loss of human life.\"",
+   "hlAt": 130.52,
+   "fs": 46,
+   "t0": 124.72,
+   "type": "doc",
+   "t1": 133.71
+  },
+  {
+   "lk": "THIOKOL ENGINEERS",
+   "said": [
+    "No launch",
+    "below 53\u00b0F"
+   ],
+   "saidAt": [
+    138.68,
+    140.44
+   ],
+   "rk": "NASA MANAGERS",
+   "did": [
+    "Pushed",
+    "back."
+   ],
+   "didAt": 142.96,
+   "sfs": 110,
+   "dfs": 110,
+   "t0": 133.36,
+   "type": "saiddid",
+   "t1": 144.73
+  },
+  {
+   "lines": [
+    "\"When do you want me",
+    "to launch \u2014 next April?\""
+   ],
+   "accent": 1,
+   "acol": "red",
+   "fs": 110,
+   "at": [
+    144.4,
+    146.96
+   ],
+   "sub": "\u2014 a NASA manager, as reported to the commission",
+   "subAt": 147.58,
+   "t0": 144.38,
+   "type": "head",
+   "t1": 149.11
+  },
+  {
+   "lines": [
+    "Thiokol managers",
+    "went offline."
+   ],
+   "accent": 1,
+   "acol": "yellow",
+   "fs": 130,
+   "at": [
+    148.8,
+    149.4
+   ],
+   "t0": 148.76,
+   "type": "head",
+   "t1": 151.81
+  },
+  {
+   "lines": [
+    "\"Take off your",
+    "engineering hat.\""
+   ],
+   "accent": 1,
+   "acol": "yellow",
+   "fs": 130,
+   "at": [
+    153.84,
+    154.46
+   ],
+   "sub": "\u2026and put on your management hat.",
+   "subAt": 156.17999999999998,
+   "t0": 151.46,
+   "type": "head",
+   "t1": 158.21
+  },
+  {
+   "lines": [
+    "LAUNCH",
+    "APPROVED."
+   ],
+   "accent": 1,
+   "acol": "red",
+   "fs": 200,
+   "at": [
+    157.9,
+    159.54000000000002
+   ],
+   "t0": 157.86,
+   "type": "head",
+   "t1": 162.05
+  },
+  {
+   "lines": [
+    "One engineer",
+    "refused to sign."
+   ],
+   "accent": 1,
+   "acol": "yellow",
+   "fs": 130,
+   "at": [
+    161.75,
+    162.4
+   ],
+   "sub": "Allan McDonald, Morton Thiokol",
+   "subAt": 162.6,
+   "t0": 161.7,
+   "type": "head",
+   "t1": 164.06
+  },
+  {
+   "clip": {
+    "src": "K_51l-s-156_in",
+    "ss": 0.0
+   },
+   "src": "NASA photo: Challenger liftoff, Jan 28, 1986",
+   "t0": 164.06,
+   "type": "full",
+   "t1": 166.9
+  },
+  {
+   "clip": {
+    "src": "C_out",
+    "ss": 22.5
+   },
+   "src": "NASA launch footage, Jan 28, 1986 (public domain)",
+   "t0": 166.9,
+   "type": "full",
+   "t1": 168.3
+  },
+  {
+   "src": "NASA photo 51L-10096: first evidence of black smoke, right booster",
+   "boxes": [
+    {
+     "x": 150,
+     "y": 200,
+     "w": 1040,
+     "h": 585,
+     "img": "51l-10096.jpg",
+     "cap": "Launch pad camera \u00b7 fractions of a second after ignition",
+     "rot": 0,
+     "push": 0.09,
+     "origin": "58% 78%"
+    }
+   ],
+   "notes": [
+    {
+     "text": "BLACK SMOKE",
+     "x": 1250,
+     "y": 330,
+     "at": 173.02,
+     "color": "red",
+     "size": 72,
+     "arrow": [
+      [
+       1240,
+       400
+      ],
+      [
+       800,
+       690
+      ]
+     ]
+    },
+    {
+     "text": "from the right booster joint",
+     "x": 1250,
+     "y": 440,
+     "at": 175.38,
+     "color": "white",
+     "size": 46
+    },
+    {
+     "text": "< 1 second after ignition",
+     "x": 1250,
+     "y": 540,
+     "at": 171.26,
+     "color": "yellow",
+     "size": 46
+    }
+   ],
+   "t0": 168.3,
+   "type": "box",
+   "t1": 177.11
+  },
+  {
+   "kind": "structure",
+   "title": "The joint fails to seal",
+   "paths": [
+    {
+     "d": "M 800 300 H 980 V 760 H 800 Z M 1300 300 H 1120 V 760 H 1300 Z",
+     "at": 176.8,
+     "dur": 0.6
+    },
+    {
+     "d": "M 1050 300 V 760",
+     "at": 176.8,
+     "color": "yellow",
+     "width": 8
+    },
+    {
+     "d": "M 300 380 H 1040 V 820 H 1500",
+     "at": 177.1,
+     "color": "red",
+     "width": 10,
+     "dur": 1.2
+    },
+    {
+     "d": "M 1030 520 h 40 v 60 h -40 Z",
+     "at": 180.5,
+     "color": "yellow",
+     "width": 10,
+     "dur": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "text": "BLOW-BY",
+     "x": 320,
+     "y": 300,
+     "at": 177.2,
+     "color": "red",
+     "size": 72
+    },
+    {
+     "text": "burned aluminum plugs the gap",
+     "x": 1110,
+     "y": 600,
+     "at": 180.7,
+     "color": "yellow",
+     "size": 44
+    },
+    {
+     "text": "\u2026for now",
+     "x": 1110,
+     "y": 680,
+     "at": 183.12,
+     "color": "white",
+     "size": 44
+    }
+   ],
+   "t0": 176.76,
+   "type": "blueprint",
+   "t1": 184.62
+  },
+  {
+   "clip": {
+    "src": "C_in",
+    "ss": 40.0
+   },
+   "src": "NASA launch footage, Jan 28, 1986 (public domain)",
+   "t0": 184.62,
+   "type": "full",
+   "t1": 193.46
+  },
+  {
+   "clip": {
+    "src": "C_in",
+    "ss": 55.0
+   },
+   "src": "NASA launch footage, Jan 28, 1986 (public domain)",
+   "t0": 193.46,
+   "type": "full",
+   "t1": 196.42
+  },
+  {
+   "kind": "structure",
+   "title": "At 58 seconds: a flame from the right booster",
+   "paths": [
+    {
+     "d": "M 860 160 Q 960 90 1060 160 V 860 H 860 Z",
+     "at": 196.5,
+     "dur": 0.9,
+     "color": "yellow"
+    },
+    {
+     "d": "M 700 260 L 740 200 L 780 260 V 860 H 700 Z M 1140 260 L 1180 200 L 1220 260 V 860 H 1140 Z",
+     "at": 196.7,
+     "dur": 0.9
+    },
+    {
+     "d": "M 1140 640 Q 1060 660 1030 700 M 1140 660 Q 1080 700 1050 760",
+     "at": 198.22,
+     "color": "red",
+     "width": 12,
+     "dur": 0.6
+    }
+   ],
+   "labels": [
+    {
+     "text": "External tank",
+     "x": 960,
+     "y": 460,
+     "at": 196.9,
+     "color": "yellow",
+     "size": 46,
+     "align": "center"
+    },
+    {
+     "text": "liquid hydrogen + oxygen",
+     "x": 960,
+     "y": 520,
+     "at": 197.2,
+     "color": "white",
+     "size": 34,
+     "align": "center"
+    },
+    {
+     "text": "Right booster",
+     "x": 1240,
+     "y": 300,
+     "at": 197.4,
+     "color": "white",
+     "size": 40
+    },
+    {
+     "text": "FLAME",
+     "x": 1240,
+     "y": 640,
+     "at": 198.52,
+     "color": "red",
+     "size": 70
+    }
+   ],
+   "t0": 196.42,
+   "type": "blueprint",
+   "t1": 203.36
+  },
+  {
+   "clip": {
+    "src": "C_in",
+    "ss": 60.6
+   },
+   "src": "NASA launch footage, Jan 28, 1986 (public domain)",
+   "t0": 203.36,
+   "type": "full",
+   "t1": 209.0
+  },
+  {
+   "clip": {
+    "src": "C_out",
+    "ss": 66.0
+   },
+   "src": "NASA launch footage, Jan 28, 1986 (public domain)",
+   "t0": 209.0,
+   "type": "full",
+   "t1": 212.12
+  },
+  {
+   "clip": {
+    "src": "C_out",
+    "ss": 88.8
+   },
+   "src": "NASA launch footage, Jan 28, 1986 (public domain)",
+   "t0": 212.12,
+   "type": "full",
+   "t1": 219.2
+  },
+  {
+   "clip": {
+    "src": "C_in",
+    "ss": 111.5
+   },
+   "src": "NASA launch footage, Jan 28, 1986 (public domain)",
+   "t0": 219.2,
+   "type": "full",
+   "t1": 222.96
+  },
+  {
+   "clip": {
+    "src": "C_in",
+    "ss": 132.0
+   },
+   "src": "NASA launch footage, Jan 28, 1986 (public domain)",
+   "t0": 222.96,
+   "type": "full",
+   "t1": 230.36
+  },
+  {
+   "clip": {
+    "src": "K_S85-44253_in",
+    "ss": 0.0
+   },
+   "src": "NASA official STS-51L crew portrait",
+   "t0": 230.36,
+   "type": "full",
+   "t1": 234.86
+  },
+  {
+   "no": "03",
+   "name": [
+    "The",
+    "Investigation"
+   ],
+   "sub": "Presidential Commission \u00b7 1986",
+   "img": "S86-28889.jpg",
+   "cap": "Commission members at Kennedy, Feb 1986",
+   "t0": 234.86,
+   "type": "section",
+   "t1": 238.17
+  },
+  {
+   "lines": [
+    "Richard Feynman"
+   ],
+   "accent": 0,
+   "acol": "yellow",
+   "fs": 150,
+   "at": [
+    237.9
+   ],
+   "sub": "Nobel Prize-winning physicist",
+   "subAt": 238.6,
+   "t0": 237.82,
+   "type": "head",
+   "t1": 242.05
+  },
+  {
+   "kind": "structure",
+   "title": "Feynman's ice-water test (illustration)",
+   "paths": [
+    {
+     "d": "M 760 360 V 820 H 1160 V 360",
+     "at": 241.8,
+     "dur": 0.8
+    },
+    {
+     "d": "M 760 470 Q 860 450 960 470 T 1160 470",
+     "at": 247.18,
+     "width": 4
+    },
+    {
+     "d": "M 820 560 h 60 v 60 h -60 Z M 1060 520 h 60 v 60 h -60 Z M 900 700 h 60 v 60 h -60 Z",
+     "at": 247.38000000000002,
+     "width": 4,
+     "dur": 0.5
+    },
+    {
+     "d": "M 940 300 V 640 H 1000 V 300 M 900 300 H 1040",
+     "at": 245.44,
+     "color": "yellow",
+     "width": 8
+    },
+    {
+     "d": "M 955 640 h 30 v 30 h -30 Z",
+     "at": 244.84,
+     "color": "red",
+     "width": 10,
+     "dur": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "O-ring rubber",
+     "x": 1200,
+     "y": 640,
+     "at": 245.04,
+     "color": "red",
+     "size": 46
+    },
+    {
+     "text": "C-clamp",
+     "x": 1200,
+     "y": 330,
+     "at": 245.74,
+     "color": "yellow",
+     "size": 46
+    },
+    {
+     "text": "ice water \u00b7 32\u00b0F",
+     "x": 1200,
+     "y": 480,
+     "at": 247.58,
+     "color": "white",
+     "size": 46
+    },
+    {
+     "text": "It did not spring back.",
+     "x": 960,
+     "y": 880,
+     "at": 250.44,
+     "color": "red",
+     "size": 56,
+     "align": "center"
+    }
+   ],
+   "t0": 241.7,
+   "type": "blueprint",
+   "t1": 252.25
+  },
+  {
+   "lines": [
+    "Cold rubber",
+    "cannot seal."
+   ],
+   "accent": 1,
+   "acol": "red",
+   "fs": 170,
+   "at": [
+    251.95,
+    252.8
+   ],
+   "t0": 251.9,
+   "type": "head",
+   "t1": 255.23
+  },
+  {
+   "header": "REPORT OF THE PRESIDENTIAL COMMISSION \u00b7 JUNE 6, 1986",
+   "body": "Cause: failure of the O-ring pressure seal in the right solid rocket booster. [[The decision to launch the Challenger was flawed.]]",
+   "hlAt": 261.1,
+   "fs": 42,
+   "t0": 254.88,
+   "type": "doc",
+   "t1": 263.81
+  },
+  {
+   "src": "NASA photo S86-28889: commission members inspect hardware at Kennedy",
+   "boxes": [
+    {
+     "x": 150,
+     "y": 200,
+     "w": 1040,
+     "h": 585,
+     "img": "S86-28889.jpg",
+     "cap": "Rogers Commission at Kennedy Space Center",
+     "rot": 0,
+     "push": 0.06
+    }
+   ],
+   "notes": [
+    {
+     "text": "Warnings existed for months",
+     "x": 1250,
+     "y": 300,
+     "at": 263.6,
+     "color": "yellow",
+     "size": 50
+    },
+    {
+     "text": "\u2026but never reached the people who made the call",
+     "x": 1250,
+     "y": 420,
+     "at": 265.84,
+     "color": "red",
+     "size": 44,
+     "w": 560
+    }
+   ],
+   "t0": 263.46,
+   "type": "box",
+   "t1": 269.31
+  },
+  {
+   "events": [
+    {
+     "date": "1986",
+     "label": "Challenger lost",
+     "at": 269.1,
+     "accent": true
+    },
+    {
+     "date": "1988",
+     "label": "Return to flight",
+     "at": 270.44
+    }
+   ],
+   "gap": {
+    "from": 0,
+    "to": 1,
+    "label": "32 months grounded",
+    "at": 270.90000000000003
+   },
+   "t0": 268.96,
+   "type": "timeline",
+   "t1": 272.75
+  },
+  {
+   "items": [
+    {
+     "text": "+ Third O-ring",
+     "at": 274.1
+    },
+    {
+     "text": "+ Joint heaters",
+     "at": 275.14
+    },
+    {
+     "text": "+ Independent safety office",
+     "at": 279.48,
+     "accent": true
+    }
+   ],
+   "fs": 110,
+   "t0": 272.4,
+   "type": "list",
+   "t1": 281.38
+  },
+  {
+   "clip": {
+    "src": "K_s26-s-030_up",
+    "ss": 0.0
+   },
+   "src": "NASA photo: Discovery returns to flight, STS-26, Sep 29, 1988",
+   "t0": 281.38,
+   "type": "full",
+   "t1": 286.5
+  },
+  {
+   "header": "R. P. FEYNMAN \u00b7 APPENDIX F, ROGERS COMMISSION REPORT \u00b7 1986",
+   "body": "\"For a successful technology, reality must take precedence over public relations, for [[nature cannot be fooled.]]\"",
+   "hlAt": 296.34000000000003,
+   "fs": 46,
+   "t0": 286.5,
+   "type": "doc",
+   "t1": 299.17
+  },
+  {
+   "steps": [
+    {
+     "value": 73,
+     "label": "seconds",
+     "at": 298.9,
+     "dur": 0.8
+    },
+    {
+     "value": 7,
+     "label": "lives",
+     "at": 300.23999999999995,
+     "dur": 0.6,
+     "accent": true
+    },
+    {
+     "value": 1,
+     "label": "warning that should have been heard",
+     "at": 301.71999999999997,
+     "dur": 0.6,
+     "accent": true
+    }
+   ],
+   "fs": 300,
+   "t0": 298.82,
+   "type": "counter",
+   "t1": 304.08
+  },
+  {
+   "clip": {
+    "src": "K_NHQ202501230017_in",
+    "ss": 0.0
+   },
+   "src": "NASA photo: Challenger memorial, Arlington National Cemetery",
+   "t0": 304.08,
+   "type": "full",
+   "t1": 311.72
+  },
+  {
+   "lines": [
+    "Subscribe to",
+    "Wrecklore"
+   ],
+   "kicker": "True stories of engineering disasters",
+   "sub": "Where were you when Challenger launched?",
+   "t0": 311.72,
+   "type": "title",
+   "t1": 331.35
+  }
+ ],
+ "overlays": [
+  {
+   "src": "C_in",
+   "ss": 0.3,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 0.0,
+   "tout": 5.4,
+   "full": true
+  },
+  {
+   "src": "C_in",
+   "ss": 9.85,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 5.4,
+   "tout": 12.9,
+   "full": true
+  },
+  {
+   "src": "C_out",
+   "ss": 21.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 12.9,
+   "tout": 14.62,
+   "full": true
+  },
+  {
+   "src": "C_panr",
+   "ss": 33.6,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 24.9,
+   "tout": 31.78,
+   "full": true
+  },
+  {
+   "src": "K_51L-S-002_in",
+   "ss": 0.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 35.58,
+   "tout": 41.02,
+   "full": true
+  },
+  {
+   "src": "K_51l-s-029_out",
+   "ss": 0.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 53.56,
+   "tout": 58.84,
+   "full": true
+  },
+  {
+   "src": "K_S85-40074_in",
+   "ss": 0.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 69.06,
+   "tout": 74.74,
+   "full": true
+  },
+  {
+   "src": "C_up",
+   "ss": 17.6,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 90.38,
+   "tout": 93.9,
+   "full": true
+  },
+  {
+   "src": "K_51l-s-156_in",
+   "ss": 0.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 164.06,
+   "tout": 166.9,
+   "full": true
+  },
+  {
+   "src": "C_out",
+   "ss": 22.5,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 166.9,
+   "tout": 168.3,
+   "full": true
+  },
+  {
+   "src": "C_in",
+   "ss": 40.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 184.62,
+   "tout": 193.46,
+   "full": true
+  },
+  {
+   "src": "C_in",
+   "ss": 55.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 193.46,
+   "tout": 196.42,
+   "full": true
+  },
+  {
+   "src": "C_in",
+   "ss": 60.6,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 203.36,
+   "tout": 209.0,
+   "full": true
+  },
+  {
+   "src": "C_out",
+   "ss": 66.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 209.0,
+   "tout": 212.12,
+   "full": true
+  },
+  {
+   "src": "C_out",
+   "ss": 88.8,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 212.12,
+   "tout": 219.2,
+   "full": true
+  },
+  {
+   "src": "C_in",
+   "ss": 111.5,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 219.2,
+   "tout": 222.96,
+   "full": true
+  },
+  {
+   "src": "C_in",
+   "ss": 132.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 222.96,
+   "tout": 230.36,
+   "full": true
+  },
+  {
+   "src": "K_S85-44253_in",
+   "ss": 0.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 230.36,
+   "tout": 234.86,
+   "full": true
+  },
+  {
+   "src": "K_s26-s-030_up",
+   "ss": 0.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 281.38,
+   "tout": 286.5,
+   "full": true
+  },
+  {
+   "src": "K_NHQ202501230017_in",
+   "ss": 0.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 304.08,
+   "tout": 311.72,
+   "full": true
+  }
+ ],
+ "cuts": [
+  0,
+  74.74,
+  164.06,
+  234.86,
+  331.0
+ ],
+ "names": [
+  "hook",
+  "cold",
+  "launch",
+  "aftermath"
+ ],
+ "end": 331.0,
+ "music": [
+  {
+   "file": "audio/m_Hidden_Truth.wav",
+   "start": 0.0,
+   "dur": 34.0,
+   "vol": 0.38
+  },
+  {
+   "file": "audio/m_Infinite_Wonder.wav",
+   "start": 33.0,
+   "dur": 42.2,
+   "vol": 0.36,
+   "ss": 20
+  },
+  {
+   "file": "audio/m_Driving_Concern.wav",
+   "start": 74.3,
+   "dur": 90.4,
+   "vol": 0.3
+  },
+  {
+   "file": "audio/m_Final_Step.wav",
+   "start": 163.8,
+   "dur": 49.2,
+   "vol": 0.36
+  },
+  {
+   "file": "audio/m_Asking_Questions.wav",
+   "start": 233.8,
+   "dur": 53.2,
+   "vol": 0.3
+  },
+  {
+   "file": "audio/m_Emotional_Blockbuster_2.wav",
+   "start": 286.0,
+   "dur": 45.0,
+   "vol": 0.4
+  }
+ ],
+ "sfx": [
+  {
+   "file": "audio/sfx/quindar.wav",
+   "t": 0.05,
+   "vol": 0.45
+  },
+  {
+   "file": "audio/sfx/static.wav",
+   "t": 0.2,
+   "vol": 0.1
+  },
+  {
+   "file": "audio/sfx/roar.wav",
+   "t": 11.6,
+   "vol": 0.85
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 14.6,
+   "vol": 0.6
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 15.0,
+   "vol": 0.5
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 16.0,
+   "vol": 0.5
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 17.0,
+   "vol": 0.5
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 18.0,
+   "vol": 0.5
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 18.4,
+   "vol": 0.5
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 23.85,
+   "vol": 0.65
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 24.5,
+   "vol": 0.4
+  },
+  {
+   "file": "audio/sfx/riser.wav",
+   "t": 25.78,
+   "vol": 0.35
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 31.78,
+   "vol": 0.6
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 35.2,
+   "vol": 0.35
+  },
+  {
+   "file": "audio/sfx/shutter.wav",
+   "t": 41.1,
+   "vol": 0.5
+  },
+  {
+   "file": "audio/sfx/shutter.wav",
+   "t": 58.9,
+   "vol": 0.5
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 74.4,
+   "vol": 0.45
+  },
+  {
+   "file": "audio/sfx/wind_ice.wav",
+   "t": 74.9,
+   "vol": 0.32
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 82.5,
+   "vol": 0.45
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 93.6,
+   "vol": 0.4
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 110.56,
+   "vol": 0.5
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 113.8,
+   "vol": 0.45
+  },
+  {
+   "file": "audio/sfx/typewriter.wav",
+   "t": 119.9,
+   "vol": 0.35
+  },
+  {
+   "file": "audio/sfx/typewriter.wav",
+   "t": 125.0,
+   "vol": 0.4
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 133.4,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 134.44,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 135.46,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 136.48,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 137.48,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 138.47,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 139.45,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 140.41,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 141.37,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 142.31,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 143.24,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 144.16,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 145.06,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 145.96,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 146.84,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 147.71,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 148.57,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 149.41,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 150.25,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 151.07,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 151.88,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 152.68,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 153.46,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 154.24,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 155.0,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 155.75,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 156.49,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 157.21,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 157.93,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 158.63,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 159.32,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 160.0,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 160.66,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 161.32,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 161.96,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 162.59,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 163.21,
+   "vol": 0.55
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 157.9,
+   "vol": 0.7
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 161.75,
+   "vol": 0.35
+  },
+  {
+   "file": "audio/sfx/roar.wav",
+   "t": 164.1,
+   "vol": 0.8
+  },
+  {
+   "file": "audio/sfx/shutter.wav",
+   "t": 168.4,
+   "vol": 0.45
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 176.6,
+   "vol": 0.35
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 184.4,
+   "vol": 0.3
+  },
+  {
+   "file": "audio/sfx/flame.wav",
+   "t": 196.4,
+   "vol": 0.45
+  },
+  {
+   "file": "audio/sfx/riser.wav",
+   "t": 206.12,
+   "vol": 0.45
+  },
+  {
+   "file": "audio/sfx/boom.wav",
+   "t": 214.08,
+   "vol": 0.9
+  },
+  {
+   "file": "audio/sfx/static.wav",
+   "t": 222.8,
+   "vol": 0.08
+  },
+  {
+   "file": "audio/sfx/quindar.wav",
+   "t": 222.85,
+   "vol": 0.35
+  },
+  {
+   "file": "audio/sfx/quindar.wav",
+   "t": 229.9,
+   "vol": 0.35
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 234.6,
+   "vol": 0.45
+  },
+  {
+   "file": "audio/sfx/typewriter.wav",
+   "t": 255.0,
+   "vol": 0.35
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 261.1,
+   "vol": 0.5
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 268.8,
+   "vol": 0.35
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 274.0,
+   "vol": 0.25
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 276.0,
+   "vol": 0.25
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 279.0,
+   "vol": 0.3
+  },
+  {
+   "file": "audio/sfx/typewriter.wav",
+   "t": 286.7,
+   "vol": 0.3
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 298.85,
+   "vol": 0.5
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 300.24,
+   "vol": 0.5
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 301.72,
+   "vol": 0.5
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 311.4,
+   "vol": 0.4
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 311.75,
+   "vol": 0.45
+  }
+ ],
+ "archive": {
+  "C_in": {
+   "file": "real/challenger_pd.mpg",
+   "crop": "fps=30,scale=1920:1440,setsar=1,zoompan=z='min(1.25,1.02+0.0012*on)':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2':d=1:s=1440x1080:fps=30,eq=saturation=1.45:contrast=1.08,vignette=angle=PI/5,"
+  },
+  "C_out": {
+   "file": "real/challenger_pd.mpg",
+   "crop": "fps=30,scale=1920:1440,setsar=1,zoompan=z='max(1.02,1.22-0.0011*on)':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2':d=1:s=1440x1080:fps=30,eq=saturation=1.45:contrast=1.08,vignette=angle=PI/5,"
+  },
+  "C_panr": {
+   "file": "real/challenger_pd.mpg",
+   "crop": "fps=30,scale=1920:1440,setsar=1,zoompan=z=1.18:x='(iw-iw/zoom)*min(1,on/200)':y='ih/2-ih/zoom/2':d=1:s=1440x1080:fps=30,eq=saturation=1.45:contrast=1.08,vignette=angle=PI/5,"
+  },
+  "C_panl": {
+   "file": "real/challenger_pd.mpg",
+   "crop": "fps=30,scale=1920:1440,setsar=1,zoompan=z=1.18:x='(iw-iw/zoom)*(1-min(1,on/200))':y='ih/2-ih/zoom/2':d=1:s=1440x1080:fps=30,eq=saturation=1.45:contrast=1.08,vignette=angle=PI/5,"
+  },
+  "C_up": {
+   "file": "real/challenger_pd.mpg",
+   "crop": "fps=30,scale=1920:1440,setsar=1,zoompan=z=1.18:x='iw/2-iw/zoom/2':y='(ih-ih/zoom)*(1-min(1,on/200))':d=1:s=1440x1080:fps=30,eq=saturation=1.45:contrast=1.08,vignette=angle=PI/5,"
+  },
+  "K_51L-S-002_in": {
+   "file": "real/kb_51L-S-002_in.mp4",
+   "crop": ""
+  },
+  "K_51l-s-029_out": {
+   "file": "real/kb_51l-s-029_out.mp4",
+   "crop": ""
+  },
+  "K_S85-40074_in": {
+   "file": "real/kb_S85-40074_in.mp4",
+   "crop": ""
+  },
+  "K_S85-44253_in": {
+   "file": "real/kb_S85-44253_in.mp4",
+   "crop": ""
+  },
+  "K_NHQ202501230017_in": {
+   "file": "real/kb_NHQ202501230017_in.mp4",
+   "crop": ""
+  },
+  "K_s26-s-030_up": {
+   "file": "real/kb_s26-s-030_up.mp4",
+   "crop": ""
+  },
+  "K_51l-s-156_in": {
+   "file": "real/kb_51l-s-156_in.mp4",
+   "crop": ""
+  },
+  "K_51l-s-155_panr": {
+   "file": "real/kb_51l-s-155_panr.mp4",
+   "crop": ""
+  },
+  "K_S85-41239_up": {
+   "file": "real/kb_S85-41239_up.mp4",
+   "crop": ""
+  }
+ },
+ "caption_fixes": {},
+ "caption_title_case": [],
+ "caption_inserts": [],
+ "caption_merges": []
+}

@@ -8,3 +8,6 @@ episodes/*/vo/*.wav
 episodes/*/audio/*.wav
 episodes/*/thumb/*.png
 !episodes/*/thumb/thumbnail.png
+episodes/*/audio/
+episodes/*/media/
+episodes/*/thumb/*.jpg

@@ -1,0 +1,69 @@
+   1.41 T-minus 10, 9, 8, 7, 6.
+   6.85 We have main engine start, 4, 3, 2, 1, and liftoff!
+  14.62 Seventy-three seconds.
+  16.28 That is how long this flight would last.
+  18.80 And the night before, the engineers who built its rockets begged NASA not to launch.
+  23.88 They were overruled.
+  24.90 This is the story of the warning that was ignored, and the tiny rubber ring that brought down the space shuttle Challenger.
+  33.42 January 1986.
+  35.58 America had flown the space shuttle twenty-four times, and launches had started to feel routine.
+  41.02 But this mission was different.
+  42.86 On board was Christa McAuliffe, a high school social studies teacher from Concord, New Hampshire, chosen from more than eleven thousand applicants to become the first teacher in space.
+  53.56 She planned to teach lessons from orbit, live, to students across the country.
+  58.84 With her flew six astronauts: commander Dick Scobee, pilot Michael Smith, Judith Resnik, Ellison Onizuka, Ronald McNair, and Gregory Jarvis.
+  69.06 In classrooms across America, teachers rolled in televisions so their students could watch.
+  74.74 But that week, Florida was freezing.
+  77.36 Overnight, the temperature fell well below freezing, and icicles hung from the launch tower.
+  82.48 At launch time, it was just thirty-six degrees Fahrenheit, fifteen degrees colder than any shuttle had ever launched.
+  90.38 The danger was hidden inside the solid rocket boosters.
+  93.90 Each booster was built in segments, stacked on top of each other.
+  97.64 The joints between them were sealed by two rubber O-rings, each about a quarter of an inch thick.
+ 102.90 At ignition, those rings had to flex instantly, sealing in gases hotter than five thousand degrees.
+ 108.82 But cold rubber turns stiff.
+ 111.74 And stiff rubber cannot seal.
+ 114.04 The engineers at Morton Thiokol, the company that built the boosters, knew this.
+ 119.68 On earlier flights, hot gas had already scorched and eaten into these seals.
+ 124.72 Six months before, engineer Roger Boisjoly had warned in a memo that the problem could lead to a catastrophe of the highest order.
+ 133.36 On the night of January twenty-seventh, in a tense teleconference, Thiokol's engineers recommended no launch below fifty-three degrees.
+ 142.40 NASA managers pushed back.
+ 144.38 One reportedly asked: when do you want me to launch, next April?
+ 148.76 Thiokol's managers went offline.
+ 151.46 One senior manager told the head of engineering to take off his engineering hat, and put on his management hat.
+ 157.86 They reversed their own engineers, and approved the launch.
+ 161.70 Engineer Allan McDonald refused to sign it.
+ 164.06 The next morning, at eleven thirty-eight, Challenger lifted off.
+ 168.30 What no one saw at the time was this.
+ 170.88 Less than one second after ignition, puffs of black smoke streamed from a joint on the right booster.
+ 176.76 The cold O-rings had failed to seal.
+ 179.40 For a moment, burned aluminum from the fuel plugged the gap, like a temporary patch.
+ 184.62 And Challenger climbed on.
+ 186.84 Then the shuttle flew into the strongest wind shear of the entire shuttle program, shaking the whole vehicle.
+ 193.46 At fifty-eight seconds, the patch gave way.
+ 196.42 A flame burst from the joint, like a blowtorch, aimed straight at the giant external fuel tank.
+ 203.36 Engines throttling up, three engines now at 104 percent.
+ 205.76 "Challenger, go at throttle up."
+ 209.00 Seconds later, the flame burned through.
+ 212.12 Seventy-three seconds after liftoff, Challenger broke apart, nearly nine miles above the Atlantic, while the crew's families, and classrooms across America, watched.
+ 222.96 Flight controllers here looking very carefully at the situation.
+ 227.76 "Obviously a major malfunction."
+ 230.36 All seven crew members were lost.
+ 234.86 President Reagan appointed a commission to find out why.
+ 237.82 Its most famous moment came from physicist Richard Feynman.
+ 241.70 At a televised hearing, he squeezed a piece of O-ring rubber in a clamp, and dropped it into a glass of ice water.
+ 248.24 When he released it, the rubber did not spring back.
+ 251.90 In the cold, it simply could not seal.
+ 254.88 The commission's verdict was clear.
+ 257.06 The disaster was caused by the failure of the O-ring seals.
+ 261.02 And the decision to launch was flawed.
+ 263.46 The warnings had existed for months.
+ 265.90 They never reached the people who made the final call.
+ 268.96 The shuttle fleet was grounded for nearly three years.
+ 272.40 The boosters were redesigned with a third O-ring and heaters to keep the joints warm, and NASA created a new independent safety office.
+ 281.38 In September 1988, Discovery returned the shuttle to flight.
+ 286.50 Feynman ended his report with a sentence engineers still quote today: for a successful technology, reality must take precedence over public relations, for nature cannot be fooled.
+ 298.82 Seventy-three seconds.
+ 300.34 Seven lives.
+ 301.64 And one warning that should have been heard.
+ 304.08 The crew of Challenger reached for the stars, and the lessons they left behind still protect every astronaut who flies today.
+ 311.72 If this story moved you, hit like, and subscribe to Wrecklore for more true stories of the disasters that changed engineering forever.
+ 319.98 And tell us in the comments: where were you, or your parents, when Challenger launched?
