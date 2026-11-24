@@ -16,7 +16,9 @@ def F(t0, key, ss=0.0): sh(t0, 'full', clip=dict(src=key, ss=ss), src=SRC3)
 NTSB = 'NTSB (public domain)'
 
 # ================= HOOK =================
-sh(0.0, 'head', lines=['NOVEMBER 4, 2025'], accent=0, fs=150, at=[0.1], sub='Louisville, Kentucky · 5:12 p.m.', subAt=1.2)
+DV = 'U.S. Air National Guard photo by Phil Speck · DVIDS (public domain)'
+sh(0.0, 'box', src=DV, boxes=[I('dvids_fire_foam.jpg', A169, cap='Louisville, Kentucky · the night of the crash', push=0.08, at=0.0)],
+   notes=[N('NOVEMBER 4, 2025', NX, 300, 0.25, 'yellow', size=64), N('5:12 p.m.', NX, 400, 1.3, 'white', size=54)])
 F(3.52, 'A1')                                                          # takeoff roll, rotation, engine tears off
 F(13.74, 'A3')                                                         # staggering on, toward the fence
 sh(18.3, 'head', lines=['The part that broke', 'had FAILED BEFORE.'], accent=1, acol='red', fs=130, at=[18.4, S('failed', 21) - 0.3])
@@ -51,11 +53,14 @@ sh(108.08, 'blueprint', kind='structure', title='How high it got (not to scale)'
    labels=[dict(text='control tower ≈ 200 ft', x=1500, y=280, at=108.8, color='yellow', size=44, align='center'),
            dict(text='Flight 2976: about 30 ft', x=900, y=680, at=S('thirty', 110), color='red', size=56, align='center')])
 F(112.52, 'D')                                                         # aerial: fence, warehouse roof, storage yard
+sh(S('storage', 121) - 0.15, 'box', src=DV, boxes=[I('dvids_tanks.jpg', A169, cap='The petroleum recycling facility after the crash', push=0.07)],
+   notes=[N('storage yard &', NX, 280, S('storage', 121) + 0.2, 'white', size=48), N('recycling facility', NX, 350, S('recycling', 122) - 0.2, 'red', size=56)])
 sh(126.6, 'counter', steps=[dict(value=19, label='seconds after the engine separated', at=126.7, dur=1.0, accent=True)], fs=300)
 sh(130.82, 'list', items=[dict(text='3 pilots', at=S('pilots', 131.5) - 0.2), dict(text='11 people on the ground', at=S('eleven', 133) - 0.2),
                           dict(text='1 more, weeks later', at=S('fifteenth', 136) - 0.2, accent=True)], fs=110)
 # ================= THE PART =================
-sh(139.48, 'head', lines=['What could tear an engine', 'off a jet?'], accent=1, acol='yellow', fs=120, at=[139.5, S('off', 140.5)])
+sh(139.48, 'box', src=DV, boxes=[I('dvids_wreck_engine.jpg', A169, cap='Kentucky National Guard team at the crash site, Nov 5, 2025', push=0.07, origin='60% 40%')],
+   notes=[N('What could tear', NX, 260, 139.6, 'white', size=58), N('an engine off a jet?', NX, 340, S('off', 140.5) - 0.2, 'yellow', size=58)])
 sh(142.0, 'box', src='NTSB preliminary report, fig. 10',
    boxes=[I('ntsb_bearing_parts.jpg', A169, cap='Recovered by the NTSB: the aft mount bearing and hardware', push=0.07)],
    notes=[N('one small part', NX, 330, S('small', 143.5) - 0.3, 'yellow', size=60)])
@@ -103,14 +108,17 @@ sh(283.72, 'saiddid', lk='THE CAUSE IN 1979', said=['A maintenance', 'shortcut']
    rk='THE RESULT', did=['Engine leaves', 'the wing'], didAt=S('result', 289) - 0.2, sfs=100, dfs=100)
 # ================= AFTERMATH =================
 F(293.9, 'C2', 0.0)                                                     # the fleet grounded
-sh(301.74, 'list', items=[dict(text='Nov 2025 · MD-11 & DC-10 grounded', at=301.8),
-                         dict(text='Jan 2026 · UPS retires its MD-11s', at=S('retired', 304) - 0.3),
-                         dict(text='May 2026 · MD-11 cleared to fly', at=S('allowed', 312) - 0.3, accent=True)], fs=78)
+sh(301.74, 'box', src=DV, boxes=[I('dvids_wreckage_field.jpg', A169, cap='Louisville, November 5, 2025', push=0.06)],
+   notes=[N('Nov 2025: MD-11 & DC-10 grounded', NX, 250, 301.85, 'white', size=40, w=620),
+          N('Jan 2026: UPS retires its MD-11s', NX, 360, S('retired', 304) - 0.3, 'yellow', size=40, w=620),
+          N('May 2026: MD-11 cleared to fly', NX, 470, S('allowed', 312) - 0.3, 'red', size=40, w=620)])
 sh(316.06, 'doc', header='NTSB · AVIATION INVESTIGATION DCA26MA024', body='Final report and probable cause: [[STILL TO COME]]', hlAt=S('still', 319) - 0.2, fs=56)
 sh(323.04, 'counter', steps=[dict(value=19, label='seconds', at=323.1, dur=0.6), dict(value=15, label='lives', at=S('Fifteen', 324) - 0.1, dur=0.5, accent=True)], fs=300)
 sh(S('warning', 325.5) - 0.2, 'head', lines=['A warning, 14 years early:', '"nothing to worry about."'], accent=1, acol='red', fs=96,
    at=[S('warning', 325.5), S('nothing', 330) - 0.2])
-F(332.84, 'C2', 1.0)
+sh(332.84, 'box', src=DV, boxes=[I('dvids_wreck_survey.jpg', A169, cap='The crash site, November 5, 2025', push=0.06)],
+   notes=[N('the most dangerous failures', NX, 280, S('dangerous', 334) - 0.3, 'white', size=46, w=600), N('= the ones we decided', NX, 360, S('decided', 337) - 0.3, 'yellow', size=46, w=600),
+          N('are harmless', NX, 440, S('harmless', 338) - 0.3, 'red', size=56)])
 sh(339.12, 'title', lines=['Subscribe to', 'Wrecklore'], kicker='When the final report drops, we break it down', sub='Should jets this old still be flying?')
 END = 357.0
 
@@ -125,7 +133,7 @@ music = [dict(file='audio/m_Action_Investigation.wav', start=0.0, dur=31.0, vol=
 # ---------- sound effects (original, synthesized) ----------
 X = lambda f, t, v, **k: dict(file=f'audio/sfx/{f}.wav', t=round(t, 2), vol=v, **k)
 sep1, sep2 = S('tears', 10.5), S('entire', 81)
-sfx = [X('hit', 0.0, 0.5), X('whoosh', 3.2, 0.35), X('jet_roll', 3.5, 0.55),
+sfx = [X('hit', 0.0, 0.5), X('shutter', 0.05, 0.4), X('fire_bed', 0.0, 0.18, dur=3.6), X('whoosh', 3.2, 0.35), X('jet_roll', 3.5, 0.55),
        X('metal_tear', sep1 - 0.15, 0.75), X('hit', sep1 - 0.1, 0.6), X('flame_burst', sep1 + 0.3, 0.55), X('fire_bed', sep1 + 0.5, 0.25, dur=7.0),
        X('boom', S('down', 16.5), 0.55), X('heartbeat', 19.0, 0.5), X('heartbeat', 20.0, 0.5), X('heartbeat', 21.0, 0.5), X('stamp', S('failed', 21) - 0.25, 0.5),
        X('heartbeat', 22.0, 0.45), X('heartbeat', 23.0, 0.45), X('whoosh', 23.0, 0.3), X('riser', 25.0, 0.45), X('hit', 30.0, 0.6), X('whoosh', 29.7, 0.4),

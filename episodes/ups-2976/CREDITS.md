@@ -5,6 +5,11 @@
 |---|---|---|
 | 3D animated reconstruction (takeoff, engine separation, aerial path, pylon mount and bearing) | Original work, Wrecklore, made with three.js; generic aircraft model with no airline livery; labelled "illustrative" on screen | Original |
 | Diagrams, titles, counters, timelines, charts | Original work, Wrecklore | Original |
+| media/dvids_fire_foam.jpg | DVIDS image 9379376 — Kentucky Air Guard firefighters deploy foam, Nov 4, 2025 (U.S. Air National Guard photo by Phil Speck) | Marked PUBLIC DOMAIN on DVIDS |
+| media/dvids_tanks.jpg | DVIDS image 9379934 — 41st Civil Support Team at the recycling facility, Nov 5, 2025 (Phil Speck) | Public domain (DVIDS) |
+| media/dvids_wreck_engine.jpg | DVIDS image 9379938 — air-quality testing at the crash site, Nov 5, 2025 (Phil Speck) | Public domain (DVIDS) |
+| media/dvids_wreckage_field.jpg | DVIDS image 9379936 — survey of the crash site, Nov 5, 2025 (Phil Speck) | Public domain (DVIDS) |
+| media/dvids_wreck_survey.jpg | DVIDS image 9379935 — survey of the crash site, Nov 5, 2025 (Phil Speck) | Public domain (DVIDS) |
 | media/ntsb_bearing_parts.jpg | NTSB Preliminary Report DCA26MA024, fig. 10 | U.S. government work (NTSB), public domain |
 | media/ntsb_race_split.jpg | NTSB Aircraft Accident Investigative Update (Jan 14, 2026), fig. 2 | U.S. government work, public domain |
 | media/ntsb_pylon_lugs.jpg | NTSB Preliminary Report, fig. 7 | U.S. government work, public domain |

@@ -14,14 +14,14 @@ const lerp = (a, b, k) => a + (b - a) * k;
 function rng(seed) { let s = seed >>> 0; return () => { s += 0x6D2B79F5; let r = Math.imul(s ^ (s >>> 15), 1 | s); r ^= r + Math.imul(r ^ (r >>> 7), 61 | r); return ((r ^ (r >>> 14)) >>> 0) / 4294967296; }; }
 
 // ---------------- renderer ----------------
-const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true, logarithmicDepthBuffer: true });
 renderer.setSize(W, H); renderer.setPixelRatio(1);
 renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.05;
 renderer.outputColorSpace = THREE.SRGBColorSpace;
 document.body.prepend(renderer.domElement);
 const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(35, W / H, 0.02, 30000);
+const camera = new THREE.PerspectiveCamera(35, W / H, Q.get('scene')?.startsWith('B') ? 0.02 : 0.5, 30000);
 const pmrem = new THREE.PMREMGenerator(renderer);
 scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
 
@@ -162,13 +162,13 @@ function world() {
   const ground = new THREE.Mesh(new THREE.PlaneGeometry(30000, 30000), new THREE.MeshStandardMaterial({ map: tex, roughness: 1 }));
   ground.rotation.x = -Math.PI / 2; ground.receiveShadow = true; scene.add(ground);
   // runway 3,300 m x 45 m from x=-2500 to x=800, markings and edge lights
-  const rw = new THREE.Mesh(new THREE.PlaneGeometry(3300, 45), new THREE.MeshStandardMaterial({ color: 0x2c2d31, roughness: 0.95 }));
-  rw.rotation.x = -Math.PI / 2; rw.position.set(-850, 0.02, 0); rw.receiveShadow = true; scene.add(rw);
-  const white = new THREE.MeshStandardMaterial({ color: 0xe8e6df, roughness: 0.8 });
+  const rw = new THREE.Mesh(new THREE.PlaneGeometry(3300, 45), new THREE.MeshStandardMaterial({ color: 0x2c2d31, roughness: 0.95, polygonOffset: true, polygonOffsetFactor: -2, polygonOffsetUnits: -2 }));
+  rw.rotation.x = -Math.PI / 2; rw.position.set(-850, 0.08, 0); rw.receiveShadow = true; scene.add(rw);
+  const white = new THREE.MeshStandardMaterial({ color: 0xe8e6df, roughness: 0.8, polygonOffset: true, polygonOffsetFactor: -4, polygonOffsetUnits: -4 });
   const dash = new THREE.InstancedMesh(new THREE.PlaneGeometry(30, 0.9), white, 60);
   const m4 = new THREE.Matrix4(), q = new THREE.Quaternion().setFromEuler(new THREE.Euler(-Math.PI / 2, 0, 0)), s1 = new THREE.Vector3(1, 1, 1);
-  for (let i = 0; i < 55; i++) { m4.compose(new THREE.Vector3(-2450 + i * 60, 0.04, 0), q, s1); dash.setMatrixAt(i, m4); } dash.receiveShadow = true; scene.add(dash);
-  for (const z of [-21.5, 21.5]) { const e = new THREE.Mesh(new THREE.PlaneGeometry(3300, 0.9), white); e.rotation.x = -Math.PI / 2; e.position.set(-850, 0.04, z); e.receiveShadow = true; scene.add(e); }
+  for (let i = 0; i < 55; i++) { m4.compose(new THREE.Vector3(-2450 + i * 60, 0.16, 0), q, s1); dash.setMatrixAt(i, m4); } dash.receiveShadow = true; scene.add(dash);
+  for (const z of [-21.5, 21.5]) { const e = new THREE.Mesh(new THREE.PlaneGeometry(3300, 0.9), white); e.rotation.x = -Math.PI / 2; e.position.set(-850, 0.16, z); e.receiveShadow = true; scene.add(e); }
   const lightMat = new THREE.MeshBasicMaterial({ color: 0xfff1c9 });
   const lights = new THREE.InstancedMesh(new THREE.SphereGeometry(0.35, 8, 6), lightMat, 240); let li = 0;
   for (let i = 0; i < 110; i++) for (const z of [-24, 24]) { m4.compose(new THREE.Vector3(-2500 + i * 30, 0.35, z), new THREE.Quaternion(), s1); lights.setMatrixAt(li++, m4); }
