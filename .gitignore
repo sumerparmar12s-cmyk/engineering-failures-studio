@@ -1,2 +1,8 @@
 .toolchain/
 __pycache__/
+episodes/*/real/
+episodes/*/out/
+episodes/*/chunks/
+episodes/*/work/
+episodes/*/vo/*.wav
+episodes/*/audio/*.wav
