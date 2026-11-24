@@ -163,15 +163,15 @@ function world() {
   ground.rotation.x = -Math.PI / 2; ground.receiveShadow = true; scene.add(ground);
   // runway 3,300 m x 45 m from x=-2500 to x=800, markings and edge lights
   const rw = new THREE.Mesh(new THREE.PlaneGeometry(3300, 45), new THREE.MeshStandardMaterial({ color: 0x2c2d31, roughness: 0.95, polygonOffset: true, polygonOffsetFactor: -2, polygonOffsetUnits: -2 }));
-  rw.rotation.x = -Math.PI / 2; rw.position.set(-850, 0.08, 0); rw.receiveShadow = true; scene.add(rw);
+  rw.rotation.x = -Math.PI / 2; rw.position.set(-850, 0.35, 0); rw.receiveShadow = true; scene.add(rw);
   const white = new THREE.MeshStandardMaterial({ color: 0xe8e6df, roughness: 0.8, polygonOffset: true, polygonOffsetFactor: -4, polygonOffsetUnits: -4 });
   const dash = new THREE.InstancedMesh(new THREE.PlaneGeometry(30, 0.9), white, 60);
   const m4 = new THREE.Matrix4(), q = new THREE.Quaternion().setFromEuler(new THREE.Euler(-Math.PI / 2, 0, 0)), s1 = new THREE.Vector3(1, 1, 1);
-  for (let i = 0; i < 55; i++) { m4.compose(new THREE.Vector3(-2450 + i * 60, 0.16, 0), q, s1); dash.setMatrixAt(i, m4); } dash.receiveShadow = true; scene.add(dash);
-  for (const z of [-21.5, 21.5]) { const e = new THREE.Mesh(new THREE.PlaneGeometry(3300, 0.9), white); e.rotation.x = -Math.PI / 2; e.position.set(-850, 0.16, z); e.receiveShadow = true; scene.add(e); }
+  for (let i = 0; i < 55; i++) { m4.compose(new THREE.Vector3(-2450 + i * 60, 0.5, 0), q, s1); dash.setMatrixAt(i, m4); } dash.receiveShadow = true; scene.add(dash);
+  for (const z of [-21.5, 21.5]) { const e = new THREE.Mesh(new THREE.PlaneGeometry(3300, 0.9), white); e.rotation.x = -Math.PI / 2; e.position.set(-850, 0.5, z); e.receiveShadow = true; scene.add(e); }
   const lightMat = new THREE.MeshBasicMaterial({ color: 0xfff1c9 });
   const lights = new THREE.InstancedMesh(new THREE.SphereGeometry(0.35, 8, 6), lightMat, 240); let li = 0;
-  for (let i = 0; i < 110; i++) for (const z of [-24, 24]) { m4.compose(new THREE.Vector3(-2500 + i * 30, 0.35, z), new THREE.Quaternion(), s1); lights.setMatrixAt(li++, m4); }
+  for (let i = 0; i < 110; i++) for (const z of [-24, 24]) { m4.compose(new THREE.Vector3(-2500 + i * 30, 0.7, z), new THREE.Quaternion(), s1); lights.setMatrixAt(li++, m4); }
   lights.count = li; scene.add(lights);
   // blast fence, warehouses, storage yard, tanks, tower, tree lines
   const gray = new THREE.MeshStandardMaterial({ color: 0xa9a59c, roughness: 0.9 }), roof = new THREE.MeshStandardMaterial({ color: 0xc9c7c0, roughness: 0.8 });
