@@ -143,7 +143,7 @@ T += [AI(373.2, 'd07_seabed_bop', trans='leak', grade='cold', zoom=(1.0, 1.15)),
 ]
 # ============================ ESCAPE ============================
 T += [AI(416.72, 'd11_lifeboat', trans='push', grade='fire', zoom=(1.0, 1.12)),
-      AI(428.2, 'd12_jump_sea', trans='flash', grade='fire', zoom=(1.15, 1.0)),
+      AI(428.2, 'd10_explosion_night', ss=1.5, trans='flash', grade='fire', zoom=(1.3, 1.1)),
       AI(433.0, 'd13_supply_boat', grade='night', zoom=(1.0, 1.12), ov=[O.lower('Damon B. Bankston', 'offshore supply vessel', 433.4, until=442.8)]),
       ST(443.16, 't07_lifeboat_sea', grade='night', kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.2)), ov=[O.label('11:45 PM · THE LIFEBOATS ARE EMPTY', W // 2, 840, 443.4, anchor='mm', size=46, bg=False)]),
       V3(446.98, nohud=True, ov=[STAT(447.1, 0, 11, 'men missing', dur=0.8)]),
