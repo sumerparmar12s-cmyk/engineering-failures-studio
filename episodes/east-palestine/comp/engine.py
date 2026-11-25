@@ -283,7 +283,7 @@ class Shot:
     def __init__(self, t0, src, grade='film', trans='cut', ov=None, src_tag=None, ai=False, grain=5.0, **k):
         self.t0, self.src, self.grade, self.trans, self.ov, self.k, self.grain = t0, src, grade, trans, list(ov or []), k, grain
         tagtext = 'AI visualization' if ai else src_tag
-        if tagtext: self.ov.append(O.tag(tagtext))
+        if tagtext and not any(o['k'] == 'tag' for o in self.ov): self.ov.append(O.tag(tagtext))
         self.r = None
 
     def setup(self, t1):
@@ -324,20 +324,31 @@ class Shot:
             a = np.asarray(base).astype(np.int16)
             m = (a[..., 0] > 170) & (a[..., 1] > 90) & (a[..., 1] < 200) & (a[..., 2] < 110) & (a[..., 0] - a[..., 2] > 90)
             self.m = m; self.ys, self.xs = np.nonzero(m)
-            hidden = a.copy(); bgc = np.median(a[~m].reshape(-1, 3)[::97], axis=0) if False else None
-            # hide route: replace with average of pixels 10 px above (map background)
-            up = np.roll(a, 12, axis=0); hidden[m] = up[m]
+            hidden = a.copy(); mm = m.copy()
+            for _ in range(3): mm = mm | np.roll(mm, 1, 0) | np.roll(mm, -1, 0) | np.roll(mm, 1, 1) | np.roll(mm, -1, 1)
+            up = np.roll(a, 16, axis=0); hidden[mm] = up[mm]; self.m = mm
             self.hidden = hidden.astype(np.uint8); self.full = a.astype(np.uint8)
         rv = clamp((t - k['rev'][0]) / (k['rev'][1] - k['rev'][0]))
-        xs = self.xs; xmin, xmax = xs.min(), xs.max(); xr = xmin + (xmax - xmin) * ease(rv)
+        xs = self.xs; xmin, xmax = k.get('xr', (xs.min(), xs.max())); xr = xmin + (xmax - xmin) * ease(rv)
         out = self.hidden.copy(); sel = self.m & (np.arange(self.m.shape[1])[None, :] <= xr)
         out[sel] = self.full[sel]
         im = Image.fromarray(out)
         # glowing head
         col = self.ys[np.abs(xs - xr) < 4]
+        if len(col): self.lastcol = col
+        elif hasattr(self, 'lastcol'): col = self.lastcol
         if len(col) and rv < 1:
             hy = col.mean(); d = ImageDraw.Draw(im)
             for r, a in ((26, 60), (16, 120), (8, 255)): d.ellipse([xr - r, hy - r, xr + r, hy + r], fill=(255, 220, 120))
+        d = ImageDraw.Draw(im)
+        for (mx, my, text, at, colr) in k.get('marks', []):      # map-space markers: pulsing ring + label, move with the map
+            if t < at: continue
+            p = eout((t - at) / 0.35); pr = 18 + 10 * (0.5 + 0.5 * math.sin((t - at) * 6))
+            d.ellipse([mx - pr, my - pr, mx + pr, my + pr], outline=colr, width=6)
+            f = font('oswald', 46); lines = text.split('\n'); ly = my - 70 - 56 * (len(lines) - 1)
+            wmax = max(f.getlength(l) for l in lines)
+            d.rectangle([mx - wmax / 2 - 16, ly - 10, mx + wmax / 2 + 16, ly + 56 * len(lines) + 4], fill=(15, 15, 18))
+            for i, l in enumerate(lines): d.text((mx, ly + 56 * i + (1 - p) * 12), l, font=f, fill=colr if i == 0 else (255, 255, 255), anchor='ma')
         a, b = k.get('kb', ((0.5, 0.5, 1.0), (0.5, 0.5, 1.1)))
         if k.get('follow') and len(col):
             fx = xr / im.width; fy = col.mean() / im.height; z = lerp(a[2], b[2], ease(u))
