@@ -40,7 +40,7 @@ if N == 1:
          AI(47.38, 'd01_rig_fireball', ss=1.0, trans='glitch', grade='fire', zoom=(1.0, 1.25), ov=[O.label('WOULD YOU HAVE SENT THEM HOME?', W // 2, 420, 47.5, anchor='mm', color=WHITE, size=60)])]
 elif N == 2:
     END = 52.5
-    T = [ST(0.0, 't05_gauge_1400', grade='night', kb=((0.5, 0.5, 1.4), (0.5, 0.5, 1.0)), ov=[LAB('1,400 PSI', 0.2, RED, size=90)]),
+    T = [ST(0.0, 't05_gauge_1400_1', grade='night', kb=((0.5, 0.5, 1.4), (0.5, 0.5, 1.0)), ov=[LAB('1,400 PSI', 0.2, RED, size=90)]),
          ST(3.36, 't04_control_room', trans='glitch', grade='night', kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.2)), ov=[O.dark(3.4, amount=0.45), O.punch('"BLADDER\nEFFECT"', 3.5, color=[ORANGE, ORANGE], size=170, y=520)]),
          IMG(5.78, 'media/uscg_rig_burning.png', CG, mode='upscale', grade='fire', kb=((0.5, 0.5, 1.0), (0.45, 0.5, 1.2)), trans='flash', ov=[STAT(5.9, 0, 11, 'men died', dur=0.6)]),
          AI(7.7, 'd02_rig_dusk', trans='push', grade='film', zoom=(1.0, 1.15), ov=[LAB('APRIL 20, 2010', 7.9, ORANGE)]),
@@ -55,7 +55,7 @@ elif N == 2:
          V3(40.26, src_tag='Diagram · not to scale', ov=[X(k='well', at=40.26, disp=(40.0, 40.3), gas=(40.3, 42.0), cement_fail=40.3, labels=[('THE WELL WAS FLOWING', 1020, 300, 40.6, RED)])]),
          AI(42.08, 'd10_explosion_night', trans='flash', grade='fire', zoom=(1.0, 1.3)),
          AI(46.72, 'd01_rig_fireball', grade='fire', zoom=(1.0, 1.2), ov=[LAB('FULL STORY ON THE CHANNEL', 46.9, TEAL)]),
-         ST(48.4, 't05_gauge_1400', trans='glitch', grade='night', kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.4)), ov=[O.label('WOULD YOU HAVE\nSTOPPED THE JOB?', W // 2, 420, 48.5, anchor='mm', color=WHITE, size=62)])]
+         ST(48.4, 't05_gauge_1400_1', trans='glitch', grade='night', kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.4)), ov=[O.label('WOULD YOU HAVE\nSTOPPED THE JOB?', W // 2, 420, 48.5, anchor='mm', color=WHITE, size=62)])]
 else:
     END = 53.3
     T = [AI(0.0, 'd07_seabed_bop', grade='cold', zoom=(1.3, 1.0), ov=[LAB('400 TONS · ONE JOB', 0.3, ORANGE, size=70)]),
@@ -80,8 +80,16 @@ def captions(img, t, fi, sh):
         g = WORDS[i:i + 3]
         if g[0]['s'] - 0.05 <= t <= g[-1]['e'] + 0.25: cur = g
     if not cur: return img
-    d = ImageDraw.Draw(img); f = font('bebas', 112); words = [x['w'].upper() for x in cur]
-    sp = 26; widths = [f.getlength(w) for w in words]; tot = sum(widths) + sp * (len(words) - 1); x = (W - tot) / 2; y = int(H * 0.70)
+    words = [x['w'].upper() for x in cur]; fs = 112
+    while True:
+        f = font('bebas', fs); sp = 26; widths = [f.getlength(w) for w in words]; tot = sum(widths) + sp * (len(words) - 1)
+        if tot <= W - 120 or fs <= 70: break
+        fs -= 6
+    x = (W - tot) / 2; y = int(H * 0.70)
+    # soft dark band so captions stay readable over white report pages
+    band = Image.new('L', img.size, 0); ImageDraw.Draw(band).rounded_rectangle([int(x) - 34, y - 14, int(x + tot) + 34, y + fs + 18], radius=26, fill=150)
+    img.paste((0, 0, 0), (0, 0), band)
+    d = ImageDraw.Draw(img)
     for w, wd, x0 in zip(words, widths, [x + sum(widths[:j]) + sp * j for j in range(len(words))]):
         on = any(c['w'].upper() == w and c['s'] <= t for c in cur) and t <= max(c['e'] for c in cur if c['w'].upper() == w) + 0.15
         d.text((x0, y), w, font=f, fill=(255, 214, 64) if on else (255, 255, 255), stroke_width=8, stroke_fill=(0, 0, 0))
@@ -90,4 +98,4 @@ def captions(img, t, fi, sh):
     return img
 
 if __name__ == '__main__':
-    render(T, END, sys.argv[2], 0.0, END, log=True, post=captions)
+    render(T, END, sys.argv[2], float(os.environ.get('T0', 0)), float(os.environ.get('T1', END)), log=True, post=captions)
