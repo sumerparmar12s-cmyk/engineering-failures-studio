@@ -98,6 +98,8 @@ def _well(d, lay, o, t, a, A, fi):
         if t >= at:
             p = eout((t - at) / 0.3); ff = font('oswald', 38)
             d.line([(x, y + 20), (cx + (30 if x > cx else -30), y + 20)], fill=col + (int(A * p),), width=2)
+            if x > cx: x = min(x, W - 40 - ff.getlength(txt))
+            else: x = max(x, 40 + ff.getlength(txt))
             d.text((x, y), txt, font=ff, fill=col + (int(A * p),), anchor='ra' if x < cx else 'la')
 EXTRA['well'] = _well
 

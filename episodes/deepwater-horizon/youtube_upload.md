@@ -10,7 +10,7 @@ Alternatives:
 ## Description
 On April 20, 2010, executives flew out to the Deepwater Horizon to praise one of the best-performing rigs in the Gulf of Mexico: seven years without a lost-time incident. That same night, the rig exploded, eleven men were killed, and oil poured into the Gulf for 87 days. The warning was right there on a pressure gauge, hours earlier. So why did the crew explain it away?
 
-From a cement job that "went well," to the $128,000 check that was sent home on a helicopter, a test that read 1,400 psi, a "bladder effect" that doesn't exist, mud shooting up the derrick, a 400-ton blowout preventer that couldn't seal the well, and the supply ship that pulled survivors from the sea — this is the full story of the last 16 hours of the Deepwater Horizon.
+From a cement job that "went well," to the cement-testing team sent home on a helicopter to save $128,000, a test that read 1,400 psi, a "bladder effect" that doesn't exist, mud shooting up the derrick, a 400-ton blowout preventer that couldn't seal the well, and the supply ship that pulled survivors from the sea — this is the full story of the last 16 hours of the Deepwater Horizon.
 
 Chapters:
 0:00 The Safest Rig in the Gulf
