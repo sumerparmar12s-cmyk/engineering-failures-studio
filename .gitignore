@@ -20,3 +20,5 @@ episodes/*/ai/gen.log
 episodes/*/comp/cache/
 episodes/*/ai/gen*.log
 episodes/*/comp/prep.log
+episodes/*/docs/*.pdf
+episodes/*/shorts/*/work/
