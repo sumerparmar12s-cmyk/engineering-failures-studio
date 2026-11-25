@@ -377,11 +377,11 @@ def github_issue(title, body):
     h = {"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json"}
     url = f"https://api.github.com/repos/{repo}/issues"
     try:
-        existing = requests.get(url, headers=h, params={"labels": "signal", "state": "all", "per_page": 100},
+        existing = requests.get(url, headers=h, params={"state": "all", "per_page": 100},
                                 timeout=20).json()
         if any(i.get("title") == title for i in existing if isinstance(i, dict)):
             return
-        requests.post(url, headers=h, json={"title": title, "body": body, "labels": ["signal"]}, timeout=20)
+        requests.post(url, headers=h, json={"title": title, "body": body}, timeout=20)
     except requests.RequestException as e:
         print("GitHub issue error:", e, file=sys.stderr)
 
