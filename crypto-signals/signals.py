@@ -369,7 +369,39 @@ def telegram(text):
         print("Telegram error:", e, file=sys.stderr)
 
 
+def github_issue(title, body):
+    """When running inside GitHub Actions: open an Issue (GitHub emails/notifies the repo owner)."""
+    tok, repo = os.getenv("GITHUB_TOKEN"), os.getenv("GITHUB_REPOSITORY")
+    if not (tok and repo):
+        return
+    h = {"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json"}
+    url = f"https://api.github.com/repos/{repo}/issues"
+    try:
+        existing = requests.get(url, headers=h, params={"labels": "signal", "state": "all", "per_page": 100},
+                                timeout=20).json()
+        if any(i.get("title") == title for i in existing if isinstance(i, dict)):
+            return
+        requests.post(url, headers=h, json={"title": title, "body": body, "labels": ["signal"]}, timeout=20)
+    except requests.RequestException as e:
+        print("GitHub issue error:", e, file=sys.stderr)
+
+
+def step_summary(results):
+    path = os.getenv("GITHUB_STEP_SUMMARY")
+    if not path:
+        return
+    rows = ["| Coin | Price | Trend | RSI | Signal | Entry | SL | T1 | T2 |", "|---|---|---|---|---|---|---|---|---|"]
+    for a in results:
+        s = a["signal"]
+        sig = f"**{s['side']}** {s['setup']}" if s else "wait"
+        nums = [fmt(s[k]) for k in ("entry", "sl", "t1", "t2")] if s else ["", "", "", ""]
+        rows.append(f"| {a['symbol']} | {fmt(a['price'])} | {a['trend']} | {a['rsi']:.0f} | {sig} | " + " | ".join(nums) + " |")
+    with open(path, "a", encoding="utf-8") as f:
+        f.write("\n".join(rows) + "\n\n_Not financial advice. Risk max 1% per trade._\n")
+
+
 def alert_new(results, state_path):
+    step_summary(results)
     try:
         with open(state_path) as f:
             seen = json.load(f)
@@ -391,6 +423,7 @@ def alert_new(results, state_path):
                f"Not financial advice. Risk max 1% per trade.")
         print("\nALERT:\n" + msg)
         telegram(msg)
+        github_issue(f"{s['side']} {a['symbol']} @ {fmt(s['entry'])} — {s['time']:%Y-%m-%d %H:%M} UTC", msg)
     with open(state_path, "w") as f:
         json.dump(seen, f)
 

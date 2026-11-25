@@ -1,0 +1,30 @@
+name: Crypto Signals
+
+on:
+  schedule:
+    - cron: "7 0,4,8,12,16,20 * * *"   # 7 min after every 4h candle closes (UTC)
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pandas numpy requests
+      - name: Analyse + alert
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python crypto-signals/signals.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: report
+          path: crypto-signals/report.html
