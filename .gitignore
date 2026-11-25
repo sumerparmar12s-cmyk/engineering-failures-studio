@@ -14,3 +14,7 @@ episodes/*/thumb/*.jpg
 episodes/*/real3d/
 episodes/*/docs/
 episodes/*/work/
+episodes/*/ai/video/
+episodes/*/ai/still/
+episodes/*/ai/gen.log
+episodes/*/comp/cache/
