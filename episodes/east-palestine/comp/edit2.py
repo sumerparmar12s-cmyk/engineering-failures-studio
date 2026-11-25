@@ -16,7 +16,9 @@ def AI(t0, name, **k): return Shot(t0, ('ai', name), ai=True, **k)
 def IMG(t0, path, **k): return Shot(t0, ('img', path), **k)
 def V3(t0, name, ss=0.0, **k): return Shot(t0, ('vid', f'real3d/{name}.mp4'), ss=ss, src_tag=D3, zoom=(1.0, 1.0), **k)
 def STILL(t0, name, **k): return Shot(t0, ('img', f'ai/still/{name}.png'), mode='upscale', ai=True, **k)
-def DOC(t0, path, kb, **k): return Shot(t0, ('img', path), mode='cover', kb=kb, grade='paper', grain=3.0, src_tag=R, **k)
+def DOC(t0, path, kb, **k):
+    (a, b) = kb; kb = ((a[0], a[1], min(a[2], 1.25)), (b[0], b[1], min(b[2], 1.45)))   # keep the page readable
+    return Shot(t0, ('img', path), mode='cover', kb=kb, grade='paper', grain=3.0, src_tag=R, **k)
 
 # map canvas coordinates (contain canvas 2400x1350)
 HBD = dict(seb=(397, 494), sal=(1003, 647), ep=(2059, 878))
@@ -35,7 +37,7 @@ T += [AI(0.0, 'v02_town_smoke', trans='fade', grade='cold', zoom=(1.0, 1.08), ov
       STILL(28.9, 's13_wreck_day', grade='cold', kb=((0.5, 0.5, 1.0), (0.45, 0.55, 1.2)), ov=[O.dark(29.0, amount=0.3),
             O.quote('The only way to stop a massive explosion.', 29.2, who='what officials were told', hl=['massive explosion'], size=74)]),
       AI(34.18, 'v24_report_desk', grade='film', zoom=(1.0, 1.1), ov=[O.lower('NTSB final report', 'Railroad Investigation Report RIR-24-05 · June 2024', 34.6, until=39.1)]),
-      DOC(39.3, 'media/doc_notnecessary.png', ((0.5, 0.5, 1.0), (0.42, 0.46, 1.9)), trans='glitch', ov=[O.stamp('NEVER GOING TO HAPPEN', 40.2, x=1180, y=760, size=96)]),
+      DOC(39.3, 'media/doc_notnecessary.png', ((0.5, 0.5, 1.0), (0.42, 0.46, 1.9)), trans='glitch', ov=[O.stamp('NEVER GOING TO HAPPEN', 40.2, x=960, y=930, size=90, rot=-4)]),
       DOC(41.84, 'media/doc_oxyquote.png', ((0.5, 0.42, 1.25), (0.42, 0.33, 2.0)), ov=[O.label('THE CHEMICAL\'S MAKER, BEFORE THE BURN', 960, 120, 42.4, anchor='mm')]),
       AI(47.24, 'v23_crowd_watch', grade='cold', zoom=(1.0, 1.12), ov=[O.punch('SO WHY DID\nNO ONE LISTEN?', 47.4, color=[WHT, RED], size=170)]),
       AI(49.32, 'v05_wheel_sparks', trans='glitch', grade='fire', speed=0.8, ov=[O.type('3 DAYS EARLIER', 49.5, x=90, y=90, size=54), O.label('ONE TINY PART', 960, 920, S('tiny', 52.5) - 0.2, anchor='mm')]),
@@ -172,7 +174,7 @@ T += [AI(414.92, 'v21_meeting', trans='whip', grade='cold', zoom=(1.05, 1.0), ov
 T += [AI(522.12, 'v24_report_desk', trans='whip', grade='film', zoom=(1.0, 1.1), ov=[O.chapter(6, 'The Verdict', 522.2, until=525.8)]),
       IMG(526.0, 'media/doc_cover.png', mode='contain', grade='paper', src_tag=R, kb=((0.5, 0.4, 1.0), (0.5, 0.3, 1.3)), ov=[O.label('JUNE 25, 2024', 960, 950, 526.3, anchor='mm', color=RED, size=60)]),
       DOC(531.72, 'media/doc_notnecessary.png', ((0.5, 0.5, 1.0), (0.4, 0.46, 1.6))),
-      DOC(544.02, 'media/doc_notnecessary.png', ((0.4, 0.46, 1.6), (0.4, 0.46, 2.2)), ov=[O.stamp('NOT NECESSARY', S('necessary', 547.5) - 0.2, x=1250, y=760, size=130)]),
+      DOC(544.02, 'media/doc_notnecessary.png', ((0.4, 0.46, 1.6), (0.4, 0.46, 2.2)), ov=[O.stamp('NOT NECESSARY', S('necessary', 547.5) - 0.2, x=960, y=920, size=120, rot=-4)]),
       DOC(551.88, 'media/doc_compromised.png', ((0.5, 0.6, 1.1), (0.5, 0.72, 1.8))),
       Shot(563.86, ('img', 'media/doc_compromised.png'), mode='cover', grade='paper', src_tag=R, kb=((0.5, 0.72, 1.8), (0.5, 0.72, 2.0)),
            ov=[O.dark(563.9, amount=0.55), O.punch('"UNJUSTIFIED."', S('unjustified', 565) - 0.2, color=RED, size=210)]),
