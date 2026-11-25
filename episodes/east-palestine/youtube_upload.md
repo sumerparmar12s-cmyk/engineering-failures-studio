@@ -14,32 +14,31 @@ On February 6, 2023, officials in East Palestine, Ohio, blew open five tank cars
 From a 149-car freight train rolling through a small Ohio town on a Friday night, to one overheating wheel bearing caught on camera twenty miles too early, a "critical alarm" that came too late, 38 derailed cars, 2,000 people evacuated, a warning about "polymerization," the experts who were never invited into the room, and a fire chief given thirteen minutes to decide — this is the full story of the East Palestine train disaster.
 
 Chapters:
-0:00 Intro: Blow It Up — On Purpose
-1:01 Train 32N
-1:40 The 23rd Car Is on Fire
-2:19 The Detectors That Read Too Low
-2:51 But Wait… A Fire on Camera
-3:22 "Critical Alarm, Critical Alarm"
-3:31 38 Cars Off the Tracks
-3:52 Myth vs. Fact: Did the Crew Ignore It?
-4:18 A Town Evacuated
-4:44 The Vinyl Chloride Cars
-5:21 The Word That Changed Everything
-6:16 The Twist: The Chemical's Maker Said No
-6:56 The Meeting They Weren't Invited To
-7:37 Thirteen Minutes
+0:00 Blown Open — On Purpose
+0:56 East Palestine
+0:59 Chapter 1: The Train
+2:17 Chapter 2: The Warnings
+2:49 But Wait… A Fire on Camera
+3:20 "Critical Alarm, Critical Alarm"
+3:29 Chapter 3: The Crash
+3:50 Myth vs. Fact
+4:16 A Town Evacuated
+4:42 The Vinyl Chloride Cars
+5:15 Chapter 4: The Fear
+6:14 The Twist
+6:54 Chapter 5: The Room
+7:46 Thirteen Minutes
 8:10 4:37 p.m.
-8:42 The Verdict: "Not Necessary"
-9:28 More Problems the NTSB Found
-10:16 The Lesson
+8:42 Chapter 6: The Verdict
+10:16 What It Really Means
 
 Sources: NTSB Railroad Investigation Report RIR-24-05 (June 2024) and its public docket. 3D scenes are illustrative reconstructions.
 
 Image credits:
 • Photos, maps, diagrams and report pages — National Transportation Safety Board (public domain)
-Other visuals: original animation and graphics.
+Other visuals: original AI-generated visualizations, 3D animation and graphics (illustrative).
 Sound effects: original.
-Music: "Hidden Danger A," "Driving Concern" — Kevin MacLeod; "Tension" — Komiku; "Mysterious Lights" — Bryan Teoh; "The Abyss" — Alexander Nakarada; "Hidden Truth," "Asking Questions," "Final Step," "Emotional Piano" — Rafael Krux (FreePD, CC0).
+Music: "Dark Ambient," "Thinking Tension A/B/C," "Pulse," "Overt Danger A," "Night Vigil" — Kevin MacLeod; "Urban Confused Mystery" — Frank Nora; "Hope in the Sight of Fear" — Knight of Fire; "Sadness on White Keys" (FreePD, CC0).
 
 Subscribe to Wrecklore for more engineering disasters, explained. 👇 Should a railroad ever be the one making the call on a vent and burn?
 
@@ -58,6 +57,7 @@ First three appear above the title: #EastPalestine #NTSB #TrainDerailment
 - Category: Education · Language: English (United States) · Not made for kids
 - Location: East Palestine, Ohio, USA
 - Thumbnail: out/thumbnail.jpg
-- In YouTube Studio, tick **"Altered or synthetic content: Yes"** (realistic 3D reconstruction of a real event). This is a Studio checkbox, not description text.
-- Monetization: no news-channel footage, no copyrighted images, all music CC0, original 3D and SFX → safe to monetize. The video is over 8 minutes, so you can place mid-roll ads (suggested breaks: 3:52, 6:56, 8:42 — all at scene changes).
+- Captions: upload out/EastPalestine_captions_en.srt in Studio → Subtitles → English → Upload file (with timing).
+- In YouTube Studio, tick **"Altered or synthetic content: Yes"** (AI-generated visualizations and a 3D reconstruction of a real event). This is a Studio checkbox, not description text.
+- Monetization: no news-channel footage, no copyrighted images, all music CC0, original 3D and SFX → safe to monetize. The video is over 8 minutes, so you can place mid-roll ads (suggested breaks: 3:50, 6:54, 8:42 — all at chapter changes).
 - Upload as Private first, wait for "Checks", then schedule Public for a weekday afternoon US Eastern time.
