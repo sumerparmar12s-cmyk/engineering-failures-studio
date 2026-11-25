@@ -4,15 +4,15 @@ Lines in [brackets] are not spoken: [PAUSE s cue] = narration stops for s second
 
 ## Narration (final)
 
-February sixth, 2023. East Palestine, Ohio. Officials are about to do something almost unbelievable. They will blow holes in five tank cars, filled with almost nine hundred thousand pounds of a cancer-causing chemical, and set it all on fire. On purpose.
+February sixth, 2023. 4:37 in the afternoon. A small town in Ohio is about to watch something no town should ever see.
 
-[PAUSE 3.0 boom]
+[PAUSE 3.2 boom]
 
-They said it was the only way to stop a massive explosion. But a year and a half later, federal investigators reached a stunning conclusion. That explosion was never going to happen. And the company that made the chemical had said so, before anyone lit the fuse.
+Five railroad tank cars, carrying almost nine hundred thousand pounds of vinyl chloride, a chemical that causes cancer, have just been blown open with explosives, and set on fire. On purpose.
 
-So why did no one listen? And how did one overheated wheel bearing, on one car out of a hundred and forty-nine, set all of this in motion?
+Officials said it was the only way to stop something even worse: a massive explosion. But when federal investigators finished their work, they reached a stunning conclusion. That explosion was never going to happen. And the company that made the chemical had warned them, before anyone lit the fuse.
 
-In this video, we'll follow the train minute by minute, open the official NTSB report, and find out who knew what, and when.
+So why did no one listen? To answer that, we have to go back three days, to one tiny part, spinning under car number twenty-three.
 
 This is East Palestine.
 
@@ -98,7 +98,7 @@ He said yes.
 
 [PAUSE 1.0 silence]
 
-At 4:37 p.m. on February sixth, the charges went off.
+And so, at 4:37 p.m., we are back where this story began. The charges went off.
 
 [PAUSE 4.2 vent-and-burn]
 
@@ -116,9 +116,13 @@ Norfolk Southern later agreed to a six-hundred-million-dollar class action settl
 
 So, let's go back to the beginning. One overheated bearing caused the crash. That part was an accident. But the black cloud over East Palestine was a decision. A decision made in thirteen minutes, in a room where the people who knew the most were never invited.
 
-Sometimes the most dangerous failure isn't in the steel. It's in the conversation.
+For the people of East Palestine, the story didn't end when the fire went out. Many residents still say they worry about what was in that smoke, and what it means for their homes, their health, and their children.
 
-If you found this story worth knowing, subscribe to Wrecklore. And tell us in the comments: should a railroad ever be the one making the call on a vent and burn?
+Sometimes the most dangerous failure isn't in the steel. It's in the conversation. In who gets heard, and who doesn't.
+
+If this story made you think, hit like, so more people learn what really happened in East Palestine. Tell us in the comments: should a railroad ever be the one making the call on a vent and burn? And subscribe to Wrecklore. Next time, we'll uncover another disaster that never should have happened.
+
+Thanks for watching.
 
 ## Claim-to-source notes
 

@@ -1,151 +1,158 @@
    0.00 February sixth, 2023.
-   3.54 East Palestine, Ohio.
-   5.66 Officials are about to do something almost unbelievable.
-   8.94 They will blow holes in five tank cars, filled with almost nine hundred thousand pounds of a cancer-causing chemical, and set it all on fire.
-  18.50 On purpose.
-  22.70 They said it was the only way to stop a massive explosion.
-  26.64 But a year and a half later, federal investigators reached a stunning conclusion.
-  31.84 That explosion was never going to happen.
-  34.40 And the company that made the chemical had said so, before anyone lit the fuse.
-  39.72 So why did no one listen?
-  41.70 And how did one overheated wheel bearing, on one car out of a hundred and forty-nine, set all of this in motion?
-  49.28 In this video, we'll follow the train minute by minute, open the official NTSB report, and find out who knew what, and when.
-  58.46 This is East Palestine.
-  61.38 Imagine you live two blocks from the railroad tracks, in a town of about forty-seven hundred people.
-  67.68 It's a Friday night.
-  69.48 Freight trains rumble through here every day.
-  72.24 You don't even notice them anymore.
-  74.46 Tonight, one of them is Norfolk Southern train thirty-two N.
-  78.18 Three locomotives.
-  79.72 A hundred and forty-nine freight cars.
-  82.90 Almost eighteen thousand tons, stretching for about a mile and three quarters.
-  87.62 It left Madison, Illinois, and it is headed for a rail yard in Pennsylvania.
-  93.06 Up front, a crew of three: an engineer with twenty-four years of experience, a conductor, and a trainee.
- 100.42 What they don't know is that the twenty-third car behind them is on fire.
- 104.92 That car is a hopper car, loaded with plastic pellets.
- 108.88 And under it, one wheel bearing is failing.
- 111.88 Think of a bearing like the hub of a bicycle wheel.
- 115.08 Rollers spin inside, so the axle can turn smoothly.
- 118.74 Under a loaded freight car, each bearing carries many tons.
- 122.74 When one starts to fail, friction builds, and it gets hot.
- 126.42 Very hot.
- 127.90 Railroads know this.
- 129.46 That's why, every few miles along the tracks, there are hot bearing detectors: sensors that read the temperature of every wheel as the train rolls by.
- 139.40 Now here's where it gets interesting.
- 142.20 At 7:37 p.m., in Sebring, Ohio, the train passes a detector.
- 148.02 That bearing reads thirty-eight degrees above the outside air.
- 152.02 No alert.
- 153.40 At 8:13 p.m., in Salem, Ohio, the next detector.
- 158.00 Now it reads a hundred and three degrees above the outside air.
- 161.52 That's high enough for a non-critical alert.
- 164.74 But under the railroad's rules, that kind of alert goes to an analyst at a help desk.
- 170.02 Not to the crew.
- 171.52 But wait.
- 172.92 Security cameras in Salem caught the train passing by.
- 176.04 And in those images, the NTSB found something chilling.
- 180.16 A fire, on that very wheelset.
- 182.86 The next detector is about nineteen miles away.
- 185.50 In East Palestine.
- 187.98 At 8:52 p.m., the train rolls over it at about forty-three miles an hour.
- 194.26 This time, the reading is two hundred and fifty-three degrees above the outside air.
- 199.46 And in the cab, the speakers come alive.
- 211.60 The engineer starts slowing the train right away.
- 214.68 But it's already too late.
- 216.48 The overheated axle breaks.
- 218.68 The train goes into emergency braking.
- 224.74 Thirty-eight cars come off the tracks, and pile into each other.
- 228.52 Fire erupts.
- 232.10 Let's clear up a myth right here.
- 234.52 Myth: the crew ignored the warning.
- 236.82 Fact: the alarm came, and they reacted immediately.
- 240.36 The NTSB found that the crew simply did not get enough warning to stop in time.
- 245.44 And there's a second problem.
- 247.20 Because of how they're designed, these detectors are likely to show temperatures that are misleadingly low.
- 253.20 That two hundred and fifty-three degrees?
- 255.80 It was the highest number this detector could display.
- 258.72 The first nine-one-one call comes in at 8:56 p.m. Firefighters rush toward the flames.
- 265.76 Many of them are volunteers.
- 270.72 Among the wreckage, three tank cars have been punctured.
- 274.40 Flammable liquid pours into a ditch beside the tracks, and burns.
- 278.96 Responders order everyone within one mile to leave.
- 281.58 About two thousand people.
- 284.42 And there's something else in the pileup.
- 286.52 Five tank cars full of vinyl chloride.
- 289.74 Vinyl chloride is the building block of PVC, the plastic in pipes all over your house.
- 296.04 It's a flammable gas, shipped as a liquid under pressure.
- 299.66 And it is a known human carcinogen.
- 302.30 These five cars were not punctured.
- 304.60 But the fire around them heated four of them.
- 307.06 Their safety valves opened, again and again, venting burning gas, until the releases finally stopped on the afternoon of February fourth.
- 317.32 So the danger was over?
- 319.04 Not according to Norfolk Southern.
- 321.34 The railroad and its contractors began warning about something called polymerization.
- 326.50 Here's a simple way to think about it.
- 328.58 Imagine popcorn in a sealed pot.
- 330.90 Once the kernels start popping, they make their own heat.
- 334.56 More heat, more popping.
- 336.45 If vinyl chloride starts to polymerize inside a closed tank, the reaction can feed itself, until the tank bursts.
- 344.14 On the evening of February fifth, the railroad's hazardous materials manager told the NTSB that one tank car had warmed three degrees in one hour, to a hundred and thirty-eight degrees.
- 356.78 To him, that meant polymerization was happening.
- 360.40 The railroad's assessment: an explosion could hurl pieces of steel up to half a mile.
- 366.42 Their solution was the vent and burn.
- 369.42 Explosive charges punch holes in the tanks.
- 372.20 The chemical drains into a trench and a pit, and it's set on fire.
- 376.76 But here is the twist.
- 378.54 There was one group that knew vinyl chloride better than anyone.
- 383.06 Oxy Vinyls, the company that made this chemical and shipped it on this train.
- 386.80 Their experts, including a special team in Dallas, looked at the same data.
- 392.32 And they came to the opposite conclusion.
- 395.00 That same evening, Oxy Vinyls met with the railroad's contractor.
- 400.00 According to Oxy Vinyls' testimony to the NTSB, their message was blunt: don't do it because of polymerization, because polymerization is not occurring.
- 411.62 Hold on to that sentence.
- 413.00 Because the next day, it vanished.
- 416.96 Around noon on February sixth, the incident command met to make the final decision.
- 422.90 Somewhere between sixty and a hundred people were there, including the governors of Ohio and Pennsylvania.
- 429.76 Oxy Vinyls was not there.
- 431.74 They had not been invited.
- 433.66 The NTSB found no evidence that anyone in that meeting, other than the railroad and its contractors, knew that the chemical's own maker disagreed.
- 443.80 And remember that tank car that was heating up?
- 446.66 By now, it had actually cooled down, from a hundred and thirty-eight degrees to about a hundred and twenty-six.
- 453.96 That is the opposite of a runaway reaction.
- 457.28 Then came the moment that sealed it.
- 459.52 The incident commander, East Palestine's fire chief, was pulled into a separate room, with the railroad's executives and its contractors.
- 468.28 And he was told he had thirteen minutes to decide.
- 471.52 They wanted to start before three p.m., to finish in daylight.
- 475.68 He later told investigators he felt overwhelmed, and blindsided.
- 480.48 Put yourself in his chair.
- 482.30 The experts in the room say it's going to explode.
- 485.50 Nobody objects.
- 486.98 The clock is running.
- 488.46 What would you say?
- 489.66 He said yes.
- 491.64 At 4:37 p.m. on February sixth, the charges went off.
- 501.30 A column of black smoke rose over East Palestine, and drifted across Ohio and Pennsylvania.
- 508.36 According to the railroad itself, that smoke likely contained hydrogen chloride, and a trace of phosgene, a toxic gas.
- 517.24 For many families, that image became the moment their town changed forever.
- 522.36 So, was it necessary?
- 524.62 In June 2024, the NTSB delivered its final report.
- 529.94 And its answer was clear.
- 531.82 The vinyl chloride had stayed stable the whole time, until the tanks were deliberately blown open.
- 537.80 The temperature trends did not show polymerization.
- 541.50 Examinations after the accident confirmed it.
- 544.28 In the NTSB's words, the vent and burn was not necessary to prevent a polymerization-induced explosion.
- 552.30 And the investigators went further.
- 554.64 They found that Norfolk Southern compromised the integrity of the decision, by not passing on expertise and dissenting opinions to the man who had to make it.
- 564.02 The NTSB called that failure unjustified.
- 568.34 The report found more problems, too.
- 571.16 Those first punctured tank cars, the ones that started the fire, were an older design called the DOT-111, a design the NTSB has warned about for decades.
- 582.90 The NTSB said that if those cars had survived the crash, the vinyl chloride cars likely would never have released anything at all.
- 591.56 It also found that the railroad was slow to tell first responders what was on the train.
- 597.14 And that Ohio's training requirements for volunteer firefighters were not enough.
- 603.06 Norfolk Southern later agreed to a six-hundred-million-dollar class action settlement with residents, without admitting wrongdoing.
- 610.60 In total, the NTSB issued thirty-four new safety recommendations.
- 616.74 So, let's go back to the beginning.
- 619.12 One overheated bearing caused the crash.
- 621.58 That part was an accident.
- 623.90 But the black cloud over East Palestine was a decision.
- 627.62 A decision made in thirteen minutes, in a room where the people who knew the most were never invited.
- 633.98 Sometimes the most dangerous failure isn't in the steel.
- 637.50 It's in the conversation.
- 639.38 If you found this story worth knowing, subscribe to Wrecklore.
- 642.86 And tell us in the comments: should a railroad ever be the one making the call on a vent and burn?
+   3.72 4:37 in the afternoon.
+   6.08 A small town in Ohio is about to watch something no town should ever see.
+  14.46 Five railroad tank cars, carrying almost nine hundred thousand pounds of vinyl chloride, a chemical that causes cancer, have just been blown open with explosives, and set on fire.
+  26.32 On purpose.
+  28.90 Officials said it was the only way to stop something even worse: a massive explosion.
+  34.18 But when federal investigators finished their work, they reached a stunning conclusion.
+  39.30 That explosion was never going to happen.
+  41.84 And the company that made the chemical had warned them, before anyone lit the fuse.
+  47.24 So why did no one listen?
+  49.32 To answer that, we have to go back three days, to one tiny part, spinning under car number twenty-three.
+  56.36 This is East Palestine.
+  59.54 Imagine you live two blocks from the railroad tracks, in a town of about forty-seven hundred people.
+  65.68 It's a Friday night.
+  67.44 Freight trains rumble through here every day.
+  70.22 You don't even notice them anymore.
+  72.44 Tonight, one of them is Norfolk Southern train thirty-two N.
+  76.08 Three locomotives.
+  77.68 A hundred and forty-nine freight cars.
+  80.86 Almost eighteen thousand tons, stretching for about a mile and three quarters.
+  85.54 It left Madison, Illinois, and it is headed for a rail yard in Pennsylvania.
+  91.04 Up front, a crew of three: an engineer with twenty-four years of experience, a conductor, and a trainee.
+  98.38 What they don't know is that the twenty-third car behind them is on fire.
+ 102.22 That car is a hopper car, loaded with plastic pellets.
+ 106.74 And under it, one wheel bearing is failing.
+ 109.82 Think of a bearing like the hub of a bicycle wheel.
+ 113.06 Rollers spin inside, so the axle can turn smoothly.
+ 116.70 Under a loaded freight car, each bearing carries many tons.
+ 120.68 When one starts to fail, friction builds, and it gets hot.
+ 124.44 Very hot.
+ 126.00 Railroads know this.
+ 127.38 That's why, every few miles along the tracks, there are hot bearing detectors: sensors that read the temperature of every wheel as the train rolls by.
+ 137.38 Now here's where it gets interesting.
+ 140.32 At 7:37 p.m., in Sebring, Ohio, the train passes a detector.
+ 145.98 That bearing reads thirty-eight degrees above the outside air.
+ 150.00 No alert.
+ 151.34 At 8:13 p.m., in Salem, Ohio, the next detector.
+ 155.99 Now it reads a hundred and three degrees above the outside air.
+ 159.90 That's high enough for a non-critical alert.
+ 162.74 But under the railroad's rules, that kind of alert goes to an analyst at a help desk.
+ 168.04 Not to the crew.
+ 169.40 But wait.
+ 170.38 Security cameras in Salem caught the train passing by.
+ 174.04 And in those images, the NTSB found something chilling.
+ 178.10 A fire, on that very wheelset.
+ 180.80 The next detector is about nineteen miles away.
+ 183.44 In East Palestine.
+ 186.06 At 8:52 p.m., the train rolls over it at about forty-three miles an hour.
+ 192.20 This time, the reading is two hundred and fifty-three degrees above the outside air.
+ 197.48 And in the cab, the speakers come alive.
+ 209.56 The engineer starts slowing the train right away.
+ 212.28 But it's already too late.
+ 214.56 The overheated axle breaks.
+ 216.66 The train goes into emergency braking.
+ 222.86 Thirty-eight cars come off the tracks, and pile into each other.
+ 226.48 Fire erupts.
+ 230.24 Let's clear up a myth right here.
+ 232.48 Myth: the crew ignored the warning.
+ 234.80 Fact: the alarm came, and they reacted immediately.
+ 238.10 The NTSB found that the crew simply did not get enough warning to stop in time.
+ 243.46 And there's a second problem.
+ 245.14 Because of how they're designed, these detectors are likely to show temperatures that are misleadingly low.
+ 251.18 That two hundred and fifty-three degrees?
+ 253.76 It was the highest number this detector could display.
+ 256.84 The first nine-one-one call comes in at 8:56 p.m.
+ 261.02 Firefighters rush toward the flames.
+ 263.70 Many of them are volunteers.
+ 268.20 Among the wreckage, three tank cars have been punctured.
+ 272.42 Flammable liquid pours into a ditch beside the tracks, and burns.
+ 276.92 Responders order everyone within one mile to leave.
+ 280.10 About two thousand people.
+ 282.26 And there's something else in the pileup.
+ 284.46 Five tank cars full of vinyl chloride.
+ 287.70 Vinyl chloride is the building block of PVC, the plastic in pipes all over your house.
+ 293.86 It's a flammable gas, shipped as a liquid under pressure.
+ 297.70 And it is a known human carcinogen.
+ 300.32 These five cars were not punctured.
+ 302.62 But the fire around them heated four of them.
+ 305.58 Their safety valves opened, again and again, venting burning gas, until the releases finally stopped on the afternoon of February fourth.
+ 315.22 So the danger was over?
+ 316.98 Not according to Norfolk Southern.
+ 319.26 The railroad and its contractors began warning about something called polymerization.
+ 324.50 Here's a simple way to think about it.
+ 326.70 Imagine popcorn in a sealed pot.
+ 329.06 Once the kernels start popping, they make their own heat.
+ 332.38 More heat, more popping.
+ 334.20 If vinyl chloride starts to polymerize inside a closed tank, the reaction can feed itself, until the tank bursts.
+ 342.06 On the evening of February fifth, the railroad's hazardous materials manager told the NTSB that one tank car had warmed three degrees in one hour, to a hundred and thirty-eight degrees.
+ 354.74 To him, that meant polymerization was happening.
+ 358.46 The railroad's assessment: an explosion could hurl pieces of steel up to half a mile.
+ 364.24 Their solution was the vent and burn.
+ 367.36 Explosive charges punch holes in the tanks.
+ 370.10 The chemical drains into a trench and a pit, and it's set on fire.
+ 374.68 But here is the twist.
+ 376.42 There was one group that knew vinyl chloride better than anyone.
+ 381.10 Oxy Vinyls, the company that made this chemical and shipped it on this train.
+ 385.46 Their experts, including a special team in Dallas, looked at the same data.
+ 390.28 And they came to the opposite conclusion.
+ 392.94 That same evening, Oxy Vinyls met with the railroad's contractor.
+ 397.96 According to Oxy Vinyls' testimony to the NTSB, their message was blunt: don't do it because of polymerization, because polymerization is not occurring.
+ 409.49 Hold on to that sentence.
+ 411.44 Because the next day, it vanished.
+ 414.92 Around noon on February sixth, the incident command met to make the final decision.
+ 420.62 Somewhere between sixty and a hundred people were there, including the governors of Ohio and Pennsylvania.
+ 427.74 Oxy Vinyls was not there.
+ 429.72 They had not been invited.
+ 431.62 The NTSB found no evidence that anyone in that meeting, other than the railroad and its contractors, knew that the chemical's own maker disagreed.
+ 441.78 And remember that tank car that was heating up?
+ 444.64 By now, it had actually cooled down, from a hundred and thirty-eight degrees to about a hundred and twenty-six.
+ 451.94 That is the opposite of a runaway reaction.
+ 455.28 Then came the moment that sealed it.
+ 457.50 The incident commander, East Palestine's fire chief, was pulled into a separate room, with the railroad's executives and its contractors.
+ 466.08 And he was told he had thirteen minutes to decide.
+ 469.52 They wanted to start before three p.m., to finish in daylight.
+ 473.66 He later told investigators he felt overwhelmed, and blindsided.
+ 478.58 Put yourself in his chair.
+ 480.26 The experts in the room say it's going to explode.
+ 483.46 Nobody objects.
+ 484.90 The clock is running.
+ 486.42 What would you say?
+ 487.66 He said yes.
+ 490.06 And so, at 4:37 p.m., we are back where this story began.
+ 495.00 The charges went off.
+ 501.38 A column of black smoke rose over East Palestine, and drifted across Ohio and Pennsylvania.
+ 508.16 According to the railroad itself, that smoke likely contained hydrogen chloride, and a trace of phosgene, a toxic gas.
+ 517.04 For many families, that image became the moment their town changed forever.
+ 522.12 So, was it necessary?
+ 524.02 In June 2024, the NTSB delivered its final report.
+ 529.28 And its answer was clear.
+ 531.72 The vinyl chloride had stayed stable the whole time, until the tanks were deliberately blown open.
+ 537.60 The temperature trends did not show polymerization.
+ 541.22 Examinations after the accident confirmed it.
+ 544.02 In the NTSB's words, the vent and burn was not necessary to prevent a polymerization-induced explosion.
+ 551.88 And the investigators went further.
+ 554.58 They found that Norfolk Southern compromised the integrity of the decision, by not passing on expertise and dissenting opinions to the man who had to make it.
+ 563.86 The NTSB called that failure unjustified.
+ 568.08 The report found more problems, too.
+ 570.90 Those first punctured tank cars, the ones that started the fire, were an older design called the DOT-111, a design the NTSB has warned about for decades.
+ 582.78 The NTSB said that if those cars had survived the crash, the vinyl chloride cars likely would never have released anything at all.
+ 591.36 It also found that the railroad was slow to tell first responders what was on the train.
+ 596.90 And that Ohio's training requirements for volunteer firefighters were not enough.
+ 602.68 Norfolk Southern later agreed to a six-hundred-million-dollar class action settlement with residents, without admitting wrongdoing.
+ 610.50 In total, the NTSB issued thirty-four new safety recommendations.
+ 616.72 So, let's go back to the beginning.
+ 618.96 One overheated bearing caused the crash.
+ 621.94 That part was an accident.
+ 623.72 But the black cloud over East Palestine was a decision.
+ 627.48 A decision made in thirteen minutes, in a room where the people who knew the most were never invited.
+ 633.62 For the people of East Palestine, the story didn't end when the fire went out.
+ 638.80 Many residents still say they worry about what was in that smoke, and what it means for their homes, their health, and their children.
+ 646.76 Sometimes the most dangerous failure isn't in the steel.
+ 650.38 It's in the conversation.
+ 652.06 In who gets heard, and who doesn't.
+ 654.40 If this story made you think, hit like, so more people learn what really happened in East Palestine.
+ 660.90 Tell us in the comments: should a railroad ever be the one making the call on a vent and burn?
+ 666.52 And subscribe to Wrecklore.
+ 668.64 Next time, we'll uncover another disaster that never should have happened.
+ 673.34 Thanks for watching.
