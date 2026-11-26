@@ -26,8 +26,19 @@ if N == 1:
     sfx += [X('room_bed', 0.0, 0.5, dur=7.6), X('geiger', 0.0, 0.25, dur=6.3), X('klaxon', E.S('lying', 6.4), 0.55, dur=1.8), X('braam', 6.4, 0.4),
             X('wind_bed', 7.7, 0.3, dur=11.0), X('rig_hum', 19.3, 0.35, dur=8.0), X('heartbeat', 44.0, 0.45), X('heartbeat', 45.0, 0.5),
             X('geiger', 53.4, 0.35, dur=5.5), X('sub_drop', 58.9, 0.6), X('pressure_rumble', 58.9, 0.5, dur=3.4), X('geiger', 62.3, 0.4, dur=5.5)]
-music = {1: 'ElectroShuffle_Dark'}[N]
-inputs = ['-i', f'{E.PD}/vo/vo.mp3', '-t', str(E.END), '-i', f'{A}/m/{music}.mp3']
+if N == 2:
+    sfx += [X('clock', 0.2, 0.5, dur=6.0), X('room_bed', 0.0, 0.4, dur=9.7), X('klaxon', 6.3, 0.35, dur=1.5), X('geiger', 12.6, 0.25, dur=8.0),
+            X('stamp', 31.0, 0.5), X('alarm_beep', 23.4, 0.4), X('heartbeat', 46.8, 0.5), X('rig_hum', 48.0, 0.4, dur=2.6), X('thud', 48.6, 0.4), X('thud', 49.4, 0.4),
+            X('geiger', 52.4, 0.35, dur=7.5), X('sub_drop', 60.0, 0.6), X('pressure_rumble', 60.0, 0.5, dur=3.2), X('geiger', 63.3, 0.4, dur=7.0)]
+if N == 3:
+    sfx += [X('geiger', 0.0, 0.35, dur=9.3), X('room_bed', 0.0, 0.35, dur=11.0), X('braam', 6.3, 0.4), X('wind_bed', 13.9, 0.3, dur=15.0), X('geiger', 19.2, 0.4, dur=10.0),
+            X('rig_hum', 29.3, 0.35, dur=11.5), X('sub_drop', 40.8, 0.55), X('pressure_rumble', 42.3, 0.5, dur=8.5), X('boom', 51.0, 0.45), X('clank', 55.0, 0.35), X('geiger', 58.4, 0.35, dur=3.5), X('geiger', 61.9, 0.35, dur=6.3)]
+if N == 4:
+    sfx += [X('klaxon', 0.5, 0.4, dur=2.0), X('room_bed', 0.0, 0.35, dur=8.2), X('wind_bed', 10.9, 0.3, dur=12.0), X('geiger', 23.0, 0.45, dur=5.2), X('alarm_beep', 31.3, 0.45),
+            X('alarm_beep', 35.0, 0.45), X('heartbeat', 40.5, 0.45), X('rig_hum', 41.8, 0.25, dur=7.7), X('braam', 49.6, 0.5), X('tick', 57.2, 0.4), X('tick', 60.3, 0.4),
+            X('sub_drop', 65.1, 0.5), X('pressure_rumble', 65.1, 0.45, dur=3.5), X('geiger', 68.7, 0.35, dur=6.0)]
+music = {1: 'ElectroShuffle_Dark', 2: 'ElectroShuffle_Dark', 3: 'ElectroShuffle_Dark', 4: 'ElectroShuffle_Dark'}[N]
+inputs = ['-i', f'{E.PD}/vo/vo.mp3', '-t', str(E.END), '-ss', str({1: 0, 2: 70, 3: 130, 4: 20}[N]), '-i', f'{A}/m/{music}.mp3']
 fc = [f"[0:a]apad=whole_dur={E.END},asplit=2[vo][sc]", f"[1:a]aresample=44100,volume=0.10,afade=t=out:st={E.END - 2}:d=2[m]", "[m][sc]sidechaincompress=threshold=0.03:ratio=8:attack=15:release=400[md]"]
 sl = []; n = 2
 for s in sfx:

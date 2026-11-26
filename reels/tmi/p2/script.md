@@ -1,27 +1,23 @@
-# Three Mile Island · Part 2 · The Bubble
+# Three Mile Island · Part 2 · Blind in the Control Room
 
 ## Narration (final)
 
-Two days after the accident, a bubble inside a nuclear reactor had America holding its breath.
+For two hours and twenty minutes, a broken valve was dumping water out of a nuclear reactor. And the men in the control room had never been trained for it.
 
 This is part two of Three Mile Island.
 
-Friday, March 30th, 1979. Outside the plant, nobody knows how bad the damage really is. Fear is growing by the hour.
+Remember that stuck valve? Steam was escaping through it at a rate equal to about two hundred and twenty gallons of water every minute.
 
-That morning, Pennsylvania's governor, Dick Thornburgh, tells everyone within five miles to stay indoors. Then he advises pregnant women and young children to leave the area.
+But that wasn't the only hidden problem. Two emergency feedwater valves were closed when they should have been open. And one of the lights that could have warned the operators was covered by a maintenance tag.
 
-Families pack their cars. Tens of thousands of people leave.
+There was something else. The control room had no gauge that showed how much water was actually covering the reactor core. So the operators watched another level instead. It was rising. To them, that meant the reactor was full.
 
-And inside the reactor, experts are worried about something new: a large bubble of hydrogen gas.
+It wasn't.
 
-The fear was simple. If that hydrogen could explode, it could make everything far worse.
+Then the big coolant pumps started shaking. The operators shut them off. Now even less was cooling the core.
 
-For two days, the country waited.
+This kind of failure wasn't in their training. It wasn't in their emergency procedures.
 
-Then, on Sunday, April 1st, the President of the United States, Jimmy Carter, walked into the damaged plant himself, with the First Lady, the governor, and the NRC's Harold Denton.
+By the time they understood, the damage was done.
 
-That same day, experts concluded the bubble could not explode. There wasn't enough oxygen inside.
-
-The crisis was easing. But the biggest question was just beginning: who was to blame?
-
-Part three: what the investigators found. Follow so you don't miss it.
+Part three: how much of the reactor really melted, and why nobody knew for years. Follow so you don't miss it.
