@@ -16,8 +16,8 @@ M = lambda n: f'media/{n}'
 NRC = 'U.S. Nuclear Regulatory Commission'
 TOWERS, UNIT2 = M('Three_Mile_Island_Nuclear_Generating_Station.jpg'), M('Three_Mile_Island_Nuclear_Generating_Station_Unit_2.jpg')
 PLANT79, HBG79, CORE, CLEAN = M('Three_Mile_Island_(color)-2.jpg'), M('Harrisburg_Int_Airport_with_Pennsylvania_ANG_aircraft_1979.jpg'), M('Graphic_TMI-2_Core_End-State_Configuration.png'), M('TMI_cleanup-2.jpg')
-def V(t0, path, tag, ss=0.0, g='seventies', **k): return Shot(t0, ('vid', path), grade=g, src_tag=tag, ss=ss, **k)
-def IMG(t0, path, tag, kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.12)), g='seventies', **k): return Shot(t0, ('img', path), grade=g, src_tag=tag, kb=kb, **k)
+def V(t0, path, tag, ss=0.0, g='seventies', **k): return Shot(t0, ('vid', path), grade=g, src_tag=None, ss=ss, **k)   # no on-screen source text (credits go in the post caption)
+def IMG(t0, path, tag, kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.12)), g='seventies', **k): return Shot(t0, ('img', path), grade=g, src_tag=None, kb=kb, **k)
 def X(**k): return k
 def DARK(at, a=0.6): return O.dark(at, amount=a)
 def LAB(text, at, col=CREAM, y=330, size=58): return O.label(text, W // 2, y, at, anchor='mm', color=col, size=size)
