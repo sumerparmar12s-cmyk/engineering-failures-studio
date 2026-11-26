@@ -14,3 +14,4 @@
 - Storytelling must change every video too, not only the editing: rotate structures (cold open on the climax / countdown clock / mystery-first "whodunit" / two timelines intercut / "the warning" told from the person who gave it), different narration rhythm, different hook device. Script first, very strong hook in the first 5–10 s, open loops ("we'll come back to this"), suspense beats, payoff, satisfying ending.
 - NEVER add letterbox / cinematic black bars to long videos. Always fill the full 16:9 1920x1080 frame (YouTube size). Also no black screen at the start. (Creator complaint on Deepwater Horizon — must not happen again.)
 - Source tags only on real photos/docs (Coast Guard, NASA, NTSB, CSB); no "AI" tag on AI shots (creator ticks the Studio checkbox).
+- AI video: use the local free pipeline (SDXL-Turbo + AnimateDiff on CPU). Do NOT use the Gemini/Veo API (creator decided, Nov 2026). Prefer more real public-domain footage to cover weak AI shots.
