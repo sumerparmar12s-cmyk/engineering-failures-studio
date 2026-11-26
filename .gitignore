@@ -29,3 +29,10 @@ episodes/*/thumb/*.jpg
 episodes/*/thumb/*.png
 !episodes/*/thumb/inset.png
 episodes/*/work_dl*.log
+reels/*/real/
+reels/*/audio/
+reels/*/media/
+reels/*/docs/*.gif
+reels/*/p*/work/
+reels/*/p*/vo/vo.wav
+reels/*/out/*.mp4
