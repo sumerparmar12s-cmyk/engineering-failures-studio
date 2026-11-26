@@ -157,7 +157,7 @@ T += [IMG(373.32, 'docs/img/p263-000.png', OGM, g='flashback', trans='glitch', o
       DOC(405.20, 'laundry', **FB3),
       DOC(408.82, 'indestructible', **FB3),
       IMG(415.28, RUSH, RUSH_TAG, g='flashback', kb=((0.5, 0.4, 1.1), (0.5, 0.4, 1.25)), ov=[O.stamp('"COMPLETELY SAFE"', 415.4, x=W // 2, y=300, size=110)], **FB3),
-      IMG(417.02, 'docs/img/p16-003.png', OGM, g='flashback', trans='dip', ov=[LAB('SIX DAYS LATER, HE TOOK IT DOWN AGAIN', 417.3, size=50)], **FB3),
+      IMG(417.02, 'docs/img/p16-003.png', OGM, g='flashback', trans='dip', ov=[LAB('SIX DAYS LATER, HE TOOK IT DOWN AGAIN', 417.3, size=50), O.label('COMMENT: WOULD YOU HAVE CLIMBED IN?', W // 2, 1000, 417.8, anchor='mm', color=CYAN, size=34, until=420.5)], **FB3),
 ]
 # ============================ DIVE (3,341 m): the last ten seconds ============================
 T += [V(420.56, AFT, ROV, ss=90.0, trans='sink', ov=[DEPTH(420.7, 3341, frm=2833, sub='10:47 A.M.')]),
@@ -193,7 +193,7 @@ T += [V(420.56, AFT, ROV, ss=90.0, trans='sink', ov=[DEPTH(420.7, 3341, frm=2833
       V(521.44, LIFT, ROV, ss=70.0, nohud=True),
 ]
 # ============================ THE VERDICT ============================
-T += [V(523.74, PRESS, 'U.S. Coast Guard press briefing', ss=200.0, g='film', trans='whip', nohud=True, ov=[LAB('SO, WHAT WENT WRONG?', 524.0, size=56)]),
+T += [V(523.74, PRESS, 'U.S. Coast Guard press briefing', ss=200.0, g='film', trans='whip', nohud=True, ov=[LAB('SO, WHAT WENT WRONG?', 524.0, size=56), O.label('LIKE IF YOU THINK THIS WAS PREVENTABLE', W // 2, 1000, 524.2, anchor='mm', color=CYAN, size=34, until=525.9)]),
       V(525.92, HEAR, 'U.S. Coast Guard hearing, Sept. 2024', ss=20.0, g='film', nohud=True, ov=[LOWER('Marine Board of Investigation', 'final report · August 2025', 526.4)]),
       DOC(533.30, 'report335', nohud=True, ov=[DARK(533.3, 0.6), STAT(533.4, 0, 335, 'pages', dur=0.8, y=320, size=170)]),
       DOC(535.94, 'preventable', nohud=True, kb=((0.5, 0.5, 1.1), (0.5, 0.5, 1.3))),

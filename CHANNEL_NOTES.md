@@ -15,3 +15,6 @@
 - NEVER add letterbox / cinematic black bars to long videos. Always fill the full 16:9 1920x1080 frame (YouTube size). Also no black screen at the start. (Creator complaint on Deepwater Horizon — must not happen again.)
 - Source tags only on real photos/docs (Coast Guard, NASA, NTSB, CSB); no "AI" tag on AI shots (creator ticks the Studio checkbox).
 - AI video: use the local free pipeline (SDXL-Turbo + AnimateDiff on CPU). Do NOT use the Gemini/Veo API (creator decided, Nov 2026). Prefer more real public-domain footage to cover weak AI shots.
+- Every video: brand-new template/look (never reuse the previous episode's overlays, transitions, title style). Full 16:9 frame always.
+- Retention: strong hook, twist after twist, suspense, mid-video on-screen CTAs (comment/like prompts) plus the end CTA, satisfying payoff.
+- Lengths: long video ~10 min; Shorts/Reels ≤ 1:15–1:20 each (series Part 1/2/3 covering the whole story).
