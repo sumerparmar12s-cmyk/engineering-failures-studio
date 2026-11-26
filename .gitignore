@@ -28,3 +28,4 @@ episodes/*/shorts/*/vo/vo.wav
 episodes/*/thumb/*.jpg
 episodes/*/thumb/*.png
 !episodes/*/thumb/inset.png
+episodes/*/work_dl*.log
