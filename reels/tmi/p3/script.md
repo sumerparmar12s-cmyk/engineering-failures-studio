@@ -2,9 +2,11 @@
 
 ## Narration (final)
 
-On the second day, technicians clipped a handheld meter onto wires coming out of the reactor core. Some of the readings were coming from melted fuel. Nobody realized it.
+Officials said the reactor was under control. But deep inside, nineteen tons of melted fuel were lying at the bottom. And it would be years before anyone saw it.
 
 This is part three of Three Mile Island.
+
+On the second day, technicians clipped a handheld meter onto wires coming out of the core. Some readings were coming from melted fuel. Nobody realized it.
 
 Officially, the reactor was damaged. But how badly? Nobody could see inside.
 
@@ -14,7 +16,7 @@ Then cameras were lowered into the reactor. What they showed was shocking.
 
 Where the top of the core should have been, there was empty space. Below it, about five feet down, a bed of rubble.
 
-And it got worse. Investigators later found that about nineteen metric tons of melted debris had flowed down to the very bottom of the reactor vessel.
+And it got worse. Investigators found that about nineteen metric tons of melted debris had flowed down to the very bottom of the reactor vessel.
 
 A real meltdown had happened. Quietly. Out of sight.
 

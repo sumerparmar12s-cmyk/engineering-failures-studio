@@ -2,7 +2,7 @@
 
 ## Narration (final)
 
-On Friday morning, the governor of Pennsylvania told pregnant women and young children near Three Mile Island to get out.
+Imagine being told: if you're pregnant, or you have small children, leave your home right now. That's exactly what happened near Three Mile Island.
 
 This is part four of Three Mile Island.
 

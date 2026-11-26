@@ -80,56 +80,69 @@ if N == 2:
              BIGT('PART 3', 63.4, sub='how much really melted?', col=AMBER), O.label('FOLLOW', W // 2, 1040, S('Follow', 68.5), anchor='mm', color=WHITE, size=80)])]
 
 if N == 3:
-    END = 68.2; TITLE = 'THREE MILE ISLAND  ·  PART 3'
-    CORE_ = NP('core_endstate')
-    T = [IMG(0.0, NP('phones'), NRCP, kb=((0.5, 0.5, 1.3), (0.5, 0.5, 1.15)), ov=[DARK(0.0, 0.7), X(k='meter', at=0.2, y=820)]),
-         IMG(6.26, CORE_, 'Graphic: U.S. NRC', mode='portrait', g='none', trans='glitch', kb=((0.5, 0.6, 1.5), (0.5, 0.6, 1.75)), ov=[LAB('MELTED FUEL', 6.6, RED, y=300, size=70)]),
-         IMG(9.36, NP('meeting_room'), NRCP, trans='push', kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.15)), ov=[DARK(9.4, 0.55), O.punch('NOBODY REALIZED.', 9.5, color=[WHITE], size=120, y=760, f='bebas', shake=False)]),
-         IMG(11.08, NP('plant_color'), NRCP, trans='zoom', kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.2)), ov=[DARK(11.1, 0.4), BIGT('PART 3', 11.2, sub='the hidden meltdown')]),
-         IMG(13.88, NP('nrc_team_trailer'), NRCP, trans='push', kb=((0.5, 0.5, 1.0), (0.45, 0.5, 1.2)), ov=[LAB('"DAMAGED." BUT HOW BADLY?', 14.2, AMBER, y=330, size=56)]),
-         IMG(16.64, NP('site_aerial_bw'), NRCP, kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.2)), ov=[DARK(16.7, 0.4), LAB('NO WAY TO SEE INSIDE', 16.9, RED, y=330, size=60)]),
-         IMG(19.24, NP('worker_suit'), NRCP, trans='glitch', kb=((0.5, 0.5, 1.0), (0.55, 0.5, 1.2)), ov=[LAB('TOO CONTAMINATED TO ENTER', 19.5, AMBER, y=330, size=54)]),
-         IMG(23.46, NP('basement_water'), NRCP, trans='push', kb=((0.5, 0.5, 1.0), (0.5, 0.55, 1.2)), ov=[DARK(23.5, 0.45), BIGT('JULY 1980', S('July', 27.3) - 0.2, sub='the first two engineers go in')]),
-         IMG(29.26, NP('core_camera_1984'), 'Image: U.S. NRC (camera inside TMI-2 reactor)', trans='glitch', kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.25)), ov=[X(k='camhud', at=29.3)]),
-         IMG(31.98, NP('debris_camera'), 'Image: U.S. NRC (camera inside TMI-2 reactor)', trans='flash', kb=((0.5, 0.5, 1.0), (0.5, 0.45, 1.3)), ov=[X(k='camhud', at=32.0)]),
-         IMG(33.98, CORE_, 'Graphic: U.S. NRC', mode='portrait', g='none', trans='zoom', kb=((0.5, 0.46, 1.9), (0.5, 0.46, 2.1)), ov=[LAB('EMPTY SPACE', 34.3, RED, y=300, size=70)]),
-         IMG(37.32, CORE_, 'Graphic: U.S. NRC', mode='portrait', g='none', kb=((0.5, 0.52, 1.9), (0.5, 0.54, 2.1)), ov=[LAB('A BED OF RUBBLE', 37.6, AMBER, y=300, size=66)]),
-         V(40.82, 'real/nrc_reactor_v.mp4', 'Animation: U.S. NRC', ss=27.0, g='none', trans='glitch', ov=[LAB('IT GOT WORSE', 41.0, RED, y=300, size=64)]),
-         IMG(42.34, CORE_, 'Graphic: U.S. NRC', mode='portrait', g='none', trans='push', kb=((0.5, 0.66, 1.5), (0.5, 0.72, 1.8)),
-             ov=[DARK(42.4, 0.4), O.counter(S('nineteen', 44.6) - 0.1, 0, 19, 1.2, label='METRIC TONS OF MELTED DEBRIS', x=W // 2, y=300, size=200, color=RED)]),
-         IMG(51.02, NP('defueling_camera'), 'Image: U.S. NRC (camera inside TMI-2 reactor)', trans='flash', kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.2)), ov=[DARK(51.0, 0.3), O.punch('A REAL MELTDOWN', 51.1, color=[RED], size=120, y=760, f='bebas')]),
-         IMG(53.82, NP('reactor_top_cleanup'), NRCP, trans='push', kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.2)), ov=[DARK(53.9, 0.45), BIGT('1985', S('1985', 55.4) - 0.2, sub='the lid finally comes off')]),
-         IMG(58.4, NP('defueling_camera'), 'Image: U.S. NRC (camera inside TMI-2 reactor)', trans='glitch', kb=((0.5, 0.5, 1.2), (0.5, 0.5, 1.4)), ov=[X(k='camhud', at=58.4, label='DEFUELING CAMERA')]),
-         IMG(61.92, NP('map_5_10_miles'), 'Map: U.S. NRC', trans='glitch', kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.2)), ov=[DARK(62.0, 0.5), BIGT('PART 4', 62.1, sub='families told to leave', col=AMBER),
-             O.label('FOLLOW', W // 2, 1040, S('Follow', 66.0), anchor='mm', color=WHITE, size=80)])]
+    END = 73.4; TITLE = 'THREE MILE ISLAND  ·  PART 3'
+    CORE_ = NP('core_endstate'); CAM = 'Image: U.S. NRC (camera inside TMI-2 reactor)'
+    T = [IMG(0.0, NP('denton_press'), NRCP, kb=((0.5, 0.45, 1.25), (0.45, 0.45, 1.05)), ov=[DARK(0.0, 0.35), LAB('"UNDER CONTROL"', 0.3, CREAM, y=330, size=70)]),
+         IMG(3.04, CORE_, 'Graphic: U.S. NRC', mode='portrait', g='none', trans='glitch', kb=((0.5, 0.72, 1.4), (0.5, 0.75, 1.8)), ov=[DARK(3.1, 0.35),
+             O.counter(S('nineteen', 4.2) - 0.1, 0, 19, 0.9, label='TONS OF MELTED FUEL', x=W // 2, y=330, size=210, color=RED)]),
+         IMG(7.60, NP('core_camera_1984'), CAM, trans='flash', kb=((0.5, 0.5, 1.3), (0.5, 0.5, 1.05)), ov=[X(k='camhud', at=7.6), LAB('HIDDEN FOR YEARS', 7.9, AMBER, y=1500, size=60)]),
+         IMG(10.44, NP('plant_color'), NRCP, trans='zoom', kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.2)), ov=[DARK(10.5, 0.4), BIGT('PART 3', 10.6, sub='the hidden meltdown')]),
+         IMG(13.06, NP('phones'), NRCP, trans='push', kb=((0.5, 0.5, 1.3), (0.5, 0.5, 1.15)), ov=[DARK(13.1, 0.7), X(k='meter', at=13.2, y=820)]),
+         IMG(18.28, CORE_, 'Graphic: U.S. NRC', mode='portrait', g='none', trans='glitch', kb=((0.5, 0.6, 1.5), (0.5, 0.6, 1.75)), ov=[LAB('MELTED FUEL', 18.5, RED, y=300, size=70)]),
+         IMG(21.10, NP('meeting_room'), NRCP, trans='push', kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.15)), ov=[DARK(21.1, 0.55), O.punch('NOBODY REALIZED.', 21.2, color=[WHITE], size=120, y=760, f='bebas', shake=False)]),
+         IMG(22.86, NP('nrc_team_trailer'), NRCP, trans='push', kb=((0.5, 0.5, 1.0), (0.45, 0.5, 1.2)), ov=[LAB('"DAMAGED." BUT HOW BADLY?', 23.0, AMBER, y=330, size=56)]),
+         IMG(25.30, NP('site_aerial_bw'), NRCP, kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.2)), ov=[DARK(25.3, 0.4), LAB('NO WAY TO SEE INSIDE', 25.4, RED, y=330, size=60)]),
+         IMG(26.68, NP('worker_suit'), NRCP, trans='glitch', kb=((0.5, 0.5, 1.0), (0.55, 0.5, 1.2)), ov=[LAB('TOO CONTAMINATED TO ENTER', 26.9, AMBER, y=330, size=54)]),
+         IMG(31.58, NP('basement_water'), NRCP, trans='push', kb=((0.5, 0.5, 1.0), (0.5, 0.55, 1.2)), ov=[DARK(31.6, 0.45), BIGT('JULY 1980', S('July', 35.6) - 0.2, sub='the first two engineers go in')]),
+         IMG(37.40, NP('core_camera_1984'), CAM, trans='glitch', kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.25)), ov=[X(k='camhud', at=37.4)]),
+         IMG(39.56, NP('debris_camera'), CAM, trans='flash', kb=((0.5, 0.5, 1.0), (0.5, 0.45, 1.3)), ov=[X(k='camhud', at=39.6)]),
+         IMG(41.52, CORE_, 'Graphic: U.S. NRC', mode='portrait', g='none', trans='zoom', kb=((0.5, 0.46, 1.9), (0.5, 0.46, 2.1)), ov=[LAB('EMPTY SPACE', 41.8, RED, y=300, size=70)]),
+         IMG(44.74, CORE_, 'Graphic: U.S. NRC', mode='portrait', g='none', kb=((0.5, 0.52, 1.9), (0.5, 0.54, 2.1)), ov=[LAB('A BED OF RUBBLE', 45.0, AMBER, y=300, size=66)]),
+         V(48.06, 'real/nrc_reactor_v.mp4', 'Animation: U.S. NRC', ss=27.0, g='none', trans='glitch', ov=[LAB('IT GOT WORSE', 48.2, RED, y=300, size=64)]),
+         IMG(49.84, CORE_, 'Graphic: U.S. NRC', mode='portrait', g='none', trans='push', kb=((0.5, 0.66, 1.5), (0.5, 0.72, 1.8)),
+             ov=[DARK(49.9, 0.4), O.counter(S('nineteen', 52.0) - 0.1, 0, 19, 1.2, label='METRIC TONS OF MELTED DEBRIS', x=W // 2, y=300, size=200, color=RED)]),
+         IMG(56.34, NP('defueling_camera'), CAM, trans='flash', kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.2)), ov=[DARK(56.4, 0.3), O.punch('A REAL MELTDOWN', 56.5, color=[RED], size=120, y=760, f='bebas')]),
+         IMG(60.48, NP('reactor_top_cleanup'), NRCP, trans='push', kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.2)), ov=[DARK(60.5, 0.45), BIGT('1985', S('1985', 61.0) - 0.2, sub='the lid finally comes off')]),
+         IMG(64.2, NP('defueling_camera'), CAM, trans='glitch', kb=((0.5, 0.5, 1.2), (0.5, 0.5, 1.4)), ov=[X(k='camhud', at=64.2, label='DEFUELING CAMERA')]),
+         IMG(67.40, NP('map_5_10_miles'), 'Map: U.S. NRC', trans='glitch', kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.2)), ov=[DARK(67.5, 0.5), BIGT('PART 4', 67.6, sub='families told to leave', col=AMBER),
+             O.label('FOLLOW', W // 2, 1040, S('Follow', 71.1), anchor='mm', color=WHITE, size=80)])]
 
 if N == 4:
     END = 74.7; TITLE = 'THREE MILE ISLAND  ·  PART 4'
     MAP = NP('map_5_10_miles'); MKB = ((0.5, 0.55, 1.0), (0.5, 0.55, 1.12)); MC = (W // 2, int(H * 0.5))
-    T = [IMG(0.0, MAP, 'Map: U.S. NRC', kb=MKB, ov=[DARK(0.0, 0.35), X(k='rings', at=0.3, c=MC, r=330, label='5 MILES'),
-             X(k='eas', at=0.6, y=250, head='GOVERNOR\'S ADVISORY', text='PREGNANT WOMEN & PRESCHOOL CHILDREN\nWITHIN 5 MILES: LEAVE THE AREA')]),
-         IMG(8.24, NP('plant_aerial'), NRCP, trans='zoom', kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.2)), ov=[DARK(8.3, 0.4), BIGT('PART 4', 8.4, sub='friday morning')]),
-         IMG(10.88, NP('site_from_air'), NRCP, trans='push', kb=((0.5, 0.45, 1.0), (0.5, 0.5, 1.15)), ov=[DARK(10.9, 0.4), BIGT('MARCH 30, 1979', 11.0, sub='two days into the accident')]),
-         IMG(15.80, NP('press_crowd'), NRCP, trans='glitch', kb=((0.5, 0.5, 1.0), (0.5, 0.45, 1.2)), ov=[LAB('WHAT DO WE BELIEVE?', 16.2, AMBER, y=330, size=60)]),
-         IMG(19.72, NP('denton_press'), NRCP, trans='push', kb=((0.5, 0.45, 1.0), (0.45, 0.45, 1.15)), ov=[LAB('THE COMPANY SAYS ONE THING...', 19.9, CREAM, y=330, size=50)]),
-         IMG(21.58, NP('officials_table'), NRCP, trans='push', kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.15)), ov=[LAB('...OFFICIALS SAY ANOTHER', 21.7, CREAM, y=330, size=50)]),
-         IMG(22.98, NP('plant_color'), NRCP, trans='glitch', kb=((0.5, 0.45, 1.1), (0.5, 0.4, 1.3)), ov=[DARK(23.0, 0.35), LAB('ANOTHER RELEASE OF\nRADIOACTIVE GAS', 23.4, RED, y=330, size=56)]),
-         IMG(28.22, NP('site_aerial_bw'), NRCP, trans='push', kb=((0.5, 0.5, 1.1), (0.5, 0.5, 1.25)), ov=[DARK(28.3, 0.5), LAB('GOV. DICK THORNBURGH DECIDES', 28.5, AMBER, y=330, size=52)]),
-         IMG(31.14, MAP, 'Map: U.S. NRC', trans='zoom', kb=MKB, ov=[DARK(31.2, 0.35), X(k='rings', at=31.2, c=MC, r=330, label='5 MILES'),
-             X(k='eas', at=31.4, y=250, head='GOVERNOR\'S ADVISORY', text='EVERYONE WITHIN 5 MILES:\nSTAY INDOORS')]),
-         IMG(34.78, MAP, 'Map: U.S. NRC', kb=((0.5, 0.55, 1.12), (0.5, 0.55, 1.22)), ov=[DARK(34.8, 0.35), X(k='rings', at=34.8, c=MC, r=360, label='5 MILES'),
-             X(k='eas', at=35.0, y=250, head='GOVERNOR\'S ADVISORY', text='PREGNANT WOMEN & PRESCHOOL CHILDREN:\nLEAVE THE AREA')]),
-         IMG(40.48, NP('site_aerial_bw'), NRCP, trans='glitch', kb=((0.5, 0.5, 1.25), (0.5, 0.5, 1.4)), ov=[DARK(40.5, 0.45), O.punch("THAT'S ALL IT TAKES.", 40.6, color=[WHITE], size=110, y=760, f='bebas', shake=False)]),
-         IMG(41.76, MAP, 'Map: U.S. NRC', trans='push', kb=((0.5, 0.55, 1.0), (0.5, 0.55, 0.9 + 0.2)), ov=[DARK(41.8, 0.4), X(k='exodus', at=41.8, c=MC), X(k='rings', at=41.8, c=MC, r=330, label='5 MILES')]),
-         IMG(45.12, MAP, 'Map: U.S. NRC', kb=((0.5, 0.55, 1.1), (0.5, 0.55, 1.0)), ov=[DARK(45.2, 0.45), X(k='exodus', at=45.2, c=MC), LAB('THOUSANDS LEAVE HOME', 45.4, AMBER, y=330, size=60)]),
-         IMG(49.56, NP('plant_color'), NRCP, trans='flash', kb=((0.5, 0.5, 1.2), (0.5, 0.5, 1.3)), ov=[DARK(49.6, 0.5), O.punch('THE TWIST', 49.7, color=[AMBER], size=150, y=760, f='bebas')]),
-         IMG(51.14, NP('plant_aerial'), NRCP, trans='push', kb=((0.5, 0.5, 1.3), (0.5, 0.5, 1.4)), ov=[DARK(51.2, 0.82), X(k='dose', at=S('one', 57.2) - 0.3, at2=S('six', 60.6) - 0.3)]),
-         IMG(61.58, NP('press_crowd'), NRCP, trans='glitch', kb=((0.5, 0.5, 1.15), (0.5, 0.5, 1.3)), ov=[DARK(61.6, 0.45), LAB('THE FEAR WAS BIGGER\nTHAN THE DANGER', 61.8, AMBER, y=330, size=56)]),
-         V(65.12, 'real/nrc_reactor_v.mp4', 'Animation: U.S. NRC', ss=28.0, g='none', trans='push', ov=[LAB('BUT INSIDE THE REACTOR...', 65.3, RED, y=300, size=56)]),
-         IMG(68.68, NP('core_endstate'), 'Graphic: U.S. NRC', mode='portrait', g='none', trans='glitch', kb=((0.5, 0.58, 1.3), (0.5, 0.58, 1.45)), ov=[DARK(68.7, 0.55),
-             BIGT('PART 5', 68.8, sub='the bubble', col=AMBER), O.label('FOLLOW', W // 2, 1040, S('Follow', 72.2), anchor='mm', color=WHITE, size=80)])]
+    T = [IMG(0.0, MAP, 'Map: U.S. NRC', kb=((0.5, 0.55, 1.25), (0.5, 0.55, 1.05)), ov=[DARK(0.0, 0.35), X(k='rings', at=0.2, c=MC, r=330, label='5 MILES'),
+             X(k='eas', at=0.4, y=250, head='LEAVE YOUR HOME NOW?', text='IF YOU ARE PREGNANT\nOR HAVE SMALL CHILDREN')]),
+         IMG(6.06, NP('plant_color'), NRCP, trans='flash', kb=((0.5, 0.45, 1.2), (0.5, 0.45, 1.0)), ov=[DARK(6.1, 0.35), LAB('THIS REALLY HAPPENED', 6.3, AMBER, y=330, size=64)]),
+         IMG(9.32, NP('plant_aerial'), NRCP, trans='zoom', kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.2)), ov=[DARK(9.4, 0.4), BIGT('PART 4', 9.5, sub='friday morning')]),
+         IMG(12.08, NP('site_from_air'), NRCP, trans='push', kb=((0.5, 0.45, 1.0), (0.5, 0.5, 1.2)), ov=[DARK(12.1, 0.4), BIGT('MARCH 30, 1979', 12.2, sub='two days into the accident')]),
+         IMG(16.92, NP('press_crowd'), NRCP, trans='glitch', kb=((0.5, 0.5, 1.0), (0.5, 0.45, 1.2)), ov=[LAB('WHAT DO WE BELIEVE?', 17.2, AMBER, y=330, size=60)]),
+         IMG(20.76, NP('denton_press'), NRCP, trans='push', kb=((0.5, 0.45, 1.0), (0.45, 0.45, 1.15)), ov=[LAB('THE COMPANY SAYS ONE THING...', 20.9, CREAM, y=330, size=50)]),
+         IMG(22.52, NP('officials_table'), NRCP, trans='push', kb=((0.5, 0.5, 1.0), (0.5, 0.5, 1.15)), ov=[LAB('...OFFICIALS SAY ANOTHER', 22.6, CREAM, y=330, size=50)]),
+         IMG(23.92, NP('plant_color'), NRCP, trans='glitch', kb=((0.5, 0.45, 1.1), (0.5, 0.4, 1.3)), ov=[DARK(24.0, 0.35), LAB('ANOTHER RELEASE OF\nRADIOACTIVE GAS', 24.3, RED, y=330, size=56)]),
+         IMG(28.30, NP('site_aerial_bw'), NRCP, trans='push', kb=((0.5, 0.5, 1.1), (0.5, 0.5, 1.25)), ov=[DARK(28.4, 0.5), LAB('GOV. DICK THORNBURGH DECIDES', 28.5, AMBER, y=330, size=52)]),
+         IMG(31.94, MAP, 'Map: U.S. NRC', trans='zoom', kb=MKB, ov=[DARK(32.0, 0.35), X(k='rings', at=32.0, c=MC, r=330, label='5 MILES'),
+             X(k='eas', at=32.2, y=250, head='GOVERNOR\'S ADVISORY', text='EVERYONE WITHIN 5 MILES:\nSTAY INDOORS')]),
+         IMG(35.46, MAP, 'Map: U.S. NRC', kb=((0.5, 0.55, 1.12), (0.5, 0.55, 1.22)), ov=[DARK(35.5, 0.35), X(k='rings', at=35.5, c=MC, r=360, label='5 MILES'),
+             X(k='eas', at=35.7, y=250, head='GOVERNOR\'S ADVISORY', text='PREGNANT WOMEN & PRESCHOOL CHILDREN:\nLEAVE THE AREA')]),
+         IMG(41.12, NP('site_aerial_bw'), NRCP, trans='glitch', kb=((0.5, 0.5, 1.25), (0.5, 0.5, 1.4)), ov=[DARK(41.2, 0.45), O.punch("THAT'S ALL IT TAKES.", 41.3, color=[WHITE], size=110, y=760, f='bebas', shake=False)]),
+         IMG(42.42, MAP, 'Map: U.S. NRC', trans='push', kb=((0.5, 0.55, 1.0), (0.5, 0.55, 1.1)), ov=[DARK(42.5, 0.4), X(k='exodus', at=42.5, c=MC), X(k='rings', at=42.5, c=MC, r=330, label='5 MILES')]),
+         IMG(45.72, MAP, 'Map: U.S. NRC', kb=((0.5, 0.55, 1.1), (0.5, 0.55, 1.0)), ov=[DARK(45.8, 0.45), X(k='exodus', at=45.8, c=MC), LAB('THOUSANDS LEAVE HOME', 46.0, AMBER, y=330, size=60)]),
+         IMG(50.08, NP('plant_color'), NRCP, trans='flash', kb=((0.5, 0.5, 1.2), (0.5, 0.5, 1.3)), ov=[DARK(50.1, 0.5), O.punch('THE TWIST', 50.15, color=[AMBER], size=150, y=760, f='bebas')]),
+         IMG(50.94, NP('plant_aerial'), NRCP, trans='push', kb=((0.5, 0.5, 1.3), (0.5, 0.5, 1.4)), ov=[DARK(51.0, 0.82), X(k='dose', at=S('one', 57.0) - 0.3, at2=S('six', 60.2) - 0.3)]),
+         IMG(61.78, NP('press_crowd'), NRCP, trans='glitch', kb=((0.5, 0.5, 1.15), (0.5, 0.5, 1.3)), ov=[DARK(61.8, 0.45), LAB('THE FEAR WAS BIGGER\nTHAN THE DANGER', 62.0, AMBER, y=330, size=56)]),
+         V(65.22, 'real/nrc_reactor_v.mp4', 'Animation: U.S. NRC', ss=28.0, g='none', trans='push', ov=[LAB('BUT INSIDE THE REACTOR...', 65.4, RED, y=300, size=56)]),
+         IMG(68.74, NP('core_endstate'), 'Graphic: U.S. NRC', mode='portrait', g='none', trans='glitch', kb=((0.5, 0.58, 1.3), (0.5, 0.58, 1.45)), ov=[DARK(68.8, 0.55),
+             BIGT('PART 5', 68.9, sub='the bubble', col=AMBER), O.label('FOLLOW', W // 2, 1040, S('Follow', 72.2), anchor='mm', color=WHITE, size=80)])]
 
 def captions(img, t, fi, sh):
+    if N >= 3 and sh.src[0] == 'img':
+        dx = 0.004 * math.sin(t * 2.3) + 0.002 * math.sin(t * 7.1); dy = 0.004 * math.cos(t * 1.9) + 0.002 * math.sin(t * 5.3)
+        img, _ = view(img, 0.5 + dx, 0.5 + dy, 1.035)
+        fl = 0.94 + 0.06 * math.sin(fi * 1.7) * math.sin(fi * 0.37)
+        img = img.point(lambda v: int(v * fl))
+        dd = ImageDraw.Draw(img); rnd = random.Random(fi // 2)
+        for _ in range(6):
+            x, y = rnd.randint(0, W), rnd.randint(0, H); r = rnd.randint(1, 4); dd.ellipse([x - r, y - r, x + r, y + r], fill=(235, 225, 200))
     """New caption style: big cream Oswald words, current word boxed in amber; radiation badge + part title; amber progress bar."""
     cur = None
     for i in range(0, len(WORDS), 3):
