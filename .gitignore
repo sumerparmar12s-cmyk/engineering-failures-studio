@@ -25,3 +25,6 @@ episodes/*/shorts/*/work/
 episodes/*/ai/omni/
 episodes/*/vo/vo.wav
 episodes/*/shorts/*/vo/vo.wav
+episodes/*/thumb/*.jpg
+episodes/*/thumb/*.png
+!episodes/*/thumb/inset.png
