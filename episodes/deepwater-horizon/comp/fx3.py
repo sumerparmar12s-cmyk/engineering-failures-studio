@@ -6,7 +6,7 @@ from PIL import Image, ImageDraw, ImageFilter
 from engine import EXTRA, font, eout, ease, clamp, lerp, W, H
 
 TEAL, ORANGE, WHITE, GREY = (64, 214, 214), (255, 140, 40), (255, 255, 255), (170, 178, 186)
-BAR = int(H * 0.095) if W > H else 0          # letterbox height (landscape only)
+BAR = 0                                        # no letterbox: always full-frame 16:9 (creator rule)
 
 # ---------------- story clock (post hook) ----------------
 def clock_post(CLOCK, show):

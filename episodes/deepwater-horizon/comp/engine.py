@@ -187,7 +187,7 @@ def draw_overlays(img, ovs, t, t1, fi):
         k = o['k']
         if k in ('dark', 'bars'): continue
         if k == 'tag':
-            d.text((W - 60, (int(H * 0.095) + 26) if W > H else 60), o['text'].upper(), font=font('SemiBold', 24), fill=(255, 255, 255, 190), anchor='ra'); continue
+            d.text((W - 60, 50 if W > H else 60), o['text'].upper(), font=font('SemiBold', 24), fill=(255, 255, 255, 190), anchor='ra'); continue
         alive, u = _alive(o, t, t1)
         if not alive: continue
         a = min(eout((t - o['at']) / 0.25), eout((u - t) / 0.25)); A = int(255 * a)
