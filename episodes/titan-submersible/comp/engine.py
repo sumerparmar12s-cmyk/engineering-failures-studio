@@ -61,7 +61,7 @@ def view(im, cx, cy, z):
     """Cover-fit view of image centred at (cx,cy) (0..1) with zoom z>=1."""
     s0 = max(W / im.width, H / im.height); vw, vh = W / (s0 * z), H / (s0 * z)
     x0 = clamp(cx * im.width - vw / 2, 0, im.width - vw); y0 = clamp(cy * im.height - vh / 2, 0, im.height - vh)
-    return im.transform((W, H), Image.EXTENT, (x0, y0, x0 + vw, y0 + vh), Image.BICUBIC), (x0, y0, vw / W)
+    return im.resize((W, H), Image.BICUBIC, box=(x0, y0, x0 + vw, y0 + vh)), (x0, y0, vw / W)
 
 class VReader:
     """Sequential frame reader for a video segment, scaled to cover 1920x1080, optional slow motion and frame interpolation."""
@@ -100,8 +100,8 @@ def grade(arr, name):
             k, off = g[ch]; y = (x * (1 - g['lift']) + g['lift']) ** g['gamma'] * g['gain'] * k + off
             luts.append(np.clip(y * 255, 0, 255).astype(np.uint8))
         _lutc[name] = luts
-    l = _lutc[name]; out = np.empty_like(arr)
-    for i in range(3): out[..., i] = l[i][arr[..., i]]
+    l = _lutc[name]
+    out = np.asarray(Image.fromarray(arr).point(list(l[0]) + list(l[1]) + list(l[2])))
     if g['sat'] != 1.0:
         f = out.astype(np.int16); m = (f[..., 0] * 3 + f[..., 1] * 6 + f[..., 2]) // 10
         out = np.clip(m[..., None] + (f - m[..., None]) * g['sat'], 0, 255).astype(np.uint8)
@@ -407,7 +407,7 @@ def render(shots, end, out, t_from=0.0, t_to=None, log=None, post=None):
     shots = sorted(shots, key=lambda s: s.t0)
     for i, s in enumerate(shots): s.t1n = shots[i + 1].t0 if i + 1 < len(shots) else end
     enc = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
-                            '-c:v', 'libx264', '-preset', 'medium', '-crf', '17', '-pix_fmt', 'yuv420p', out], stdin=subprocess.PIPE)
+                            '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '16', '-pix_fmt', 'yuv420p', out], stdin=subprocess.PIPE)
     n0, n1 = int(round(t_from * FPS)), int(round(t_to * FPS)); cur = None; prev = None
     for fi in range(n0, n1):
         t = fi / FPS
