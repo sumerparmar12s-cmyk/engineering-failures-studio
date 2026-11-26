@@ -22,3 +22,4 @@ episodes/*/ai/gen*.log
 episodes/*/comp/prep.log
 episodes/*/docs/*.pdf
 episodes/*/shorts/*/work/
+episodes/*/ai/omni/
