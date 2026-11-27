@@ -38,7 +38,7 @@ for p in paras:
     a,_=k.create(s,voice=voice,speed=speed,lang='en-us')
     segs.append(dict(kind='vo',start=t(),text=p)); out.append(a.astype(np.float32))
     gap=0.32
-    for kk,vv in {'Four days later':0.9,'Thirteen minutes':1.2,'Nobody answers':1.2,'They weren':1.2,'Six days later, he':1.0,'Stockton Rush. Paul':0.4,'So, what':0.8,'The search was over':1.0,'Depth:':0.6,'January 2018':0.6,'July 2022':0.6,'Six days earlier':0.6,'And then, the winter':0.6}.items():
+    for kk,vv in {'But this one':0.25,'Russia, probably':0.5,'Four days later':0.9,'Thirteen minutes':1.2,'Nobody answers':1.2,'They weren':1.2,'Six days later, he':1.0,'Stockton Rush. Paul':0.4,'So, what':0.8,'The search was over':1.0,'Depth:':0.6,'January 2018':0.6,'July 2022':0.6,'Six days earlier':0.6,'And then, the winter':0.6}.items():
         if p.startswith(kk): gap=vv
     out.append(sil(gap))
 a=np.concatenate(out+[sil(float(os.environ.get('TAIL',2.0)))])

@@ -1,29 +1,27 @@
-# Alaska: two cents an acre
+# Alaska: the giant fridge
 
 ## Narration (final)
 
-This is Alaska. America bought it for about two cents an acre.
+These two islands are only two and a half miles apart. But this one is Russia... and this one is America.
 
-And people called it the dumbest deal ever. Let's break it down.
+So how did America end up next door to Russia? Russia sold it.
 
-Back then, Alaska belonged to Russia. It was far away, hard to defend, and Russia needed money.
+In 1867, Russia looked at Alaska. Cold. Far away. Impossible to defend. And honestly? They needed the cash.
 
-So in 1867, the U.S. paid seven point two million dollars.
+So they called America. Seven point two million dollars. About two cents an acre.
 
-Critics called it Seward's Folly, after the Secretary of State who made the deal.
+People back home laughed. They called it Seward's Icebox. Basically, a giant fridge.
 
-But here's the interesting thing. Put Alaska on top of the lower forty-eight, and it stretches almost coast to coast.
+A giant fridge... more than twice the size of Texas. Sorry, Texas.
 
-It's more than twice the size of Texas.
+Then, gold was found. And a century later, oil.
 
-Then, gold was found. And in 1968, oil.
-
-Not bad for two cents an acre.
+Russia, probably: can we get a refund?
 
 ## Claim check
-- Treaty of Cession signed March 30, 1867; price $7.2 million (US State Dept Office of the Historian).
-- ~586,000 sq mi ≈ 375 million acres -> ~1.9 cents/acre ("about two cents an acre", Office of the Historian).
-- Purchase negotiated by Secretary of State William H. Seward; critics' nickname "Seward's Folly".
-- Russia: colony distant and hard to defend, financial strain after the Crimean War (Office of the Historian).
-- Alaska 665,384 sq mi total area vs Texas 268,596 -> ~2.5x.
-- Gold: Klondike (1896, Yukon) and Nome (1899) rushes; oil: Prudhoe Bay discovery 1968.
+- Big Diomede (Russia) and Little Diomede (USA) are ~2.4 mi (3.8 km) apart in the Bering Strait (NASA PIA10631 caption; USGS).
+- Treaty of Cession, March 30, 1867; $7.2 million; ~2 cents/acre (US State Dept Office of the Historian). Russia: hard to defend, financial strain.
+- Critics' nicknames "Seward's Folly" and "Seward's Icebox" (Secretary of State William H. Seward).
+- Alaska 665,384 sq mi vs Texas 268,596 sq mi.
+- Gold rushes 1896-1899 (Klondike/Nome); Prudhoe Bay oil 1968.
+- Last line is an obvious joke, not a historical claim.
