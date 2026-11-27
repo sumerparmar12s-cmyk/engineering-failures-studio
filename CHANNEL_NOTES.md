@@ -20,3 +20,10 @@
 - Lengths: long video ~10 min; Shorts/Reels ≤ 1:15–1:20 each (series Part 1/2/3 covering the whole story).
 - Facebook reels (other page): NO channel name; small source credit ON screen (creator asked). Prefer public-domain US gov images only.
 - Facebook reels: NO "follow/like/comment/subscribe" lines and NO questions that ask viewers to comment (FB flags inauthentic engagement / engagement bait). End with a plain statement. Open with REAL video (NASA/US gov public domain), not a photo slideshow.
+
+## Short "looks fake but real" reels (user rules, Nov 2026)
+- Length 20–25 s max. Never longer.
+- Open AND end on real video. Mostly colour footage and colourful graphics.
+- Never repeat the same clip or photo inside a video.
+- Audience: US / UK / Canada / New Zealand (English). Copyright-free only (US gov public domain, CC0 music).
+- New template each reel, very strong hook in the first 2 s.
