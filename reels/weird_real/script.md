@@ -4,15 +4,13 @@
 
 This bridge is made of steel. Watch what the wind does to it.
 
-Washington State, 1940. Four months after it opened...
-
-Then this.
+1940. Then this.
 
 The only life lost? A dog, trapped in a car.
 
-In 1946, America dropped an atomic bomb on its own fleet. On purpose. Just to see what would happen.
+In 1946, America dropped an atomic bomb on its own fleet. On purpose.
 
-And in 2018, the ground split open in a Hawaii neighborhood. Right across the street.
+In 2018, the ground split open in a Hawaii neighborhood. Right across the street.
 
 None of this is fake.
 
