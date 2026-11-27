@@ -1,9 +1,9 @@
 import subprocess, sys, os
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); A = R + '/../tmi/audio/sfx'
-END = 20.6
-ev = [('whoosh2', 0.0, .5), ('hit', 0.7, .35), ('hit', 1.4, .35), ('hit', 2.1, .35), ('pop', 1.6, .4), ('whoosh2', 2.7, .45),
-      ('stamp', 2.85, .55), ('ding', 3.82, .5), ('stamp', 3.85, .4), ('whoosh', 8.2, .45), ('stamp', 8.36, .55), ('ding', 9.30, .5),
-      ('whoosh', 11.0, .45), ('stamp', 11.18, .55), ('ding', 11.86, .5), ('whoosh', 14.2, .45), ('stamp', 14.40, .55), ('ding', 16.12, .5), ('braam', 18.9, .4)]
+END = 25.0
+ev = [('whoosh2', 0.0, .5), ('braam', 0.05, .35), ('hit', 1.48, .4), ('pop', 1.6, .3), ('hit', 4.38, .35), ('hit', 4.95, .35), ('hit', 5.5, .35), ('hit', 6.05, .35),
+      ('whoosh2', 6.6, .45), ('pop', 6.75, .4), ('stamp', 7.82, .55), ('ding', 8.78, .5), ('whoosh', 13.0, .45), ('stamp', 13.16, .55), ('ding', 14.1, .5),
+      ('whoosh', 15.74, .45), ('stamp', 15.9, .55), ('ding', 16.6, .5), ('whoosh', 18.84, .45), ('stamp', 19.0, .55), ('ding', 20.9, .5), ('hit', 22.44, .4)]
 inp = ['-i', R + '/vo/vo.mp3', '-ss', '10', '-t', str(END), '-i', R + '/audio/music.mp3']
 fc = [f"[0:a]apad=whole_dur={END},asplit=2[vo][sc]", f"[1:a]aresample=44100,volume=0.16,afade=t=in:d=0.3,afade=t=out:st={END-1.5}:d=1.5[m]", "[m][sc]sidechaincompress=threshold=0.04:ratio=6:attack=10:release=300[md]"]
 sl = []

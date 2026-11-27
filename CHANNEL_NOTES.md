@@ -19,3 +19,4 @@
 - Retention: strong hook, twist after twist, suspense, mid-video on-screen CTAs (comment/like prompts) plus the end CTA, satisfying payoff.
 - Lengths: long video ~10 min; Shorts/Reels ≤ 1:15–1:20 each (series Part 1/2/3 covering the whole story).
 - Facebook reels (other page): NO channel name; small source credit ON screen (creator asked). Prefer public-domain US gov images only.
+- Facebook reels: NO "follow/like/comment/subscribe" lines and NO questions that ask viewers to comment (FB flags inauthentic engagement / engagement bait). End with a plain statement. Open with REAL video (NASA/US gov public domain), not a photo slideshow.
