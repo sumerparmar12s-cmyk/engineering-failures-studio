@@ -1,0 +1,20 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Anton&display=swap" rel="stylesheet">
+<style>
+html,body{margin:0;width:1920px;height:1080px;overflow:hidden;background:#000}
+canvas{display:block}
+#ov{position:absolute;inset:0;pointer-events:none;font-family:Inter,Arial,sans-serif}
+.lab{position:absolute;color:#fff;font-weight:800;font-size:40px;letter-spacing:.02em;text-shadow:0 2px 12px rgba(0,0,0,.9);white-space:nowrap;opacity:0;transition:none}
+.lab small{display:block;font-weight:600;font-size:26px;color:#ffd23f}
+.lab.red{color:#ff4d5e}
+.dot{position:absolute;width:16px;height:16px;border-radius:50%;background:#ff4d5e;box-shadow:0 0 18px #ff4d5e;opacity:0;transform:translate(-50%,-50%)}
+.line{position:absolute;height:3px;background:#fff;transform-origin:0 50%;opacity:0;box-shadow:0 0 8px rgba(0,0,0,.8)}
+#tag{position:absolute;left:40px;top:34px;font:700 22px Inter,Arial;color:rgba(255,255,255,.78);letter-spacing:.14em;text-transform:uppercase;text-shadow:0 2px 8px rgba(0,0,0,.8)}
+#fade{position:absolute;inset:0;background:#000;opacity:0}
+</style>
+<script type="importmap">{"imports":{"three":"./three.module.min.js"}}</script>
+</head><body>
+<div id="ov"><div id="tag">Animated reconstruction · illustrative</div><div id="fade"></div></div>
+<script type="module" src="./app.js"></script>
+</body></html>

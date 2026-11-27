@@ -1,0 +1,177 @@
+   0.00 At 10:47 in the morning, a short text message arrived on a ship in the middle of the North Atlantic.
+   6.94 It came from more than two miles below the surface.
+  10.10 It said: "dropped two weights."
+  12.72 Six seconds later, the submarine sent one last automatic signal.
+  16.92 And then, nothing.
+  20.38 Five people were inside.
+  22.64 One of them was the man who designed it, the man who sold the tickets, and the man who was steering it.
+  27.94 Stockton Rush.
+  29.66 And here's what makes this story so hard to forget.
+  32.58 Rush had been warned.
+  34.14 In writing.
+  35.00 By his own people.
+  36.30 Years before this dive.
+  38.10 So why did he go down anyway?
+  40.32 This is the story of the Titan submersible, told the way the Coast Guard pieced it together.
+  46.10 One dive.
+  46.98 And every warning that came before it.
+  50.32 June 18th, 2023.
+  53.24 Sunday morning.
+  54.36 Depth: zero.
+  55.94 Three hundred and seventy nautical miles off Newfoundland, a Canadian ship called the Polar Prince has towed a floating platform out to the wreck of the Titanic.
+  66.20 On that platform sits a twenty-two-foot submersible named Titan.
+  70.86 Its passengers call themselves mission specialists.
+  73.66 Two of them paid two hundred and fifty thousand dollars each.
+  77.36 Hamish Harding, a British businessman and explorer.
+  80.62 Shahzada Dawood, and his nineteen-year-old son Suleman.
+  84.26 Paul-Henri Nargeolet, a veteran Titanic diver, came as the expert.
+  89.70 And at the controls sat OceanGate's chief executive, Stockton Rush.
+  94.42 Titan's body was unusual.
+  96.76 Most deep-diving subs are built from thick steel or titanium spheres.
+ 101.24 Titan's crew sat inside a tube of carbon fiber, five inches thick, glued to titanium rings at each end.
+ 109.20 At 8:30, the five climb inside.
+ 111.92 The front dome is bolted shut.
+ 114.14 From now on, they can only talk to the surface by short text messages, sent as sound through the water.
+ 121.20 At 9:14, Titan lets go of the platform and begins to fall.
+ 126.00 To understand why this dive was different, we have to go back five years.
+ 130.98 January 2018.
+ 133.38 OceanGate's Director of Marine Operations, the man responsible for keeping crews and passengers safe, finishes an inspection of the new submersible.
+ 143.42 His report lists twenty-six items that need corrective action.
+ 147.60 His conclusion is blunt: until they're fixed, the sub should not be used in upcoming trials.
+ 154.10 He meets with Rush and company leaders.
+ 156.08 The meeting lasts two hours.
+ 158.70 He argues for more testing of the hull.
+ 161.36 Four days later, he's fired.
+ 164.02 When he files a whistleblower complaint, OceanGate sues him.
+ 168.18 An email about his complaint is sent to the Coast Guard, but the investigation later found it never reached the person it was meant for.
+ 176.14 Exhausted by the legal fight, he withdraws the complaint.
+ 180.26 The same year, more than twenty experts in deep-sea diving sign a letter urging Rush to follow established industry practice.
+ 188.62 Rush receives it.
+ 190.00 Nothing fundamental changes.
+ 192.24 And there's more.
+ 193.46 In 2019, during tests in the Bahamas, an OceanGate employee shined a flashlight behind the liner of the first Titan hull and found a crack.
+ 203.66 A former director told investigators Rush wanted to grind it out, repair it, and dive again within three weeks.
+ 211.00 He wanted the media to see OceanGate still operating, while the delay was blamed publicly on a support ship.
+ 217.94 That first hull was finally retired.
+ 220.66 A new one was built.
+ 222.02 The one that would go down to the Titanic.
+ 224.70 OceanGate had written publicly that bringing in outside inspectors was "anathema" to rapid innovation.
+ 231.84 Titan was never registered, certified or inspected by any flag state or classification society.
+ 239.08 Depth: one thousand meters.
+ 241.20 At 9:28, Titan reports it's descending at thirty-three meters a minute.
+ 246.22 Normal.
+ 247.32 At 9:53, the messages stop.
+ 250.02 The surface team asks, again and again: "Do you see Polar Prince on your display?"
+ 255.54 Thirteen minutes of silence.
+ 258.22 Then, at 10:08, one letter comes back.
+ 260.88 "k."
+ 261.32 Everything's okay.
+ 262.88 Myth: Titan was a brand-new submersible that failed on its first deep dive.
+ 267.94 Fact: this was its eighty-eighth dive.
+ 270.20 And its hull had already been through a lot.
+ 273.56 July 2022.
+ 275.36 One year earlier.
+ 277.40 On Dive 80, while Titan is coming back up from the Titanic, the people inside hear something.
+ 283.60 One of them later told investigators it was "a large bang or cracking sound."
+ 289.08 Another said it was "as loud as an explosion."
+ 292.36 People in a small boat on the surface heard it too.
+ 295.66 Titan's own sensors recorded it.
+ 298.10 The hull's acoustic monitors spiked to more than twenty-five thousand millivolts.
+ 303.04 Three of the eight sensors weren't even working.
+ 306.10 The inside of the hull was never taken apart and checked.
+ 309.54 Rush brushed it aside.
+ 311.58 Probably just the sled banging against the frame, he said.
+ 314.96 Deep-sea vehicles make lots of noise.
+ 318.06 Investigators later found that after Dive 80, the hull's strain readings had shifted, a sign the hull may have been damaged.
+ 325.60 OceanGate never meaningfully analyzed that data.
+ 330.66 And then, the winter.
+ 332.62 After the 2022 season, Titan was parked in an open lot in St.
+ 337.54 John's, Newfoundland.
+ 339.46 For about seven months.
+ 341.06 Uncovered.
+ 341.54 Through rain, snow and temperatures down to one degree Fahrenheit.
+ 346.80 A cover was quoted: one thousand seven hundred and fifty Canadian dollars.
+ 351.54 OceanGate never approved it.
+ 353.82 Depth: two thousand eight hundred meters.
+ 356.58 At 10:23, the surface and Titan trade messages about where the Titanic's bow is.
+ 362.72 Titan is close now.
+ 364.60 The wreck lies at about three thousand eight hundred meters.
+ 368.18 The pressure outside is climbing toward five thousand pounds on every square inch.
+ 373.32 Six days earlier.
+ 375.22 June 12th, 2023.
+ 377.84 Dive 87.
+ 379.44 The season has gone badly.
+ 381.58 No dive has made it off the platform.
+ 383.96 One passenger later told investigators that Rush seemed frustrated, and remembered him saying: "I'm going to get a dive in, even if it kills me."
+ 393.04 That day, the ballast system on the platform fails.
+ 396.22 With everyone sealed inside, Titan is thrown up at a forty-five-degree angle and slammed back down onto the steel deck, again and again.
+ 405.20 The passengers described being "tossed like laundry."
+ 408.82 When two of them asked Rush if the hull could have been damaged, he told them Titan was basically "indestructible."
+ 415.28 "Completely safe."
+ 417.02 Six days later, he took it down again.
+ 420.56 Depth: three thousand three hundred and forty-one meters.
+ 424.22 10:47 and two seconds.
+ 426.52 Titan slows its fall, the way it always does near the bottom.
+ 430.34 It sends a message: "dropped two wts."
+ 433.82 Dropped two weights.
+ 435.44 10:47 and eight seconds.
+ 437.72 An automatic ping.
+ 439.30 Depth: three thousand three hundred and forty-six meters.
+ 443.04 10:47 and nine seconds.
+ 448.70 The carbon fiber hull lost its structural integrity.
+ 452.04 Titan imploded.
+ 453.60 The Coast Guard says the five people inside died instantly.
+ 457.90 On the Polar Prince, two seconds later, the tracking team hears a sound from the sea.
+ 462.76 The team leader turns and asks: "What was that bang?"
+ 466.36 Nobody answers.
+ 468.42 Two minutes later, someone points at the screen.
+ 471.56 "We have lost tracking."
+ 473.36 The ship's master later wrote that, looking back, he believed he felt the Polar Prince shudder.
+ 478.72 "At the time, we thought nothing of it."
+ 481.30 The Canadian Coast Guard wasn't notified until 7:10 that evening, more than eight hours later.
+ 487.94 What followed was a huge international search.
+ 491.20 Eleven vessels and four aircraft searched more than twelve thousand square nautical miles.
+ 496.88 The whole world watched the clock, hoping five people were still waiting on the seafloor.
+ 502.28 They weren't.
+ 505.42 June 22nd.
+ 507.04 A deep-sea robot called Odysseus reaches the bottom near the Titanic.
+ 511.98 Its lights find a cone-shaped piece of metal lying in the mud.
+ 515.90 Titan's tail cone.
+ 517.52 Then pieces of the hull.
+ 519.14 Then the titanium rings.
+ 521.44 The search was over.
+ 523.74 So, what went wrong?
+ 525.92 In August 2025, the Coast Guard's Marine Board of Investigation released its final report.
+ 533.30 Three hundred and thirty-five pages.
+ 535.94 Its first line calls this a preventable tragedy.
+ 539.48 The primary cause, it found, was OceanGate's failure to follow established engineering protocols for safety, testing and maintenance.
+ 548.50 The hull's design and manufacturing introduced flaws.
+ 551.90 The company never worked out how many dives the hull could survive.
+ 556.14 It relied on its sensors instead of real inspections, and then didn't properly analyze what those sensors said.
+ 562.98 It kept diving after incidents that damaged the hull.
+ 566.50 And, in the board's words, it used firings, and the threat of firing, to stop people from speaking up about safety.
+ 573.82 The board also found that Rush's sustained efforts to present Titan as indestructible gave passengers, and regulators, a false sense of safety.
+ 583.64 OceanGate has since ceased all operations.
+ 586.72 Remember that message?
+ 588.16 "Dropped two weights."
+ 589.50 It was routine.
+ 590.66 It meant everything was normal.
+ 592.74 But nothing had been normal for years.
+ 595.08 The warnings were all there.
+ 596.90 In a report in 2018.
+ 599.06 In a letter from experts.
+ 600.90 In a bang loud enough to hear on the surface.
+ 603.20 In seven months of snow.
+ 605.52 In a slam against a steel deck six days before.
+ 609.14 Every one of those warnings was heard.
+ 611.50 And every one of them was explained away.
+ 616.10 Stockton Rush.
+ 617.24 Paul-Henri Nargeolet.
+ 618.43 Hamish Harding.
+ 619.64 Shahzada Dawood.
+ 620.86 Suleman Dawood.
+ 622.60 If this story stayed with you, hit like so more people hear what really happened.
+ 627.34 Tell us in the comments: should anyone be allowed to take paying passengers into the deep without certification?
+ 633.78 And subscribe to Wrecklore.
+ 635.58 Every disaster leaves a lesson.
+ 637.88 We find it.

@@ -1,0 +1,1249 @@
+Three Mile Island
+Accident of 1979
+Knowledge
+Management Digest
+Overview
+
+NUREG/KM-0001, Revision 1
+Office of Nuclear Regulatory Research
+Three Mile Island on April 10, 1979, 13 days after the accident
+
+
+
+
+ii
+Contents
+Digital Versatile Disc (DVD) Contents ............................................. v
+1    Introduction ............................................................................... 1
+2    The Accident ............................................................................. 3
+3    Investigations and Lessons Learned ......................................... 9
+4    Regulatory Actions .................................................................. 13
+5    Research ................................................................................ 17
+6    Plant Recovery and Cleanup ................................................... 21
+7    Retrospectives ........................................................................ 29
+8    DVD Navigation and Interpretation .......................................... 33
+9    Contributions to the Main Report ............................................. 37
+
+
+
+
+    President Jimmy Carter observes the radiation monitors in the Three Mile
+    Island, Unit 2 control room on April 1, 1979, accompanied by
+    Pennsylvania Governor Richard Thornburgh and the NRC’s Harold
+    Denton.
+                                                                                                  iii
+ Location of dosimetry sites within a 2 mile radius of the Three Mile Island
+ station. NRC deployed thermoluminescent dosimeters at 37 offsite locations on
+ March 31, 1979, and an additional 10 locations the following day. NRC placed
+ portable air samplers around the plant area and observation center and
+ analyzed the results. NRC also placed liquid effluent monitors at the station
+ discharges.
+
+
+iv
+Digital Versatile Disc (DVD) Contents
+Main Report Disc (NUREG/KM-0001, DVD-1)     Folder
+
+Photos & Videos
+Photo Gallery                               0a-Photos
+DOE “The TMI Story: A Documentary” (1988)   0b-Video-DOE
+NRC 30th Anniversary Seminar (2009)         0c-Video-30th
+NRC 35th Anniversary Seminar (2014)         0d-Video-35th
+
+Response to the Accident
+Commission/Operations Center Response       1a-Transcript
+Response Preliminary Notices                1b-PN-Response
+Press Releases/Conferences                  1c-Press
+International Cables                        1d-International
+Other Response                              1e-Other
+
+Investigations and Lessons Learned
+President's Commission                      2a-Kemeny
+Rogovin Investigation                       2b-Rogovin
+NRC Investigations                          2c-L2-NUREG
+Other Investigations                        2d-Other
+
+Industrywide Regulatory Actions
+Generic Communications                      3a-Generic
+Policy Statements                           3b-Policy
+NUREG Reports                               3c-REG-NUREG
+
+
+
+
+                                                               v
+ An aerial view of Three Mile Island looking south. TMI-2 and both of its
+ cooling towers are in the background. Although the island, which is located
+ on the Susquehanna River, is almost three miles long, the island was named
+ from its location three miles downriver from Middletown, PA. (Middletown
+ was founded in 1755 and named from its location halfway between Lancaster
+ and Carlisle, PA.)
+
+
+
+
+vi
+1 Introduction
+Although it caused no deaths or injuries, the accident at the Three Mile
+Island, Unit 2 (TMI-2) nuclear power plant was the most serious incident in
+U.S. commercial nuclear power history. The accident began in the early
+morning hours of March 28, 1979, at the newly-licensed power plant near
+Middletown, Pennsylvania, and its effects on nuclear safety and regulation
+continue to this day. Three Mile Island spurred the U.S. Nuclear Regulatory
+Commission (NRC) to tighten and heighten its regulatory oversight of the
+nuclear power industry to ensure the safety of the public and the
+environment. Investigations and the implementation of lessons learned
+brought about sweeping changes in the U.S. nuclear industry. These
+included improvements in emergency response planning, reactor operator
+training, human factors engineering, radiation protection, and many other
+areas of nuclear power plant operations and design. The NRC and the
+U.S. Department of Energy (DOE) have intensively studied and
+documented the TMI-2 accident.
+
+This multimedia digest was the first in the NRC’s NUREG knowledge
+management (NUREG/KM) series. One of the missions for NUREG/KMs is
+to preserve knowledge for future generations of the important historical
+events and research that have shaped the NRC’s regulatory programs. This
+knowledge management digest and supporting DVD contain the most
+important documents that the NRC, the licensee, and other government
+organizations issued following investigations and cleanup of the accident.
+Although a few key documents have become available electronically, this
+NUREG/KM marks the first time that the NRC has digitized these
+historically important documents. On the DVD, the table of contents on the
+welcome page provides access to these reports.
+
+About Revision 1. This revision of NUREG/KM-0001 has evolved into two
+volumes. This volume presents overviews of the accident: emergency
+response, investigations, regulatory implications, and accident recovery.
+This volume includes topics and documents provided on the original DVD
+with new ones added. Supplement 1 expounds upon the technical details of
+recovery and cleanup activities: management and oversight, plant
+stabilization, worker protection, data acquisition and analysis, waste
+management, decontamination, defueling, and after defueling. The
+document collections in this supplement are derived from correspondence
+between the utility and NRC, and from the results of research activities. The
+accompanying DVDs for both volumes contain about 4,000 documents.
+
+
+                                                                           1
+In addition to the large collection of documents, this volume provides three
+NRC multimedia presentations, “The Accident at Three Mile Island, A
+Look Back: Preserving the Institutional Memory after 30 Years,” “The
+35th Anniversary of the Three Mile Island Nuclear Power Plant Accident
+of 1979: Working at TMI During and Following the Accident,” and
+“Moments in NRC History, Three Mile Island, March 28, 1979.”
+
+This NUREG/KM does not fully convey the complete NRC experience in
+the aftermath of the accident. Other interesting topics for future studies of
+the TMI-2 accident include: legal lawsuits and actions; court proceedings,
+including those at the U.S. Supreme Court; Atomic Safety and Licensing
+Board proceedings; enforcement actions; the utility’s financial crisis;
+interactions with Congress; interactions with Federal, State, and local
+government agencies; public outreach; the TMI Unit 1 restart; and oversight
+by the NRC’s Advisory Committee for Reactor Safeguards (ACRS).
+
+How to Use this Digest. A few suggestions for navigating through this
+NUREG/KM, and the many documents on the DVD, are provided at the end
+of this NUREG/KM (see the section on DVD Navigation and
+Interpretation). The historical documents provided on the DVD are for
+reference only, and are not official NRC records.
+
+
+
+
+    Shortly after the accident, NRC staff gathers in the NRC office trailer at
+    Three Mile Island. Shown (front-left to right): Thomas Essig, George Smith,
+    Richard Volmer, Frank Congel, Robert Bores (wearing hardhat), and
+    J. Philip Stohr (wearing vest).
+
+2
+2 The Accident
+The sequence of certain events—equipment malfunctions, design-related
+problems, and operator errors—led to a partial meltdown of the TMI-2
+reactor core, resulting in a very small offsite release of radioactivity. In an
+atmosphere of growing uncertainty about the condition of the plant, on the
+morning of March 30, 1979, Pennsylvania Governor Richard Thornburgh
+advised people within a 5-mile radius of the plant to stay indoors. He also
+advised pregnant women and preschool-age children to evacuate the area
+within a 5-mile radius of TMI. By the close of the weekend of March 30
+through April 1, 1979, TMI-2 was determined to be in a stable shutdown
+condition. On Sunday, April 1, 1979, the President of the United States
+James Earl “Jimmy” Carter, Jr., First Lady Rosalynn Carter, Governor
+Thornburgh, and the NRC’s Harold Denton visited the damaged unit.
+Within 2 weeks, the Governor’s precautionary advisory to pregnant women
+and preschool-aged children was lifted.
+
+While the utility and NRC were primarily charged with mitigating the
+consequences of the accident through plant actions, reducing the effects of
+offsite radiological releases is the responsibility of State and Federal
+agencies. The TMI accident initiated an institutional and public response
+that was unprecedented in the history of nuclear power in the United States.
+Many organizations participated substantially in the response to this
+accident, including approximately 24 Federal and 12 State agencies; the
+military; 27 counties of the Commonwealth of Pennsylvania; innumerable
+local jurisdictions; public and private organizations; 4 bordering states; and
+several quasi-Federal organizations. Operational code name “Ivory
+Purpose” was chosen for the purpose of citing accident support by military
+and other agencies. These institutions provided many kinds of support
+services to the utility in evaluating the status of the plant, and in bringing
+the plant to a safe-shutdown condition. Support was also provided to the
+state in evaluating the extent of public hazards, preparing for possible
+evacuation, and considering or preparing for the implementation of other
+protective actions.
+
+The NRC played an active role as the regulator by responding to the
+accident. A team began to form at the site with the arrival of the NRC’s
+Region I inspectors during the morning of the first day of the accident, and
+continued to expand throughout the weekend with the arrival of engineers,
+scientists, and public affairs specialists from headquarters and other regional
+offices. The incident response centers, located in the Region I office in King
+of Prussia, Pennsylvania, and at headquarters in Bethesda, Maryland, were
+
+                                                                              3
+staffed by NRC incident response teams during the morning of March 28.
+Other NRC offices, such as State Programs, International Programs, Public
+Affairs, and Administration, supported the NRC incident response effort.
+The five commissioners, who provided the general policy that determined
+the overall course of action that the NRC staff would take in response to
+incidents, were located at their downtown office on H Street in northwest
+Washington, DC.
+
+The NRC sponsored a Special Inquiry Group that was tasked with
+investigating the accident and reporting their findings in NUREG
+Contractor Report 1250 (NUREG/CR-1250). Volume 1 of that report
+contains an informative and nontechnical discussion of the accident,
+including onsite actions and offsite responses. Another good resource on the
+accident is the main report by the President’s Commission on the Accident
+at Three Mile Island. Additional volumes of both these reports provide
+technical details of the accident and discussions of emergency actions by the
+NRC, other Federal agencies, and State and local government offices. The
+NRC’s training manual on reactor safety (NUREG/CR-6042, Section 2.2)
+provides a technical summary of the accident, as well as an overview of the
+regulatory implications of the accident (Section 2.3).
+
+The chronology of events can be found in all of the aforementioned
+documents. Both “Backgrounder”, written by the NRC’s Office of Public
+Affairs, and the NRC’s 1979 annual report (NUREG-0690), specifically
+Chapter 2, contain additional nontechnical summaries of the accident;
+
+
+
+
+    Three Mile Island “trailer city” at the visitor center during the accident
+    response (helicopter pad upper left).
+4
+these, and other reports on the accident are provided on the accompanying
+DVD.
+
+One of many functions of the NRC incident response organization during
+the accident was to notify appropriate internal offices and external agencies,
+and keep them and the public informed. Document collections related to the
+first few weeks of the NRC response effort include the following:
+
+•   Preliminary notification (PN) reports, which were used by the NRC
+    Operations Center to communicate daily status of the accident (see
+    DVD folder, Response Preliminary Notices)
+
+•   Press releases issued by the NRC public affairs staff (see DVD folder,
+    Press Releases/Conferences)
+
+•   Transcripts of press conferences held by NRC emergency managers,
+    and many times, jointly with State executives (see DVD folder, Press
+    Releases/Conferences)
+
+•   International cables issued by the NRC international programs staff and
+    used by State Department officials to keep foreign governments
+    informed of the accident (see DVD folder, International Cables)
+
+
+
+
+         NRC’s Harold Denton briefs the news media at the NRC press
+         center located at the basketball court in the Middletown
+         Borough Hall.
+                                                                             5
+During the course of the accident, the NRC commissioners (known
+collectively as the “Commission”), met frequently to discuss the accident
+and related matters. Because of their emergency nature, these meetings were
+not open to the public. At the time of the accident, the five commissioners
+were John Ahearne, Peter Bradford, Victor Gilinsky, Joseph Hendrie
+(chairman), and Richard Kennedy. Meetings were recorded and transcripts
+were prepared in accordance with the Government in the Sunshine Act.
+These transcripts were later released to the public and used in internal and
+external investigations of the accident. Notably, the Commission meetings
+were sometimes held in locations other than where they normally would be,
+making the creation of complete and high-quality recordings difficult. As
+such, these transcripts do not represent formal or official Commission
+statements (see DVD folder, Commission/Operations Center Response).
+
+Lessons from investigations of the accident led to vast improvements in
+how the NRC, nuclear power plant utilities, and Federal and State agencies
+respond to accidents. Revised NRC rules and guidance mandated utilities to
+
+
+
+
+    The NRC Executive Management Team at the NRC Operations Center
+    located in the East-West Towers Building, Bethesda, Maryland, during
+    the accident response. Shown (left-right): Lee Gossick (team director
+    and Executive Director for Operations), Edson Case (Deputy Director,
+    Office of Nuclear Reactor Regulation), Norman Moseley (Director,
+    Division of Reactor Operations Inspection), John Davis (Acting
+    Director, Office of Inspection and Enforcement), and James Sniezek
+    (Director, Division of Fuel Facilities and Materials Safety Inspection).
+6
+upgrade their overall state of emergency preparedness for a wide range of
+accidents, including the integration of onsite and offsite emergency
+preparedness. The newly established Federal Emergency Management
+Agency (FEMA) consolidated offsite Federal emergency planning and
+response to radiological accidents. (Although Congress approved the
+President’s Reorganization Plan No. 3 of 1978 that created FEMA on
+September 16, 1978, the transfer of Federal functions had not been
+completed at the time of the TMI accident. In the reorganization, each State
+retained responsibility for protection of its citizens and the NRC retained
+Federal jurisdiction over plant activities.)
+
+
+
+
+ A new state-of-the-art NRC Operations Center, located in the Fairmont
+ Building (also known as the Maryland National Bank Building) in Bethesda,
+ Maryland, was completed in early 1985 and remained in operation until the
+ NRC consolidated at the current White Flint complex in Rockville, Maryland,
+ during the summer of 1994. This first dedicated use operations center was
+ designed using lessons learned from the TMI-2 accident and human factors
+ principles to ensure seamless flow of information inside and outside the
+ center. Shown is the Executive Team during the Saint Lucie Plant exercise on
+ March 20, 1991. Clockwise: Commissioner Kenneth Rogers (back to camera),
+ Brian Sheron (standing while briefing the team on reactor safety team
+ assessments), Edward Jordon (Director, Office of Analysis and Evaluation of
+ Operational Data), Themis Speis (Deputy Director, Office of Nuclear
+ Regulatory Research), Robert Bernaro (Director, Office of Nuclear Material
+ Safety and Safeguards), Thomas Murley (Director, Office of Nuclear Reactor
+ Regulation), and James Talyor (Executive Director for Operations).
+                                                                                7
+In 1980, the NRC and FEMA signed memoranda of understanding to further
+delineate responsibilities regarding emergency planning and activities at
+NRC-licensed facilities. In the President’s Reorganization Plan No. 1
+of 1980, the Commission’s emergency response functions were transferred
+to the NRC Chairman for defined emergencies. The Commission approved
+the revised NRC Incident Response Plan in 1983, which, among numerous
+improvements, established a site team that takes the agency’s lead for larger
+responses. The Chairman could delegate specific authorities to the site team
+leader during a defined emergency. The completion of TMI
+recommendations relating to emergency preparedness and response are
+summarized in NUREGs 0933 and 1355. Other documents specific to the
+TMI-2 response, and generic to emergency preparedness for all
+NRC-licensed activities, are provided on the DVD (see the DVD folders,
+Other Response and NUREG Reports).
+
+
+
+
+        The pilot-operated relief valve on top of the pressurizer (see
+        arrow) failed to close at the start of the accident. Steam leaked
+        out through the stuck-open valve into the basement of the
+        reactor building at a rate equivalent of some 220 gallons of
+        water per minute, which continued for more than 2 hours and
+        20 minutes before operators realized that the valve had failed
+        to shut. This was a failure for which the TMI operators had
+        never been trained, and which was not described in their
+        written emergency procedures. This lack of preparation led to
+        a misreading of the symptoms and mistaken responses that
+        would uncover the reactor core.
+8
+3 Investigations and Lessons Learned
+Two weeks after the accident, the President of the United States, Jimmy
+Carter, appointed a 12-member Presidential Commission to investigate the
+accident at Three Mile Island. This group, known as the “Kemeny
+Commission,” conducted a comprehensive investigation of the accident and
+made recommendations based upon their findings. Their final report was
+issued to the President on October 30, 1979. Another 10 volumes
+documented details of their investigation. The NRC published its initial
+response to the Presidential Commission’s recommendations in
+November 1979 as NUREG-0632 entitled, “NRC Views and Analysis of the
+Recommendations of the President’s Commission on the Accident at Three
+Mile Island.”
+
+The President responded to those reports in his statement on
+December 7, 1979. By Executive Order 12202 of March 18, 1980, President
+Carter established the Nuclear Oversight Committee for a short period of
+time to report to him on the progress of implementing the approved
+recommendations of the Kemeny Commission. A later report,
+NUREG-1355, “Status of Recommendations of the President’s Commission
+on the Accident at Three Mile Island—a 10-Year Review,” updated the
+NRC’s initial response to include the status of the 44 recommendations
+made by the Kemeny Commission over a 10-year period.
+
+To help gain comprehensive insight into the accident, the NRC sponsored
+both internal and external investigations. In mid-June 1979, the NRC asked
+the independent Special Inquiry Group to perform an investigation under the
+directorship of the law firm of Rogovin, Stern, and Huge. Most of the
+people who assisted in the inquiry were drawn from the NRC staff, and
+                                  One highly publicized operating error was
+                                  the initial failure of emergency feedwater
+                                  (EFW) flow to the steam generators by two
+                                  improperly closed EFW block valves. One
+                                  of these tags obscured one of the block
+                                  valve indicator lights. The Special Inquiry
+                                  Group was not able to determine how the
+                                  block valves were closed; however, they
+                                  concluded that the 8-minute delay in
+                                  restoring EFW flow did not directly affect
+                                  the outcome of the accident. With the
+                                  pressurizer relief valve stuck open and the
+                                  high-pressure injection flow throttled, core
+                                  damage would have occurred anyway.
+
+                                                                             9
+carefully screened to avoid any conflicts of interest; a number of technical
+consultants were also engaged to assist in the inquiry. The Special Inquiry
+Group provided a thorough analysis and assessment of the causes and
+implications of the accident. As already noted, the NRC published this work
+in the four volumes of NUREG/CR-1250, “Three Mile Island, a Report to
+the Commissioners and to the Public.”
+
+Working internally, the NRC created a Lessons Learned Task Force in
+May 1979. The NRC task force identified and evaluated safety concerns
+originating from the TMI-2 accident that required licensing actions at other
+nuclear power plants. The NRC published the task force’s conclusions in
+NUREG-0578, “TMI-2 Lessons Learned Task Force Status Report and
+Short-Term Recommendations,” and NUREG-0585, “TMI-2 Lessons
+Learned Task Force Final Report.”
+
+Many other groups, both internal and external to the NRC, also performed
+separate investigations. These included the U.S. Congress and its General
+Accounting Office; the Ad Hoc Dose Assessment Group, which comprised
+various Federal agencies (see NUREG-0558); the NRC’s Advisory
+Committee on Reactor Safeguards; the Bulletins and Orders Task Force of
+the NRC’s Office of Nuclear Reactor Regulation (see NUREG-0645); the
+NRC’s former Office of Inspection and Enforcement’s Special Review
+Group (see NUREG-0616), Task Force on Lessons Learned (see
+
+
+
+
+ The NRC Commissioners testifying before the U.S. Senate Subcommittee on
+ Nuclear Regulation for the Committee on Environment and Public Works.
+
+10
+NUREG-0600), and Division of Program Development and Appraisal (who
+investigated information flow during the accident—see NUREG-0760); the
+NRC’s Siting Task Force, which identified site location requirements for
+nuclear power plants; the NRC’s Emergency Preparedness Task Force; the
+Staff Panel on the Commission’s Determination of an Extraordinary
+Nuclear Occurrence (see NUREG-0637); the NRC’s Office of Nuclear
+Regulatory Research; and the NRC’s former Office of Standards
+Development.
+
+The DVD provides many of the key investigation reports on TMI (see DVD
+folders, President's Commission, Rogovin Investigation, NRC
+Investigations, and Other Investigations). Many of the aforementioned
+investigation reports are summarized in NRC annual reports, primarily
+NUREG-0690 (1979) and NUREG-0774 (1980).
+
+
+
+
+                                                                      11
+ TMI-2 Core End-State Configuration. In 1988, the NRC reported the final
+ state of the damaged TMI-2 reactor core, shown above. The accident was
+ terminated by reflooding of the core. This action did not immediately stop
+ further core melting, but it did prevent the core from melting through the
+ reactor vessel.
+12
+4 Regulatory Actions
+The NRC implemented a number of regulatory actions resulting from
+investigations and lessons learned reviews, and completed many more
+“spinoff” actions in the decades following the accident. The first wave of
+actions that the NRC approved included orders to individual NRC licensees,
+and generic communications, such as bulletins and letters; these regulatory
+tools were implemented in the days and months following the accident.
+
+Once the various investigative groups had documented their findings, the
+Commission considered the recommendations. The NRC staff consolidated
+all the recommendations that the Commission approved into NUREG-0737,
+“TMI Action Plan,” published in 1980. The plan included approximately
+371 individual requirements. The NRC found that, of these, 13,863 action
+plan items were applicable when reviewed against each specific licensed
+nuclear power plant. Some requirements involved changes to the internal
+NRC organization, processes, and practices.
+
+A few requirements caused the Commission to issue policy statements and
+specific changes to the NRC’s regulations through the rulemaking process.
+Both of these long-term regulatory tools required extensive internal and
+external stakeholder involvement, and were completed during the 1980s.
+
+
+
+
+ NRC issued a requirement for nuclear power plants to have a simulation
+ facility appropriate to conduct operator licensing tests. All plants now have a
+ certified plant-referenced simulator that demonstrates anticipated plant
+ responses to normal, transient, and accident conditions. Shown is one control
+ room simulator at the NRC Technical Training Center in Chattanooga,
+ Tennessee, used to train NRC inspectors and technical staff.
+
+                                                                               13
+The NRC’s training manual on reactor safety, (NUREG/CR-6042,
+Section 2.3), provided an overview of the regulatory implications of the
+accident. NUREG-0933, “Resolution of Generic Safety Issues,”
+documented the prioritization and closeout of the TMI Action Plan
+requirements.
+
+Generic Communications. Within 3 days of the accident, the NRC’s Office
+of Inspection and Enforcement started to issue a series of bulletins
+instructing all operating power plant licensees to take a number of
+immediate actions to avoid repeating several of the events that occurred
+during the accident and contributed significantly to its severity
+(Bulletins 79-05, -05A, -05B, -05C, -06, -06A, -06B, -06C, and -08). The
+bulletins and resulting evaluations also substantially informed other staff
+activities, such as those associated with the generic study efforts of the
+Bulletins and Orders Task Force (NUREG-0645) and the Lessons Learned
+Task Force (NUREG-0585). The NRC issued other types of generic
+communications, including generic letters (that transmitted information and
+usually required action or a response) and information notices (related to
+issues for which the licensees considered action appropriate). The DVD
+provides most of the generic communications relevant to TMI-2 (see DVD
+folder, Generic Communications).
+
+TMI Action Plan. Each of the investigating groups organized their
+recommendations in a different way. These recommendations were
+collected and transformed into discrete, scheduled tasks in NUREG-0660,
+“NRC Action Plan Developed as a Result of the TMI-2 Accident.” The
+report NUREG-0737, “Clarification of TMI Action Plan Requirements,”
+documented the specific items from NUREG-0660 that the Commission
+approved for implementation at nuclear power plants. In October 1980, the
+NRC issued NUREG-0737 for implementation in Generic Letter 80-090.
+This report comprised specific items and included additional information
+about schedules, applicability, methods of implementation, submittal dates,
+and clarification of technical positions. The Generic Safety Issues Program
+prioritized and tracked the TMI Action Plan items detailed in NUREG-0660
+and NUREG-0737. NUREG-0933, “Resolution of Generic Safety Issues,”
+documented the closeout of action items.
+
+The DVD provides the above NUREGs and other select NUREGs that were
+associated with the implementation and closeout of TMI Action Items (see
+DVD folder, NUREG Reports).
+
+
+
+
+14
+Rulemaking and Regulatory Guides. In most cases, the NRC implemented
+the TMI Action Plan items through the review of new licensee applications,
+and the imposition of confirmatory orders and specific license conditions,
+rather than through specific changes to the NRC’s regulations. In several
+instances, implementation of the TMI Action Plan resulted in new or
+modified regulations. These regulations, and a few others that could be
+considered relevant to the TMI accident, included the following: improved
+emergency planning requirements in 1980; requirements related to hydrogen
+control in Mark I and Mark II containments for boiling-water reactors
+(BWRs) in 1981; improved requirements for operations personnel and
+staffing at nuclear power plants in 1983; requirements for event reporting
+in 1983; requirements related to hydrogen control in Mark III containments
+for BWRs and ice condenser containments for pressurized-water reactors
+in 1985; improved backfitting process for power reactors in 1985; improved
+personnel dosimetry processing in 1987; improved requirements for
+operator licensing in 1987; and mandated participation in the Emergency
+Response Data System Program in 1991.
+
+
+
+
+ In support of the NRC Special Inquiry Group investigation, a mockup of the
+ TMI-2 control room (above) was constructed by a contractor to study the
+ extent to which factors incorporated within the discipline of human factors
+ engineering (e.g., man-machine interface design, procedures, manning, and
+ training) were influential in causing or contributing to the course of the
+ accident. NRC required all licensees and applicants of new plants to conduct
+ similar detailed reviews to determine if their control rooms provided
+ satisfactory information to allow operators to prevent and cope with accidents.
+                                                                               15
+In general, a regulatory guide (RG) describes one acceptable method for
+implementing agency regulations. Regulatory guides are not substitutes for
+regulations and the NRC does not require that licensees comply with them.
+Notable regulatory guides that the NRC revised or created during the
+implementation of the TMI Action Plan include RG 1.8, “Qualification and
+Training of Personnel for Nuclear Power Plants”; RG 1.97, “Criteria for
+Accident Monitoring Instrumentation for Nuclear Power Plants”; RG 1.101,
+“Emergency Planning and Preparedness for Nuclear Power Reactors”; and
+RG 1.149, “Nuclear Power Plant Simulation Facilities for Use in Operator
+Training and License Examinations.” NRC annual reports summarized
+rulemakings and regulatory guides (see DVD folder, NRC Annual Reports,
+in Supplement 1 to this NUREG/KM).
+
+NRC Commission Policy Statements. Several policy statements that the
+Commission issued were directly or indirectly related to the TMI Accident.
+A policy statement is not a regulation and does not impose specific
+regulatory requirements, but rather, provides the Commission’s rationale
+and motivation for future regulatory positions. Two notable policy
+statements that continue to have far-reaching regulatory applications include
+“Severe Reactor Accidents Regarding Future Designs and Existing Plants,”
+issued in 1985 and “Safety Goals for the Operations of Nuclear Power
+Plants,” issued in 1986. The former provided the basis for redirecting NRC
+research programs and other regulatory programs; the latter provided the
+basis for backfitting and regulatory analyses, and for the use of probabilistic
+risk assessment in risk-informed decisions on plant-specific changes to the
+plant’s licensing basis. The DVD contains NRC Commission policy
+statements relevant to TMI-2 (see DVD folder, Policy Statements).
+
+
+
+                                        To facilitate timely NRC responses,
+                                        more stringent notification
+                                        requirements were placed on
+                                        licensees in February 1980 with the
+                                        publication of 10 CFR 50.72 as an
+                                        immediately effective rule. The rule
+                                        required notification from licensees to
+                                        the NRC Operations Center within
+                                        one hour of emergencies and certain
+                                        significant events, via a dedicated
+                                        direct telephone “Hot Line.” Shown
+                                        is a 1985 photo of operations officers,
+                                        Chauncey Gould and Raymond Smith
+                                        (back), at the new Operations Center
+                                        that opened in February 1985.
+16
+5 Research
+The NRC’s approach to safety changed dramatically after the TMI-2
+accident. The agency’s emphasis shifted from providing safety by relying
+on the traditional design-basis approach, to relying on a multi-faceted
+approach, which emphasized improved operations; human factors
+considerations in control room and emergency procedures; realistic
+performance of systems and containments under severe accident conditions;
+and probabilistic risk assessments to identify generic and plant-specific
+vulnerabilities. NRC research and development programs also reflected this
+change.
+
+After the accident, the scope and diversity of the NRC’s efforts in severe
+accidents increased substantially. Some examples included allocating
+additional resources to research and development activities, such as the
+construction of new experimental facilities; the development of analytical
+tools; and, in general, the development of the information needed to gain
+greater insight into severe accident behavior. Since the accident, the NRC,
+DOE, the U.S. nuclear power industry, and international organizations have
+developed a large body of information on severe accidents, including their
+probability; core-melt phenomenology; associated accident sequences; and
+the effects of severe accidents on plant systems, components, and structures,
+
+
+
+
+ Closed-circuit video inspections of the reactor core revealed a rubble bed
+ approximately 5 feet below the normal location of the top of the fuel
+ assemblies.
+                                                                              17
+especially those that provide barriers to fission product release to the
+atmosphere, such as the reactor containment structure.
+Shortly after the accident, the DOE also supported an extensive research
+program, known as the “TMI-2 Accident Evaluation Program,” to develop a
+consistent understanding of the accident. The primary objective of the
+program was to develop an understanding of core-damage progression in the
+upper core region; the heatup and the formation and growth of the molten
+central region of the core; the relocation of approximately 19 metric tons of
+debris to the lower head; and the release of fission products to the reactor
+vessel and containment.
+
+Collaboration between the U.S. Government and nuclear industry
+organizations also yielded important post-accident research. In 1980, four
+organizations—the General Public Utilities (GPU), Electric Power Research
+Institute (EPRI), NRC, and DOE—formed a group known as “GEND,”
+signing a coordination agreement to implement the TMI-2 Information and
+Examination Program. This program executed research and development
+
+                                                At left is a page recorded at
+                                                the NRC Operations Center
+                                                on the second day of the
+                                                accident showing temperature
+                                                readings that were measured
+                                                by plant technicians with a
+                                                handheld voltage meter on
+                                                the wires from reactor core
+                                                exit thermocouples. These
+                                                thermocouples were
+                                                temporary installed to
+                                                measure coolant temperatures
+                                                above the reactor fuel in
+                                                support of startup testing of
+                                                the new reactor. We now
+                                                know that many of these
+                                                temperature readings were
+                                                measured at newly formed
+                                                false junctions located in the
+                                                “liquefied fuel” regions of the
+                                                core. Today, all pressurized
+                                                water reactors are required to
+                                                have redundant, qualified,
+                                                Class 1E instrumentation for
+                                                core exit thermocouples, sub-
+                                                cooling margin monitors, and
+                                                reactor coolant inventory
+                                                monitors.
+18
+activities relating to the cleanup of TMI-2, and the study of the accident for
+the enhancement of nuclear power safety and reliability. The group
+documented the results of this program in a series of approximately
+200 GEND and GEND-INF (informal) reports, as well as many other
+technical reports issued by the NRC, the DOE and its laboratories, EPRI,
+and GPU.
+
+A cooperation agreement was signed in April 1984 by the DOE and 17
+Japan nuclear power organizations for a program of participation in the
+DOE research and development programs relating to the
+TMI-2 cleanup. This Japan-U.S. agreement provided information
+exchanges, Japanese research staff at TMI-2 and DOE national laboratories,
+and Japanese funding for research and development activities. A total of 43
+engineers from 10 electric power companies, 3 reactor vendors, 2
+engineering companies, the Nuclear Power Engineering Test Center
+(currently the Japan Atomic Energy Agency), and the Japan Atomic Energy
+Research Institute (currently the Nuclear Regulation Authority) worked in
+almost every area of the TMI-2 cleanup project during the 5-year period.
+
+
+
+
+ In August and September of 1983, the core topography system, designed and
+ built by DOE, was used to develop an ultrasonic profile of the void area in the
+ upper reactor core region. The data and information obtained included the
+ radial and axial extent of the reactor core cavity, the location of supported and
+ unsupported fuel assembly end-fittings, and the location of the core cavity
+ boundary with respect to structurally intact fuel assemblies. The analysis of
+ this data supported upper plenum lift and defueling operations. Shown is the
+ topographic model of the cavity in the upper core region based on this
+ ultrasonic profile. This model is currently located at NRC Headquarters.
+                                                                                19
+Supplement 1 of the NUREG/KM provides most of the NRC and DOE
+reports and presentation papers, which documented research and
+development activities relating to the TMI-2 accident and its unique
+recovery and cleanup. GEND reports are provided in Supplement 1. NRC
+annual reports provided summaries of NRC research activities (see DVD-2
+folder NRC Annual Reports).
+
+
+
+
+ Numerous manual and hydraulically powered long-handled tools were used to
+ perform a variety of functions, such as pulling, grappling, cutting, scooping,
+ and breaking up the core debris. These tools were used to load debris into fuel
+ canisters positioned underwater in the reactor vessel. Later, a core boring
+ machine (lower right) was used to break apart once liquefied materials.
+20
+6 Plant Recovery and Cleanup
+By the close of the weekend of March 30 through April 1, 1979, TMI-2 was
+determined to be in a stable shutdown condition. Within 2 weeks, the
+Governor’s precautionary advisory to pregnant women and preschool-aged
+children to evacuate the area within a 5-mile radius of TMI was lifted.
+Within 1 month, the reactor was placed in natural circulation, with decay
+heat flowing to the condenser and out of the cooling towers. The purging of
+radioactive krypton gas from the reactor-building atmosphere, followed by
+the first entry into the reactor building by two utility engineers, was
+accomplished after the first anniversary of the accident. Shortly before the
+second anniversary, the reactor was placed in loss-to-ambient cooling mode,
+in which heat losses are transferred from component and piping surfaces
+into the reactor building’s ambient environment and out through the reactor
+building’s fan coolers.
+
+The reactor vessel head was removed in 1985, while the removal of loose
+fuel debris from the reactor vessel began later that year, and was completed
+in 5 years. Workers used numerous manual and hydraulically-powered,
+long-handled tools to perform a variety of functions, such as pulling,
+grappling, cutting, scooping, and breaking up the core debris. In 1986,
+7 years after the accident, a special core-sampling drilling rig was used to
+
+
+
+
+ The first entry into the reactor building occurred on July 23, 1980 (shown).
+ Heavy-duty outerwear provided protection from high-energy, low-penetration
+ beta radiation.
+                                                                            21
+reveal the extent of the hard crust layer of the damaged core. Between
+1986 and 1990, the DOE shipped the fuel debris by rail to the DOE site at
+the Idaho National Engineering Laboratory (currently called Idaho National
+Laboratory), and placed the debris in wet pool storage for study and
+safekeeping. The evaporation of 2.3 million gallons of slightly-
+contaminated, accident-generated water at TMI was conducted over a 2- to
+3-year period, and completed in 1993.
+
+In late 1993, TMI-2 was placed in NRC-approved, post-defueling,
+monitored storage, a passive monitored state in which the plant will remain
+until both units are decommissioned simultaneously. From 2000 to 2001,
+the fuel debris was moved into NRC-approved aboveground dry storage at a
+DOE facility to await final disposal.
+
+NRC Actions at TMI. The NRC played an active role as the regulator, first
+by responding to the accident, and then by approving and overseeing
+recovery activities by the licensee and its contractors. With the arrival of the
+NRC’s Region I inspectors during the first day of the accident, a team began
+to form and continued to expand throughout the weekend with the arrival of
+engineers, scientists, and public affairs specialists from headquarters and
+other regional offices. Early in 1980, the NRC established the TMI Program
+
+
+
+
+ Water level in the reactor building basement reached the first stairwell
+ landing, indicating about 8 feet of water. The submerged demineralizer system
+ or “SDS” was designed and installed to cleanup the 700,000 gallons of highly
+ contaminated basement water. The SDS started operations in September 1981
+ after NRC approval and completed processing basement water in May 1982.
+22
+Office (TMIPO) within the NRC’s Office of Nuclear Reactor Regulation to
+provide overall direction for the TMI-2 cleanup operations and inspections
+(see NUREG-0698). About 30 NRC employees staffed the onsite TMIPO
+office during the first few years. NRC’s regulatory responsibilities in
+recovery operations included reviewing and approving the licensee’s
+proposals for recovery actions, overseeing the licensee’s implementation of
+approved activities, coordinating with other Federal and State government
+agencies on their activities in the recovery, and informing local officials and
+the public about the status of the recovery operation.
+
+Important NRC actions during TMI-2 recovery are summarized below and
+discussed in detail in Supplement 1 to this NUREG/KM.
+
+•     issuance of the environmental assessment (NUREG-0591) and
+      Commission order to use the EPICOR II system to decontaminate
+      intermediate-level radioactive accident water in the auxiliary building in
+      October 1979
+
+•     creation of the NRC Special Panel on TMI-2 Radiation Protection
+      Program in September 1979 to provide an independent review of the
+
+
+
+
+    Workers perform defueling operations from a shielded defueling work
+    platform, which was located 9 feet above the reactor vessel flange. The
+    platform had a rotating surface with 6-inch steel plates and a diagonal slit for
+    access into the reactor vessel for removing debris.
+                                                                                   23
+     licensee’s existing and planned radiation protection program during
+     recovery and cleanup (NUREG-0640)
+
+•    issuance of the Commission order to implement the TMI-2 recovery
+     technical specifications in February 1980 (NUREG-0647)
+
+•    issuance of a research coordination agreement with the DOE, EPRI, and
+     the licensee in March 1980 to jointly sponsor and participate in the TMI
+     Information and Examination Program, and to obtain valuable
+     information from the accident
+
+•    approval by the Commission in April 1980 to allow small radioactive
+     releases for the purpose of data gathering and maintenance operations
+     (SECY-80-175)
+
+•    issuance of the environmental assessment (NUREG-0662) and
+     Commission order to purge radioactive krypton gas from the reactor
+     building atmosphere in June 1980
+
+
+
+
+      The first piece of core debris was placed into the defueling
+      canister in November 1985 (shown). The long-handled vice-grip
+      tool was clamped onto an upper end fitting of a partial fuel
+      element. A long-handled tamping tool (upper left) was used to
+      tap the piece into the canister.
+24
+•     issuance of the NRC action plan for cleanup operations in July 1980
+      (NUREG-0698)
+
+•     issuance of the draft Programmatic Environmental Impact Statement
+      (NUREG-0683) for public comment in August 1980 and
+      implementation in February 1981
+
+•     creation of the public Advisory Panel for the Decontamination of Three
+      Mile Island in November 1980 (see NUREG/CR-6252)
+
+•     issuance of the Commission Policy Statement endorsing the
+      Programmatic Environmental Impact Statement in May 1981
+
+•     issuance of the safety evaluation report and order to use the submerged
+      demineralizer system to process the highly-contaminated,
+      accident-generated water in the reactor building sump and reactor
+      coolant system in June 1981 (NUREG-0796)
+
+
+
+
+    The NRC issued certificates of compliance to the DOE in April 1986 for
+    casks used to ship fuel debris by rail to the Idaho National Engineering
+    Laboratory (INEL) for research and temporary storage. Each cask
+    contained up to seven defueling canisters. Each rail shipment included up to
+    three cask rail cars. A total of 342 defueling canisters were shipped to INEL
+    in 22 trips between 1986 and 1990.
+                                                                                    25
+•     issuance of a March 1982 amendment to the memorandum of
+      understanding with the DOE to accept the entire reactor core and
+      highly-radioactive solid waste for research and long-term storage (see
+      Appendix A to Revision 2 of NUREG-0698)
+
+•     approval, in November 1983, of the licensee’s safety evaluation for the
+      refurbishment and use of the reactor building polar crane for defueling
+      operations
+
+•     issuance of Supplement 1 to the Final Programmatic Environmental
+      Statement (NUREG-0683) on dealing with occupational radiation dose
+      in October 1984
+
+•     issuance of certificates of compliance in April 1986 for three shipping
+      casks to be used for shipment of fuel debris to DOE by rail
+
+•     issuance of Supplements 2 and 3 to the Final Programmatic
+      Environmental Statement (NUREG-0683) on the final disposal of
+      2.3 million gallons of slightly-contaminated, accident-generated water
+      in June 1987, and dealing with post-defueling monitored storage and
+      subsequent cleanup in August 1989
+
+•     approval in September 1989 to use the evaporator for the final disposal
+      of 2 million gallons of accident-generated water
+
+
+
+
+    TMI-2 Independent Spent Fuel Storage Installation located at DOE’s Idaho
+    National Laboratory for interim storage of the TMI-2 core debris.
+
+26
+•   issuance of two amendments to the facility operating license in
+    September and December 1993 to issue a possession-only license and
+    issue technical specifications for post-defueling monitored storage
+
+The NRC Headquarters wrapped up onsite involvement at TMI-2 by the
+time that the agency terminated the TMI-2 Project Directorate in
+February 1988. The NRC’s TMI resident inspector office took over the
+inspection program for TMI-2 and a headquarters project directorate
+assumed responsibility for the technical review and project management
+functions. In September 1993, the NRC approved “post-defueling monitored
+storage” at TMI-2 and associated license conditions and technical
+specifications. The last meeting (78th overall) of the 10-member public
+Advisory Panel for the Decontamination of Three Mile Island Unit 2 was
+held in September 1993 (see NUREG/CR-6252 for lessons learned). See
+Supplement 1 to this NUREG/KM for more documents covering recovery
+and cleanup activities.
+
+Timeline. The timeline feature on the DVD provides a summarized
+chronology of key recovery milestones and NRC actions. Users may read a
+short description of many of the actions by clicking on the text of the
+timeline in the interactive window of the DVD.
+
+Status Reports. Several document collections in Supplement 1 to this
+NUREG/KM provide informative daily, weekly, and annual summaries of
+TMI-2 recovery and cleanup experiences. These status documents, which
+are related to topics discussed in all volumes and sections of this
+NUREG/KM, are provided in the following document collections in
+Supplement 1:
+
+•   NRC TMI Program Office (TMIPO) weekly status reports (see DVD
+    folder TMI Program Office Weekly Status Reports)
+
+•   preliminary notification reports—an early notice of an event of possible
+    safety or public interest significance issued by TMIPO or other NRC
+    offices (see DVD folder NRC Preliminary Notifications)
+
+•   NRC annual reports to the President of the United States (see DVD
+    folder NRC Annual Reports)
+
+•   DOE reports, such as annual and lessons-learned reports, and periodical
+    publications (see DVD folder DOE/National Laboratory Status Reports)
+
+
+                                                                         27
+•     licensee event reports—a written report of a reportable event submitted
+      by the licensee to the NRC (see DVD folder Licensee Event Reports)
+
+•     licensee summary reports required by regulatory requirements (see
+      DVD folder GPU Status Reports)
+
+
+
+
+    NRC’s Harold Denton, Governor Richard Thornburgh, President Jimmy
+    Carter, and Rosalynn Carter tour the TMI-2 control room on April 1, 1979.
+28
+7 Retrospectives
+30th Anniversary. For the 30th anniversary of the TMI-2 accident, the
+NRC’s Office of Nuclear Regulatory Research (RES) hosted a special
+all-day event entitled, “The Accident at Three Mile Island,
+30th Anniversary, A Look Back: Preserving the Institutional Memory.” The
+event featured several presentations, including an overview of the accident
+by Brian Sheron, Director of the NRC’s Office of Nuclear Regulatory
+Research; perspectives from TMI-2 Reactor Operator Edward Frederick;
+lessons learned from TMI-2 by Gary Holahan, Deputy Director of the
+NRC’s Office of New Reactors, and former member of the TMI-2 Lessons
+Learned Task Force; and an historical perspective by NRC Historian
+Samuel Walker.
+
+Following the individual presentations, the NRC hosted a panel discussion
+titled “Remembering the Accident.” The panel included a distinguished
+group, all of whom made key decisions during the accident: Richard
+Thornburgh, former Governor of the State of Pennsylvania; Harold Denton,
+former Director of the NRC’s Office of Nuclear Reactor Regulation and the
+lead Federal onsite manager; and Jessica Mathews, former assistant to
+President Jimmy Carter.
+
+
+
+
+        A press conference during the early days of the accident with
+        Pennsylvania Governor Richard Thornburgh (right) and the
+        NRC’s Harold Denton.
+                                                                        29
+ In April 1984, a comprehensive video mapping of the upper reactor core
+ region between the plenum and rubble bed was completed. Video snapshots
+ were assembled into a mosaic panoramic view of the rubble bed and core
+ periphery. Videos of the rubble bed showed broken fuel rods scattered around,
+ fuel rod internal springs, intact fuel pellets, control-rod assembly end
+ couplings, and partially intact fuel assemblies around the periphery of the
+ reactor core region. The video also showed unsupported partial fuel
+ assemblies hanging from the underside of the upper plenum grid section
+ which had to be removed before plenum lifting. This map supported planning
+ of defueling operations and eventually the removal of fuel debris.
+
+30
+35th Anniversary. For the 35th anniversary of the TMI-2 accident, RES
+hosted a special NRC research seminar event entitled, “The
+35th Anniversary of the Three Mile Island Nuclear Power Plant Accident
+of 1979: Working at TMI During and Following the Accident.” The seminar
+featured a presentation by Mr. Gordon Skillman, a current member of
+NRC’s Advisory Committee on Reactor Safeguards, who was an immediate
+responder to the TMI-2 accident. As an employee of Babcock and Wilcox
+during and after the accident, he served for 7 years of the stabilization and
+cleanup of TMI-2 as recovery support engineering manager and later as the
+defueling manager.
+
+The presentation covered Mr. Skillman’s firsthand experiences while
+working on technical issues involving plant and reactor core stabilization,
+accident water cleanup, and early defueling the damaged core. Mr. Skillman
+shared his personal experiences while living in a nearby community and
+working closely with people from the utility, many contractors, the NRC,
+the DOE, national laboratories, and Pennsylvania’s and Maryland’s
+environmental agencies.
+
+Moments in NRC History. As part of the video series on NRC history, the
+Office of the Secretary and the Office of Public Affairs prepared a video
+entitled, “Moments in NRC History, Three Mile Island, March 28, 1979.”
+The video features a short documentary by the NRC’s historian, Dr. Thomas
+Wellock. Dr. Wellock studies nuclear power’s history for its relevance to
+the NRC today and to capture important insights for future generations. This
+video recounts the plant response during the accident, the emergency
+response to the accident, improvements to plant safety, and current status of
+the plant.
+
+The DVD provides a multimedia presentation of these events (see DVD
+folders, 30th Anniversary Seminar, 35th Anniversary Seminar, and
+Moments in NRC History).
+
+
+
+
+                                                                          31
+32
+8 DVD Navigation and Interpretation
+This knowledge management guide is an HTML-based collection of
+information, documents, videos, and photos related to the 1979 accident at
+the Three Mile Island nuclear power plant. This interactive feature is
+provided on the DVD to help you navigate through the historical records.
+Refer to the “Readme” file located on any DVD for viewing instructions.
+
+Navigation
+
+•   Main welcome page. From the welcome page, you can navigate the
+    different sections of the guide using the blue tabs from the menu on the
+    left side of the page. Each tab is linked to a page that contains one or
+    more subtabs that appear to the right of the tab. Each tab corresponds to
+    a document collection and each subtab links to a folder of documents.
+    This interactive feature will prompt you to load the appropriate DVD to
+    retrieve the document, if necessary. Additionally, there is a photo
+    gallery, interactive timeline, and a document index (green tab). You
+    may also click on the text box on the timeline for a short description.
+
+•   Document retrieval. Documents can be accessed from the document
+    page (see figure below) linked to the subtab. Next to each document is a
+    hyperlink which will display the associated document, photo, or video.
+    Because the document collection spans several DVDs, you may be
+    prompted to insert a different DVD as you navigate the guide. A sorting
+    feature is provide on select columns on the document page.
+
+•   Document searches. A simple keyword search feature is provided on
+    the welcome page and each document page. A search is applied to a list
+    of all documents on all DVDs in this NUREG/KM. This feature
+    searches words in the file name.
+
+•   Document lists. Several convenient lists of documents on the DVD can
+    be viewed from the “Document Folder Index” tab. These lists are also
+    provided in spreadsheet format in the “Common” folder on the DVD
+    (located in the “Documents” folder). A list of more than 25,000 TMI-2
+    records in the Public Legacy Library is included in the spreadsheet.
+
+•   Alternative. Documents are titled and arranged in topical folders on the
+    DVD (located in the "Documents" folder) to provide a usable alternative
+    to the interactive guide. The document can be accessed directly on the
+    DVD using a file explorer.
+
+                                                                          33
+Things to Keep in Mind
+
+•    Legacy documents. Many of the documents on the DVD are historical
+     in nature and might contain information that is obsolete or superseded
+     by current regulations and research results. The historical documents
+     provided on the DVD are for historical reference only and are not
+     official NRC records. Please refer to the NRC’s public website
+     (http://www.nrc.gov) for current information on regulations, policy
+     statements, regulatory guidelines, regulatory processes, and research
+     results.
+
+•    Units of measure. The unit of measure (in English units or the
+     International System of Units) that was used in the original source
+     document was used in this digest. A conversion chart is provided on the
+     back cover.
+
+•    Abbreviations. A small set of abbreviations was used throughout this
+     report in order to improve readability: ALARA (as low as reasonably
+     achievable), CFR (U.S. Code of Federal Regulations), DOE, DVD,
+     EPRI, GEND, GPU, INEL, NRC, NUREG, NUREG/CR, NUREG/KM,
+     PDMS, and TMI-2. Abbreviations that were less frequently repeated in
+     the report were spelled out at the beginning of each subsection or
+     paragraph that contained them.
+
+•    Recovery vs. cleanup. The term “recovery” is used in this NUREG/KM
+     to mean actions taken to keep the plant in a stable condition and to
+     prevent the inadvertent release of radioactivity. The term “cleanup” is
+     used to mean actions taken to decontaminate and defuel the plant and
+     dispose of radioactive waste. These two terms are often used
+     interchangeably for certain actions.
+
+•    EPRI and GPU documents. Documents generated by EPRI and GPU
+     are generally not provided on the DVD unless the documents were
+     submitted to the NRC or funded by DOE.
+
+•    “GPU” and “licensee.” Unless otherwise noted, the GPU Corporation
+     and its subsidiaries (including GPU Service Corporation, GPU Nuclear
+     Corporation, and Metropolitan Edison Company) are referred to
+     collectively in a historical context as “GPU” or the “licensee” in the text
+     of this NUREG/KM and document filenames.
+
+
+
+
+34
+•     Document accession number. Each document and each enclosure of a
+      document that was cataloged in the Agencywide Documents Access and
+      Management System (ADAMS) Public Legacy Library was assigned a
+      unique accession number. This number can be found on the first page of
+      each document. Each enclosure to a transmittal letter was typically
+      assigned its own accession number.
+
+•     Document filename. The filenames used on the DVD typically contain
+      the date of the document (generally the date of the transmittal letter);
+      originating organization (e.g., NRC or GPU); document type
+      (e.g., safety evaluation or system description); short title; document
+      revision, if any; and reference date of previous correspondence, if any.
+      Technical reports by the NRC (e.g., NUREGs), DOE, and national
+      laboratories start with the report’s identification number, short title, and
+      year and month issued. See examples below.
+
+          (1990-01-18) GPU, Defueling Completion Report, Rev. 3 (re 08-18, 10-09-1989)
+          NUREG-0698, Rev. 2, NRC Plan for Cleanup Operations at TMI-2 (1984-03)
+
+
+•     Documents, photographs, and diagrams in this NUREG/KM and DVD
+      were copied from the best available (surviving) sources. Photographs
+      were generally taken by GPU and DOE contractors.
+
+
+
+
+    A typical document page listing the contents of a document folder. Columns
+    can be sorted. Keywords in document file names can be searched. The
+    hyperlink directs you to the document, photo, or video.
+                                                                                         35
+ The certificate of appreation given to NRC staff who contributed to the
+ NRC’s response to the accident. By the end of the second week, over 200
+ NRC staff were badged for site access, or about 10 percent of all external
+ responders at TMI. Names of NRC staff who responded to the accident at
+ the TMI site and offsite response centers are discsussed in the Rogovin
+ report (see NUREG/CR-1250, Volume 2, Part III, Appendix III.2).
+
+
+
+
+36
+9 Contributions to the Main Report
+  (NUREG/KM-0001, Overview)
+                          Knowledge
+                        Harold Denton
+                      Edward Frederick
+                        Gary Holahan
+                       Don Marksberry
+                       Jessica Mathews
+                         Brian Sheron
+                      Gordon Skillman
+                 Governor Richard Thornburgh
+                      J. Samuel Walker
+                      Thomas Wellock
+
+                         Management
+                      Don Marksberry
+                       Felix Gonzalez
+                    Kenneth Hamburger
+                      Theodore Smith
+                     Anita Aikins-Afful
+                       Robert Norman
+                         David Aird
+                         Ian Gifford
+                      Brian McGrattan
+                      Amy Bonaccorso
+                       Tom Kardaras
+                     Mark Henry Salley
+                             and
+           The NRC Print Shop and Publications Staff
+
+                    Document Collections
+  NRC’s Agencywide Documents Access and Management System
+    Publications Branch of the NRC’s Office of Administration
+                  NRC’s Office of the Secretary
+                    U.S. Department of Energy
+                    Idaho National Laboratory
+          Dickinson College Community Studies Center
+        Pennsylvania State University Engineering Library
+          National Archives and Records Administration
+                                                                37
+38
+                       CONVERSIONS
+                          Radiation Dose
+     1 mrem (1 millirem, 10-3) = *10 microsieverts (10 µSv, 10-5)
+                100 mrem = *1 millisievert (1 MSv)
+                          1 rem = *10 mSv
+                          100 rem = *1 Sv
+                       Radioactive Concentration
+        27 picocuries (27 pCi, 2.7 × 10-11) = *1 becquerel (1 Bq)
+1 millicurie (1 mCi, 0.001) = *37 megabecquerels (37 MBq, 3.7 × 107)
+        1 curie (1 Ci) = *37 gigabecquerels (37 GBq, 3.7 × 1010)
+                    Radiation Absorbed Energy
+               1 roentgen = *0.877 rad = *0.00877 Gy
+                       100 rad = *1 gray (Gy)
+                                 Length
+                1 inch (in) = *2.54 centimeters (cm)
+                    1 foot (ft) = 0.3048 meter (m)
+                        Volume and Weight
+                   1 gallon (gal) = 3.7854 liters (l)
+               1 pound (lb) = 0.4536 kilograms (kg)
+               1 ton (U.S.) = *2000 lb = 907.1847 kg
+                            Pressure
+      1 pound per square inch (psi) = 6.8948 kilopascals (kPa)
+               1 atmosphere (atm) = *101.325 kPa
+                         Temperature
+              Degrees Celsius (°C) = 5/9 × (°F - 32)
+             Degrees Fahrenheit (°F) = (9/5 × °C) + 32
+
+                        * Exact conversion factors
+
+
+
+
+                  NUREG/KM-0001, Revision 1
+                         June 2016
+

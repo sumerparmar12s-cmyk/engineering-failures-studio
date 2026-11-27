@@ -1,0 +1,3251 @@
+{
+ "shots": [
+  {
+   "src": "NTSB photo \u00b7 public domain \u00b7 NTSB Railroad Investigation Report RIR-24-05 (2024)",
+   "boxes": [
+    {
+     "x": 150,
+     "y": 200,
+     "w": 1040,
+     "h": 585,
+     "img": "ntsb_aerial_pile.png",
+     "cap": "East Palestine, Ohio \u00b7 the derailment site",
+     "rot": 0,
+     "push": 0.1,
+     "origin": "30% 50%"
+    }
+   ],
+   "notes": [
+    {
+     "text": "FEBRUARY 6, 2023",
+     "x": 1250,
+     "y": 300,
+     "at": 0.2,
+     "color": "yellow",
+     "size": 60
+    },
+    {
+     "text": "East Palestine, Ohio",
+     "x": 1250,
+     "y": 390,
+     "at": 3.54,
+     "color": "white",
+     "size": 50
+    }
+   ],
+   "t0": 0.0,
+   "type": "box",
+   "t1": 6.01
+  },
+  {
+   "lines": [
+    "They're about to do something",
+    "UNBELIEVABLE."
+   ],
+   "accent": 1,
+   "acol": "red",
+   "fs": 110,
+   "at": [
+    5.7,
+    7.22
+   ],
+   "t0": 5.66,
+   "type": "head",
+   "t1": 9.29
+  },
+  {
+   "steps": [
+    {
+     "value": 5,
+     "label": "tank cars",
+     "at": 9.0,
+     "dur": 0.5
+    },
+    {
+     "value": 887400,
+     "label": "pounds of vinyl chloride \u00b7 a known carcinogen",
+     "at": 12.26,
+     "dur": 1.6,
+     "accent": true
+    }
+   ],
+   "fs": 250,
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024)",
+   "t0": 8.94,
+   "type": "counter",
+   "t1": 12.94
+  },
+  {
+   "clip": {
+    "src": "T5",
+    "ss": 0.0
+   },
+   "src": "Animated reconstruction (illustrative) \u00b7 Wrecklore",
+   "t0": 12.94,
+   "type": "full",
+   "t1": 22.7
+  },
+  {
+   "lines": [
+    "\"The only way to stop",
+    "a massive EXPLOSION.\""
+   ],
+   "accent": 1,
+   "acol": "red",
+   "fs": 110,
+   "at": [
+    22.75,
+    24.88
+   ],
+   "t0": 22.7,
+   "type": "head",
+   "t1": 26.99
+  },
+  {
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), executive summary",
+   "boxes": [
+    {
+     "x": 200,
+     "y": 150,
+     "w": 1300,
+     "h": 731,
+     "img": "doc_notnecessary.png",
+     "cap": "NTSB final report \u00b7 June 2024",
+     "rot": 0,
+     "push": 0.12,
+     "origin": "40% 45%"
+    }
+   ],
+   "notes": [
+    {
+     "text": "a year and a half later\u2026",
+     "x": 1560,
+     "y": 260,
+     "at": 26.8,
+     "color": "white",
+     "size": 46,
+     "w": 330
+    },
+    {
+     "text": "NEVER going to happen",
+     "x": 1560,
+     "y": 420,
+     "at": 32.68,
+     "color": "red",
+     "size": 58,
+     "w": 330
+    }
+   ],
+   "t0": 26.64,
+   "type": "box",
+   "t1": 34.75
+  },
+  {
+   "lines": [
+    "The chemical's own maker",
+    "SAID SO. Before."
+   ],
+   "accent": 1,
+   "acol": "yellow",
+   "fs": 110,
+   "at": [
+    34.45,
+    36.839999999999996
+   ],
+   "t0": 34.4,
+   "type": "head",
+   "t1": 40.07
+  },
+  {
+   "lines": [
+    "So why did",
+    "no one LISTEN?"
+   ],
+   "accent": 1,
+   "acol": "red",
+   "fs": 150,
+   "at": [
+    39.75,
+    40.62
+   ],
+   "t0": 39.72,
+   "type": "head",
+   "t1": 41.7
+  },
+  {
+   "clip": {
+    "src": "T2",
+    "ss": 0.0
+   },
+   "src": "Animated reconstruction (illustrative) \u00b7 Wrecklore",
+   "t0": 41.7,
+   "type": "full",
+   "t1": 49.28
+  },
+  {
+   "items": [
+    {
+     "text": "\u2192 minute by minute",
+     "at": 49.4
+    },
+    {
+     "text": "\u2192 the official NTSB report",
+     "at": 53.059999999999995
+    },
+    {
+     "text": "\u2192 who knew what, and when",
+     "at": 56.14,
+     "accent": true
+    }
+   ],
+   "fs": 104,
+   "t0": 49.28,
+   "type": "list",
+   "t1": 58.81
+  },
+  {
+   "lines": [
+    "The Burn That Didn't",
+    "Have to Happen"
+   ],
+   "kicker": "East Palestine, Ohio \u00b7 February 2023",
+   "sub": "one bearing \u00b7 one decision \u00b7 thirteen minutes",
+   "t0": 58.46,
+   "type": "title",
+   "t1": 61.38
+  },
+  {
+   "clip": {
+    "src": "T1",
+    "ss": 0.0
+   },
+   "src": "Animated reconstruction (illustrative) \u00b7 Wrecklore",
+   "t0": 61.38,
+   "type": "full",
+   "t1": 72.24
+  },
+  {
+   "src": "NTSB photo \u00b7 public domain \u00b7 NTSB Railroad Investigation Report RIR-24-05 (2024)",
+   "boxes": [
+    {
+     "x": 210,
+     "y": 140,
+     "w": 1500,
+     "h": 640,
+     "img": "ntsb_town.png",
+     "cap": "NTSB: the derailment site sits inside the town",
+     "rot": 0,
+     "fit": "cover",
+     "push": 0.1,
+     "origin": "45% 40%"
+    }
+   ],
+   "t0": 72.24,
+   "type": "box",
+   "t1": 74.81
+  },
+  {
+   "lines": [
+    "Norfolk Southern",
+    "train 32N"
+   ],
+   "accent": 1,
+   "acol": "yellow",
+   "fs": 150,
+   "at": [
+    74.5,
+    76.36
+   ],
+   "sub": "Friday, February 3, 2023 \u00b7 night",
+   "subAt": 75.5,
+   "t0": 74.46,
+   "type": "head",
+   "t1": 78.53
+  },
+  {
+   "steps": [
+    {
+     "value": 3,
+     "label": "locomotives",
+     "at": 78.2,
+     "dur": 0.4
+    },
+    {
+     "value": 149,
+     "label": "freight cars",
+     "at": 79.86,
+     "dur": 0.9
+    },
+    {
+     "value": 17977,
+     "label": "tons \u00b7 about 1\u00be miles long",
+     "at": 82.60000000000001,
+     "dur": 1.2,
+     "accent": true
+    }
+   ],
+   "fs": 280,
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024)",
+   "t0": 78.18,
+   "type": "counter",
+   "t1": 87.97
+  },
+  {
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), fig. 2",
+   "boxes": [
+    {
+     "x": 210,
+     "y": 140,
+     "w": 1500,
+     "h": 640,
+     "img": "ntsb_route.png",
+     "cap": "Train 32N's route",
+     "rot": 0,
+     "fit": "contain",
+     "bg": "#f3efe6",
+     "push": 0.05
+    }
+   ],
+   "notes": [
+    {
+     "text": "Madison, Illinois",
+     "x": 230,
+     "y": 850,
+     "at": 88.0,
+     "color": "red",
+     "size": 46
+    },
+    {
+     "text": "\u2192 Conway, Pennsylvania",
+     "x": 1000,
+     "y": 850,
+     "at": 91.4,
+     "color": "red",
+     "size": 46
+    }
+   ],
+   "t0": 87.62,
+   "type": "box",
+   "t1": 93.41
+  },
+  {
+   "items": [
+    {
+     "text": "Engineer \u00b7 24 years",
+     "at": 93.15
+    },
+    {
+     "text": "Conductor",
+     "at": 98.16
+    },
+    {
+     "text": "Conductor trainee",
+     "at": 99.28
+    }
+   ],
+   "fs": 110,
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024)",
+   "t0": 93.06,
+   "type": "list",
+   "t1": 100.77
+  },
+  {
+   "lines": [
+    "The 23rd car",
+    "is ON FIRE."
+   ],
+   "accent": 1,
+   "acol": "red",
+   "fs": 170,
+   "at": [
+    100.5,
+    103.52
+   ],
+   "t0": 100.42,
+   "type": "head",
+   "t1": 105.27
+  },
+  {
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), fig. 4",
+   "boxes": [
+    {
+     "x": 210,
+     "y": 140,
+     "w": 1500,
+     "h": 640,
+     "img": "ntsb_wheelset_diag.png",
+     "cap": "The hopper car: 4 wheelsets, 8 bearings",
+     "rot": 0,
+     "fit": "contain",
+     "bg": "#ffffff",
+     "push": 0.05,
+     "origin": "85% 70%"
+    }
+   ],
+   "notes": [
+    {
+     "text": "loaded with plastic pellets",
+     "x": 230,
+     "y": 850,
+     "at": 107.22,
+     "color": "white",
+     "size": 46,
+     "w": 900
+    },
+    {
+     "text": "L1 bearing: failing",
+     "x": 1180,
+     "y": 850,
+     "at": 110.5,
+     "color": "red",
+     "size": 52,
+     "arrow": [
+      [
+       1420,
+       840
+      ],
+      [
+       1560,
+       640
+      ]
+     ]
+    }
+   ],
+   "t0": 104.92,
+   "type": "box",
+   "t1": 111.88
+  },
+  {
+   "clip": {
+    "src": "T3",
+    "ss": 0.0
+   },
+   "src": "Animated reconstruction (illustrative) \u00b7 Wrecklore",
+   "t0": 111.88,
+   "type": "full",
+   "t1": 123.88
+  },
+  {
+   "src": "NTSB photo \u00b7 public domain \u00b7 NTSB Railroad Investigation Report RIR-24-05 (2024), fig. 18",
+   "boxes": [
+    {
+     "x": 150,
+     "y": 200,
+     "w": 1040,
+     "h": 585,
+     "img": "ntsb_cup.png",
+     "cap": "What was left of the L1 bearing",
+     "rot": 0,
+     "push": 0.08
+    }
+   ],
+   "notes": [
+    {
+     "text": "melted \u00b7 deformed",
+     "x": 1250,
+     "y": 320,
+     "at": 124.2,
+     "color": "red",
+     "size": 56
+    },
+    {
+     "text": "VERY hot.",
+     "x": 1250,
+     "y": 420,
+     "at": 126.32,
+     "color": "yellow",
+     "size": 64
+    }
+   ],
+   "t0": 123.88,
+   "type": "box",
+   "t1": 128.25
+  },
+  {
+   "src": "NTSB photo \u00b7 public domain \u00b7 NTSB Railroad Investigation Report RIR-24-05 (2024), fig. 13",
+   "boxes": [
+    {
+     "x": 150,
+     "y": 170,
+     "w": 620,
+     "h": 740,
+     "img": "ntsb_hbd_photo.png",
+     "cap": "A hot bearing detector",
+     "rot": 0,
+     "push": 0.07
+    }
+   ],
+   "notes": [
+    {
+     "text": "Hot bearing detectors",
+     "x": 900,
+     "y": 260,
+     "at": 133.08,
+     "color": "yellow",
+     "size": 62,
+     "w": 900
+    },
+    {
+     "text": "read the temperature of",
+     "x": 900,
+     "y": 370,
+     "at": 134.62,
+     "color": "white",
+     "size": 50,
+     "w": 900
+    },
+    {
+     "text": "EVERY wheel that rolls by",
+     "x": 900,
+     "y": 440,
+     "at": 136.66,
+     "color": "white",
+     "size": 50,
+     "w": 900
+    }
+   ],
+   "t0": 127.9,
+   "type": "box",
+   "t1": 139.75
+  },
+  {
+   "lines": [
+    "Now here's where it",
+    "gets interesting."
+   ],
+   "accent": 1,
+   "acol": "yellow",
+   "fs": 120,
+   "at": [
+    139.45,
+    140.36
+   ],
+   "t0": 139.4,
+   "type": "head",
+   "t1": 142.55
+  },
+  {
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), fig. 3",
+   "boxes": [
+    {
+     "x": 210,
+     "y": 140,
+     "w": 1500,
+     "h": 640,
+     "img": "ntsb_hbd_map.png",
+     "cap": "The last three detectors before East Palestine",
+     "rot": 0,
+     "fit": "contain",
+     "bg": "#f3efe6",
+     "push": 0.1,
+     "origin": "10% 40%"
+    }
+   ],
+   "notes": [
+    {
+     "text": "#1 SEBRING \u00b7 7:37 p.m.",
+     "x": 230,
+     "y": 850,
+     "at": 142.4,
+     "color": "red",
+     "size": 48,
+     "w": 900
+    }
+   ],
+   "t0": 142.2,
+   "type": "box",
+   "t1": 148.37
+  },
+  {
+   "lines": [
+    "Bearing temperature, above the outside air"
+   ],
+   "bars": [
+    {
+     "value": "+38\u00b0F",
+     "label": "Sebring \u00b7 no alert",
+     "h": 0.15,
+     "at": 148.1
+    },
+    {
+     "value": "+103\u00b0F",
+     "label": "Salem \u00b7 8:13 p.m.",
+     "h": 0.41,
+     "at": 158.79000000000002,
+     "color": "red"
+    }
+   ],
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024)",
+   "t0": 148.02,
+   "type": "bars",
+   "t1": 161.87
+  },
+  {
+   "lk": "WHO GOT THE ALERT",
+   "said": [
+    "An analyst at",
+    "a help desk"
+   ],
+   "saidAt": [
+    167.92000000000002,
+    168.76000000000002
+   ],
+   "rk": "WHO DIDN'T",
+   "did": [
+    "The crew."
+   ],
+   "didAt": 170.36,
+   "sfs": 104,
+   "dfs": 130,
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024)",
+   "t0": 161.52,
+   "type": "saiddid",
+   "t1": 171.87
+  },
+  {
+   "lines": [
+    "BUT WAIT."
+   ],
+   "accent": 0,
+   "acol": "red",
+   "fs": 220,
+   "at": [
+    171.55
+   ],
+   "t0": 171.52,
+   "type": "head",
+   "t1": 172.92
+  },
+  {
+   "clip": {
+    "src": "T2",
+    "ss": 2.0
+   },
+   "src": "Animated reconstruction (illustrative) \u00b7 Wrecklore",
+   "t0": 172.92,
+   "type": "full",
+   "t1": 182.86
+  },
+  {
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), fig. 3",
+   "boxes": [
+    {
+     "x": 210,
+     "y": 140,
+     "w": 1500,
+     "h": 640,
+     "img": "ntsb_hbd_map.png",
+     "cap": "Next detector: East Palestine",
+     "rot": 0,
+     "fit": "contain",
+     "bg": "#f3efe6",
+     "push": 0.12,
+     "origin": "92% 40%"
+    }
+   ],
+   "notes": [
+    {
+     "text": "\u2248 19 miles to go",
+     "x": 700,
+     "y": 850,
+     "at": 183.0,
+     "color": "red",
+     "size": 60
+    },
+    {
+     "text": "\u2192 EAST PALESTINE",
+     "x": 1150,
+     "y": 850,
+     "at": 186.1,
+     "color": "red",
+     "size": 56
+    }
+   ],
+   "t0": 182.86,
+   "type": "box",
+   "t1": 188.33
+  },
+  {
+   "steps": [
+    {
+     "value": 43,
+     "label": "mph \u00b7 8:52 p.m.",
+     "at": 188.78,
+     "dur": 0.9,
+     "accent": true
+    }
+   ],
+   "fs": 300,
+   "suffix": " mph",
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024)",
+   "t0": 187.98,
+   "type": "counter",
+   "t1": 194.61
+  },
+  {
+   "lines": [
+    "Above outside air"
+   ],
+   "bars": [
+    {
+     "value": "+38\u00b0F",
+     "label": "Sebring",
+     "h": 0.15,
+     "at": 194.3
+    },
+    {
+     "value": "+103\u00b0F",
+     "label": "Salem",
+     "h": 0.41,
+     "at": 194.4
+    },
+    {
+     "value": "+253\u00b0F",
+     "label": "East Palestine",
+     "h": 0.85,
+     "at": 195.78,
+     "color": "red"
+    }
+   ],
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024)",
+   "t0": 194.26,
+   "type": "bars",
+   "t1": 199.81
+  },
+  {
+   "lines": [
+    "And in the cab\u2026"
+   ],
+   "accent": 0,
+   "fs": 150,
+   "at": [
+    199.5
+   ],
+   "t0": 199.46,
+   "type": "head",
+   "t1": 202.84
+  },
+  {
+   "header": "IN-CAB SPEAKERS \u00b7 TRAIN 32N \u00b7 ABOUT 8:53 P.M. (QUOTED IN THE NTSB REPORT)",
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), p. 8",
+   "body": "\"[[Critical alarm, critical alarm, critical alarm.]] Norfolk Southern milepost 49.8, track 1 hotbox, axle 101, south rail.\"",
+   "hlAt": 202.6,
+   "fs": 46,
+   "t0": 202.49,
+   "type": "doc",
+   "t1": 211.6
+  },
+  {
+   "clip": {
+    "src": "T2",
+    "ss": 8.0
+   },
+   "src": "Animated reconstruction (illustrative) \u00b7 Wrecklore",
+   "t0": 211.6,
+   "type": "full",
+   "t1": 215.6
+  },
+  {
+   "clip": {
+    "src": "T4",
+    "ss": 0.0
+   },
+   "src": "Animated reconstruction (illustrative) \u00b7 Wrecklore",
+   "t0": 215.6,
+   "type": "full",
+   "t1": 227.6
+  },
+  {
+   "src": "NTSB photo \u00b7 public domain \u00b7 NTSB Railroad Investigation Report RIR-24-05 (2024), fig. 7",
+   "boxes": [
+    {
+     "x": 150,
+     "y": 200,
+     "w": 1040,
+     "h": 585,
+     "img": "ntsb_aerial_pile.png",
+     "cap": "The pileup, seen by NTSB drone",
+     "rot": 0,
+     "push": 0.1
+    }
+   ],
+   "notes": [
+    {
+     "text": "38 cars",
+     "x": 1250,
+     "y": 300,
+     "at": 227.7,
+     "color": "red",
+     "size": 80
+    },
+    {
+     "text": "derailed",
+     "x": 1250,
+     "y": 400,
+     "at": 227.9,
+     "color": "white",
+     "size": 56
+    },
+    {
+     "text": "FIRE",
+     "x": 1250,
+     "y": 500,
+     "at": 228.52,
+     "color": "red",
+     "size": 80
+    }
+   ],
+   "t0": 227.6,
+   "type": "box",
+   "t1": 232.45
+  },
+  {
+   "lk": "MYTH",
+   "said": [
+    "The crew ignored",
+    "the warning"
+   ],
+   "saidAt": [
+    234.98000000000002,
+    235.18
+   ],
+   "rk": "FACT",
+   "did": [
+    "They reacted",
+    "immediately"
+   ],
+   "didAt": 236.72,
+   "sfs": 96,
+   "dfs": 96,
+   "t0": 232.1,
+   "type": "saiddid",
+   "t1": 240.71
+  },
+  {
+   "header": "NTSB FINAL REPORT RIR-24-05 \u00b7 WHAT WE FOUND",
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024)",
+   "fs": 44,
+   "body": "Train 32N's crew [[did not have adequate warning]] to stop the train before the derailment.",
+   "hlAt": 242.94,
+   "t0": 240.36,
+   "type": "doc",
+   "t1": 245.79
+  },
+  {
+   "lines": [
+    "Problem #2:",
+    "detectors read LOW"
+   ],
+   "accent": 1,
+   "acol": "red",
+   "fs": 140,
+   "at": [
+    245.5,
+    251.17999999999998
+   ],
+   "sub": "\"likely to indicate misleadingly low bearing temperatures\" \u2014 NTSB",
+   "subAt": 251.48,
+   "t0": 245.44,
+   "type": "head",
+   "t1": 253.55
+  },
+  {
+   "steps": [
+    {
+     "value": 253,
+     "label": "the HIGHEST number this detector could show",
+     "at": 253.3,
+     "dur": 0.9,
+     "accent": true
+    }
+   ],
+   "fs": 300,
+   "suffix": "\u00b0F",
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), p. 8",
+   "t0": 253.2,
+   "type": "counter",
+   "t1": 259.07
+  },
+  {
+   "lines": [
+    "8:56 p.m.",
+    "the first 911 call"
+   ],
+   "accent": 0,
+   "acol": "red",
+   "fs": 150,
+   "at": [
+    258.8,
+    259.32
+   ],
+   "t0": 258.72,
+   "type": "head",
+   "t1": 263.41
+  },
+  {
+   "src": "NTSB photo \u00b7 public domain \u00b7 NTSB Railroad Investigation Report RIR-24-05 (2024), fig. 8",
+   "boxes": [
+    {
+     "x": 150,
+     "y": 200,
+     "w": 1040,
+     "h": 585,
+     "img": "ntsb_prd_fire.png",
+     "cap": "Fires at the derailment site",
+     "rot": 0,
+     "push": 0.1
+    }
+   ],
+   "notes": [
+    {
+     "text": "Many of the firefighters",
+     "x": 1250,
+     "y": 300,
+     "at": 265.56,
+     "color": "white",
+     "size": 48,
+     "w": 600
+    },
+    {
+     "text": "were VOLUNTEERS",
+     "x": 1250,
+     "y": 380,
+     "at": 266.28,
+     "color": "yellow",
+     "size": 58,
+     "w": 600
+    }
+   ],
+   "t0": 263.06,
+   "type": "box",
+   "t1": 271.07
+  },
+  {
+   "src": "NTSB photo \u00b7 public domain \u00b7 NTSB Railroad Investigation Report RIR-24-05 (2024), fig. 20",
+   "boxes": [
+    {
+     "x": 150,
+     "y": 200,
+     "w": 1040,
+     "h": 585,
+     "img": "ntsb_dot111.png",
+     "cap": "A punctured tank car",
+     "rot": 0,
+     "push": 0.1,
+     "origin": "35% 40%"
+    }
+   ],
+   "notes": [
+    {
+     "text": "3 tank cars",
+     "x": 1250,
+     "y": 300,
+     "at": 270.8,
+     "color": "red",
+     "size": 70
+    },
+    {
+     "text": "PUNCTURED",
+     "x": 1250,
+     "y": 390,
+     "at": 271.2,
+     "color": "red",
+     "size": 60
+    },
+    {
+     "text": "burning liquid in a ditch",
+     "x": 1250,
+     "y": 500,
+     "at": 275.86,
+     "color": "white",
+     "size": 44,
+     "w": 620
+    }
+   ],
+   "t0": 270.72,
+   "type": "box",
+   "t1": 279.31
+  },
+  {
+   "steps": [
+    {
+     "value": 2000,
+     "label": "people evacuated \u00b7 1-mile zone",
+     "at": 279.1,
+     "dur": 1.0,
+     "accent": true
+    }
+   ],
+   "more": "about",
+   "fs": 300,
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024)",
+   "t0": 278.96,
+   "type": "counter",
+   "t1": 284.77
+  },
+  {
+   "lines": [
+    "Something else",
+    "in the pileup\u2026"
+   ],
+   "accent": 1,
+   "acol": "yellow",
+   "fs": 140,
+   "at": [
+    284.45,
+    285.4
+   ],
+   "t0": 284.42,
+   "type": "head",
+   "t1": 286.87
+  },
+  {
+   "src": "NTSB photo \u00b7 public domain \u00b7 NTSB Railroad Investigation Report RIR-24-05 (2024), fig. 7",
+   "boxes": [
+    {
+     "x": 150,
+     "y": 200,
+     "w": 1040,
+     "h": 585,
+     "img": "ntsb_aerial_pile.png",
+     "cap": "Labels: NTSB",
+     "rot": 0,
+     "push": 0.16,
+     "origin": "25% 40%"
+    }
+   ],
+   "notes": [
+    {
+     "text": "5 tank cars",
+     "x": 1250,
+     "y": 300,
+     "at": 286.6,
+     "color": "yellow",
+     "size": 70
+    },
+    {
+     "text": "VINYL CHLORIDE",
+     "x": 1250,
+     "y": 390,
+     "at": 287.88,
+     "color": "red",
+     "size": 60
+    }
+   ],
+   "t0": 286.52,
+   "type": "box",
+   "t1": 290.09
+  },
+  {
+   "items": [
+    {
+     "text": "Vinyl chloride \u2192 PVC plastic",
+     "at": 289.8
+    },
+    {
+     "text": "flammable gas, under pressure",
+     "at": 296.16
+    },
+    {
+     "text": "a known human carcinogen",
+     "at": 300.23999999999995,
+     "accent": true
+    }
+   ],
+   "fs": 96,
+   "src": "U.S. EPA; National Toxicology Program",
+   "t0": 289.74,
+   "type": "list",
+   "t1": 302.65
+  },
+  {
+   "src": "NTSB photo \u00b7 public domain \u00b7 NTSB Railroad Investigation Report RIR-24-05 (2024), fig. 8",
+   "boxes": [
+    {
+     "x": 150,
+     "y": 200,
+     "w": 1040,
+     "h": 585,
+     "img": "ntsb_prd_fire.png",
+     "cap": "Safety valves venting, and burning",
+     "rot": 0,
+     "push": 0.1,
+     "origin": "25% 50%"
+    }
+   ],
+   "notes": [
+    {
+     "text": "NOT punctured",
+     "x": 1250,
+     "y": 290,
+     "at": 302.4,
+     "color": "yellow",
+     "size": 56
+    },
+    {
+     "text": "but heated by fire",
+     "x": 1250,
+     "y": 370,
+     "at": 305.76,
+     "color": "white",
+     "size": 50
+    },
+    {
+     "text": "releases stopped:",
+     "x": 1250,
+     "y": 480,
+     "at": 313.8,
+     "color": "white",
+     "size": 46
+    },
+    {
+     "text": "Feb 4, afternoon",
+     "x": 1250,
+     "y": 545,
+     "at": 315.52,
+     "color": "yellow",
+     "size": 52
+    }
+   ],
+   "t0": 302.3,
+   "type": "box",
+   "t1": 317.67
+  },
+  {
+   "lines": [
+    "So the danger",
+    "was over?"
+   ],
+   "accent": 1,
+   "acol": "yellow",
+   "fs": 150,
+   "at": [
+    317.35,
+    318.2
+   ],
+   "t0": 317.32,
+   "type": "head",
+   "t1": 319.39
+  },
+  {
+   "lines": [
+    "Not according to",
+    "NORFOLK SOUTHERN."
+   ],
+   "accent": 1,
+   "acol": "red",
+   "fs": 130,
+   "at": [
+    319.1,
+    319.8
+   ],
+   "t0": 319.04,
+   "type": "head",
+   "t1": 321.69
+  },
+  {
+   "lines": [
+    "\"POLYMERIZATION\""
+   ],
+   "accent": 0,
+   "acol": "red",
+   "fs": 150,
+   "at": [
+    321.45
+   ],
+   "sub": "the word that changed everything",
+   "subAt": 324.6,
+   "t0": 321.34,
+   "type": "head",
+   "t1": 326.85
+  },
+  {
+   "kind": "structure",
+   "title": "Think of popcorn in a sealed pot",
+   "paths": [
+    {
+     "d": "M 620 420 V 760 Q 620 800 660 800 H 1260 Q 1300 800 1300 760 V 420",
+     "at": 328.7,
+     "dur": 0.8
+    },
+    {
+     "d": "M 590 410 H 1330 M 900 410 V 380 H 1020 V 410",
+     "at": 329.4,
+     "dur": 0.5
+    },
+    {
+     "d": "M 760 860 Q 780 830 770 800 M 900 870 Q 930 830 910 800 M 1040 870 Q 1070 830 1050 800 M 1170 860 Q 1190 830 1180 800",
+     "at": 330.9,
+     "color": "red",
+     "dur": 0.6
+    },
+    {
+     "d": "M 760 700 a 22 22 0 1 0 1 0 M 880 640 a 22 22 0 1 0 1 0 M 1010 690 a 22 22 0 1 0 1 0 M 1130 620 a 22 22 0 1 0 1 0 M 960 560 a 22 22 0 1 0 1 0",
+     "at": 332.14,
+     "color": "yellow",
+     "dur": 0.8
+    }
+   ],
+   "labels": [
+    {
+     "text": "kernels pop \u2192 make heat",
+     "x": 960,
+     "y": 220,
+     "at": 332.96000000000004,
+     "color": "yellow",
+     "size": 54,
+     "align": "center"
+    },
+    {
+     "text": "more heat \u2192 more popping",
+     "x": 960,
+     "y": 290,
+     "at": 334.46,
+     "color": "red",
+     "size": 54,
+     "align": "center"
+    }
+   ],
+   "t0": 326.5,
+   "type": "blueprint",
+   "t1": 336.8
+  },
+  {
+   "kind": "structure",
+   "title": "Polymerization inside a closed tank (simplified)",
+   "paths": [
+    {
+     "d": "M 560 420 H 1360 Q 1480 420 1480 560 Q 1480 700 1360 700 H 560 Q 440 700 440 560 Q 440 420 560 420 Z",
+     "at": 336.6,
+     "dur": 0.9
+    },
+    {
+     "d": "M 760 560 m -80 0 a 80 80 0 1 1 160 0 a 80 80 0 1 1 -160 0 M 840 470 l 18 -14 M 840 470 l 20 10",
+     "at": 340.02000000000004,
+     "color": "red",
+     "dur": 0.9
+    },
+    {
+     "d": "M 1150 560 m -70 0 a 70 70 0 1 0 140 0 a 70 70 0 1 0 -140 0",
+     "at": 340.92,
+     "color": "yellow",
+     "dur": 0.7
+    },
+    {
+     "d": "M 1480 560 L 1600 500 M 1480 560 L 1610 580 M 1470 610 L 1580 660",
+     "at": 342.5,
+     "color": "red",
+     "width": 7,
+     "dur": 0.4
+    }
+   ],
+   "labels": [
+    {
+     "text": "reaction \u2192 heat",
+     "x": 760,
+     "y": 760,
+     "at": 340.22,
+     "color": "red",
+     "size": 50,
+     "align": "center"
+    },
+    {
+     "text": "heat \u2192 faster reaction",
+     "x": 1150,
+     "y": 760,
+     "at": 340.92,
+     "color": "yellow",
+     "size": 50,
+     "align": "center"
+    },
+    {
+     "text": "until the tank BURSTS",
+     "x": 960,
+     "y": 250,
+     "at": 342.5,
+     "color": "red",
+     "size": 60,
+     "align": "center"
+    }
+   ],
+   "t0": 336.45,
+   "type": "blueprint",
+   "t1": 344.49
+  },
+  {
+   "steps": [
+    {
+     "value": 135,
+     "label": "Feb 5 \u00b7 the railroad told the NTSB\u2026",
+     "at": 344.3,
+     "dur": 1.0
+    },
+    {
+     "value": 138,
+     "label": "+3\u00b0F in one hour",
+     "at": 352.0,
+     "dur": 1.4,
+     "accent": true
+    }
+   ],
+   "suffix": "\u00b0F",
+   "fs": 300,
+   "more": "one tank car",
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), p. 26",
+   "t0": 344.14,
+   "type": "counter",
+   "t1": 357.13
+  },
+  {
+   "lines": [
+    "To the railroad:",
+    "it was POLYMERIZING."
+   ],
+   "accent": 1,
+   "acol": "red",
+   "fs": 120,
+   "at": [
+    356.8,
+    359.08
+   ],
+   "t0": 356.78,
+   "type": "head",
+   "t1": 360.75
+  },
+  {
+   "lines": [
+    "Feared explosion:",
+    "steel flying \u00bd MILE"
+   ],
+   "accent": 1,
+   "acol": "red",
+   "fs": 130,
+   "at": [
+    360.45,
+    364.71999999999997
+   ],
+   "sub": "the railroad's assessment",
+   "subAt": 361.5,
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), p. 26",
+   "t0": 360.4,
+   "type": "head",
+   "t1": 366.77
+  },
+  {
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), fig. 9",
+   "boxes": [
+    {
+     "x": 150,
+     "y": 200,
+     "w": 1040,
+     "h": 585,
+     "img": "ntsb_vb_illus.png",
+     "cap": "How a vent and burn works",
+     "rot": 0,
+     "fit": "contain",
+     "bg": "#ffffff",
+     "push": 0.06
+    }
+   ],
+   "notes": [
+    {
+     "text": "VENT AND BURN",
+     "x": 1250,
+     "y": 260,
+     "at": 366.5,
+     "color": "red",
+     "size": 60
+    },
+    {
+     "text": "1 \u00b7 explosive charges",
+     "x": 1250,
+     "y": 360,
+     "at": 369.22,
+     "color": "white",
+     "size": 46
+    },
+    {
+     "text": "2 \u00b7 drains to a trench + pit",
+     "x": 1250,
+     "y": 430,
+     "at": 373.36,
+     "color": "white",
+     "size": 46
+    },
+    {
+     "text": "3 \u00b7 set on fire",
+     "x": 1250,
+     "y": 500,
+     "at": 375.32,
+     "color": "yellow",
+     "size": 50
+    }
+   ],
+   "t0": 366.42,
+   "type": "box",
+   "t1": 377.11
+  },
+  {
+   "lines": [
+    "But here is",
+    "THE TWIST."
+   ],
+   "accent": 1,
+   "acol": "red",
+   "fs": 170,
+   "at": [
+    376.8,
+    377.5
+   ],
+   "t0": 376.76,
+   "type": "head",
+   "t1": 378.89
+  },
+  {
+   "lines": [
+    "Oxy Vinyls",
+    "made this chemical"
+   ],
+   "accent": 0,
+   "acol": "yellow",
+   "fs": 140,
+   "at": [
+    378.6,
+    384.38
+   ],
+   "sub": "and shipped it on this train",
+   "subAt": 385.54,
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024)",
+   "t0": 378.54,
+   "type": "head",
+   "t1": 387.15
+  },
+  {
+   "lk": "THE RAILROAD SAID",
+   "said": [
+    "It's",
+    "polymerizing."
+   ],
+   "saidAt": [
+    386.9,
+    387.2
+   ],
+   "rk": "OXY VINYLS' EXPERTS",
+   "did": [
+    "It is NOT."
+   ],
+   "didAt": 393.0,
+   "sfs": 110,
+   "dfs": 130,
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), pp. 26\u201327",
+   "t0": 386.8,
+   "type": "saiddid",
+   "t1": 395.35
+  },
+  {
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), p. 27 (interview with Oxy Vinyls)",
+   "boxes": [
+    {
+     "x": 200,
+     "y": 150,
+     "w": 1300,
+     "h": 731,
+     "img": "doc_oxyquote.png",
+     "cap": "Oxy Vinyls to the railroad's contractor, Feb 5",
+     "rot": 0,
+     "push": 0.16,
+     "origin": "30% 32%"
+    }
+   ],
+   "notes": [
+    {
+     "text": "Feb 5, evening",
+     "x": 1560,
+     "y": 260,
+     "at": 395.1,
+     "color": "white",
+     "size": 46,
+     "w": 330
+    },
+    {
+     "text": "\"NOT occurring\"",
+     "x": 1560,
+     "y": 420,
+     "at": 409.9,
+     "color": "red",
+     "size": 56,
+     "w": 330
+    }
+   ],
+   "t0": 395.0,
+   "type": "box",
+   "t1": 411.97
+  },
+  {
+   "lines": [
+    "Hold on to",
+    "that sentence."
+   ],
+   "accent": 1,
+   "acol": "yellow",
+   "fs": 150,
+   "at": [
+    411.65,
+    412.2
+   ],
+   "t0": 411.62,
+   "type": "head",
+   "t1": 413.35
+  },
+  {
+   "lines": [
+    "The next day,",
+    "it VANISHED."
+   ],
+   "accent": 1,
+   "acol": "red",
+   "fs": 170,
+   "at": [
+    413.05,
+    414.36
+   ],
+   "t0": 413.0,
+   "type": "head",
+   "t1": 417.31
+  },
+  {
+   "lines": [
+    "February 6 \u00b7 noon",
+    "the final meeting"
+   ],
+   "accent": 1,
+   "acol": "yellow",
+   "fs": 130,
+   "at": [
+    417.0,
+    420.86
+   ],
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), p. 27",
+   "t0": 416.96,
+   "type": "head",
+   "t1": 423.25
+  },
+  {
+   "steps": [
+    {
+     "value": 60,
+     "label": "people in the room",
+     "at": 423.1,
+     "dur": 0.6
+    },
+    {
+     "value": 100,
+     "label": "incl. the governors of Ohio and Pennsylvania",
+     "at": 424.08,
+     "dur": 0.8,
+     "accent": true
+    }
+   ],
+   "fs": 300,
+   "more": "up to",
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), p. 27",
+   "t0": 422.9,
+   "type": "counter",
+   "t1": 430.11
+  },
+  {
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), p. 27",
+   "boxes": [
+    {
+     "x": 200,
+     "y": 150,
+     "w": 1300,
+     "h": 731,
+     "img": "doc_notinvited.png",
+     "cap": "NTSB final report",
+     "rot": 0,
+     "push": 0.16,
+     "origin": "60% 72%"
+    }
+   ],
+   "notes": [
+    {
+     "text": "NOT",
+     "x": 1560,
+     "y": 260,
+     "at": 429.9,
+     "color": "red",
+     "size": 90,
+     "w": 330
+    },
+    {
+     "text": "INVITED",
+     "x": 1560,
+     "y": 360,
+     "at": 432.26,
+     "color": "red",
+     "size": 70,
+     "w": 330
+    },
+    {
+     "text": "nobody else knew",
+     "x": 1560,
+     "y": 520,
+     "at": 435.2,
+     "color": "white",
+     "size": 44,
+     "w": 330
+    },
+    {
+     "text": "the maker disagreed",
+     "x": 1560,
+     "y": 580,
+     "at": 442.04,
+     "color": "yellow",
+     "size": 44,
+     "w": 330
+    }
+   ],
+   "t0": 429.76,
+   "type": "box",
+   "t1": 444.15
+  },
+  {
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), fig. 32",
+   "boxes": [
+    {
+     "x": 210,
+     "y": 140,
+     "w": 1500,
+     "h": 640,
+     "img": "ntsb_temp_graph.png",
+     "cap": "Hottest tank car: measured temperatures",
+     "rot": 0,
+     "fit": "contain",
+     "bg": "#ffffff",
+     "push": 0.06
+    }
+   ],
+   "notes": [
+    {
+     "text": "peak 138\u00b0F",
+     "x": 230,
+     "y": 850,
+     "at": 445.36,
+     "color": "red",
+     "size": 56
+    },
+    {
+     "text": "\u2026cooling to ~126\u00b0F",
+     "x": 640,
+     "y": 850,
+     "at": 447.98,
+     "color": "yellow",
+     "size": 56
+    },
+    {
+     "text": "NOT a runaway",
+     "x": 1220,
+     "y": 850,
+     "at": 454.36,
+     "color": "red",
+     "size": 56,
+     "w": 600
+    }
+   ],
+   "t0": 443.8,
+   "type": "box",
+   "t1": 457.63
+  },
+  {
+   "lines": [
+    "Then came the moment",
+    "that sealed it."
+   ],
+   "accent": 1,
+   "acol": "red",
+   "fs": 120,
+   "at": [
+    457.3,
+    458.26
+   ],
+   "t0": 457.28,
+   "type": "head",
+   "t1": 459.87
+  },
+  {
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), p. 28",
+   "boxes": [
+    {
+     "x": 200,
+     "y": 150,
+     "w": 1300,
+     "h": 731,
+     "img": "doc_13min.png",
+     "cap": "NTSB final report",
+     "rot": 0,
+     "push": 0.16,
+     "origin": "70% 25%"
+    }
+   ],
+   "notes": [
+    {
+     "text": "a separate room",
+     "x": 1560,
+     "y": 260,
+     "at": 463.72,
+     "color": "white",
+     "size": 46,
+     "w": 330
+    },
+    {
+     "text": "13 MINUTES",
+     "x": 1560,
+     "y": 380,
+     "at": 469.1,
+     "color": "red",
+     "size": 64,
+     "w": 330
+    }
+   ],
+   "t0": 459.52,
+   "type": "box",
+   "t1": 468.63
+  },
+  {
+   "steps": [
+    {
+     "value": 13,
+     "label": "minutes to decide",
+     "at": 468.35,
+     "dur": 0.8,
+     "accent": true
+    }
+   ],
+   "fs": 320,
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), p. 28",
+   "t0": 468.28,
+   "type": "counter",
+   "t1": 471.87
+  },
+  {
+   "lines": [
+    "Start before 3 p.m.",
+    "finish in daylight"
+   ],
+   "accent": 1,
+   "acol": "yellow",
+   "fs": 130,
+   "at": [
+    471.55,
+    473.92
+   ],
+   "t0": 471.52,
+   "type": "head",
+   "t1": 476.03
+  },
+  {
+   "header": "THE INCIDENT COMMANDER, IN HIS INTERVIEW WITH THE NTSB",
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), p. 28",
+   "fs": 52,
+   "body": "He felt [[overwhelmed and blindsided]] by the size of the decision.",
+   "hlAt": 477.52000000000004,
+   "t0": 475.68,
+   "type": "doc",
+   "t1": 480.83
+  },
+  {
+   "lines": [
+    "Put yourself",
+    "in his chair."
+   ],
+   "accent": 1,
+   "acol": "yellow",
+   "fs": 160,
+   "at": [
+    480.5,
+    481.2
+   ],
+   "t0": 480.48,
+   "type": "head",
+   "t1": 482.65
+  },
+  {
+   "items": [
+    {
+     "text": "\"It's going to explode.\"",
+     "at": 482.35
+    },
+    {
+     "text": "Nobody objects.",
+     "at": 485.4
+    },
+    {
+     "text": "The clock is running.",
+     "at": 486.96000000000004,
+     "accent": true
+    }
+   ],
+   "fs": 110,
+   "t0": 482.3,
+   "type": "list",
+   "t1": 488.81
+  },
+  {
+   "lines": [
+    "What would",
+    "YOU say?"
+   ],
+   "accent": 1,
+   "acol": "yellow",
+   "fs": 170,
+   "at": [
+    488.48,
+    488.9
+   ],
+   "t0": 488.46,
+   "type": "head",
+   "t1": 490.01
+  },
+  {
+   "lines": [
+    "He said",
+    "YES."
+   ],
+   "accent": 1,
+   "acol": "red",
+   "fs": 200,
+   "at": [
+    489.68,
+    490.15999999999997
+   ],
+   "t0": 489.66,
+   "type": "head",
+   "t1": 490.36
+  },
+  {
+   "clip": {
+    "src": "T5",
+    "ss": 0.0
+   },
+   "src": "Animated reconstruction (illustrative) \u00b7 Wrecklore",
+   "t0": 490.36,
+   "type": "full",
+   "t1": 506.36
+  },
+  {
+   "clip": {
+    "src": "T6",
+    "ss": 0.0
+   },
+   "src": "Animated reconstruction (illustrative) \u00b7 Wrecklore",
+   "t0": 506.36,
+   "type": "full",
+   "t1": 522.36
+  },
+  {
+   "lines": [
+    "So, was it",
+    "NECESSARY?"
+   ],
+   "accent": 1,
+   "acol": "red",
+   "fs": 180,
+   "at": [
+    522.4,
+    522.8199999999999
+   ],
+   "t0": 522.36,
+   "type": "head",
+   "t1": 524.97
+  },
+  {
+   "header": "NATIONAL TRANSPORTATION SAFETY BOARD \u00b7 RAILROAD INVESTIGATION REPORT RIR-24-05",
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024)",
+   "fs": 46,
+   "body": "Norfolk Southern Railway Train Derailment with Subsequent Hazardous Materials Release and Fires \u00b7 East Palestine, Ohio \u00b7 [[adopted June 25, 2024]]",
+   "hlAt": 524.86,
+   "t0": 524.62,
+   "type": "doc",
+   "t1": 530.29
+  },
+  {
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), executive summary",
+   "boxes": [
+    {
+     "x": 200,
+     "y": 150,
+     "w": 1300,
+     "h": 731,
+     "img": "doc_notnecessary.png",
+     "cap": "NTSB final report",
+     "rot": 0,
+     "push": 0.18,
+     "origin": "35% 30%"
+    }
+   ],
+   "notes": [
+    {
+     "text": "STABLE",
+     "x": 1560,
+     "y": 260,
+     "at": 533.1,
+     "color": "yellow",
+     "size": 70,
+     "w": 330
+    },
+    {
+     "text": "the whole time",
+     "x": 1560,
+     "y": 350,
+     "at": 533.76,
+     "color": "white",
+     "size": 46,
+     "w": 330
+    },
+    {
+     "text": "no polymerization",
+     "x": 1560,
+     "y": 470,
+     "at": 537.76,
+     "color": "red",
+     "size": 46,
+     "w": 330
+    },
+    {
+     "text": "confirmed",
+     "x": 1560,
+     "y": 540,
+     "at": 542.74,
+     "color": "red",
+     "size": 52,
+     "w": 330
+    }
+   ],
+   "t0": 529.94,
+   "type": "box",
+   "t1": 544.63
+  },
+  {
+   "header": "NTSB FINAL REPORT RIR-24-05 \u00b7 EXECUTIVE SUMMARY",
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024)",
+   "fs": 50,
+   "body": "\"The vent and burn procedure was [[not necessary]] to prevent a polymerization-induced explosion.\"",
+   "hlAt": 547.5799999999999,
+   "t0": 544.28,
+   "type": "doc",
+   "t1": 552.65
+  },
+  {
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024), executive summary",
+   "boxes": [
+    {
+     "x": 200,
+     "y": 150,
+     "w": 1300,
+     "h": 731,
+     "img": "doc_compromised.png",
+     "cap": "NTSB final report",
+     "rot": 0,
+     "push": 0.16,
+     "origin": "55% 80%"
+    }
+   ],
+   "notes": [
+    {
+     "text": "COMPROMISED",
+     "x": 1560,
+     "y": 260,
+     "at": 555.92,
+     "color": "red",
+     "size": 56,
+     "w": 330
+    },
+    {
+     "text": "dissent never",
+     "x": 1560,
+     "y": 380,
+     "at": 560.84,
+     "color": "white",
+     "size": 46,
+     "w": 330
+    },
+    {
+     "text": "reached him",
+     "x": 1560,
+     "y": 440,
+     "at": 561.34,
+     "color": "white",
+     "size": 46,
+     "w": 330
+    }
+   ],
+   "t0": 552.3,
+   "type": "box",
+   "t1": 564.37
+  },
+  {
+   "lines": [
+    "\"UNJUSTIFIED.\""
+   ],
+   "accent": 0,
+   "acol": "red",
+   "fs": 200,
+   "at": [
+    564.1
+   ],
+   "sub": "\u2014 the NTSB",
+   "subAt": 567.4599999999999,
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024)",
+   "t0": 564.02,
+   "type": "head",
+   "t1": 568.69
+  },
+  {
+   "lines": [
+    "The report found",
+    "more problems."
+   ],
+   "accent": 1,
+   "acol": "yellow",
+   "fs": 130,
+   "at": [
+    568.4,
+    569.6
+   ],
+   "t0": 568.34,
+   "type": "head",
+   "t1": 571.51
+  },
+  {
+   "src": "NTSB photo \u00b7 public domain \u00b7 NTSB Railroad Investigation Report RIR-24-05 (2024), fig. 20",
+   "boxes": [
+    {
+     "x": 150,
+     "y": 200,
+     "w": 1040,
+     "h": 585,
+     "img": "ntsb_dot111.png",
+     "cap": "Punctured DOT-111 tank car",
+     "rot": 0,
+     "push": 0.12
+    }
+   ],
+   "notes": [
+    {
+     "text": "DOT-111",
+     "x": 1250,
+     "y": 280,
+     "at": 576.36,
+     "color": "red",
+     "size": 80
+    },
+    {
+     "text": "older design",
+     "x": 1250,
+     "y": 380,
+     "at": 574.96,
+     "color": "white",
+     "size": 50
+    },
+    {
+     "text": "started the fire",
+     "x": 1250,
+     "y": 450,
+     "at": 573.44,
+     "color": "yellow",
+     "size": 50
+    }
+   ],
+   "t0": 571.16,
+   "type": "box",
+   "t1": 583.25
+  },
+  {
+   "lines": [
+    "If those cars had survived:",
+    "likely NO vinyl chloride release"
+   ],
+   "accent": 1,
+   "acol": "red",
+   "fs": 100,
+   "at": [
+    583.0,
+    588.84
+   ],
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024)",
+   "t0": 582.9,
+   "type": "head",
+   "t1": 591.91
+  },
+  {
+   "items": [
+    {
+     "text": "\u2192 DOT-111 tank cars",
+     "at": 591.6
+    },
+    {
+     "text": "\u2192 slow train info to responders",
+     "at": 593.3399999999999
+    },
+    {
+     "text": "\u2192 volunteer firefighter training",
+     "at": 599.24,
+     "accent": true
+    }
+   ],
+   "fs": 96,
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024)",
+   "t0": 591.56,
+   "type": "list",
+   "t1": 603.41
+  },
+  {
+   "steps": [
+    {
+     "value": 600,
+     "label": "class action settlement \u00b7 no admission of wrongdoing",
+     "at": 604.5,
+     "dur": 1.2,
+     "accent": true
+    }
+   ],
+   "prefix": "$",
+   "suffix": "M",
+   "fs": 300,
+   "src": "In re: East Palestine Train Derailment, U.S. District Court, N.D. Ohio",
+   "t0": 603.06,
+   "type": "counter",
+   "t1": 610.95
+  },
+  {
+   "steps": [
+    {
+     "value": 34,
+     "label": "new safety recommendations",
+     "at": 610.7,
+     "dur": 0.9,
+     "accent": true
+    }
+   ],
+   "fs": 300,
+   "src": "NTSB Railroad Investigation Report RIR-24-05 (2024)",
+   "t0": 610.6,
+   "type": "counter",
+   "t1": 616.74
+  },
+  {
+   "clip": {
+    "src": "T1",
+    "ss": 1.0
+   },
+   "src": "Animated reconstruction (illustrative) \u00b7 Wrecklore",
+   "t0": 616.74,
+   "type": "full",
+   "t1": 619.12
+  },
+  {
+   "lk": "THE CRASH",
+   "said": [
+    "An",
+    "accident."
+   ],
+   "saidAt": [
+    619.2,
+    622.76
+   ],
+   "rk": "THE BLACK CLOUD",
+   "did": [
+    "A",
+    "decision."
+   ],
+   "didAt": 626.54,
+   "sfs": 120,
+   "dfs": 130,
+   "t0": 619.12,
+   "type": "saiddid",
+   "t1": 627.62
+  },
+  {
+   "clip": {
+    "src": "T6",
+    "ss": 6.0
+   },
+   "src": "Animated reconstruction (illustrative) \u00b7 Wrecklore",
+   "t0": 627.62,
+   "type": "full",
+   "t1": 633.98
+  },
+  {
+   "lines": [
+    "The most dangerous failure",
+    "isn't in the steel."
+   ],
+   "accent": 1,
+   "acol": "yellow",
+   "fs": 110,
+   "at": [
+    634.0,
+    636.38
+   ],
+   "t0": 633.98,
+   "type": "head",
+   "t1": 637.85
+  },
+  {
+   "lines": [
+    "It's in the",
+    "CONVERSATION."
+   ],
+   "accent": 1,
+   "acol": "red",
+   "fs": 170,
+   "at": [
+    637.55,
+    637.8
+   ],
+   "t0": 637.5,
+   "type": "head",
+   "t1": 639.73
+  },
+  {
+   "lines": [
+    "Subscribe to",
+    "Wrecklore"
+   ],
+   "kicker": "The full story behind engineering disasters",
+   "sub": "Should a railroad make the call on a vent and burn?",
+   "t0": 639.38,
+   "type": "title",
+   "t1": 651.75
+  }
+ ],
+ "overlays": [
+  {
+   "src": "T5",
+   "ss": 0.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 12.94,
+   "tout": 22.7,
+   "full": true
+  },
+  {
+   "src": "T2",
+   "ss": 0.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 41.7,
+   "tout": 49.28,
+   "full": true
+  },
+  {
+   "src": "T1",
+   "ss": 0.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 61.38,
+   "tout": 72.24,
+   "full": true
+  },
+  {
+   "src": "T3",
+   "ss": 0.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 111.88,
+   "tout": 123.88,
+   "full": true
+  },
+  {
+   "src": "T2",
+   "ss": 2.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 172.92,
+   "tout": 182.86,
+   "full": true
+  },
+  {
+   "src": "T2",
+   "ss": 8.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 211.6,
+   "tout": 215.6,
+   "full": true
+  },
+  {
+   "src": "T4",
+   "ss": 0.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 215.6,
+   "tout": 227.6,
+   "full": true
+  },
+  {
+   "src": "T5",
+   "ss": 0.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 490.36,
+   "tout": 506.36,
+   "full": true
+  },
+  {
+   "src": "T6",
+   "ss": 0.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 506.36,
+   "tout": 522.36,
+   "full": true
+  },
+  {
+   "src": "T1",
+   "ss": 1.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 616.74,
+   "tout": 619.12,
+   "full": true
+  },
+  {
+   "src": "T6",
+   "ss": 6.0,
+   "x": 0,
+   "y": 0,
+   "w": 1920,
+   "h": 1080,
+   "tin": 627.62,
+   "tout": 633.98,
+   "full": true
+  }
+ ],
+ "cuts": [
+  0,
+  61.38,
+  139.4,
+  232.1,
+  321.34,
+  416.96,
+  522.36,
+  651.4
+ ],
+ "names": [
+  "hook",
+  "train",
+  "detectors",
+  "fire",
+  "poly",
+  "room",
+  "verdict"
+ ],
+ "end": 651.4,
+ "music": [
+  {
+   "file": "audio/m_Hidden_Danger_A.wav",
+   "start": 0.0,
+   "dur": 12.9,
+   "vol": 0.18
+  },
+  {
+   "file": "audio/m_Tension.wav",
+   "start": 22.6,
+   "dur": 36.0,
+   "vol": 0.18
+  },
+  {
+   "file": "audio/m_Mysterious_Lights.wav",
+   "start": 58.4,
+   "dur": 80.8,
+   "vol": 0.168
+  },
+  {
+   "file": "audio/m_The_Abyss.wav",
+   "start": 139.3,
+   "dur": 63.0,
+   "vol": 0.192
+  },
+  {
+   "file": "audio/m_Hidden_Truth.wav",
+   "start": 232.0,
+   "dur": 89.0,
+   "vol": 0.18
+  },
+  {
+   "file": "audio/m_Asking_Questions.wav",
+   "start": 321.2,
+   "dur": 55.4,
+   "vol": 0.168
+  },
+  {
+   "file": "audio/m_Driving_Concern.wav",
+   "start": 376.6,
+   "dur": 113.5,
+   "vol": 0.192
+  },
+  {
+   "file": "audio/m_Final_Step.wav",
+   "start": 522.2,
+   "dur": 94.4,
+   "vol": 0.168
+  },
+  {
+   "file": "audio/m_Emotional_Piano.wav",
+   "start": 616.6,
+   "dur": 34.799999999999955,
+   "vol": 0.228
+  }
+ ],
+ "sfx": [
+  {
+   "file": "audio/sfx/fire_bed.wav",
+   "t": 0.0,
+   "vol": 0.075,
+   "dur": 5.5
+  },
+  {
+   "file": "audio/sfx/shutter.wav",
+   "t": 0.05,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 5.66,
+   "vol": 0.203
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 9.0,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/stamp.wav",
+   "t": 12.26,
+   "vol": 0.225
+  },
+  {
+   "file": "audio/sfx/drone.wav",
+   "t": 12.9,
+   "vol": 0.122,
+   "dur": 7.0
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 12.7,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/explosion_big.wav",
+   "t": 19.91,
+   "vol": 0.9
+  },
+  {
+   "file": "audio/sfx/fire_bed.wav",
+   "t": 20.44,
+   "vol": 0.35,
+   "dur": 2.83
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 22.7,
+   "vol": 0.225
+  },
+  {
+   "file": "audio/sfx/typewriter.wav",
+   "t": 26.8,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/stamp.wav",
+   "t": 32.68,
+   "vol": 0.25
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 34.3,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 39.7,
+   "vol": 0.18
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 40.7,
+   "vol": 0.18
+  },
+  {
+   "file": "audio/sfx/train_rumble.wav",
+   "t": 41.6,
+   "vol": 0.105,
+   "dur": 7.6
+  },
+  {
+   "file": "audio/sfx/pop.wav",
+   "t": 51.12,
+   "vol": 0.175
+  },
+  {
+   "file": "audio/sfx/pop.wav",
+   "t": 53.06,
+   "vol": 0.175
+  },
+  {
+   "file": "audio/sfx/pop.wav",
+   "t": 56.14,
+   "vol": 0.175
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 58.2,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 58.46,
+   "vol": 0.248
+  },
+  {
+   "file": "audio/sfx/train_rumble.wav",
+   "t": 61.3,
+   "vol": 0.158,
+   "dur": 11.2
+  },
+  {
+   "file": "audio/sfx/horn.wav",
+   "t": 61.6,
+   "vol": 0.122
+  },
+  {
+   "file": "audio/sfx/shutter.wav",
+   "t": 72.3,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 74.5,
+   "vol": 0.18
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 78.2,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 79.86,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/stamp.wav",
+   "t": 82.6,
+   "vol": 0.225
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 87.5,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/pop.wav",
+   "t": 95.04,
+   "vol": 0.175
+  },
+  {
+   "file": "audio/sfx/pop.wav",
+   "t": 98.16,
+   "vol": 0.175
+  },
+  {
+   "file": "audio/sfx/pop.wav",
+   "t": 99.28,
+   "vol": 0.175
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 100.45,
+   "vol": 0.248
+  },
+  {
+   "file": "audio/sfx/flame_burst.wav",
+   "t": 103.52,
+   "vol": 0.14
+  },
+  {
+   "file": "audio/sfx/shutter.wav",
+   "t": 105.0,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 111.7,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/creak.wav",
+   "t": 119.0,
+   "vol": 0.175
+  },
+  {
+   "file": "audio/sfx/shutter.wav",
+   "t": 123.95,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/shutter.wav",
+   "t": 128.0,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/riser.wav",
+   "t": 137.2,
+   "vol": 0.175
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 139.45,
+   "vol": 0.225
+  },
+  {
+   "file": "audio/sfx/shutter.wav",
+   "t": 142.3,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/alarm_beep.wav",
+   "t": 148.2,
+   "vol": 0.1
+  },
+  {
+   "file": "audio/sfx/alarm_beep.wav",
+   "t": 158.79,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 161.5,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/stamp.wav",
+   "t": 170.36,
+   "vol": 0.25
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 171.55,
+   "vol": 0.315
+  },
+  {
+   "file": "audio/sfx/train_rumble.wav",
+   "t": 172.9,
+   "vol": 0.105,
+   "dur": 9.9
+  },
+  {
+   "file": "audio/sfx/flame_burst.wav",
+   "t": 180.1,
+   "vol": 0.105
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 182.8,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 188.6,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/alarm_beep.wav",
+   "t": 195.78,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/riser.wav",
+   "t": 197.5,
+   "vol": 0.175
+  },
+  {
+   "file": "audio/sfx/drone.wav",
+   "t": 199.4,
+   "vol": 0.105,
+   "dur": 3.2
+  },
+  {
+   "file": "audio/sfx/radio_click.wav",
+   "t": 202.35,
+   "vol": 0.3
+  },
+  {
+   "file": "audio/sfx/radio_click.wav",
+   "t": 210.9,
+   "vol": 0.27
+  },
+  {
+   "file": "audio/sfx/train_rumble.wav",
+   "t": 211.5,
+   "vol": 0.105,
+   "dur": 6.2
+  },
+  {
+   "file": "audio/sfx/brake_squeal.wav",
+   "t": 213.0,
+   "vol": 0.105
+  },
+  {
+   "file": "audio/sfx/snap.wav",
+   "t": 217.55,
+   "vol": 0.25
+  },
+  {
+   "file": "audio/sfx/derail_crash.wav",
+   "t": 217.7,
+   "vol": 0.6
+  },
+  {
+   "file": "audio/sfx/brake_squeal.wav",
+   "t": 218.0,
+   "vol": 0.09
+  },
+  {
+   "file": "audio/sfx/flame_burst.wav",
+   "t": 219.1,
+   "vol": 0.175
+  },
+  {
+   "file": "audio/sfx/fire_bed.wav",
+   "t": 219.6,
+   "vol": 0.12,
+   "dur": 12.0
+  },
+  {
+   "file": "audio/sfx/boom.wav",
+   "t": 228.62,
+   "vol": 0.135
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 232.0,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/stamp.wav",
+   "t": 236.72,
+   "vol": 0.225
+  },
+  {
+   "file": "audio/sfx/typewriter.wav",
+   "t": 240.5,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 245.5,
+   "vol": 0.203
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 253.3,
+   "vol": 0.225
+  },
+  {
+   "file": "audio/sfx/alarm_beep.wav",
+   "t": 258.8,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/sirens.wav",
+   "t": 267.8,
+   "vol": 0.55,
+   "dur": 3.22
+  },
+  {
+   "file": "audio/sfx/shutter.wav",
+   "t": 270.8,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/fire_bed.wav",
+   "t": 271.0,
+   "vol": 0.075,
+   "dur": 8.0
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 279.0,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/riser.wav",
+   "t": 282.6,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 284.45,
+   "vol": 0.203
+  },
+  {
+   "file": "audio/sfx/shutter.wav",
+   "t": 286.6,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/pop.wav",
+   "t": 289.8,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/pop.wav",
+   "t": 296.16,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/stamp.wav",
+   "t": 300.24,
+   "vol": 0.25
+  },
+  {
+   "file": "audio/sfx/shutter.wav",
+   "t": 302.4,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/fire_bed.wav",
+   "t": 302.5,
+   "vol": 0.06,
+   "dur": 12.0
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 317.35,
+   "vol": 0.18
+  },
+  {
+   "file": "audio/sfx/stamp.wav",
+   "t": 319.1,
+   "vol": 0.225
+  },
+  {
+   "file": "audio/sfx/riser.wav",
+   "t": 320.0,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 324.52,
+   "vol": 0.225
+  },
+  {
+   "file": "audio/sfx/pop.wav",
+   "t": 332.14,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/pop.wav",
+   "t": 332.39,
+   "vol": 0.125
+  },
+  {
+   "file": "audio/sfx/pop.wav",
+   "t": 334.56,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/pop.wav",
+   "t": 335.7,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/boom.wav",
+   "t": 342.6,
+   "vol": 0.105
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 344.2,
+   "vol": 0.175
+  },
+  {
+   "file": "audio/sfx/stamp.wav",
+   "t": 352.0,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 360.45,
+   "vol": 0.18
+  },
+  {
+   "file": "audio/sfx/shutter.wav",
+   "t": 366.5,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 376.6,
+   "vol": 0.175
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 376.8,
+   "vol": 0.27
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 386.7,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/stamp.wav",
+   "t": 393.0,
+   "vol": 0.275
+  },
+  {
+   "file": "audio/sfx/typewriter.wav",
+   "t": 395.2,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 411.7,
+   "vol": 0.18
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 412.7,
+   "vol": 0.18
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 413.05,
+   "vol": 0.248
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 415.5,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 416.4,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 417.0,
+   "vol": 0.175
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 423.0,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/stamp.wav",
+   "t": 429.9,
+   "vol": 0.275
+  },
+  {
+   "file": "audio/sfx/shutter.wav",
+   "t": 443.9,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 457.3,
+   "vol": 0.203
+  },
+  {
+   "file": "audio/sfx/typewriter.wav",
+   "t": 459.6,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/stamp.wav",
+   "t": 469.1,
+   "vol": 0.275
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 468.35,
+   "vol": 0.225
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 469.35,
+   "vol": 0.225
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 470.35,
+   "vol": 0.225
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 471.35,
+   "vol": 0.225
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 472.35,
+   "vol": 0.225
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 473.35,
+   "vol": 0.225
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 474.35,
+   "vol": 0.225
+  },
+  {
+   "file": "audio/sfx/typewriter.wav",
+   "t": 475.8,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/drone.wav",
+   "t": 480.4,
+   "vol": 0.122,
+   "dur": 8.0
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 482.3,
+   "vol": 0.16
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 483.3,
+   "vol": 0.16
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 484.3,
+   "vol": 0.16
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 485.3,
+   "vol": 0.18
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 486.3,
+   "vol": 0.18
+  },
+  {
+   "file": "audio/sfx/heartbeat.wav",
+   "t": 487.3,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/stamp.wav",
+   "t": 490.16,
+   "vol": 0.25
+  },
+  {
+   "file": "audio/sfx/drone.wav",
+   "t": 490.4,
+   "vol": 0.105,
+   "dur": 6.9
+  },
+  {
+   "file": "audio/sfx/explosion_big.wav",
+   "t": 497.33,
+   "vol": 0.95
+  },
+  {
+   "file": "audio/sfx/fire_bed.wav",
+   "t": 497.86,
+   "vol": 0.35,
+   "dur": 4.05
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 522.4,
+   "vol": 0.225
+  },
+  {
+   "file": "audio/sfx/typewriter.wav",
+   "t": 524.8,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/shutter.wav",
+   "t": 530.0,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/stamp.wav",
+   "t": 547.58,
+   "vol": 0.3
+  },
+  {
+   "file": "audio/sfx/shutter.wav",
+   "t": 552.4,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/stamp.wav",
+   "t": 566.96,
+   "vol": 0.3
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 568.3,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/shutter.wav",
+   "t": 571.2,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 583.0,
+   "vol": 0.18
+  },
+  {
+   "file": "audio/sfx/pop.wav",
+   "t": 591.6,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/pop.wav",
+   "t": 593.34,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/pop.wav",
+   "t": 599.24,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 603.2,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/tick.wav",
+   "t": 610.7,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/rewind.wav",
+   "t": 616.4,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/train_rumble.wav",
+   "t": 616.7,
+   "vol": 0.087,
+   "dur": 2.4
+  },
+  {
+   "file": "audio/sfx/stamp.wav",
+   "t": 626.54,
+   "vol": 0.225
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 627.5,
+   "vol": 0.15
+  },
+  {
+   "file": "audio/sfx/hit.wav",
+   "t": 637.55,
+   "vol": 0.225
+  },
+  {
+   "file": "audio/sfx/whoosh.wav",
+   "t": 639.2,
+   "vol": 0.2
+  },
+  {
+   "file": "audio/sfx/ding.wav",
+   "t": 640.3,
+   "vol": 0.225
+  },
+  {
+   "file": "audio/sfx/fire_bed.wav",
+   "t": 23.27,
+   "vol": 0.105,
+   "dur": 4.17,
+   "ss": 2.83
+  },
+  {
+   "file": "audio/sfx/sirens.wav",
+   "t": 271.02,
+   "vol": 0.385,
+   "dur": 0.78,
+   "ss": 3.22
+  },
+  {
+   "file": "audio/sfx/fire_bed.wav",
+   "t": 501.91,
+   "vol": 0.105,
+   "dur": 19.95,
+   "ss": 4.05
+  }
+ ],
+ "archive": {
+  "T1": {
+   "file": "real3d/T1.mp4",
+   "crop": "eq=saturation=1.18:brightness=0.035,"
+  },
+  "T2": {
+   "file": "real3d/T2.mp4",
+   "crop": "eq=saturation=1.18:brightness=0.035,"
+  },
+  "T3": {
+   "file": "real3d/T3.mp4",
+   "crop": "eq=saturation=1.18:brightness=0.035,"
+  },
+  "T4": {
+   "file": "real3d/T4.mp4",
+   "crop": "eq=saturation=1.18:brightness=0.035,"
+  },
+  "T5": {
+   "file": "real3d/T5.mp4",
+   "crop": "eq=saturation=1.18:brightness=0.035,"
+  },
+  "T6": {
+   "file": "real3d/T6.mp4",
+   "crop": "eq=saturation=1.18:brightness=0.035,"
+  }
+ },
+ "caption_fixes": {},
+ "caption_title_case": [],
+ "caption_inserts": [],
+ "caption_merges": []
+}
