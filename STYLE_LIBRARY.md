@@ -44,3 +44,17 @@ Never copy the script, topic, characters or assets of a reference. Everything we
 - Fly-in between continent and close-up looks blurry mid-way: add an intermediate texture level or cut with a whoosh.
 - Use a vintage/parchment map scene for history segments (from ref 2) and a blueprint infographic scene (from ref 1).
 - Rotate techniques: each new video takes its main look from a different reference.
+
+## Reference 3: Louisiana Purchase (ref5, 101 s)
+- Hook = paradox: "sent diplomats to buy one city... ended up buying the whole territory for almost the same price". Then "But let's start from the beginning."
+- Vintage parchment world map (beige land, teal-grey sea), flat bold territory fills (red/blue/teal/orange) with thick black outlines, big serif names ON the territory. Vector = always crisp.
+- Very fast camera: a move every 1 to 2 s, quick zoom/pan with ease, holds are short; flights between continents.
+- 3D toy-figurine characters (pawn bodies, big heads, soft light + contact shadows); some AI-rendered realistic scenes (beach soldiers).
+- Props: money stacks, FOR SALE -> SOLD sign, coin "4c/acre", lightning along a river border, thought bubble, portrait cut-out.
+- Natural human-like voice (ElevenLabs-like).
+
+## Engine v2 (reels/nutmeg/comp)
+- vmap.py: crisp vector parchment map at full resolution (Natural Earth 10m land, LOD cache, Web-Mercator camera with rotation + perspective tilt + haze, coastal ripple lines, territory fills with black outlines).
+- props3d.py: pseudo-3D figurines (Dutch merchant, Stuyvesant peg leg, King Charles II, redcoat) + nutmeg, ship, scroll, latte.
+- edit.py: SHOTS list anchored to narration words, 0.6 s snappy moves, long jumps "fly" (zoom dips out and back in), motion blur by camera speed.
+- cb_vo.py: Chatterbox TTS (CPU, natural voice), ~4x slower than real time.
