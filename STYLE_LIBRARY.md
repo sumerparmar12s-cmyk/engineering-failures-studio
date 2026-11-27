@@ -1,5 +1,11 @@
 # Style library: map-explainer reels (learned from reference videos)
 
+## USER VERDICT (most important, Nov 2026)
+- LIKED: Point Roberts reel (reels/pointroberts): 3D tilted procedural map, cars/bus moving on routes, relaxed pace, Kokoro am_michael voice.
+- DISLIKED: Manhattan-for-nutmeg (engine v2): too fast, parchment vector map not liked, Chatterbox voice sounded "AI". Do NOT use that style/voice.
+- Default from now on: Point Roberts engine (world3d.py) + Kokoro am_michael, pace only slightly faster than Point Roberts,
+  natural pauses, moving vehicles/props on the map, clean (not blurry) zooms.
+
 The user sends reference reels from a Facebook page that posts map/explainer comedy videos (one post a week).
 For every reference: study the technique, save it here, then make ORIGINAL videos on different topics.
 Never copy the script, topic, characters or assets of a reference. Everything we publish is self-made

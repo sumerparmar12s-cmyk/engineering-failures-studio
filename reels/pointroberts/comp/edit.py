@@ -5,8 +5,12 @@ import numpy as np, cairo
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import world3d as WD, toons as TO, toons2 as T2
 from world3d import Camera as Cm
-R = WD.R; W, H, FPS = 1080, 1920, 30; END = 61.6
-WORDS = json.load(open(f'{R}/vo/vo.mp3.words.json'))
+R = WD.R; W, H, FPS = 1080, 1920, 30
+WORDS = json.load(open(f'{R}/vo/vo.mp3.words.json')); WOLD = json.load(open(f'{R}/work/words_old.json'))
+assert len(WORDS) == len(WOLD), (len(WORDS), len(WOLD))
+_NEW = np.array([0.0] + [w['s'] for w in WORDS] + [WORDS[-1]['e'] + 1.0]); _OLD = np.array([0.0] + [w['s'] for w in WOLD] + [61.6])
+END = round(float(_NEW[-1]), 2)
+def t_old(t): return float(np.interp(t, _NEW, _OLD))
 FONTS = '/home/user/engineering-failures-studio/.toolchain/fonts'
 def F(name, size):
     p = {'play': 'PlayfairDisplay.ttf', 'oswald': 'Oswald.ttf'}.get(name)
@@ -50,7 +54,12 @@ KEYS = [(0.0, Cm(-99, 43, 11500, 24, 0)), (3.0, Cm(-101, 44, 10600, 27, -3)),
         (50.9, Cm(-122.90, 49.015, 76, 43, -5)), (52.0, Cm(-123.02, 48.99, 40, 50, -14)), (56.0, Cm(-123.05, 48.985, 32, 52, -22)), (61.6, Cm(-123.05, 48.985, 95, 38, -38))]
 def cam_at(t):
     for (t0, a), (t1, b) in zip(KEYS, KEYS[1:]):
-        if t < t1: return a.lerp(b, ease((t - t0) / (t1 - t0)))
+        if t < t1:
+            k = ease((t - t0) / (t1 - t0)); c = a.lerp(b, k)
+            if max(a.dist, b.dist) / min(a.dist, b.dist) > 20:   # big zoom: centre on the target early, then zoom (keeps the coast in view)
+                kp = 1 - (1 - clamp((t - t0) / (t1 - t0) * 1.15)) ** 4
+                c.lon = a.lon + (b.lon - a.lon) * kp; c.lat = a.lat + (b.lat - a.lat) * kp
+            return c
     return KEYS[-1][1]
 # ---------- geometry ----------
 US = WD.country('United States of America'); CA = WD.country('Canada')
@@ -112,9 +121,10 @@ def subtitle(img, t):
             stext(img, (W // 2, 1600), ' '.join(x['w'] for x in g), F('SemiBold', 44)); break
 # ---------- frame ----------
 LOW = None
-def frame(t):
+def frame(tn):
+    t = t_old(tn)
     cam = cam_at(t)
-    base = WD.render(cam, 540, 960).resize((W, H), Image.BICUBIC).convert('RGBA')
+    base = WD.render(cam, W, H).filter(ImageFilter.UnsharpMask(radius=1.6, percent=60, threshold=2)).convert('RGBA')
     s = cairo.ImageSurface(cairo.FORMAT_ARGB32, W, H); c = cairo.Context(s); c.set_line_join(cairo.LINE_JOIN_ROUND)
     far = cam.dist > 1500
     if t < 5.0:   # US / Canada highlight
@@ -195,7 +205,7 @@ def frame(t):
             pass
         n = (1 if u > 0.04 else 0) + (1 if u > 0.42 else 0) + (1 if u > 0.58 else 0) + (1 if u > 0.96 else 0)
         pill(img, (W // 2, 300), f'BORDER CROSSINGS: {n}', (240, 175, 20), (20, 20, 20), 54, pop(t, 45.6))
-        x, y = geo(cam, -122.745, 48.975); pill(img, (x + 40, y + 60), 'Blaine (school)', (40, 90, 220), size=34, sc=pop(t, 46.0))
+        x, y = geo(cam, -122.735, 48.995); pill(img, (x + 60, y - 50), 'Blaine (school)', (40, 90, 220), size=34, sc=pop(t, 46.0))
     if 50.94 <= t < 56.0:
         for i in range(3):
             t0 = 51.2 + i * 0.6; u = clamp((t - t0) / 2.6)
@@ -210,8 +220,8 @@ def frame(t):
         if t >= 59.3:
             x, y = geo(cam, -123.057, 48.983); paste(img, art('palm', lambda: T2.palm(260)), x + 20, y - 90, pop(t, 59.3))
             stext(img, (W // 2, 300), 'Basically... an island.', F('play', 78), a=eout((t - 59.3) / 0.3))
-    subtitle(img, t)
-    d = ImageDraw.Draw(img); d.rectangle([0, H - 10, int(W * t / END), H], fill=(240, 175, 20, 255))
+    subtitle(img, tn)
+    d = ImageDraw.Draw(img); d.rectangle([0, H - 10, int(W * tn / END), H], fill=(240, 175, 20, 255))
     return img.convert('RGB')
 if __name__ == '__main__':
     if sys.argv[1] == 'frames':

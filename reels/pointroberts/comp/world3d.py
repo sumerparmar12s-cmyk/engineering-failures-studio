@@ -9,7 +9,7 @@ COS0 = math.cos(math.radians(45)); KX, KY = 111.32 * COS0, 110.57
 def to_xy(lon, lat): return np.asarray(lon) * KX, np.asarray(lat) * KY
 def to_ll(x, y): return x / KX, y / KY
 def noise(h, w, seed, octaves=6, base=4):
-    rng = np.random.default_rng(seed); acc = np.zeros((h, w), np.float32); amp = 1.0; tot = 0
+    rng = np.random.default_rng(seed); acc = np.zeros((h, w), np.float32); amp = np.float32(1.0); tot = 0
     for o in range(octaves):
         n = base * 2 ** o; a = rng.random((max(2, int(n * h / w)) + 1, n + 1)).astype(np.float32)
         acc += np.asarray(Image.fromarray((a * 255).astype(np.uint8)).resize((w, h), Image.BICUBIC), np.float32) / 255 * amp; tot += amp; amp *= 0.55
@@ -68,8 +68,12 @@ def poly_rings(g):
 _TEX = {}
 def textures():
     if not _TEX:
-        _TEX['na'] = Tex('na', -172, -48, 76, 12, 40, NA_RINGS, 21)
-        _TEX['loc'] = Tex('loc', -123.70, -122.10, 49.55, 48.60, 1500, [LOCAL_LAND], 31, detail=1.6)
+        _TEX['na'] = Tex('na', -172, -48, 76, 12, 85, NA_RINGS, 21, detail=2.0)
+        C10 = json.load(open(f'{R}/dl/c10.geojson'))
+        mid = [r for f in C10['features'] if f['properties']['ADMIN'] in ('United States of America', 'Canada') for r in rings_of(f['geometry'])
+               if any(-128 < x < -117 and 45.5 < y < 52 for x, y in r[::max(1, len(r) // 50)])]
+        _TEX['mid'] = Tex('mid', -128.0, -117.0, 52.0, 45.5, 650, mid, 41, detail=6.0)
+        _TEX['loc'] = Tex('loc', -123.70, -122.10, 49.55, 48.60, 2800, [LOCAL_LAND], 31, detail=4.0)
     return _TEX
 class Camera:
     def __init__(self, lon, lat, dist, pitch=35, heading=0, fov=42):
@@ -96,14 +100,19 @@ def render(cam, W=540, H=960):
     dz = d[..., 2]; ground = dz < -1e-4; t = np.where(ground, -C[2] / np.where(ground, dz, -1), 1e9)
     gx = C[0] + d[..., 0] * t; gy = C[1] + d[..., 1] * t; lon, lat = to_ll(gx, gy)
     col, ins0 = T['na'].sample(lon, lat); col = np.where(ins0[..., None], col, np.array([16, 50, 78], np.float32))
+    wm = np.clip((2600 - cam.dist) / 1300, 0, 1)
+    if wm > 0:
+        cm_, insm = T['mid'].sample(lon, lat); M_ = T['mid']
+        efm = np.clip(np.minimum.reduce([(lon - M_.lon0), (M_.lon1 - lon), (lat - M_.lat1), (M_.lat0 - lat)]) / 0.8, 0, 1)
+        km = (insm * efm * wm)[..., None]; col = col * (1 - km) + cm_ * km
     w2 = np.clip((260 - cam.dist) / 160, 0, 1)
     if w2 > 0:
         cl, ins = T['loc'].sample(lon, lat); L = T['loc']
         ef = np.clip(np.minimum.reduce([(lon - L.lon0), (L.lon1 - lon), (lat - L.lat1), (L.lat0 - lat)]) / 0.12, 0, 1)
         k = (ins * ef * w2)[..., None]; col = col * (1 - k) + cl * k
     # atmosphere: distance haze + sky above the horizon
-    haze = 1 - np.exp(-t / (cam.dist * 3.2)); hz = np.array([190, 214, 232], np.float32)
-    col = col * (1 - haze[..., None] * 0.75) + hz * haze[..., None] * 0.75
+    haze = 1 - np.exp(-t / (cam.dist * 4.0)); hz = np.array([190, 214, 232], np.float32)
+    col = col * (1 - haze[..., None] * 0.35) + hz * haze[..., None] * 0.35
     sky = np.array([150, 196, 235], np.float32) * (1 - np.clip(SY / th, 0, 1)[..., None] * 0.5) + np.array([40, 90, 160], np.float32) * np.clip(SY / th, 0, 1)[..., None] * 0.5
     col = np.where(ground[..., None], col, sky)
     return Image.fromarray(np.clip(col, 0, 255).astype(np.uint8))
