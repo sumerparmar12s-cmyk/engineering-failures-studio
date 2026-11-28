@@ -88,3 +88,11 @@ Sound: whoosh on every move, sword clashes, hooves, crowd, shouts, comic stings 
 - Always: strong "Just imagine..." or paradox hook + open loop; voiced character lines in other Kokoro voices
   (British characters: bm_george / bm_lewis; American: am_adam; narrator am_michael); one game-UI chat gag;
   counters; moving riders/vehicles along routes on the Point-Roberts-style map; whoosh on moves; comic stings.
+
+## USER RULES (Nov 28, 2026) - apply to every map video
+- Map must look 3D: countries RAISED/extruded above the base map (side walls + shadow), popping up when named.
+- Every country that is named gets its NATIONAL FLAG textured on its map shape (USA -> US flag on the US shape, South Korea -> Korean flag, etc.).
+- Uniforms, vehicles and characters must match the country and era of the script.
+- Prefer 3D-looking art over flat 2D. No blur anywhere. Text must never overlap other text/objects.
+- Timeline/pacing clean and professional; length 40-65 s; story kept simple.
+- Workflow: first send STILL FRAMES (photos) of the planned look for approval, only then render the video.
