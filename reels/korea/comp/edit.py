@@ -97,23 +97,29 @@ PLACES = {'Seoul': (126.98, 37.57), 'Pusan': (129.04, 35.18), 'Inchon': (126.63,
 YEL, ORA, CYAN = (1, 0.82, 0.15), (1, 0.55, 0.1), (0.25, 0.75, 1.0)
 # ---------------- shots ----------------
 def shots():
-    return [(0.0, Cm(127.8, 36.4, 1500, 38, 6), Cm(127.8, 36.6, 1350, 40, 8)),
-            (T('America') - 0.1, Cm(-97, 42, 9000, 22, -4), Cm(-97, 42.5, 8400, 24, -4)),
-            (T('Britain') - 0.1, Cm(-2.5, 54, 2300, 30, 0), Cm(-2.5, 54, 2100, 32, 0)),
-            (T('Canada') - 0.1, Cm(-100, 55, 12500, 20, 0), Cm(-100, 55, 11500, 22, 0)),
-            (T('more') - 0.1, Cm(128.5, 35.5, 1700, 40, 10), Cm(128.5, 35.8, 1550, 42, 12)),
-            (T('then') - 0.05, Cm(122, 37, 3600, 30, -10), Cm(120, 38, 3900, 30, -12)),
-            (T('After') - 0.1, Cm(128.5, 36.4, 2500, 36, 8), Cm(128.8, 37.4, 2700, 32, 6)),
-            (T('June') - 0.1, Cm(127.6, 35.6, 1150, 44, 6), Cm(127.8, 35.3, 1050, 46, 8)),
-            (T('America', 2) - 0.1, Cm(128.4, 35.3, 900, 46, 10), Cm(128.6, 35.4, 820, 48, 12)),
-            (T('Then', 2) - 0.1, Cm(126.9, 37.0, 950, 44, -10), Cm(127.0, 37.6, 1100, 42, -8)),
-            (T('until') - 0.2, Cm(125.8, 38.5, 2400, 36, -8), Cm(126.5, 37.8, 2300, 38, -6)),
-            (T('Now') - 0.1, Cm(127, 40, 7000, 18, 0), Cm(127, 40, 7600, 16, 0)),
-            (T('Finally') - 0.05, Cm(127.7, 37.2, 1400, 40, 4), Cm(127.7, 37.4, 1250, 42, 6))]
-SHOTS = shots()
+    return [(0.0, 'hook', Cm(127.8, 36.4, 1500, 38, 6), Cm(127.8, 36.6, 1350, 40, 8)),
+            (T('America') - 0.7, 'west', Cm(-50, 47, 20000, 6, 0), Cm(-52, 47, 19000, 8, 0)),
+            (T('more') - 0.2, 'ships', Cm(128.5, 35.5, 1700, 40, 10), Cm(128.5, 35.8, 1550, 42, 12)),
+            (T('then') - 0.1, 'bigger', Cm(106, 36, 7600, 18, 0), Cm(106, 36, 7000, 20, 0)),
+            (T('After') - 0.1, 'split', Cm(128.5, 36.4, 2500, 36, 8), Cm(128.8, 37.4, 2700, 32, 6)),
+            (T('June') - 0.1, 'invasion', Cm(127.6, 35.6, 1150, 44, 6), Cm(127.8, 35.3, 1050, 46, 8)),
+            (T('America', 2) - 0.1, 'un', Cm(128.4, 35.3, 900, 46, 10), Cm(128.6, 35.4, 820, 48, 12)),
+            (T('Then', 2) - 0.1, 'inchon', Cm(126.9, 37.0, 950, 44, -10), Cm(127.0, 37.6, 1100, 42, -8)),
+            (T('until') - 0.3, 'china', Cm(108, 36, 7400, 20, 0), Cm(110, 37, 7000, 22, 0)),
+            (T('pushes') - 0.5, 'chinafront', Cm(126.6, 38.6, 1500, 40, -6), Cm(126.9, 38.2, 1400, 42, -4)),
+            (T('Now') - 0.1, 'powers', Cm(127, 40, 7000, 18, 0), Cm(127, 40, 7600, 16, 0)),
+            (T('Finally') - 0.05, 'end', Cm(127.7, 37.2, 1400, 40, 4), Cm(127.7, 37.4, 1250, 42, 6))]
+SHOTS = shots(); FLY = 0.75
+def _fly(a, b, k):
+    c = a.lerp(b, k); d = math.hypot(a.lon - b.lon, a.lat - b.lat)
+    if d > 8 or max(a.dist, b.dist) / min(a.dist, b.dist) > 2.5:
+        top = max(a.dist, b.dist, 4000 + d * 90); c.dist = math.exp(math.log(c.dist) + (math.log(top) - math.log(c.dist)) * math.sin(math.pi * k))
+        c.pitch = c.pitch * (1 - 0.7 * math.sin(math.pi * k))
+    return c
 def cam_at(t):
-    i = max(j for j, s in enumerate(SHOTS) if s[0] <= t + 1e-6); t0, a, b = SHOTS[i]; t1 = SHOTS[i + 1][0] if i + 1 < len(SHOTS) else END
-    return a.lerp(b, ease((t - t0) / max(0.1, t1 - t0))), i, t0
+    i = max(j for j, s in enumerate(SHOTS) if s[0] <= t + 1e-6); t0, nm, a, b = SHOTS[i]; t1 = SHOTS[i + 1][0] if i + 1 < len(SHOTS) else END
+    if i > 0 and t < t0 + FLY: return _fly(SHOTS[i - 1][3], a, ease((t - t0) / FLY)), nm, t0
+    return a.lerp(b, ease((t - t0 - (FLY if i else 0)) / max(0.1, t1 - t0 - FLY))), nm, t0
 # ---------------- subtitles ----------------
 GROUPS, cur = [], []
 for w in WORDS:
@@ -160,62 +166,66 @@ def frame(t):
     cam, si, st0 = cam_at(t); ak = alt_k(cam)
     img = G.render(cam, W, H).filter(ImageFilter.UnsharpMask(radius=1.3, percent=45, threshold=2)).convert('RGBA')
     s = cairo.ImageSurface(cairo.FORMAT_ARGB32, W, H); c = cairo.Context(s); c.set_line_join(cairo.LINE_JOIN_ROUND)
-    korea_view = si in (0, 4, 6, 7, 8, 9, 10, 12)
+    korea_view = si in ('hook', 'ships', 'split', 'invasion', 'un', 'inchon', 'chinafront', 'end')
     # ----- big countries -----
-    if si == 1: R3.raised(c, cam, USA48, ak * 1.4 * rise(t, T('America')), flag('United States of America'), tol=0.05, min_area=0.3)
-    if si == 2: R3.raised(c, cam, UK, ak * 1.4 * rise(t, T('Britain')), flag('United Kingdom'), tol=0.02, min_area=0.05)
-    if si == 3: R3.raised(c, cam, CAN, ak * 1.3 * rise(t, T('Canada')), flag('Canada'), tol=0.06, min_area=0.3); R3.raised(c, cam, USA48, ak * 1.3, flag('United States of America'), tol=0.06, min_area=0.3)
-    if si == 5: R3.raised(c, cam, CHINA, ak * 1.2 * rise(t, T('bigger')), None, tol=0.05, min_area=0.5, wall=(0.25, 0.25, 0.28))
-    if si == 6 and t >= T('Soviet') - 0.2: R3.raised(c, cam, USSR, ak * 1.2 * rise(t, T('Soviet') - 0.2), flag('USSR'), tol=0.05, min_area=0.5)
-    if si == 10: R3.raised(c, cam, CHINA, ak * 1.2 * rise(t, T('China') - 0.1), flag('China'), tol=0.05, min_area=0.5)
-    if si == 11:
+    if si == 'west':
+        R3.raised(c, cam, CAN, ak * 0.9 * rise(t, T('Canada')), flag('Canada'), tol=0.08, min_area=0.4)
+        R3.raised(c, cam, USA48, ak * 1.0 * rise(t, T('America')), flag('United States of America'), tol=0.08, min_area=0.4)
+        R3.raised(c, cam, UK, ak * 1.0 * rise(t, T('Britain')), flag('United Kingdom'), tol=0.03, min_area=0.05)
+        for a0, tt in (((-98, 39), T('America')), ((-2, 53), T('Britain')), ((-100, 56), T('Canada'))):
+            if t >= tt + 0.2: R3.arc3d(c, cam, a0, (127.5, 37.0), ak * 3, eout((t - tt - 0.2) / 1.6) * 0.42, CYAN, 10)
+    if si == 'bigger': R3.raised(c, cam, CHINA, ak * 1.0 * rise(t, T('bigger') - 0.2), None, tol=0.05, min_area=0.5, wall=(0.32, 0.32, 0.36))
+    if si == 'split' and t >= T('Soviet') - 0.2: R3.raised(c, cam, USSR, ak * 1.2 * rise(t, T('Soviet') - 0.2), flag('USSR'), tol=0.05, min_area=0.5)
+    if si == 'china': R3.raised(c, cam, CHINA, ak * 1.0 * rise(t, T('China') - 0.1), flag('China'), tol=0.05, min_area=0.5)
+    if si == 'chinafront': R3.raised(c, cam, CHINA, ak * 1.0, flag('China'), tol=0.05, min_area=0.5)
+    if si == 'powers':
         R3.raised(c, cam, USSR, ak * 1.2, flag('USSR'), tol=0.05, min_area=0.5); R3.raised(c, cam, CHINA, ak * 1.2, flag('China'), tol=0.05, min_area=0.5)
     # ----- Korea -----
-    if korea_view or si == 5 or si == 11:
-        if si == 0:
+    if korea_view or si in ('bigger', 'powers', 'china'):
+        if si == 'hook':
             R3.raised(c, cam, SK, ak * rise(t, T('small')), flag('South Korea'), tol=0.008, min_area=0.02)
             if t >= T('invaded') - 0.2: R3.raised(c, cam, NK, ak * rise(t, T('invaded') - 0.2), flag('North Korea'), tol=0.008)
-        elif si in (4, 5, 6, 11):
+        elif si in ('ships', 'bigger', 'split', 'powers', 'china'):
             R3.raised(c, cam, NK, ak, flag('North Korea'), tol=0.008); R3.raised(c, cam, SK, ak, flag('South Korea'), tol=0.008, min_area=0.02)
         else:
             un = KOREA.intersection(front_at(t)); red = KOREA.difference(front_at(t))
             R3.raised(c, cam, red, ak, flag('North Korea'), tol=0.008, min_area=0.02)
             R3.raised(c, cam, un, ak, flag('South Korea'), tol=0.008, min_area=0.02)
-    if si == 6 and t >= T('split') - 0.2:   # 38th parallel
+    if si == 'split' and t >= T('split') - 0.2:   # 38th parallel
         fr = eout((t - T('split') + 0.2) / 0.8); xs, ys, z, ok = R3.project_alt(cam, np.array([124.2, 124.2 + 5.5 * fr]), np.array([38.0, 38.0]), ak * 1.05, W, H)
         c.move_to(xs[0], ys[0]); c.line_to(xs[1], ys[1]); c.set_source_rgb(1, 1, 1); c.set_line_width(12); c.stroke(); c.move_to(xs[0], ys[0]); c.line_to(xs[1], ys[1]); c.set_source_rgb(*YEL); c.set_dash([22, 12]); c.set_line_width(7); c.stroke(); c.set_dash([])
     # ----- arrows -----
-    if si == 0 and t >= T('invaded'):
+    if si == 'hook' and t >= T('invaded'):
         for a, b in (((126.8, 38.3), (127.0, 36.6)), ((128.0, 38.3), (128.5, 36.8))): R3.arc3d(c, cam, a, b, ak * 1.5, eout((t - T('invaded')) / 0.8), YEL, 11)
-    if si == 6 and t >= T('each') - 0.1:
+    if si == 'split' and t >= T('each') - 0.1:
         k = eout((t - T('each') + 0.1) / 0.8); R3.arc3d(c, cam, (126.5, 39.5), (127.3, 36.4), ak * 2, k, YEL, 11); R3.arc3d(c, cam, (128.6, 36.0), (128.0, 39.6), ak * 2, k, CYAN, 11)
-    if si == 7 and t >= T('tanks') - 0.2:
+    if si == 'invasion' and t >= T('tanks') - 0.2:
         k = eout((t - T('tanks') + 0.2) / (T('southeast') - T('tanks') + 0.4))
         for a, b in (((126.7, 38.4), (127.2, 36.2)), ((127.6, 38.3), (128.3, 36.3)), ((126.9, 37.5), (127.6, 35.4))): R3.arc3d(c, cam, a, b, ak * 1.6, k, YEL, 11)
-    if si == 9 and t >= T('land') - 0.3:
+    if si == 'inchon' and t >= T('land') - 0.3:
         R3.arc3d(c, cam, (124.8, 36.6), (126.55, 37.42), ak * 1.5, eout((t - T('land') + 0.3) / 0.8), CYAN, 12)
         if t >= T('take') - 0.2: R3.arc3d(c, cam, (126.65, 37.47), (126.95, 37.57), ak * 1.0, eout((t - T('take') + 0.2) / 0.5), CYAN, 10)
         if t >= T('Victory') - 0.2: R3.arc3d(c, cam, (127.0, 37.6), (126.8, 40.3), ak * 1.8, eout((t - T('Victory') + 0.2) / 0.9), CYAN, 12)
-    if si == 10 and t >= T('jumps') - 0.2:
-        k = eout((t - T('jumps') + 0.2) / 1.6)
+    if si == 'chinafront':
+        k = eout((t - st0) / 2.2)
         for a, b in (((124.6, 40.6), (126.4, 37.7)), ((125.6, 41.0), (127.3, 37.8)), ((126.8, 41.5), (128.6, 38.2))): R3.arc3d(c, cam, a, b, ak * 1.6, k, YEL, 12)
-    if si == 11:
+    if si == 'powers':
         for a, col in (((100, 50), YEL), ((108, 33), YEL), ((150, 38), CYAN)): R3.arc3d(c, cam, a, (127.5, 38.0), ak * 3, eout((t - T('Now') - 0.3) / 1.0), col, 10)
     img.alpha_composite(TO._pil(s))
     # ----- units, explosions, labels -----
-    if si == 0:
+    if si == 'hook':
         if t >= T('small') + 0.2: x, y = P(cam, 127.9, 36.0, ak); pill(img, (x, y + 150), 'South Korea', (25, 30, 45), icon='South Korea', sc=pop(t, T('small') + 0.2))
         if t >= T('invaded'):
             x, y = P(cam, 127.0, 39.6, ak); pill(img, (x, y - 70), 'North Korea', (25, 30, 45), icon='North Korea', sc=pop(t, T('invaded')))
             for i, path in enumerate((((126.8, 38.3), (127.0, 36.6)), ((128.0, 38.3), (128.5, 36.8)))):
                 lo, la = along(path, eout((t - T('invaded')) / 1.6) * 0.55); unit(img, cam, 'tank', lo, la, t, 0.55, 'nk')
         headline(img, 'Just imagine...', t, 0.0, T('America') - 0.1)
-    if si == 1: x, y = P(cam, -98, 39, ak * 1.4); pill(img, (x, y), 'USA', (25, 30, 45), size=54, icon='United States of America', sc=pop(t, T('America')))
-    if si == 2: x, y = P(cam, -2, 53, ak * 1.4); pill(img, (x, y + 160), 'Britain', (25, 30, 45), size=54, icon='United Kingdom', sc=pop(t, T('Britain')))
-    if si == 3: x, y = P(cam, -100, 59, ak * 1.3); pill(img, (x, y - 120), 'Canada', (25, 30, 45), size=54, icon='Canada', sc=pop(t, T('Canada')))
-    if si in (1, 2, 3):
-        for i in range(4): unit(img, cam, 'sol', *(( -97 + i * 1.6, 41.0) if si == 1 else ((-2.4 + i * 0.4, 52.3) if si == 2 else (-104 + i * 2.2, 52.5))), t, 0.65, 'us' if si != 2 else 'uk')
-    if si == 4:
+    if si == 'west':
+        for lo, la, lab, n, tt, dy in ((-98, 39, 'USA', 'United States of America', T('America'), 0), (-2, 53, 'Britain', 'United Kingdom', T('Britain'), -90), (-100, 57, 'Canada', 'Canada', T('Canada'), -40)):
+            if t >= tt: x, y = P(cam, lo, la, ak); pill(img, (x, y + dy), lab, (25, 30, 45), size=48, icon=n, sc=pop(t, tt))
+        n = int(16 * eout((t - T('dozen')) / 1.0)) if t >= T('dozen') else 0
+        if n: pill(img, (W // 2, 360), f'{n} NATIONS', (40, 90, 170), size=50)
+    if si == 'ships':
         names = ['United States of America', 'United Kingdom', 'Canada', 'New Zealand', 'Norway']
         for i, n in enumerate(names):
             t0 = T('more') + i * 0.25; k = eout((t - t0) / 1.4)
@@ -223,34 +233,34 @@ def frame(t):
             if t >= t0: paste(img, art(f'ship_{n}', lambda: U.ship(n, 230)), x, y, 1.0)
         n = int(16 * eout((t - T('dozen')) / 1.0)) if t >= T('dozen') else 0
         if n: pill(img, (W // 2, 360), f'{n} NATIONS SEND TROOPS', (40, 90, 170), size=50)
-    if si == 5:
-        x, y = P(cam, 104, 34, ak * 1.2); pill(img, (x + 120, y), '???', (30, 30, 34), size=70, sc=pop(t, T('bigger')))
+    if si == 'bigger':
+        x, y = P(cam, 104, 35, ak); stext(img, (x, y), '?', F('oswald', 260), (255, 255, 255), a=eout((t - T('bigger')) / 0.3))
         headline(img, 'an even bigger country...', t, T('even'), size=72)
-    if si == 6:
+    if si == 'split':
         headline(img, 'Korea, 1945', t, T('After'), T('Soviet') - 0.3)
         x, y = P(cam, 127.0, 39.7, ak); pill(img, (x - 60, y), 'North Korea', (25, 30, 45), icon='North Korea')
         x, y = P(cam, 128.0, 36.2, ak); pill(img, (x, y + 120), 'South Korea', (25, 30, 45), icon='South Korea')
         if t >= T('split'): x, y = P(cam, 129.6, 38.0, ak); pill(img, (x + 40, y - 10), '38th parallel', (240, 175, 20), (20, 20, 20), 40, pop(t, T('split')))
         if t >= T('Soviet') - 0.2: pill(img, (W // 2, 330), 'backed by the Soviet Union', (150, 20, 20), size=44, icon='USSR', sc=pop(t, T('Soviet') - 0.2))
         if t >= T('United') - 0.2: pill(img, (W // 2, 1560), 'backed by the United States', (30, 50, 120), size=44, icon='United States of America', sc=pop(t, T('United') - 0.2))
-    if si == 7:
+    if si == 'invasion':
         headline(img, 'June 25, 1950', t, T('June'), T('tanks') + 0.6)
         k = eout((t - T('tanks') + 0.2) / (T('southeast') - T('tanks') + 0.4))
         if t >= T('tanks') - 0.2:
             for i, path in enumerate((((126.7, 38.4), (127.2, 36.2)), ((127.6, 38.3), (128.3, 36.3)), ((126.9, 37.5), (127.6, 35.4)))):
-                lo, la = along(path, k * 0.92); unit(img, cam, 'tank', lo, la, t, 0.62, 'nk', fire=int(t * 6) % 5 == 0)
-                lo, la = along(path, max(0, k * 0.92 - 0.12)); unit(img, cam, 'sol', lo + 0.15, la + 0.05, t, 0.55, 'nk')
+                for q in range(2): lo, la = along(path, max(0, k * 0.92 - q * 0.1)); unit(img, cam, 'tank', lo + q * 0.06, la, t, 0.68, 'nk', fire=int(t * 6 + q) % 5 == 0)
+                for q in range(3): lo, la = along(path, max(0, k * 0.92 - 0.2 - q * 0.05)); unit(img, cam, 'sol', lo + 0.18 + q * 0.06, la + 0.04, t + q * 0.11, 0.9, 'nk')
         booms(img, cam, t, INV_BOOMS)
         x, y = P(cam, *PLACES['Seoul'], ak)
         if t >= T('Seoul') - 0.1: pill(img, (x - 40, y - 70), 'Seoul falls', (180, 25, 30), size=42, icon='North Korea', sc=pop(t, T('Seoul') - 0.1))
         if t >= T('corner') - 0.2: x, y = P(cam, 128.9, 35.4, ak); pill(img, (x, y + 130), 'Pusan Perimeter', (40, 80, 180), size=42, icon='South Korea', sc=pop(t, T('corner') - 0.2))
-    if si == 8:
+    if si == 'un':
         x, y = P(cam, 128.8, 35.6, ak)
         for i, (n, t0) in enumerate((('United States of America', T('America', 2)), ('United Kingdom', T('Britain', 2)), ('Canada', T('Canada', 2)), ('New Zealand', T('New')))):
             k = eout((t - t0) / 1.0); lo = 130.6 - 1.2 * k; la = 34.4 + 0.25 * i; xs, ys = P(cam, lo, la, 0)
             if t >= t0: paste(img, art(f'ship2_{n}', lambda: U.ship(n, 220)), xs, ys)
         for i in range(5):
-            if t >= T('troops') + i * 0.12: unit(img, cam, 'sol', 128.55 + (i % 3) * 0.18, 35.55 + (i // 3) * 0.2, t, 0.6, 'us' if i % 2 == 0 else 'uk')
+            if t >= T('troops') + i * 0.12: unit(img, cam, 'sol', 128.55 + (i % 3) * 0.18, 35.55 + (i // 3) * 0.2, t + i * 0.1, 0.95, 'us' if i % 2 == 0 else 'uk')
         if t >= T('United', 2) - 0.2: pill(img, (W // 2, 330), 'United Nations', (40, 120, 200), size=50, icon='UN', sc=pop(t, T('United', 2) - 0.2))
         row = [('Britain', 'United Kingdom', T('Britain', 2)), ('Canada', 'Canada', T('Canada', 2)), ('New Zealand', 'New Zealand', T('New'))]
         for i, (lab, n, t0) in enumerate(row):
@@ -258,7 +268,7 @@ def frame(t):
         if t >= T('Norway') - 0.1:
             x, y = P(cam, 128.75, 35.25, ak); paste(img, art('tent', lambda: U.medtent(240)), x, y, pop(t, T('Norway') - 0.1), anchor='b')
             pill(img, (x, y + 40), 'Norway: medical team', (25, 30, 45), size=38, icon='Norway', sc=pop(t, T('Norway')))
-    if si == 9:
+    if si == 'inchon':
         headline(img, 'Inchon, Sept 1950', t, T('Then', 2), T('land') + 0.2, size=78)
         k = eout((t - T('UN', 1) + 0.2) / 1.2) if t >= T('UN', 1) - 0.2 else 0
         for i in range(3):
@@ -268,23 +278,27 @@ def frame(t):
         x, y = P(cam, *PLACES['Seoul'], ak)
         if t >= T('take') - 0.1: pill(img, (x + 60, y - 70), 'Seoul retaken', (40, 120, 200), size=42, icon='South Korea', sc=pop(t, T('take') - 0.1))
         if t >= T('Victory') - 0.1:
-            for i in range(3): lo, la = along(((127.0, 37.6), (126.8, 40.0)), eout((t - T('Victory') + 0.1) / 1.2) - i * 0.12); unit(img, cam, 'tank', lo + i * 0.25, la, t, 0.5, 'us')
+            for i in range(3): lo, la = along(((127.0, 37.6), (126.8, 40.0)), eout((t - T('Victory') + 0.1) / 1.2) - i * 0.12); unit(img, cam, 'tank', lo + i * 0.25, la, t, 0.62, 'us')
             stext(img, (W // 2, 370), 'Victory looks close...', F('play', 70), a=eout((t - T('close')) / 0.3))
-    if si == 10:
-        x, y = P(cam, 117, 37, ak * 1.2); pill(img, (x, y), 'China', (180, 25, 30), size=54, icon='China', sc=pop(t, T('China')))
-        if t >= T('jumps') - 0.2:
-            k = eout((t - T('jumps') + 0.2) / 1.6)
-            for j in range(3):
-                for i in range(3):
-                    lo, la = along((((124.6, 40.6), (126.4, 37.7)), ((125.6, 41.0), (127.3, 37.8)), ((126.8, 41.5), (128.6, 38.2)))[j], k * 0.9 - i * 0.08); unit(img, cam, 'sol', lo + i * 0.12, la, t, 0.5, 'pva')
+    if si == 'china':
+        x, y = P(cam, 104, 35, ak); pill(img, (x, y), 'China', (180, 25, 30), size=56, icon='China', sc=pop(t, T('China')))
+        stamp(img, 'CHINA JOINS', t, T('China') + 0.25, (200, 30, 40), y=420, size=90, rot=-5)
+    if si == 'chinafront':
+        x, y = P(cam, 123.8, 40.8, ak); pill(img, (x, y - 40), 'China', (180, 25, 30), size=46, icon='China')
+        k = eout((t - st0) / 2.2)
+        paths = (((124.6, 40.6), (126.4, 37.7)), ((125.6, 41.0), (127.3, 37.8)), ((126.8, 41.5), (128.6, 38.2)))
+        for j in range(3):
+            for i in range(4):
+                lo, la = along(paths[j], k * 0.9 - i * 0.07); unit(img, cam, 'sol', lo + (i % 2) * 0.12, la, t + i * 0.13, 0.95, 'pva')
+        for i in range(3):
+            lo, la = along(((127.0, 38.4), (127.1, 37.3)), k * 0.9 - i * 0.12); unit(img, cam, 'tank', lo + 0.35 + i * 0.1, la - 0.1, t, 0.55, 'us')
         booms(img, cam, t, CHI_BOOMS)
-        stamp(img, 'CHINA JOINS', t, T('China') + 0.2, (200, 30, 40), y=420, size=90, rot=-5) if t < T('pushes') else None
-    if si == 11:
+    if si == 'powers':
         pill(img, (W // 2, 330), 'Not just two Koreas', (25, 30, 45), size=50, sc=pop(t, T('Now')))
         x, y = P(cam, 100, 55, ak * 1.2); pill(img, (x, y), 'Soviet Union', (150, 20, 20), size=44, icon='USSR', sc=pop(t, T('world') - 0.1))
         x, y = P(cam, 108, 33, ak * 1.2); pill(img, (x, y), 'China', (180, 25, 30), size=44, icon='China', sc=pop(t, T('biggest') - 0.1))
         pill(img, (W - 220, 1250), 'USA', (30, 50, 120), size=44, icon='United States of America', sc=pop(t, T('powers') - 0.1))
-    if si == 12:
+    if si == 'end':
         if t < T('armistice') - 0.3: headline(img, 'July 27, 1953', t, T('July'))
         x, y = P(cam, 127.0, 38.3, ak)
         if t >= T('armistice') - 0.3:
@@ -293,7 +307,7 @@ def frame(t):
         if t >= T('never') - 0.1: stamp(img, 'NO PEACE TREATY', t, T('never') - 0.1, (200, 30, 40), y=980, size=100, rot=-6)
         if t >= T('peace') + 0.5: pill(img, (W // 2, 1150), '...still, to this day', (25, 30, 45), size=46, sc=pop(t, T('peace') + 0.5))
     # cut flash between far-apart shots
-    if si in (1, 2, 3, 4, 5, 6, 11, 12) and t - st0 < 0.18:
+    if False:
         img.alpha_composite(Image.new('RGBA', (W, H), (255, 255, 255, int(255 * (1 - (t - st0) / 0.18)))))
     subtitle(img, t)
     d = ImageDraw.Draw(img); d.rectangle([0, H - 10, int(W * t / END), H], fill=(240, 175, 20, 255))

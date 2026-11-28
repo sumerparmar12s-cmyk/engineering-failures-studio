@@ -78,6 +78,7 @@ class Tex:
         for c in range(3): out[..., c][ins] = map_coordinates(sub[..., c], [py[ins] - max(0, y0), px[ins] - max(0, x0)], order=1, mode='nearest')
         return out, ef
 LEVELS = [('world', -180, 180, 80, -60, 40, 51, 1.6, 0, 1e9),
+          ('easia', 95, 150, 56, 18, 110, 92, 2.4, 0, 9000),
           ('korea', 118, 136, 45, 31, 160, 91, 2.8, 0, 4500)]
 _T = {}
 def tex():
