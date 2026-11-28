@@ -64,3 +64,25 @@ Never copy the script, topic, characters or assets of a reference. Everything we
 - props3d.py: pseudo-3D figurines (Dutch merchant, Stuyvesant peg leg, King Charles II, redcoat) + nutmeg, ship, scroll, latte.
 - edit.py: SHOTS list anchored to narration words, 0.6 s snappy moves, long jumps "fly" (zoom dips out and back in), motion blur by camera speed.
 - cb_vo.py: Chatterbox TTS (CPU, natural voice), ~4x slower than real time.
+
+## Reference 4: Joan of Arc / Hundred Years' War (ref6, 89 s)  <- user says: copy THIS editing/graphics/sfx feel
+Script formula (write every new script like this):
+1. HOOK (0-10 s): "Just imagine [extreme situation lasting/at scale]... and no one could stop it, until [mystery person] appeared."
+   + an open loop about the ending: "But her own story didn't end very well." (viewer must stay to learn the ending)
+2. Big date card ("1337") -> a ruler's inner thought said out loud in first person ("why not just become King of France too?")
+   -> a one-word deadpan reply from the other side ("Um, no.") -> "And that's how X began."
+3. Short punchy beats of 2-4 s. Mix narration with VOICED character lines (different voice, acted: shouted, sarcastic).
+4. Modern/gamer slang and anachronisms for comedy: strategy-game UI overlay with chat ("bro your mom plays better",
+   "truce maybe?" "lol no", "GG for France"), "looks like GG for X".
+5. Rise of the hero with a stat card (name banner + icons), gear-up (armor, horse, banner), victories marked on the map with
+   serif campaign labels + years and curved arrows, a glowing pulse where the hero appears.
+6. Villain line voiced ("We need to do something about this bloody girl!"), then trial/ending with a 4th-wall joke
+   ("...and not liking this video").
+Visuals: satellite map with bold red/blue fills, counters that tick ("104 years" -> "116 years"), small figurines on the map,
+props (burning stake, lanterns etc.), hands/arrows animations, scene cuts to illustrated backgrounds.
+Sound: whoosh on every move, sword clashes, hooves, crowd, shouts, comic stings on jokes, voiced character lines.
+
+## How to reuse (rotate per video)
+- Always: strong "Just imagine..." or paradox hook + open loop; voiced character lines in other Kokoro voices
+  (British characters: bm_george / bm_lewis; American: am_adam; narrator am_michael); one game-UI chat gag;
+  counters; moving riders/vehicles along routes on the Point-Roberts-style map; whoosh on moves; comic stings.
