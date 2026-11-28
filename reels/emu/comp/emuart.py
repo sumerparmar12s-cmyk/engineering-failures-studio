@@ -9,7 +9,7 @@ def rr(c, x, y, w, h, r):
 # ---------------------------------------------------------------- EMU
 def emu(phase=0.0, pose='run', expr='normal', S=300, flip=False):
     """side view facing right. pose: run | stand | peck | cheer. phase in radians animates legs/neck."""
-    s, c = _surf(S, int(S * 1.25)); k = S / 300; c.scale(k, k)
+    s, c = _surf(int(S * 1.12), int(S * 1.42)); k = S / 300; c.scale(k, k); c.translate(10, 52)
     if flip: c.translate(300, 0); c.scale(-1, 1)
     body = (0.43, 0.36, 0.30); dark = (0.27, 0.22, 0.18); leg = (0.55, 0.47, 0.40)
     hip = (150, 205)
@@ -182,7 +182,7 @@ def outback(horizon=860, water=False, seed=1):
     """wide outback wheat country: sky gradient, sun, far hills, golden wheat with depth, a fence."""
     s, c = _surf(W, H)
     g = cairo.LinearGradient(0, 0, 0, horizon); g.add_color_stop_rgb(0, 0.33, 0.62, 0.92); g.add_color_stop_rgb(1, 0.82, 0.9, 0.96); c.rectangle(0, 0, W, horizon); c.set_source(g); c.fill()
-    ell(c, 820, 260, 70, 70); c.set_source_rgb(1, 0.95, 0.75); c.fill()
+    ell(c, 940, 640, 55, 55); c.set_source_rgb(1, 0.95, 0.75); c.fill()
     for i, (y0, col) in enumerate(((horizon - 70, (0.62, 0.52, 0.42)), (horizon - 30, (0.72, 0.58, 0.40)))):
         c.new_path(); c.move_to(0, horizon)
         for x in range(0, W + 60, 60): c.line_to(x, y0 + 30 * math.sin(x / (170 + i * 60) + i * 2) + 15 * math.sin(x / 47))

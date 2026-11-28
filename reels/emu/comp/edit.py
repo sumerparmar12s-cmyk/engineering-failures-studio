@@ -124,7 +124,10 @@ for w in WORDS:
 if cur: GROUPS.append(cur)
 def subtitle(img, t):
     for g in GROUPS:
-        if g[0]['s'] - 0.05 <= t < g[-1]['e'] + 0.15: stext(img, (W // 2, 1800), ' '.join(x['w'] for x in g), F('SemiBold', 44)); break
+        if g[0]['s'] - 0.05 <= t < g[-1]['e'] + 0.15:
+            txt = ' '.join(x['w'] for x in g); f = F('SemiBold', 44); tw = ImageDraw.Draw(Image.new('RGBA', (4, 4))).textlength(txt, font=f)
+            lay = Image.new('RGBA', (W, H), (0, 0, 0, 0)); ImageDraw.Draw(lay).rounded_rectangle([W / 2 - tw / 2 - 26, 1765, W / 2 + tw / 2 + 26, 1838], 18, fill=(0, 0, 0, 120)); img.alpha_composite(lay)
+            stext(img, (W // 2, 1800), txt, f); break
 # ---------------- helpers for animated actors ----------------
 def emu_at(img, x, y, t, sc=1.0, pose='run', expr='normal', speed=14.0, flip=False, seed=0):
     ph = int((t * speed + seed * 1.7) % 8); key = f'emu_{pose}_{expr}_{ph}_{flip}'
@@ -187,8 +190,8 @@ def frame(t):
         paste(img, art(f'phone{int(t * 30) % 2 if ring else 0}', lambda: EA.phone(200, 0.4 if ring and int(t * 30) % 2 else 0)), 860, 1100)
         if ring: pill(img, (860, 920), 'RING RING', (200, 40, 40), size=40, sc=pop(t, T('And', 3)))
         if t >= T('send'): stamp(img, 'SEND THE ARMY', t, T('send'), (200, 30, 40), y=1500, size=110, rot=-6)
-        if t >= T('How') - 0.1: paste(img, art('bub_min', lambda: TO.bubble('How hard\ncan it be?', 60, tail='left')), 330, 660, pop(t, T('How') - 0.1))
-        if t >= T('be') + 0.4: pill(img, (W // 2, 230), '(spoiler: very hard)', (30, 30, 34), size=40, sc=pop(t, T('be') + 0.4))
+        if t >= T('How') - 0.1: paste(img, art('bub_min', lambda: TO.bubble('How hard\ncan it be?', 60, tail='right')), 250, 780, pop(t, T('How') - 0.1))
+        if t >= T('be') + 0.4: pill(img, (W // 2, 170), '(spoiler: very hard)', (30, 30, 34), size=40, sc=pop(t, T('be') + 0.4))
     # ===== 5. MAJOR MEREDITH arrives =====
     elif t < T('soldiers') - 0.1:
         img = push(bg('field2'), t, T('Major') - 0.1, T('soldiers'), 1.0, 1.06, 0.5, 0.6)
@@ -264,17 +267,17 @@ def frame(t):
         img = push(bg('office'), t, T('army', 3) - 0.1, T('history'), 1.0, 1.05, 0.5, 0.6)
         tk = 0; paste(img, art('min_w', lambda: EA.minister(0, 'worried', 620)), 520, 900); desk_cover(img)
         paste(img, art('cal', lambda: EA.calendar('DEC', 260)), 860, 1080, pop(t, T('December') - 0.1))
-        if t >= T('called') - 0.1: stamp(img, 'MISSION CANCELLED', t, T('called') - 0.1, (200, 30, 40), y=780, size=96, rot=-7)
+        if t >= T('called') - 0.1: stamp(img, 'MISSION CANCELLED', t, T('called') - 0.1, (200, 30, 40), y=1330, size=92, rot=-6)
         if t >= T('farmers', 1) - 0.2:
-            paste(img, art('farmH', lambda: EA.farmer(0, 'happy', 380)), 220, 1520, pop(t, T('farmers', 1) - 0.2))
-            paste(img, art('coins', lambda: EA.coins(220)), 420, 1600, pop(t, T('bounty') - 0.1))
-            pill(img, (W // 2, 230), 'BOUNTY: paid per emu', (200, 160, 30), (20, 20, 20), 50, pop(t, T('bounty') - 0.1))
+            paste(img, art('farmH', lambda: EA.farmer(0, 'happy', 380)), 860, 1600, pop(t, T('farmers', 1) - 0.2))
+            paste(img, art('coins', lambda: EA.coins(220)), 640, 1660, pop(t, T('bounty') - 0.1))
+            pill(img, (W // 2, 170), 'BOUNTY: paid per emu', (200, 160, 30), (20, 20, 20), 50, pop(t, T('bounty') - 0.1))
     # ===== 11. THE GREAT EMU WAR: final score =====
     else:
         img = push(bg('field'), t, T('history') - 0.4, END, 1.0, 1.06, 0.5, 0.6)
         for i in range(7): emu_at(img, 110 + i * 145, 1150 + (i % 2) * 60, t, 0.8, 'cheer', 'happy', speed=9, seed=i)
         for i in range(3): marcher_at(img, 200 + i * 300, 1600, 0, 0.9, seed=i)
-        if t < T('Final') - 0.1: stamp(img, 'THE GREAT EMU WAR', t, T('Great') - 0.1, (240, 190, 60), y=520, size=100, rot=-4)
+        if t < T('Final') - 0.1: stamp(img, 'THE GREAT EMU WAR', t, T('Great') - 0.1, (200, 30, 40), y=520, size=100, rot=-4)
         if t >= T('Final') - 0.1: paste(img, art('score0', lambda: EA.scoreboard(1, 0, 760)), W // 2, 560, pop(t, T('Final') - 0.1))
     subtitle(img, t)
     d = ImageDraw.Draw(img); d.rectangle([0, H - 10, int(W * t / END), H], fill=(240, 175, 20, 255))
