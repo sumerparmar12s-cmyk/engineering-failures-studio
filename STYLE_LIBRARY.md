@@ -96,3 +96,6 @@ Sound: whoosh on every move, sword clashes, hooves, crowd, shouts, comic stings 
 - Prefer 3D-looking art over flat 2D. No blur anywhere. Text must never overlap other text/objects.
 - Timeline/pacing clean and professional; length 40-65 s; story kept simple.
 - Workflow: first send STILL FRAMES (photos) of the planned look for approval, only then render the video.
+- Arrows: always contrast with the territory under them (never red on red). Use team colours that differ from fills
+  (aggressor = yellow/orange, UN/allies = cyan/blue) + white outline + dark shadow.
+- Battles in the script must show armies: tanks, soldiers in correct national uniforms, ships, explosions, shaded/3D look.
