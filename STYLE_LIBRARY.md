@@ -99,3 +99,16 @@ Sound: whoosh on every move, sword clashes, hooves, crowd, shouts, comic stings 
 - Arrows: always contrast with the territory under them (never red on red). Use team colours that differ from fills
   (aggressor = yellow/orange, UN/allies = cyan/blue) + white outline + dark shadow.
 - Battles in the script must show armies: tanks, soldiers in correct national uniforms, ships, explosions, shaded/3D look.
+
+## Reference 5: Super El Nino (ref7, 77 s) - science/climate explainer
+Script formula:
+1. "Just imagine if a giant [everyday object metaphor] that [does X for a region] suddenly stopped working." (object icon placed ON the map: a fan)
+2. "And that's exactly what's happening right now." -> name reveal with glowing title ("El Nino" -> "Super El Nino" upgrade).
+3. "You see, this giant fan is actually..." explain mechanism with the metaphor, step by step, every clause drawn on the map:
+   flowing wind/current streaks with text written along the stream, sailing-ship icons, glowing warm (pink/red) and cold (cyan) water blobs.
+4. "But every N years..." the change, thermometers popping with +1.2 C labels.
+5. Consequences around the world: region glows + weather icons (rain clouds, suns) per country, cutaway gag (emoji Earth "go crazy").
+6. History punch: old-film transition, year card, red map pins popping, death-toll counter ticking.
+7. Stakes now: real heat-map style overlay, arrows of heat rising, "2027 could become the hottest year" big number.
+Motion: slow continuous drift on a satellite globe, elements glide in with motion trails; lines DRAW progressively; soft glow on every overlay.
+SFX: whoosh on each new element, soft wind bed under the trade winds, rain/thunder when clouds pop, tick per thermometer, projector rattle for history, riser before the big number.
