@@ -4,7 +4,7 @@ import sys, os, json, math, subprocess, re
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import numpy as np, cairo
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
-from shapely.geometry import Point
+from shapely.geometry import Point, shape
 from shapely.ops import unary_union
 import globe3d as G, toons as TO, toons3 as T3, toons4 as T4
 from globe3d import Camera as Cm
@@ -44,6 +44,7 @@ def paste(img, im, cx, cy, sc=1.0, rot=0, alpha=1.0):
     img.alpha_composite(i, (int(cx - i.width / 2), int(cy - i.height / 2)))
 def pill(img, xy, txt, bg, fg=(255, 255, 255), size=50, sc=1.0):
     if sc <= 0.02: return
+    xy = (min(max(xy[0], 40 + len(txt) * size * 0.3), W - 40 - len(txt) * size * 0.3), xy[1])
     f = F('SemiBold', int(size)); tw = ImageDraw.Draw(Image.new('RGBA', (4, 4))).textlength(txt, font=f)
     im = Image.new('RGBA', (int(tw + 50), int(size * 1.55)), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
     d.rectangle([0, 0, im.width - 1, im.height - 1], fill=bg + (255,)); d.rectangle([0, im.height - 6, im.width - 1, im.height - 1], fill=tuple(int(v * 0.7) for v in bg) + (255,))
@@ -58,6 +59,12 @@ LANDP = G.land_polys()
 BOSTON_RED = unary_union([p.intersection(Point(-71.062, 42.357).buffer(0.012)) for p in LANDP if p.intersects(Point(-71.062, 42.357).buffer(0.02))])
 CHARLES = [(-71.072, 42.362), (-71.09, 42.355), (-71.115, 42.362), (-71.14, 42.37), (-71.18, 42.364), (-71.215, 42.368), (-71.245, 42.372)]
 MYSTIC = [(-71.06, 42.383), (-71.08, 42.394), (-71.105, 42.41), (-71.125, 42.425)]
+ST = {f['properties']['name']: shape(f['geometry']) for f in json.load(open(f'{R}/work/states.geojson'))['features'] if f['properties'].get('admin') == 'United States of America'}
+COLONIES = unary_union([ST[n] for n in ['New Hampshire', 'Massachusetts', 'Maine', 'Rhode Island', 'Connecticut', 'New York', 'New Jersey', 'Pennsylvania', 'Delaware', 'Maryland', 'Virginia', 'North Carolina', 'South Carolina', 'Georgia']])
+MASS = unary_union([ST['Massachusetts']])
+def town(lo, la, r):
+    b = Point(lo, la).buffer(r); return unary_union([p.intersection(b) for p in LANDP if p.intersects(b)])
+TOWNS = {'Boston': town(-71.062, 42.357, 0.012), 'Charlestown': town(-71.062, 42.377, 0.008), 'Lexington': town(-71.2265, 42.4473, 0.022), 'Concord': town(-71.349, 42.4604, 0.022)}
 PL = {'Boston': (-71.058, 42.358), 'Old North Church': (-71.0545, 42.3663), 'Charlestown': (-71.063, 42.377), 'Lexington': (-71.2265, 42.4473), 'Concord': (-71.349, 42.4604)}
 REVERE = [(-71.0545, 42.3663), (-71.063, 42.377), (-71.09, 42.397), (-71.11, 42.418), (-71.156, 42.415), (-71.20, 42.44), (-71.2265, 42.4473)]
 DAWES = [(-71.058, 42.356), (-71.075, 42.345), (-71.083, 42.333), (-71.12, 42.336), (-71.135, 42.36), (-71.118, 42.376), (-71.15, 42.405), (-71.2265, 42.4473)]
@@ -104,7 +111,7 @@ def horse(img, key, cols, x, y, t, sc=1.0, red=False, rot=0, flip=False):
     paste(img, im, x, y - 70 + 6 * math.sin(t * 20), sc, rot)
 # ---------- camera (Point Roberts pacing) ----------
 def keys():
-    return [(0.0, Cm(-71.2, 42.40, 120, 38, -6)), (T('legend') + 0.2, Cm(-71.18, 42.40, 105, 42, -10)),
+    return [(0.0, Cm(-74.5, 39.5, 2600, 22, -4)), (T('Only') - 0.2, Cm(-72.5, 41.5, 1500, 28, -6)), (T('never') + 0.4, Cm(-71.6, 42.3, 420, 34, -8)),
             (T('April') + 0.1, Cm(-71.07, 42.36, 34, 42, -12)), (T('secret') - 0.2, Cm(-71.07, 42.36, 30, 44, -14)),
             (T('Concord') + 0.6, Cm(-71.2, 42.40, 95, 38, -8)), (T('Gentlemen') + 0.0, Cm(-71.2, 42.40, 92, 38, -8)),
             (T('signal') + 0.0, Cm(-71.058, 42.366, 12, 48, -6)), (T('boat') + 0.4, Cm(-71.065, 42.367, 15, 46, -8)),
@@ -127,7 +134,7 @@ for w in WORDS:
 if cur: GROUPS.append(cur)
 def subtitle(img, t):
     for g in GROUPS:
-        if g[0]['s'] - 0.05 <= t < g[-1]['e'] + 0.15: stext(img, (W // 2, 1660), ' '.join(x['w'] for x in g), F('SemiBold', 44)); break
+        if g[0]['s'] - 0.05 <= t < g[-1]['e'] + 0.15: stext(img, (W // 2, 1790), ' '.join(x['w'] for x in g), F('SemiBold', 44)); break
 def frame(t):
     cam = cam_at(t)
     shake = 0
@@ -135,12 +142,20 @@ def frame(t):
     if T('shots') - 0.05 <= t < T('shots') + 0.6: shake = 18 * math.sin(t * 80) * (1 - (t - T('shots')) / 0.65)
     img = G.render(cam, W, H).filter(ImageFilter.UnsharpMask(radius=1.4, percent=50, threshold=2)).convert('RGBA')
     s = cairo.ImageSurface(cairo.FORMAT_ARGB32, W, H); c = cairo.Context(s); c.set_line_join(cairo.LINE_JOIN_ROUND)
+    wide = cam.dist > 300
+    if wide:
+        cpoly(c, cam, COLONIES, (0.2, 0.42, 0.95), 0.42, lw=3)
+        if t >= T('Only') - 0.3: cpoly(c, cam, MASS, (0.2, 0.42, 0.95), 0.35 + 0.25 * eout((t - T('Only') + 0.3) / 0.5), lw=4)
+    def tw(name, col, a):
+        if a > 0.01: cpoly(c, cam, TOWNS[name], col, a, lw=5)
+    if not wide:
+        tw('Boston', (0.86, 0.15, 0.2), 0.62)
+        if t >= T('Concord') - 0.2: tw('Concord', (0.2, 0.42, 0.95), 0.6 * eout((t - T('Concord') + 0.2) / 0.4))
+        if t >= T('Lexington') - 0.3: tw('Lexington', (0.2, 0.42, 0.95), 0.6 * eout((t - T('Lexington') + 0.3) / 0.4))
+        if T('boat') - 0.5 <= t < T('Dawes'): tw('Charlestown', (0.95, 0.75, 0.2), 0.55)
     for rv in (CHARLES, MYSTIC):
         cline(c, cam, rv, (0.95, 0.97, 1.0), 16); cline(c, cam, rv, (0.2, 0.5, 0.65), 10)
-    if T('April') - 0.3 <= t < T('Revolution') + 0.6: cpoly(c, cam, BOSTON_RED, (0.86, 0.15, 0.2), 0.45 + 0.1 * math.sin(t * 4))
     if T('march') <= t < T('Gentlemen') + 1.5: cline(c, cam, [PL['Boston'], (-71.15, 42.41), PL['Concord']], (0.9, 0.15, 0.2), 9, frac=eout((t - T('march')) / 1.2), dash=[24, 14])
-    if t < T('April'):   # hook: three routes racing
-        k = eout(t / 6.0); cline(c, cam, REVERE + TOCON, (1, 0.85, 0.2), 6, k, [3, 14]); cline(c, cam, DAWES + TOCON, (0.8, 0.85, 0.95), 6, k, [3, 14]); cline(c, cam, PRESC, (0.4, 0.9, 0.6), 6, k, [3, 14])
     if T('gallops') - 0.5 <= t < T('Lexington') + 2: cline(c, cam, REVERE, (1, 0.85, 0.2), 7, eout((t - T('gallops') + 0.5) / (T('Regulars') + 1.2 - T('gallops'))), [3, 14])
     if T('Dawes') - 0.2 <= t < T('Lexington') + 2: cline(c, cam, DAWES, (0.85, 0.88, 0.98), 7, eout((t - T('Dawes') + 0.2) / (T('night', 3) + 1.0 - T('Dawes'))), [3, 14])
     if T('Lexington') + 0.5 <= t < T('dawn'): cline(c, cam, TOCON, (1, 0.85, 0.2), 7, eout((t - T('Lexington') - 0.5) / (T('Halt') - T('Lexington') - 0.5)), [3, 14])
@@ -150,21 +165,24 @@ def frame(t):
     img.alpha_composite(TO._pil(s))
     # ---------- stickers ----------
     if t < T('April') - 0.1:
-        k = eout(t / 6.0)
-        for i, (route, cols, nm) in enumerate(((REVERE + TOCON, REVC, 'r'), (DAWES + TOCON, DAWC, 'd'), (PRESC, PREC, 'p'))):
-            x, y = along(cam, route, k if i < 2 else k); horse(img, nm, cols, x, y, t, 0.95)
-            if t >= T('Only') - 0.1 and i > 0: pill(img, (x, y - 190), '?', (30, 30, 34), size=56, sc=pop(t, T('Only') + 0.3 * i))
-        if t >= T('legend') - 0.2:
-            x, y = along(cam, REVERE + TOCON, k); pill(img, (x, y - 200), 'LEGEND', (240, 175, 20), (20, 20, 20), 52, pop(t, T('legend') - 0.2))
         stext(img, (W // 2, 270), 'Just imagine...', F('play', 92), a=eout(t / 0.3) * clamp((T('Only') - t) / 0.3))
+        if t < T('Only') + 0.2:
+            x, y = geo(cam, -73.5, 40.6); pill(img, (x, y), '13 Colonies', (40, 90, 220), size=52, sc=pop(t, 0.6))
+        else:
+            x, y = geo(cam, -71.9, 42.35); pill(img, (x, y - 40), 'Massachusetts', (40, 90, 220), size=48, sc=pop(t, T('Only') + 0.1))
+        for i, (cols, nm, t0) in enumerate(((REVC, 'r', 0.5), (DAWC, 'd', 0.9), (PREC, 'p', 1.3))):
+            x = 190 + i * 350; y = 1330
+            horse(img, nm, cols, x, y, t, 1.0)
+            if t >= T('legend') - 0.2 and i == 0: pill(img, (x, y - 250), 'LEGEND', (240, 175, 20), (20, 20, 20), 50, pop(t, T('legend') - 0.2))
+            if t >= T('two') - 0.2 and i > 0: pill(img, (x, y - 250), '???', (30, 30, 34), size=50, sc=pop(t, T('two') - 0.2 + 0.2 * i))
         if t >= T('never'): stext(img, (W // 2, 270), 'Never heard of them?', F('play', 80), a=eout((t - T('never')) / 0.25))
     if T('April') - 0.1 <= t < T('signal'):
         if t < T('Boston'): stext(img, (W // 2, 270), 'April 18, 1775', F('play', 100), a=eout((t - T('April') + 0.1) / 0.3))
         x, y = geo(cam, *PL['Boston'])
         if T('Boston') <= t < T('march'): pill(img, (x, y - 140), 'Boston', (200, 35, 45), size=58, sc=pop(t, T('Boston')))
         if T('soldiers') <= t < T('march'):
-            for i in range(4): paste(img, art('rc', lambda: T3.officer('smug', 200)), x - 300 + i * 200, y + 260 + (i % 2) * 40, pop(t, T('soldiers') + i * 0.1))
-        if T('locals') <= t < T('march'): paste(img, art('loc', lambda: T4.colonial('dawes', 'worried', 300)), 820, 1380, pop(t, T('locals'))); pill(img, (820, 1600), 'not thrilled', (30, 30, 34), size=40, sc=pop(t, T('thrilled')))
+            for i in range(4): paste(img, art('rc', lambda: T3.officer('smug', 170)), 130 + i * 170, 1330 + (i % 2) * 40, pop(t, T('soldiers') + i * 0.1))
+        if T('locals') <= t < T('march'): paste(img, art('loc', lambda: T4.colonial('dawes', 'worried', 260)), 900, 1350, pop(t, T('locals'))); pill(img, (880, 1110), 'not thrilled', (30, 30, 34), size=40, sc=pop(t, T('thrilled')))
         if T('march') <= t:
             x2, y2 = geo(cam, *PL['Concord']); pill(img, (x2, y2 - 80), 'Concord', (40, 90, 220), size=52, sc=pop(t, T('Concord')))
             if t >= T('weapons') - 0.1: pill(img, (x2, y2 + 60), 'rebel weapons', (30, 30, 34), size=38, sc=pop(t, T('weapons')))
@@ -203,20 +221,23 @@ def frame(t):
     if T('Lexington') <= t < T('dawn'):
         x, y = geo(cam, *PL['Lexington']); pill(img, (x, y + 90), 'Lexington', (40, 90, 220), size=50, sc=pop(t, T('Lexington')))
         if T('Adams') <= t < T('Halt'):
-            paste(img, art('adams', lambda: T4.colonial('prescott', 'shock', 260)), 260, 1380, pop(t, T('Adams'))); pill(img, (260, 1560), 'Samuel Adams', (30, 30, 34), size=34, sc=pop(t, T('Adams')))
-            paste(img, art('hanc', lambda: T4.colonial('revere', 'shock', 260)), 820, 1380, pop(t, T('Hancock'))); pill(img, (820, 1560), 'John Hancock', (30, 30, 34), size=34, sc=pop(t, T('Hancock')))
+            paste(img, art('adams', lambda: T4.colonial('prescott', 'shock', 260)), 260, 1380, pop(t, T('Adams'))); pill(img, (260, 1170), 'Samuel Adams', (30, 30, 34), size=34, sc=pop(t, T('Adams')))
+            paste(img, art('hanc', lambda: T4.colonial('revere', 'shock', 260)), 820, 1380, pop(t, T('Hancock'))); pill(img, (820, 1170), 'John Hancock', (30, 30, 34), size=34, sc=pop(t, T('Hancock')))
         k = eout((t - T('Lexington') - 0.5) / (T('Halt') - T('Lexington') - 0.5))
         caught = t >= T('caught') - 0.1
-        x1, y1 = along(cam, TOCON, k); x2, y2 = along(cam, TOCON, k * 0.92)
+        if t >= T('patrol') - 0.3:
+            xpp, _ = geo(cam, -71.305, 42.437); k = min(k, 1.0)
+        x1, y1 = along(cam, TOCON, k); x2, y2 = along(cam, TOCON, max(0, k - 0.45)); x2 -= 120; y2 += 150
+        if t >= T('patrol') - 0.3: x1 = min(x1, xpp + 220 - 230)
         if t < T('Prescott'):
             horse(img, 'r', REVC, x1, y1, t if not caught else 0, 1.0)
             fall = t >= T('falls') - 0.1
-            if not fall: horse(img, 'd', DAWC, x2 - 40, y2 + 60, t, 0.9)
+            if not fall: horse(img, 'd', DAWC, x2, y2, t, 0.9)
             else:
-                ang = -min(110, (t - T('falls') + 0.1) * 360); horse(img, 'd', DAWC, x2 - 40 - (t - T('falls')) * 120, y2 + 60, 0, 0.9, rot=ang)
-                pill(img, (x2 - 60, y2 - 150), 'OOF.', (30, 30, 34), size=50, sc=pop(t, T('falls')))
+                ang = -min(110, (t - T('falls') + 0.1) * 360); horse(img, 'd', DAWC, x2 - (t - T('falls')) * 120, y2, 0, 0.9, rot=ang)
+                pill(img, (x2, y2 - 190), 'OOF.', (30, 30, 34), size=50, sc=pop(t, T('falls')))
         if t >= T('patrol') - 0.3:
-            xp, yp = geo(cam, -71.305, 42.437); horse(img, 'b', ((0.82, 0.12, 0.12), (0.2, 0.15, 0.12)), xp + 60, yp, t, 1.0, red=True, flip=True)
+            xp, yp = geo(cam, -71.305, 42.437); xp += 220; horse(img, 'b', ((0.82, 0.12, 0.12), (0.2, 0.15, 0.12)), xp, yp - 60, t, 1.0, red=True, flip=True)
         if T('Halt') - 0.05 <= t < T('Revere', 2) + 0.4: stext(img, (W // 2, 520), 'HALT!', F('oswald', 190), fill=(255, 70, 70), a=1)
         if caught and t < T('Prescott'): pill(img, (x1, y1 - 210), 'CAUGHT', (200, 35, 45), size=50, sc=pop(t, T('caught') - 0.1))
         if t >= T('Prescott') - 0.1:

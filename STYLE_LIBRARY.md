@@ -3,6 +3,8 @@
 ## USER VERDICT (most important, Nov 2026)
 - LIKED: Point Roberts reel (reels/pointroberts): 3D tilted procedural map, cars/bus moving on routes, relaxed pace, Kokoro am_michael voice.
 - DISLIKED: Manhattan-for-nutmeg (engine v2): too fast, parchment vector map not liked, Chatterbox voice sounded "AI". Do NOT use that style/voice.
+- DISLIKED: Paul Revere reel (too many names/places, story hard to follow, cluttered labels). Lesson: ONE simple geographic
+  surprise per video, max 2-3 places, 1-2 characters, every sentence shown clearly on the map. History is OK only as a short "why".
 - Default from now on: Point Roberts engine (world3d.py) + Kokoro am_michael, pace only slightly faster than Point Roberts,
   natural pauses, moving vehicles/props on the map, clean (not blurry) zooms.
 
