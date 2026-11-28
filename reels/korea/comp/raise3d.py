@@ -50,6 +50,7 @@ def raised(c, cam, geom, alt, flag=None, W=1080, H=1920, tol=0.05, wall=(0.42, 0
                 c.save(); c.transform(m); c.set_source_surface(flag, 0, 0); c.get_source().set_filter(cairo.FILTER_BEST); c.paint(); c.restore()
             except cairo.Error:
                 c.restore()
+        if flag is None: c.set_source_rgb(*(min(1, v * 1.25) for v in wall)); c.paint()
         g = cairo.LinearGradient(0, ty.min(), 0, ty.max()); g.add_color_stop_rgba(0, 1, 1, 1, 0.18); g.add_color_stop_rgba(1, 0, 0, 0, 0.12); c.set_source(g); c.paint()
         c.restore()
         c.set_source_rgba(*outline, 0.95); c.set_line_width(3); c.stroke()
@@ -62,10 +63,17 @@ def arc3d(c, cam, a, b, peak, frac=1.0, col=(1, 0.85, 0.2), lw=8, W=1080, H=1920
     V = np.array([(math.sin((1 - t) * om) * A + math.sin(t * om) * B) / math.sin(om) for t in ts])
     lo = np.degrees(np.arctan2(V[:, 1], V[:, 0])); la = np.degrees(np.arcsin(np.clip(V[:, 2], -1, 1))); alt = peak * np.sin(np.pi * ts)
     x, y, z, ok = project_alt(cam, lo, la, alt, W, H)
-    c.new_path(); c.move_to(x[0], y[0]); [c.line_to(xx, yy) for xx, yy in zip(x[1:], y[1:])]
-    c.set_source_rgba(0, 0, 0, 0.35); c.set_line_width(lw + 6); c.stroke_preserve(); c.set_source_rgb(*col); c.set_line_width(lw); c.set_line_cap(cairo.LINE_CAP_ROUND); c.stroke()
-    if head and frac > 0.05:
-        ang = math.atan2(y[-1] - y[-2], x[-1] - x[-2]); L = lw * 3.2
-        c.new_path(); c.move_to(x[-1] + math.cos(ang) * L * 0.6, y[-1] + math.sin(ang) * L * 0.6)
-        c.line_to(x[-1] + math.cos(ang + 2.5) * L, y[-1] + math.sin(ang + 2.5) * L); c.line_to(x[-1] + math.cos(ang - 2.5) * L, y[-1] + math.sin(ang - 2.5) * L); c.close_path()
-        c.set_source_rgb(*col); c.fill()
+    def body():
+        c.new_path(); c.move_to(x[0], y[0]); [c.line_to(xx, yy) for xx, yy in zip(x[1:], y[1:])]
+    def tip():
+        ang = math.atan2(y[-1] - y[-2], x[-1] - x[-2]); L = lw * 3.0
+        c.new_path(); c.move_to(x[-1] + math.cos(ang) * L * 0.7, y[-1] + math.sin(ang) * L * 0.7)
+        c.line_to(x[-1] + math.cos(ang + 2.45) * L, y[-1] + math.sin(ang + 2.45) * L); c.line_to(x[-1] + math.cos(ang - 2.45) * L, y[-1] + math.sin(ang - 2.45) * L); c.close_path()
+    c.set_line_cap(cairo.LINE_CAP_ROUND); c.set_line_join(cairo.LINE_JOIN_ROUND)
+    c.save(); c.translate(4, 6); body(); c.set_source_rgba(0, 0, 0, 0.35); c.set_line_width(lw + 8); c.stroke()
+    if head and frac > 0.05: tip(); c.fill()
+    c.restore()
+    body(); c.set_source_rgb(1, 1, 1); c.set_line_width(lw + 7); c.stroke()
+    if head and frac > 0.05: tip(); c.set_line_width(7); c.stroke_preserve(); c.fill()
+    body(); c.set_source_rgb(*col); c.set_line_width(lw); c.stroke()
+    if head and frac > 0.05: tip(); c.set_source_rgb(*col); c.fill()
